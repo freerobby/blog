@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Sports | Robby Grossman]]></title>
+  <link href="http://rob-by.herokuapp.com/blog/categories/sports/atom.xml" rel="self"/>
+  <link href="http://rob-by.herokuapp.com/"/>
+  <updated>2012-06-24T23:14:02-04:00</updated>
+  <id>http://rob-by.herokuapp.com/</id>
+  <author>
+    <name><![CDATA[Robby Grossman]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Red Sox Tickets for Sale]]></title>
+    <link href="http://rob-by.herokuapp.com/2012/red-sox-tickets-for-sale/"/>
+    <updated>2012-05-17T00:16:52-04:00</updated>
+    <id>http://rob-by.herokuapp.com/2012/red-sox-tickets-for-sale</id>
+    <content type="html"><![CDATA[<p>Good news for me: I got the option to buy a Red Sox ticket package!</p>
+
+<p>Good news for you: I don't need all the games, and I'd rather hook up friends, family and acquaintances than deal with Stubhub, Craigslist, etc.<!--more--></p>
+
+<p>All tickets will be sold at face value ($104/game, includes both tickets).</p>
+
+<p>For each game I have 2 seats in Infield Grandstand 29, Row 3.</p>
+
+<p>Disclaimer: part of the outfield (left or center, depending on the seat) is blocked by a pole from these seats. This is fairly typical for grandstands at Fenway, and these tickets are not considered "obstructed view" seats by the Red Sox, but if following outfield fly balls is mission critical for you, or if a pole in your peripheral will drive you nuts, these are not the seats for you. On the other hand if having a close view of the infield with full rain protection sounds good, these are tough to beat value-wise. The photos below describe better than words, but I wanted to add a written disclaimer just to be safe.</p>
+
+<p>The following photos were taken from the seat on the right:</p>
+
+<p><img src="http://robby-blog.s3.amazonaws.com/2012/red-sox-tickets-for-sale/smugshot2354143-M.jpg" alt="" /></p>
+
+<p><img src="http://robby-blog.s3.amazonaws.com/2012/red-sox-tickets-for-sale/smugshot2783330-M.jpg" alt="" /></p>
+
+<p>Please use this form to request seats to games that you're interested in:</p>
+
+<iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dDAxTUYxbm1YMkJLZmJLLWdPWW5SX2c6MQ" width="600" height="710"></iframe>
+
+]]></content>
+  </entry>
+  
+</feed>

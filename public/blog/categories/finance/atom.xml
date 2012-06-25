@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Finance | Robby Grossman]]></title>
+  <link href="http://rob-by.herokuapp.com/blog/categories/finance/atom.xml" rel="self"/>
+  <link href="http://rob-by.herokuapp.com/"/>
+  <updated>2012-06-24T23:14:02-04:00</updated>
+  <id>http://rob-by.herokuapp.com/</id>
+  <author>
+    <name><![CDATA[Robby Grossman]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[401k: Roth vs Pre-Tax]]></title>
+    <link href="http://rob-by.herokuapp.com/2007/401k-roth-vs-pre-tax/"/>
+    <updated>2007-08-14T17:10:56-04:00</updated>
+    <id>http://rob-by.herokuapp.com/2007/401k-roth-vs-pre-tax</id>
+    <content type="html"><![CDATA[<p>Not knowing which would serve me better, I made a spreadsheet to help me decide what to do.<!--more--></p>
+
+<p><img src="http://robby-blog.s3.amazonaws.com/2007/401k-roth-vs-pre-tax/401ksheet.jpg" alt="401k spreadsheet screen shot" /></p>
+
+<p>To use the spreadsheet, edit the values in the blue tables. The result tables (orange) and graphs will adust instantly, automatically and accordingly! Any questions, comments or requests--just ask!</p>
+
+<p>Download:</p>
+
+<ul>
+<li><p><a href="http://robby-blog.s3.amazonaws.com/2007/401k-roth-vs-pre-tax/401k.xlsx">Excel 2007</a></p></li>
+<li><p><a href="http://robby-blog.s3.amazonaws.com/2007/401k-roth-vs-pre-tax/401k.xls">Excel 97-2003 (Untested)</a></p></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

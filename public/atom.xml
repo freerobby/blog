@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Robby Grossman's Blog]]></title>
+  <title><![CDATA[Robby Grossman]]></title>
   <link href="http://rob-by.herokuapp.com/atom.xml" rel="self"/>
   <link href="http://rob-by.herokuapp.com/"/>
-  <updated>2012-06-24T02:07:18-04:00</updated>
+  <updated>2012-06-24T23:14:02-04:00</updated>
   <id>http://rob-by.herokuapp.com/</id>
   <author>
     <name><![CDATA[Robby Grossman]]></name>
@@ -12,5 +12,686 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Red Sox Tickets for Sale]]></title>
+    <link href="http://rob-by.herokuapp.com/2012/red-sox-tickets-for-sale/"/>
+    <updated>2012-05-17T00:16:52-04:00</updated>
+    <id>http://rob-by.herokuapp.com/2012/red-sox-tickets-for-sale</id>
+    <content type="html"><![CDATA[<p>Good news for me: I got the option to buy a Red Sox ticket package!</p>
+
+<p>Good news for you: I don&#8217;t need all the games, and I&#8217;d rather hook up friends, family and acquaintances than deal with Stubhub, Craigslist, etc.<!--more--></p>
+
+<p>All tickets will be sold at face value ($104/game, includes both tickets).</p>
+
+<p>For each game I have 2 seats in Infield Grandstand 29, Row 3.</p>
+
+<p>Disclaimer: part of the outfield (left or center, depending on the seat) is blocked by a pole from these seats. This is fairly typical for grandstands at Fenway, and these tickets are not considered &#8220;obstructed view&#8221; seats by the Red Sox, but if following outfield fly balls is mission critical for you, or if a pole in your peripheral will drive you nuts, these are not the seats for you. On the other hand if having a close view of the infield with full rain protection sounds good, these are tough to beat value-wise. The photos below describe better than words, but I wanted to add a written disclaimer just to be safe.</p>
+
+<p>The following photos were taken from the seat on the right:</p>
+
+<p><img src="http://robby-blog.s3.amazonaws.com/2012/red-sox-tickets-for-sale/smugshot2354143-M.jpg" alt="" /></p>
+
+<p><img src="http://robby-blog.s3.amazonaws.com/2012/red-sox-tickets-for-sale/smugshot2783330-M.jpg" alt="" /></p>
+
+<p>Please use this form to request seats to games that you&#8217;re interested in:</p>
+
+<iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dDAxTUYxbm1YMkJLZmJLLWdPWW5SX2c6MQ" width="600" height="710"></iframe>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[For Two Quarters' Dividends, Apple Could Buy 77% of Netflix]]></title>
+    <link href="http://rob-by.herokuapp.com/2012/for-two-quarters-dividends-apple-could-buy-77-of-netflix/"/>
+    <updated>2012-03-19T13:16:08-04:00</updated>
+    <id>http://rob-by.herokuapp.com/2012/for-two-quarters-dividends-apple-could-buy-77-of-netflix</id>
+    <content type="html"><![CDATA[<p>Apple <a href="http://www.apple.com/pr/library/2012/03/19Apple-Announces-Plans-to-Initiate-Dividend-and-Share-Repurchase-Program.html">announced</a> today it would begin paying a $2.65 quarterly dividend.</p>
+
+<p>Cost of dividend: 932.4M shares outstanding * $2.65/quarter/share = <strong>$2.47B/quarter</strong></p>
+
+<p>Cost of a majority stake in Netflix*: $6.36B market cap / 2 = <strong>$3.18B</strong></p>
+
+<p>For two quarters&#8217; dividends, Apple could buy 77% of Netflix.<!--more--></p>
+
+<p>This dividend is good PR and CNBC fodder, but as an investor I&#8217;d prefer my investment be invested.</p>
+
+<p>*<em> My intent is to illustrate what Apple could do with this much money. Even if you don&#8217;t think Netflix would provide enough strategic value to justify a buyout, the point remains that there are large, competitive, growing companies that Apple could invest in.</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[First Impressions of the New iPad]]></title>
+    <link href="http://rob-by.herokuapp.com/2012/first-impressions-of-the-new-ipad/"/>
+    <updated>2012-03-16T08:53:15-04:00</updated>
+    <id>http://rob-by.herokuapp.com/2012/first-impressions-of-the-new-ipad</id>
+    <content type="html"><![CDATA[<p>I picked up &#8220;the new iPad&#8221; this morning. Here are my first impressions:<!--more--></p>
+
+<h2>Look &amp; Feel</h2>
+
+<p>The touchscreen and overall UX is a lot more responsive than my iPad 1 (running iOS 5.1). Apps load substantially faster; I would estimate a 4x speedup. I do not own an iPad 2 so I can&#8217;t offer a comparison there.</p>
+
+<h2>Screen</h2>
+
+<p>Like I found when upgrading to the iPhone 4, the screen resolution is amazing. The visual difference between icons that are retina display-optimized and the icons that are not is immediately striking.</p>
+
+<p>My only letdown: one of my complaints about my first generation iPad is that the blacks are a bit bright. This is especially noticeable when watching movies. I was hoping that the increased color saturation on the new iPad&#8217;s retina display would address this and keep them darker, but after comparing Netflix playback on both of them, I do not see any difference.</p>
+
+<h2>Dictation</h2>
+
+<p>The dictation function is very fast. I dictated eight sentences in one take and the iPad had them transcribed in under a second - about as fast as Apple makes Siri look in its commercials. Textual accuracy was near-perfect (it mistook &#8220;is&#8221; for &#8220;in&#8221; and &#8220;the&#8221; for &#8220;a&#8221;), and could definitely be used for publishing longer form text on the go after a quick proofread.</p>
+
+<h2>Data Plan</h2>
+
+<p>I have a grandfathered AT&amp;T unlimited data plan from my original iPad. I searched around and called AT&amp;T to verify I could move it to the new one. They assured me I could, and I&#8217;m happy to report that transferring it to the new device was fast and straightforward. There were no gotchas or tricks intended to get me to cancel it. My existing plan was selected by default:</p>
+
+<p><img src="http://robby-blog.s3.amazonaws.com/2012/first-impressions-of-the-new-ipad/unlimited-data.jpg" alt="Unlimited data plan selected by default" /></p>
+
+<p>Update:
+Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/180654166681718784">pointing out</a> that I initially used the dictation feature incorrectly. I&#8217;ve updated the review to reflect how it works when used properly.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Remembering Joe Paterno]]></title>
+    <link href="http://rob-by.herokuapp.com/2012/remembering-joe-paterno/"/>
+    <updated>2012-01-22T14:01:04-05:00</updated>
+    <id>http://rob-by.herokuapp.com/2012/remembering-joe-paterno</id>
+    <content type="html"><![CDATA[<p>Lots of people are upset about Joe Paterno&#8217;s death right now. Lots of other people don&#8217;t understand how anybody can be upset given his inactions amid the Sandusky scandal.</p>
+
+<p>I don&#8217;t understand why people are so insistent on remembering Paterno in a particular light.<!--more--></p>
+
+<p>I&#8217;m still shocked by the whole story, and I have a lot of difficulty and clashing emotions contrasting the Paterno I knew about with the Paterno I just learned about. I can&#8217;t summon a single emotion that encapsulates these two very dichotomous narratives. The bad doesn&#8217;t cancel out the good, and the good doesn&#8217;t cancel out the bad. It is what it is; he was who he was.</p>
+
+<p>People are complex creatures. I honor the good he did and I loathe what he allowed to happen, all at the same time.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Responding to Criticism]]></title>
+    <link href="http://rob-by.herokuapp.com/2011/responding-to-criticism/"/>
+    <updated>2011-05-17T10:00:13-04:00</updated>
+    <id>http://rob-by.herokuapp.com/2011/responding-to-criticism</id>
+    <content type="html"><![CDATA[<p>In 2006 I participated in <a href="http://www.nols.edu/courses/locations/alaska/aksemester.shtml">NOLS&#8217; Summer Semester in Alaska</a>, a 75-day kayaking, backpacking and mountaineering course, which helps students gain wilderness and leadership skills.</p>
+
+<p>A few days in I got my first review. I was a wreck. I packed my backpack as if I were paying homage to the Leaning Tower of Pisa. The most palatable meals I cooked were the ones that were burned beyond recognition. I might have been able to properly affix a rainfly to a tent, but I&#8217;ll never know because nobody trusted me to keep their tent dry. You know that guy who played on your middle school basketball team who had great hustle and personality but couldn&#8217;t make a layup? The guy the coach wanted to do well, but would never take chances with in the 4th quarter? That was me at the start of my first NOLS course.<!--more--></p>
+
+<p>My second review provided a laundry list as long as the first one. &#8220;Is there <em>anything</em> I&#8217;m doing right?&#8221;, I fished. The instructor looked me squarely in the eyes and told me that I&#8217;m accepting and responding to their criticisms very well - certainly better than anybody else on the trip, and maybe better than any other student he&#8217;s had. If I were young and stupid, I&#8217;d have thought this was the most condescending thing he could possibly say to me. Oh wait, I was young and stupid, and that&#8217;s exactly what I thought. Miraculously aware that acting somber or exploding would be of no value, I swallowed and said &#8220;thanks.&#8221;</p>
+
+<p>I later came to understand that my instructor had actually paid me one of the most gracious compliments I&#8217;d ever receive. Over the next week, my skills improved &#8211; not hugely, but demonstrably. I continued receiving feedback and making iterative progress over the duration of the course, and it eventually became clear to me, and to others, that I had more than paid off my skills deficit.</p>
+
+<p>The reason I was so offended at first is that I thought that taking criticism was the standard of a student in a student-teacher relationship. To me it was like force-praising a bad teacher by saying &#8220;you do a great job showing up to class everyday.&#8221; <em>That&#8217;s what you&#8217;d say to a teacher who had no teaching skills.</em> But I quickly learned that my analogy was flawed. Taking criticism was a skill in itself. There were students who did not take feedback well. To this day I feel very sorry for them, because they lost out on 75 days worth of fantastic wilderness lessons.</p>
+
+<p>And here&#8217;s why: nobody was willing to criticize these people after the first week because everybody knew it would lead to conflict. And so by the mountaineering section, when I was getting advanced critiques on navigating through a whiteout (very, very difficult), the more defensive folks were just trotting along, with the same navigation skillsets they had when they started.</p>
+
+<p>Eventually I returned to civilization, and a while later I got my first job. I learned that people function exactly the same way in the office. I&#8217;ve seen people at work who take criticism well and respond with a thank you. They continue to get constructive feedback because people feel safe giving it to them. I&#8217;ve also seen people who explode in the way that I miraculously avoided despite being young and stupid. I feel sad when I see people do this, because I know that when everybody else is learning the advanced techniques for navigating their corporate worlds (very, very difficult), these people will be trotting along, the same as they were when they started.</p>
+
+<p>Do everything you can to be in that first group of people. No matter how harsh or personal or crushing someone&#8217;s feedback feels, take it constructively and with the best of intentions. Show them gratitude for having the courage to help you in a way that was probably uncomfortable for them. If you don&#8217;t respond positively, they&#8217;ll never be honest with you again and you&#8217;ll miss out on a lot of invaluable learning opportunities.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Writing for People, Part 2]]></title>
+    <link href="http://rob-by.herokuapp.com/2011/writing-for-people-part-2/"/>
+    <updated>2011-04-18T00:03:22-04:00</updated>
+    <id>http://rob-by.herokuapp.com/2011/writing-for-people-part-2</id>
+    <content type="html"><![CDATA[<p>Last year I <a href="http://rob-by.herokuapp.com/2010/writing-for-people">wrote</a> about the importance of writing for people rather than search engines, two target audiences that often compete with each other on the web.</p>
+
+<p>A similar problem occurs when authors write for companies instead of people. I see this most at business-to-business companies, where the customer is another company rather than a human. It&#8217;s important to remember that it&#8217;s always a human who will be reading your copy.<!--more--></p>
+
+<p>One way to make that easier is to imagine the people who are reading your copy. Conjuring that image forces you to speak to them on their terms. I think a leading cause of corporate nonsense speak is the  failure of copywriters to personify the audience they&#8217;re talking to.</p>
+
+<p>For the benefit of my <a href="http://www.extension.harvard.edu/courses/spch.jsp#e-130">Executive Speaking</a> classmates, many of whom work at big business-to-business companies, I decided to make my final semester speech on this topic.</p>
+
+<p>The slides contain several examples, citing both successes and failures. You can <a href="http://robby-blog.s3.amazonaws.com/2011/writing-for-people-part-2/Writing-for-People.pdf">download them</a> or view them below.</p>
+
+<div style="width:595px" id="__ss_7659704"><iframe src="http://www.slideshare.net/slideshow/embed_code/7659704" width="595" height="497" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0" allowfullscreen></iframe></div>
+
+
+<h2>Credits</h2>
+
+<p>A few of my examples came from UX Designer <a href="http://www.natashascorner.com/">Natasha Lloyd</a>. Specific citations are at the bottom of each applicable slide.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[GarageBand Has Found Its Interface]]></title>
+    <link href="http://rob-by.herokuapp.com/2011/garageband-has-found-its-interface/"/>
+    <updated>2011-03-16T00:29:55-04:00</updated>
+    <id>http://rob-by.herokuapp.com/2011/garageband-has-found-its-interface</id>
+    <content type="html"><![CDATA[<p>This is what you can do with GarageBand for iPad in about 2 hours:</p>
+
+<p><video width='' height='' preload='none' controls poster=''><source src='http://robby-blog.s3.amazonaws.com/music/garage-band-jam.m4a' type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'/></video><!--more--></p>
+
+<p><a href="http://robby-blog.s3.amazonaws.com/music/garage-band-jam.m4a">Download link</a></p>
+
+<p>I wrote this song for the purpose of trying GarageBand for iPad this evening. I used vocals, guitars and virtual instruments in ways that I believe most people would use them, and I capped the project at two hours.</p>
+
+<h2>Composition</h2>
+
+<p>The above song was recorded entirely on a <strong>first generation iPad</strong>. It consists of eight virtual tracks: two recorded acoustic guitars, two recorded vocal tracks, two recorded electric guitars, a virtual bass, and a virtual drumkit. All audio tracks were recorded with the iPad&#8217;s internal condenser microphone.</p>
+
+<p><img src="http://robby-blog.s3.amazonaws.com/2011/garageband-has-found-its-interface/Final_Track_Layout.png" alt="Final Track Layout" /></p>
+
+<h2>Recording Process</h2>
+
+<p>The two acoustic guitar tracks are panned about 75% left and 75% right. The left is strumming chords; the right is alternating between chords and arpeggiated notes. I chose the &#8220;small room&#8221; preset for both to provide ambiance.</p>
+
+<p>The two vocal tracks are separate takes of the same lines, panned about two thirds left and two thirds right. This process provides a full sound without requiring any unnatural reverb (Elliott Smith is perhaps best known for using this technique; John Lennon and Bon Iver have also employed it).</p>
+
+<p>The two electric guitar tracks are panned about 60% each way. These are not virtual instruments; they are real electric guitars played through a Fender Pro Junior amp. I struggled to maintain a consistent volume because even at 15 watts my Pro Junior was too loud for the iPad&#8217;s internal mic. I got the levels manageable with a makeshift damper made from tissues.</p>
+
+<p>I created the virtual bass lines by plucking individual strings from chords in the selected key. Non-musicians will appreciate this method because they can improvise without the risk of playing out of key. Musicians, and particularly composers, will find this limiting. There were a couple times when I wanted to create dissonance, and had to change the key in order to pluck an intermediate semitone.</p>
+
+<p><img src="http://robby-blog.s3.amazonaws.com/2011/garageband-has-found-its-interface/Virtual_Bass.png" alt="GarageBand Virtual Bass" /></p>
+
+<p>The virtual drumkit is by far the most fun part of creating songs. GarageBand provides two ways to lay down your beats:</p>
+
+<p>The first is a clickable drumset that plays the drum you tap at the time you tap it. Overdubs are allowed within a single track, so you can focus on one drum per take and get the timing right. If you have a specific drumbeat in your head, this is the method you&#8217;ll need to use to translate it for the virtual drumset. GarageBand lets you quantize virtual instruments (up to the nearest 64th note), so you can stay on rhythm even if your hands aren&#8217;t perfect.</p>
+
+<p>The other means of entry is a grid onto which you place drums. The grid ranges from simple to complex and from quiet to loud. If you want to experiment with beats or just get a rhythm down to record with (metronomes are boring), this is the quickest way to get up and running. You can also click the die to generate a random beat.</p>
+
+<p><img src="http://robby-blog.s3.amazonaws.com/2011/garageband-has-found-its-interface/Virtual_Drums.png" alt="GarageBand Virtual Drums" /></p>
+
+<h2>Impressions</h2>
+
+<p>GarageBand has found its interface (spoiler: it comes in a 9.7&#8221; version, but not 13&#8221;, 15&#8221; or 17&#8221;). Buttons that you actually push. Sliders that you actually slide. Drums that you actually hit. Good riddance, mouse; you will not be missed. It feels like this is what the iPad was made to do.</p>
+
+<p>But the impressiveness of the interface is only half of why GarageBand for iPad is so great. The other half is that Apple has proven that the whole of the iPad is greater than the sum of its parts. It isn&#8217;t that the GarageBand keyboard has better sensitivity and sound than Pianist (though it does), or that the virtual guitar is easier to use than Air Guitar (though it is), or that the beat sequencers are easier to use than Korg&#8217;s iElectribe (though they are), or that the drums sound better than those of JamPad (though they do), or that the recording interface is smoother than FourTrack&#8217;s (though it is). It&#8217;s that all of these things are now integrated perfectly into part of a larger whole. It is an all-in-one-piece music creation suite, and it is the most capable one on the market.</p>
+
+<p>The closest competition it has is the <a href="http://www.bossus.com/gear/productdetails.php?ProductId=818">Boss Micro BR</a>, which trails far behind in several respects. GarageBand is easy and intuitive to use while the Micro BR&#8217;s functionality is arcane; GarageBand supports eight tracks while the Micro BR supports only four; GarageBand provides several virtual instruments while the Micro BR provides none. The Micro BR is smaller (5.5&#8221;x3.25x0.875&#8221;), which makes it slightly more portable, but this also contributes to its poor usability. My Micro BR has served me well for years. Tomorrow it goes up on Craigslist.</p>
+
+<p><img src="http://robby-blog.s3.amazonaws.com/2011/garageband-has-found-its-interface/micro-br.jpg" alt="Boss Micro BR" /></p>
+
+<h2>Room for Improvement</h2>
+
+<p>I&#8217;d like to see an input level adjustment in the next version. Controlling individual track volumes at playback time is not sufficient for this purpose, especially for songs that vary from quiet vocals to loud, distorted guitars.</p>
+
+<p>A more traditional drum machine interface (with individual tracks for each drum laid out on a timeline) would be helpful for creating drumbeats that exist in my head. The touch sensitivity of the on-screen drumset is impressive but imperfect. It&#8217;s frustrating to get through 14 out of 16 measures and then miss a beat.</p>
+
+<p>The condenser mic in my iPad (again, first generation) is acceptable, but leaves something to be desired, particularly on the high end. I don&#8217;t know if this mic has been upgraded in the iPad2, but something of higher quality would be much appreciated. In the mean the <a href="http://www.amazon.com/Blue-Microphones-Yeti-USB-Microphone/dp/B002VA464S/ref=sr_1_1?ie=UTF8&amp;qid=1300250784&amp;sr=8-1">Blue Yeti</a> is an excellent USB microphone, and works with the <a href="http://store.apple.com/us/product/MC531ZM/A">camera connection kit</a>. Obviously, this makes the setup much less portable.</p>
+
+<h2>A Note on iPad vs iPad 2 Performance</h2>
+
+<p>GarageBand&#8217;s performance on my first generation iPad was noticeably but not painfully sluggish. The most frequent lag occurs when switching between the track and recording screens. It lasts for about one second.</p>
+
+<p>There is another lag, longer in duration but less frequent in occurrence, that I ran into seemingly arbitrarily. A box will pop up that says &#8220;Optimizing Performance&#8221; and you will have to wait 15-20 seconds while it chugs along. I encountered this four or five times over the course of two hours. I suspect what GarageBand is doing is loading audio content into and out of RAM. If that&#8217;s the case, then performance should be better on the iPad 2, which has 512MB as opposed to the 256MB of the original.</p>
+
+<h2>TL;DR</h2>
+
+<p>GarageBand for iPad is the most complete and capable all-in-one music creation package available anywhere. It&#8217;s fun, it&#8217;s easy, and it&#8217;s effective. At $4.99, it has replaced my $220 Micro BR.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Leadership]]></title>
+    <link href="http://rob-by.herokuapp.com/2011/leadership/"/>
+    <updated>2011-02-10T10:29:31-05:00</updated>
+    <id>http://rob-by.herokuapp.com/2011/leadership</id>
+    <content type="html"><![CDATA[<p>Leaders show themselves in various forms. There are rhetorical magicians (Barack Obama) and iconic revolutionaries (Steve Jobs). There are also workplace leaders - the silver-tongued employee who can articulate issues several steps beyond what others are thinking, or the clever, diligent coworker whose performance alone encourages others.</p>
+
+<p>Whatever the kind, leaders have three priceless skills: they&#8217;re doers, they persuade, and they inspire.<!--more--></p>
+
+<h2>Be a Doer</h2>
+
+<p>This is widely accepted as an absolute necessity in startup circles, so I&#8217;ll leave it at that and let you read <a href="http://37signals.com/rework/">37signals&#8217; take on it</a> if you want an explanation (see chapter: &#8220;Everybody Works&#8221;).</p>
+
+<h2>Persuasion</h2>
+
+<p>To persuade is to find common ground among your audience, anchor into it, and use it to lead them stepwise through your train of thought, arriving with you at your conclusion or solution. It is a very logically-grounded process, almost entirely syllogistic, but with enough color along the way to keep people interested and motivated to take the next step with you.</p>
+
+<p>At SAP I had the pleasure of working alongside Bob McCarty, an excellent persuasive leader. Sprint planning meetings were often a mess, with total incongruence between business needs and engineering needs. Management wanted more features out of a codebase that wasn&#8217;t ready for it, and engineering wanted to take enormous amounts of time to fix things that probably weren&#8217;t worth fixing.</p>
+
+<p>Bob, a senior engineer, had a natural knack not only for seeing what was most important for the company, but for walking the rest of us through his thinking in a way that engendered a room full of &#8220;oh yeah, yeah!&#8221;s. We all knew where we were, but it took a Bob to see where we needed to get to. There was nothing magical about how Bob operated; he just had a lot of foresight and logical consistency, and used those things to build trust and get everybody on the same page.</p>
+
+<h2>Inspiration</h2>
+
+<p>Inspiration is taking something that seems impossible and making people believe they can accomplish it anyway. This lends itself to metaphor and abstract expression more than persuasion does, but fluffy thinkers are not off the hook: to sell your case, you have to convince your audience that they can really achieve this seemingly impossible task. If you don&#8217;t convince them, you&#8217;ll come across as naive and be ignored.</p>
+
+<p>The proven way to convince someone that the impossible is possible is to paint them a picture of it and give them something tangible to do. Unlike persuasive leadership, you don&#8217;t need to guide them all the way to the solution; you just need to show them what success looks like, and give them an actionable first step that they feel puts them on the correct trajectory.</p>
+
+<p>Obama, for instance, when running for President in 2008, convinced supporters that America could pass health care reform. It didn&#8217;t take a cynic to find this daunting. Health care has long been rigged by lobbyists on both sides, and Hillarycare suffered a demoralizing defeat in the mid-90s. These facts were inescapable in the minds of reform supporters, leaving them no reason for optimism.</p>
+
+<p>But Obama was still able to sell it. He painted a picture of what success looked like, by speaking of an America that no longer sends the sick home from hospitals or the disabled into bankruptcy. He pointed to his <a href="http://www.washingtonpost.com/wp-dyn/content/article/2008/01/03/AR2008010303303.html">history</a> of delivering on seemingly impossible legal agendas, and he explained that his bipartisan methods were the first step towards bringing that change to Washington. With that, he gave them a first step - to vote for him.</p>
+
+<h2>When to Use What</h2>
+
+<p>When should you persuade and when should you inspire? Here&#8217;s a good rule of thumb: when a path from a problem to a solution is clear to you, persuade your audience to follow that path. If a solution is unclear, inspire them to find it with you.</p>
+
+<p>Bob was able to map out a full solution to our sprint planning problem in his head and walk us through it. Obama, on the other hand, could not have possibly foreseen the political calculus that would exist two years later, so he opted instead to inspire us to get there with him.</p>
+
+<p>When you&#8217;re leading others, consider which approach makes more sense. For an early, idea-stage startup, inspirational leadership will keep people&#8217;s minds open and ambitious. On the other hand, if you&#8217;ve found your revenue model, it&#8217;s probably time to paint the complete picture of what success looks like and explain to your team how they fit into that picture.</p>
+
+<h2>Credits</h2>
+
+<p><em>I became aware of most of this while taking Professor <a href="http://www.stevendcohen.net/">Steven D. Cohen</a>&#8217;s <a href="http://isites.harvard.edu/icb/icb.do?keyword=k65765">public speaking class</a> in 2010. Steven deserves credit for much of what I&#8217;ve explained above, and I recommend his class to anybody who wants to become a better leader, speaker or writer.</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Middle Management for Your Heroku Workers]]></title>
+    <link href="http://rob-by.herokuapp.com/2011/middle-management-for-your-heroku-workers/"/>
+    <updated>2011-01-20T10:52:03-05:00</updated>
+    <id>http://rob-by.herokuapp.com/2011/middle-management-for-your-heroku-workers</id>
+    <content type="html"><![CDATA[<p>Heroku provides a highly scalable <a href="http://docs.heroku.com/background-jobs">background worker framework via delayed_job</a>, but leaves the burden of scaling it to the user. Several people have tried to solve this by either <a href="https://github.com/wxmn/delayed_job">forking the delayed_job gem</a> or hooking into the gold standard <a href="https://github.com/phaza/Heroku-Delayed-Job-Autoscale">collectiveidea gem</a>. I like the latter approach, but haven&#8217;t seen an implementation that meets my requirements.<!--more--></p>
+
+<p>Specifically, I want the following in my scaling library:</p>
+
+<ol>
+<li><p>Don&#8217;t require any special third party forks.</p></li>
+<li><p>Let me set minimum and maximum worker counts &#8211; and change them without redeploying.</p></li>
+<li><p>Let me set how busy I want my workers to be.</p></li>
+<li><p>Work out of the box with minimal configuration.</p></li>
+</ol>
+
+
+<p>To achieve these things, I built <a href="https://github.com/freerobby/middle_management">middle_management</a>.</p>
+
+<p>You can get up and running with it very quickly:</p>
+
+<ol>
+<li><p>Add &#8220;middle_management&#8221; to your Gemfile</p></li>
+<li><p>Set the required heroku environment variables (MIDDLE_MANAGEMENT_HEROKU_USERNAME, MIDDLE_MANAGEMENT_HEROKU_PASSWORD, MIDDLE_MANAGEMENT_HEROKU_APP, MIDDLE_MANAGEMENT_MIN_WORKERS, MIDDLE_MANAGEMENT_MAX_WORKERS).</p></li>
+<li><p>Deploy.</p></li>
+</ol>
+
+
+<p>The <a href="https://github.com/freerobby/middle_management">code</a> is on github and the <a href="https://rubygems.org/gems/middle_management">gem</a> is on Rubygems. Check out the <a href="https://github.com/freerobby/middle_management/blob/master/README">readme</a> for further details.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Helping Blogs Be Blogs]]></title>
+    <link href="http://rob-by.herokuapp.com/2010/helping-blogs-be-blogs/"/>
+    <updated>2010-12-31T10:07:16-05:00</updated>
+    <id>http://rob-by.herokuapp.com/2010/helping-blogs-be-blogs</id>
+    <content type="html"><![CDATA[<p>As Wordpress has evolved from a writing platform into a full-blown CMS, theme developers have followed suit by using big header images, multi-level navigation and dozens of widgets that make sites look bigger they actually are and more complex than they need to be. It&#8217;s unclear to me how any of these things make blogs a better experience to read or authr. Do you click on tag clouds? Do you read embedded Twitter feeds? Do you browse old content by clicking on individual months listed under past years? For me, the answer to each of these questions is a resounding &#8220;no.&#8221; Blog design has become superfluous and distracting.<!--more--></p>
+
+<p>Janet Aronica recently <a href="http://janetaronica.com/2010/11/05/social-media-if-i-started-today/">wrote</a> about what I believe is a side effect of this:</p>
+
+<blockquote><p>A mistake I made in blogging is wasting a lot of time on the look/feel of my blogs and getting frustrated with coding stuff I didn’t understand. I wasted time I could’ve spent writing screwing around with HTML and whatchamacallit and getting no where with it.</p></blockquote>
+
+<p>This is a common problem, and while authors bear responsibility for how they spend their time, it&#8217;s not entirely their fault. Modern blog themes focus the reader on crowded designs and superfluous features. In doing so they deceive us into believing that those things, not content, will make a site important and popular.</p>
+
+<p>I&#8217;m guilty of this, too. My <a href="http://www.woothemes.com/2009/07/mainstream/">last theme</a> had so much visual candy that the emphasis was no longer on my content. Like Janet I spent too much time finessing my &#8220;about me&#8221; blurb, or deciding how many tweets belong in my twitter feed, or tweaking my category names to make them fit properly in the dynamic navigation menu. I didn&#8217;t do this because it&#8217;s what I set out to do; I did it because that&#8217;s what my theme begged of me, and it didn&#8217;t immediately occur to me how unnecessary all of it was to begin with.</p>
+
+<p>With the obviousness of hind sight, and a clean, simple, content-focused theme to get me started, I&#8217;ve resolved to spend my blogging time writing rather than designing.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Finding Technical Cofounders Is Hard]]></title>
+    <link href="http://rob-by.herokuapp.com/2010/finding-technical-cofounders-is-hard/"/>
+    <updated>2010-08-17T10:18:25-04:00</updated>
+    <id>http://rob-by.herokuapp.com/2010/finding-technical-cofounders-is-hard</id>
+    <content type="html"><![CDATA[<p>Yesterday, Michael Pope posted an article titled <a href="http://captainrecruiter.blogspot.com/2010/08/technical-co-founders-are-myth.html"><em>Technical Cofounders Are a Myth</em></a>. He argued that software engineers don&#8217;t finish what they start, and that you&#8217;re better off paying a technical person than partnering with one. His frustrations are valid and not uncommon, but his conclusions are way off base for a lot of reasons.<!--more--></p>
+
+<p>He begins by explaining how he arrived at his conclusion:</p>
+
+<blockquote><p>I began the hunt to find a technical co-founder - a software engineer  who works for no cash - to help me build my dream website.  Twelve  months into my startup journey I had four half-built websites that had  been built by my four ex-technical co-founders.</p></blockquote>
+
+<p>It&#8217;s entirely possible that he picked four flaky technical cofounders. But it&#8217;s also possible that:</p>
+
+<ul>
+<li><p>He didn&#8217;t communicate his idea and vision well enough for them to be implemented.</p></li>
+<li><p>His idea was too vague or his vision changed too often to be fully realized.</p></li>
+<li><p>He had trouble selling his  credentials to his cofounders, causing them to lose faith in him.</p></li>
+<li><p>He was a <a href="http://rob.by/wp-content/uploads/everybodyworks.png">delegator, not a doer</a>. (link goes to <em>Everybody Works</em> from 37signals&#8217; <a href="http://www.amazon.com/Rework-Jason-Fried/dp/0307463745/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1282018997&amp;sr=8-1">Rework</a>)</p></li>
+<li><p>He picked engineers who were technically-driven but not entrepreneurially-driven.</p></li>
+<li><p>He picked engineers who weren&#8217;t comfortable taking risks as great as he wanted to take.</p></li>
+<li><p>He was difficult to work with.</p></li>
+<li><p>His cofounders felt he wasn&#8217;t was pulling his own weight.</p></li>
+</ul>
+
+
+<p>I don&#8217;t know Michael, and I&#8217;m not leveling any accusations here. There are many possibilities for what went wrong. But the simple fact that things did go wrong is not a referendum on the value of having a technical cofounder, nor is it sufficient evidence to conclude that good technical cofounders don&#8217;t exist.</p>
+
+<p>Michael&#8217;s second problem comes from holding software engineers to an unprecedented standard of business savviness:</p>
+
+<blockquote><p>Most software engineers aren&#8217;t business people.  The only way a software  engineer can tell a business idea is a viable is to see the money  coming in.  A business geek with no money and no income isn&#8217;t going to  inspire confidence in a software geek.  If a software geek really wants  to try building something for no pay, they&#8217;re going to work for themself  instead of following another cashless entrepreneur.</p></blockquote>
+
+<p>There are three double standards here. First, it&#8217;s true that &#8220;most software engineers aren&#8217;t business people.&#8221; But it&#8217;s also true that most <em>people</em> aren&#8217;t business people. If you are looking for a business-savvy technical cofounder, then your requirement is not merely a &#8220;software engineer.&#8221; I&#8217;m a fan of Micah Baldwin&#8217;s post on <a href="http://learntoduck.com/micah/hackers-hustlers">Hackers and Hustlers</a>. If you want a technical cofounder, look for a hacker as Micah describes it.</p>
+
+<p>Second, <em>nobody</em> knows the viability of a business idea without seeing financial numbers. Picking winners is <a href="http://www.slideshare.net/angelbootcamp/simeon-simeonov-june-2010">extremely difficult, and doesn&#8217;t work</a>. When it comes to picking the next big thing, the best VCs have worse batting averages than MLB pitchers. It&#8217;s not just software engineers who are lacking in this department. Furthermore, there&#8217;s more to a business than the idea. There&#8217;s the team. There&#8217;s execution. There&#8217;s competition. None of these things are entirely predictable, even for the most savvy people in the industry. If they were predictable, investing wouldn&#8217;t have risk.</p>
+
+<p>Third, most people, not just software engineers, would choose to work for themselves if they could do it in a financially viable and risk-minimized way. What makes software engineers different in the startup world is that they have the requisite skills to hack together an idea on their own if they so choose. But software engineers also pay a price for working by themselves. It means they have to deal with finances and customers and investors and other things that aren&#8217;t what they love to do, which is building software. I have side projects, and I hold entrepreneurial ambitions. I absolutely want cofounders when the time comes.</p>
+
+<p>Michael&#8217;s last gripe is that &#8220;software engineers don&#8217;t work for free.&#8221; I believe that by this he means they want cash rather than equity. Based on counterexamples I know for a fact that this is an over-generalization. But conceptually it does ring of some truth. Let&#8217;s examine why this is the case.</p>
+
+<p>&#8220;Business people&#8221; and &#8220;software people&#8221; are misnomers. A  &#8220;business person&#8221; can fall anywhere on the charts of aptitude, skills, education, experience, wits, and a handful of other areas relevant to starting a company. A &#8220;software person&#8221; on the other hand is more narrowly defined. Skills and education are a known quantity, and experience is more easily described. These traits of a software engineer are always in demand by a great number of companies.</p>
+
+<p>Business people have it tougher. A business person may have equal or more valuable skills than a software person, but they   are not universally understood in the simplistic way that software people&#8217;s skills are. Ask anybody what a software developer does and they can give you the one-sentence &#8220;makes software&#8221; answer. Ask them what a &#8220;business person&#8221; does and you&#8217;ll be lucky to get a coherent sentence. That&#8217;s because business people cover a wider range of skills and responsibilities; the work they do is more varied.</p>
+
+<p>My hunch is that most good software engineers only work for cash because they don&#8217;t feel that working for equity is worth the risk of failure. They can make good money consulting or working as an employee of another company. They can easily get great benefits and a six figure salary. The risk of failure doesn&#8217;t seem worth it, especially when the potential reward seems so far away. But an important distinction is that this has to do with their options, not with their profession. If we look at business people who have skills-specific training like software people have, they fall in a similar risk-averse bucket: <a href="http://www.asktheharvardmba.com/2009/07/03/how-many-graduating-harvard-mbas-start-their-own-businesses/">only 3% of Harvard MBAs use their educations to start a company</a>.</p>
+
+<p>A more appropriate conclusion to draw from Michael&#8217;s experience, and one I see first-hand in the startup world every day, is that finding good cofounders is very difficult. One need only look at the necessary traits to find that the odds are stacked against the seeker: you need somebody you trust (ideally whom you know well), who shares your ambition, who complements your strengths, who compensates for your weaknesses, who is in a life position to take a big risk, and who is in a financial position to afford to take such a risk. Forget the haystack; you&#8217;re looking for a needle in a field.</p>
+
+<p>Finding good <em>technical</em> cofounders is particularly difficult. This isn&#8217;t because technical people are flakier or inherently less entrepreneurial; it&#8217;s because by definition they have a narrower set of highly in-demand skills. They have lots of options because, for every one of them there are several &#8220;business people&#8221; trying to get their attention.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Wordpress and the GPL]]></title>
+    <link href="http://rob-by.herokuapp.com/2010/wordpress-and-the-gpl/"/>
+    <updated>2010-07-15T11:23:08-04:00</updated>
+    <id>http://rob-by.herokuapp.com/2010/wordpress-and-the-gpl</id>
+    <content type="html"><![CDATA[<p>Yesterday, <a href="http://wordpress.org/">Wordpress</a> founder <a href="http://twitter.com/photomatt">Matt Mullenweg</a> <a href="http://mixergy.com/chris-pearson-matt-mullenweg/">debated</a> <a href="http://www.diythemes.com/">Thesis Wordpress Theme</a> founder <a href="http://twitter.com/pearsonified">Chris Pearson</a> over the ethics, legality and benefits of using the GPL license for the Thesis theme. Matt argued that by not using the GPL license, Thesis is disrespecting the Wordpress community, violating the Wordpress license agreement and hurting its own business. Chris contends that Matt has no right to tell him how to license something that Chris built himself, even though he built it on top of the Wordpress platform.</p>
+
+<p>I&#8217;m not an attorney, but I am a human capable of reading and inferencing. The legal issues concerning the GPL seem pretty clear to me. There&#8217;s a reason why Dan Rivcher is <a href="http://www.linux.com/archive/articles/113252">cited</a> by the Software Freedom Law Center&#8217;s <a href="http://www.softwarefreedom.org/resources/2008/compliance-guide.html">compliance guide</a>. There&#8217;s a reason why the SFLC <a href="http://wordpress.org/news/2009/07/themes-are-gpl-too/">sides with Wordpress</a>. There&#8217;s a reason why lawyers at big companies tell their engineers not to use GPL open source projects. There&#8217;s a reason why the LGPL exists. There&#8217;s a reason why many communities, like the Ruby community, have moved to use the MIT license instead of the GPL. All of these reasons are the same: the GPL is a highly <a href="http://en.wikipedia.org/wiki/GNU_General_Public_License#Criticism">viral</a> license that infects everything it touches. If your code uses GPL, your code needs to be GPL. I don&#8217;t know this because I&#8217;m a lawyer; I know it because every credible lawyer I talk to or read about or am influenced by reaches the same conclusion.</p>
+
+<p>And I&#8217;m reminded of how well I know this, because I gave up healthy means of income in order to abide by it.<!--more--></p>
+
+<h2>My Experience with the GPL</h2>
+
+<p>The GPL gave me my first headache when I was in college. I was building <a href="http://www.hudsonvalleypainter.com">my mother&#8217;s blog</a>, which required me to build what became <a href="http://rob-by.herokuapp.com/artpal">ArtPal</a>, a Wordpress plugin that lets artists post their work to their blogs and sell it with PayPal. Today, ArtPal is fairly popular for a niche plugin. It has 3,000+ downloads from artists all over the world who use it to sell their paintings, drawings, sketches and digital compositions. A modest estimate would have it responsible for hundreds of sales.</p>
+
+<p>What is my cut? $0, thanks to the GPL. I say this without vent or complaint. I have no regrets about ArtPal being free, and I&#8217;m thrilled (really! I get a warm fuzzy feeling!) to know that the hard work I put in for my mother is helping tens or hundreds of other artists to sell their work online. I point out the following merely to explain how the GPL license can undermine the business worthiness of a technical venture.</p>
+
+<p>I started out by retaining the full rights to ArtPal under the name of Digital Sublimity, the corporate outfit I used for my consulting work. I let myself live in denial, trying to convince myself of the argument that Chris Pearson put forward yesterday. &#8220;It&#8217;s its own thing; it just adds functionality to Wordpress,&#8221; I would assure to myself. &#8220;ArtPal was <em>my</em> innovation, not Automattic&#8217;s.&#8221; I felt I had an ethical, exclusive right to own my product, and I did not accept that the legal terms of the GPL might preclude that.</p>
+
+<p>But some time after my first client, my intellectual curiosity won out. I read the GPL, did some googling, and accepted the truth. ArtPal integrates with and requires Wordpress to function. That makes it a &#8220;derivative work&#8221; of Wordpress, which is also GPL licensed. Consequently, I must apply the GPL license to ArtPal. From this point on, ArtPal was open sourced and formally GPLed. Doing this did not prevent me from selling ArtPal, but it did give others permission to give ArtPal away for free. It doesn&#8217;t take a strong economics background to see the problem I quickly faced. While it made good resume candy, I never made another dime off of the plugin.</p>
+
+<p>Common questions I get when I tell this story include &#8220;Did it ever bring you money in other ways? Did it ever get you new clients? Did anybody pay for support?&#8221; No, no and no. I tried. I advertised ArtPal as being commercially supported by Digital Sublimity and referred people there if they ever wanted it customized. But nobody did. The problem, I suspect, is that I built ArtPal to be simple and easy to set up. Plug in your PayPal email address, choose a &#8220;buy it&#8221; button, and you&#8217;re up  and running. If you can install a PHP app on a web host, you can configure ArtPal. If you have a web guy who runs your blog, he can configure ArtPal. An end-user has no need for me. I do answer questions on my <a href="http://rob-by.herokuapp.com/artpal">ArtPal page</a> as they come up, but they are never in-depth enough to warrant a paid support contract.</p>
+
+<p>The GPL effectively rendered ArtPal a pro bono project. As a part-time effort, I was unable to make it businessworthy while abiding by the full terms of the license.</p>
+
+<h2>Why the GPL Is Good for Wordpress</h2>
+
+<p>You might expect me to be resentful or frustrated given the aforementioned story, but I have no beef with Automattic for choosing the GPL license for Wordpress. I would probably have made the same decision if I were Automattic.</p>
+
+<p>By GPLing Wordpress (and therefore its plugins and themes), Automattic ensures that any Wordpress user can get up and running with all the community has to offer, for free. A user may need to pay for support or for customization, but they can get any plugin or theme out of the box for $0, because the GPL stipulates a number of things that make such content freely available. This effectively lets Wordpress outsource the development of thousands of features to its developer community for free.</p>
+
+<p>Less obviously but more importantly, it commoditizes plugins and themes, which are <a href="http://en.wikipedia.org/wiki/Complementary_good">complementary goods</a>. Joel Spolsky <a href="http://www.joelonsoftware.com/articles/StrategyLetterV.html">famously wrote about</a> this business practice known as &#8220;commoditizing the complement.&#8221; More recently, Chris Dixon <a href="http://cdixon.org/2009/12/22/google-should-open-source-what-actually-matters-their-search-ranking-algorithm/">called out</a> Google for disingenuously using the same strategy. For those who aren&#8217;t familiar, here&#8217;s what &#8220;commoditizing the complement&#8221; means for Automattic: a blog platform + theme + plugins + hosting is worth $x to a customer. By making plugins and themes free, more of that x can be captured under &#8220;blog platform&#8221; and &#8220;hosting.&#8221; Not coincidentally, &#8220;blog platform&#8221; and &#8220;hosting&#8221; are the things that Automattic sells at wordpress.com.</p>
+
+<p>The GPL lets Automattic outsource development efforts for free while capturing a bigger piece of the pie.</p>
+
+<h2>What the GPL Meant for Me As a Wordpress Developer</h2>
+
+<p>The GPL limits occasional Wordpress developers like myself to service-oriented businesses. Charging for a plugin is not practical, but charging for a customization is. Designers may find themselves in similar situations where they cannot realistically charge for a stock design, but they can charge to custom-tailor it for a client.</p>
+
+<p>One might argue that this provides a disincentive to develop plugins. Why spend all that time building it if somebody else can customize it and earn the money off it? The business counter-argument is reputation. ArtPal created a lot of possibilities for me. When I did Wordpress consulting, people had an immediate trust in my work because (1) they knew I built it and knew how to tweak it; (2) I had a strong online presence with a reputation for backing what I built; and (3) I had personal interactions with many of them in the comments section of my blog.</p>
+
+<p>I never capitalized on any of this. The projects that people wanted me to do were too involved for what I had time for. Nobody wanted to pay me just to set up ArtPal; they wanted to pay me to set up, maintain and monitor an entire blog. But for me ArtPal was just a side project, and with a full time job I didn&#8217;t have time to be a tech support guy for all of the people who wanted to use it.</p>
+
+<p>ArtPal was too small of a project to be made into a business under the GPL. But had I wanted to create a bigger business, ArtPal would have opened the doors to a larger client base.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Writing for People]]></title>
+    <link href="http://rob-by.herokuapp.com/2010/writing-for-people/"/>
+    <updated>2010-06-21T10:23:51-04:00</updated>
+    <id>http://rob-by.herokuapp.com/2010/writing-for-people</id>
+    <content type="html"><![CDATA[<p>Nearly all commercial web sites perform Search Engine Optimization (SEO), whereby they alter their site to be more Google-friendly, with the hope of receiving higher search rankings. Many of these changes are purely structural and invisible to users. For instance, using tags like &lt;h1&gt; or microformats like &#8220;hreview&#8221; can help Google make more sense of existing content without any changes being made to the text.</p>
+
+<p>Mature, profitable sites often take SEO to the next level by altering their visible content as well. In effect, they write their copy for machines instead of for people. From a user experience perspective, it shows. There is often an inherent conflict between what is best for a user and what is best for Google.<!--more--></p>
+
+<p>An instructive example of this came in a conversation I had with <a href="http://www.sachinagarwal.com">Sachin Agarwal</a> with respect to our page titles at oneforty. The title of our home page reads &#8220;Find the Best Twitter Apps.&#8221; Sachin argued, correctly, that a better title for SEO purposes would be &#8220;Find the Best Twitter Apps <em>and Twitter Tools</em>&#8221; because it would match search queries for &#8220;twitter tools.&#8221; I agree completely with his analysis, but I didn&#8217;t want to make the change for a few reasons:</p>
+
+<ol>
+<li><p>It&#8217;s redundant.</p></li>
+<li><p>It&#8217;s more wordy.</p></li>
+<li><p>It would read &#8220;Find the Best Twitter Apps and&#8230;&#8221; in many browsers, which leaves the reader hanging.</p></li>
+<li><p>It provides no benefit to a user who is already on our site.</p></li>
+</ol>
+
+
+<p>Startups are different from the mature, profitable sites that can afford to play these SEO games in that they are more strictly about <a href="http://rob-by.herokuapp.com/2010/its-all-about-the-users/">solving users&#8217; problems and providing them optimal experiences</a>. Established companies, on the other hand, can make compelling business cases to diminish a user&#8217;s experience in order to reach and help a greater number of people. I hope oneforty gets there some day, but until we do, I will tirelessly advocate for a user&#8217;s experience over Google juice.</p>
+
+<p>For a more typical example of what I&#8217;m talking about, look at the <a href="http://tripadvisor.com">TripAdvisor</a> home page. An easy way to display hotels by city would be to have a heading called &#8220;Hotels&#8221; and under it list a bunch of cities. Any human could easily understand such a presentation. But TripAdvisor does something different:</p>
+
+<p><img src="http://robby-blog.s3.amazonaws.com/2010/writing-for-people/hotels.png" alt="TripAdvisor.com Hotels List" /></p>
+
+<p>Notice that it repeats the word &#8220;hotels&#8221; after each city, reading &#8220;Atlantic City hotels&#8221;, &#8220;Boston hotels&#8221;, &#8220;Chicago hotels&#8221;, etc. It does this because it wants to rank highly in Google for queries like &#8220;Boston hotels.&#8221; If it just used the word &#8220;Boston&#8221;, Google wouldn&#8217;t associate the link with content for a hotel (Google might be able to deduce this, but TripAdvisor doesn&#8217;t want to leave that to chance). To Google this is highly descriptive content, but to a person it&#8217;s cluttered and repetitive, using twice as much text as needed.</p>
+
+<p>Redundant headings are another common form of SEO-inspired messiness. Headings are heavily-weighted in search results, and so many sites overuse them and cram them with keywords. An example of this can be seen on <a href="http://www.yelp.com/c/cambridge-ma/restaurants">Yelp&#8217;s &#8220;Cambridge Restaurants&#8221; page</a>. Look at all of these redundancies:</p>
+
+<p><img src="http://robby-blog.s3.amazonaws.com/2010/writing-for-people/yelp-screenshot.jpg" alt="Yelp Screenshot" /></p>
+
+<p>These phrase-based headings work wonders for Yelp&#8217;s search rankings, but they make for a terrible user experience. There&#8217;s no reason to tell me 9 times that I&#8217;m on the Cambridge Restaurants page when I&#8217;m the one who searched for restaurants in Cambridge. A title is fine; a heading is fine; but 9 of them is verbose and distracting. To make matters worse, the headings are all so similar that it&#8217;s unclear which section actually contains what content. It&#8217;s good for Google, but bad for people.</p>
+
+<p>Writing for people is about cleanliness and brevity. Writing for Google requires clutter and redundancy. Startups should write for their users because companies need to prove their value before they market it. Any startup that&#8217;s writing for Google is getting ahead of itself.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Review: Kinesis Advantage Keyboard]]></title>
+    <link href="http://rob-by.herokuapp.com/2010/review-kinesis-advantage-keyboard/"/>
+    <updated>2010-05-06T09:00:27-04:00</updated>
+    <id>http://rob-by.herokuapp.com/2010/review-kinesis-advantage-keyboard</id>
+    <content type="html"><![CDATA[<p>I recently replaced my work and home keyboards with the <a href="http://www.kinesis-ergo.com/advantage.htm">Kinesis Advantage</a>. These are my collected thoughts on it after two full months of daily use.<!--more--></p>
+
+<h2>Adjustment Period</h2>
+
+<p>Adjusting to the Kinesis Advantage layout took some time. It is not a typical ergonomic keyboard, and the differences are more than the separated hand positions. It spaces and aligns the keys differently. Many non-alphanumeric keys have different positions. Even if you have perfect typing habits, you will suffer during the break-in period.</p>
+
+<p>The good news is that the pain ends quickly. For alphanumeric keys, I was back to my normal speed within a week. For special keys (chiefly command, option, control, tilda, backspace) it took me two to three weeks to reach full speed. The arrow keys were particularly difficult to adjust to; they required a full month.</p>
+
+<h2>Comfort</h2>
+
+<p>My previous keyboard was a standard Apple chiclet model. I&#8217;ve always had minor wrist discomfort, but the Apple Keyboard brought out the worst of it. It became unbearable. I had to rest and flex my hands after only 20 minutes of typing. Using a computer had become unsustainable. When I heard about the Kinesis, I read as many detailed reviews as I could find online (not many). I then talked to my friends @zapnap and @nirvdrum, both Kinesis owners, who had nothing but nice things to say about it. I took the plunge.</p>
+
+<p>What a world of difference. Two months later <strong>my wrist pain is gone</strong>. Not only does it feel better when I type, but also when I play guitar and piano. There were certain discomforts that I had grown accustom to over the years, which I had accepted as common or inevitable. Yet after just two months with the Kinesis they are gone. I began feeling relief within a couple of days. My wrists gradually felt better for a little over a month until the pain was entirely gone. In hindsight I cannot believe I waited so long to do something about it.</p>
+
+<h2>Typing Speed</h2>
+
+<p>My typing speed has also benefited. Part of this is because my hands are more relaxed and I can hit the keys faster, but mostly it&#8217;s because my hands don&#8217;t travel as far for routine tasks. I don&#8217;t have to move my right hand to use arrow keys; I no longer have to place my pinky, middle finger and thumb into an awkward position to hit control+command+3; I no longer need my pinky to press backspace (overuse of the pinky stresses tendons, which can lead to wrist pain). <strong>The Kinesis layout, once I became used to it, proved much more efficient than a traditional qwerty layout</strong>.</p>
+
+<h2>Macros</h2>
+
+<p>The Kinesis takes an optional footswich ($35), which I highly recommend. It allows you to activate the number pad in a hands-free manner. It also gives you quick access to your custom macros.</p>
+
+<p>I did not expect to use macros, but they have proven very useful for inputting certain keyboard shortcuts. For instance, I have an app called MercuryMover that moves windows to preset locations. It is activated by pressing control+command+up. This is awkward and difficult to remember. Instead, I have a custom mapping to footswitch+w, which triggers that series of keys.</p>
+
+<h2>Quirks</h2>
+
+<p>There are a few things about the keyboard that I would change if I had the chance:</p>
+
+<ol>
+<li><p>It&#8217;s loud. Clickety-clack is unavoidable when using it.</p></li>
+<li><p>Macros cannot be listed, backed up or restored. If you overwrite them, they&#8217;re gone. If you forget one, there&#8217;s no means to recall it.</p></li>
+<li><p>There are no finger placement indentations on the &#8220;f&#8221; and &#8220;j&#8221; keys. The Kinesis has a unique feel to it that in my opinion renders these unnecessary, but I missed them until I fully adjusted.</p></li>
+</ol>
+
+
+<h2>Answers to Anticipated Questions</h2>
+
+<ol>
+<li><p>Dvorak legends are available.</p></li>
+<li><p>If you don&#8217;t like the default layout, you can map any key to any other key.</p></li>
+<li><p>Look for <a href="http://208.84.117.151/Merchant2/merchant.mvc?Screen=CTGY&amp;Category_Code=CKBDUSB%28R%29">refurbs</a>! I saved $60 per keyboard by choosing this option. It looks brand new and carries the full warranty.</p></li>
+<li><p>In my opinion the Pro model is not worth the cost difference. The memory provided for macros on the standard model is plenty.</p></li>
+<li><p>The foam wrist pads (included) are a nice touch. They are definitely more comfortable than the bare plastic.</p></li>
+<li><p>I have no issues switching between a Kinesis and a traditional keyboard. I routinely use my MacBook&#8217;s built-in keyboard when I travel.</p></li>
+</ol>
+
+
+<p>If you&#8217;re considering buying a Kinesis, feel free to ask questions in the comments of this post and I will respond to them.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Facebook, Google and the Value of Trust]]></title>
+    <link href="http://rob-by.herokuapp.com/2010/facebook-google-and-the-value-of-trust/"/>
+    <updated>2010-04-26T11:08:45-04:00</updated>
+    <id>http://rob-by.herokuapp.com/2010/facebook-google-and-the-value-of-trust</id>
+    <content type="html"><![CDATA[<p>Facebook is in many ways the hedge to Google&#8217;s bet that social machines are oiled with the trust of their users. As competition between Facebook and Google becomes increasingly visible, so too will the issues of trust that separate them.<!--more--></p>
+
+<p>When I upload a photo or post an update to Facebook, I assume that the world can see it. I make this assumption because there are too many privacy settings to remember, and because Facebook introduces new settings so often that I have no way of knowing when I have been defaulted into new ones.</p>
+
+<p>I don&#8217;t have this problem with Google. I know my GMail, Google Finance and Google Analytics data is private, and I know what I share in Google Reader or post to Blogger is public. In exchange for this trust, Google gets my email, stock portfolio, voicemail, calendar, contacts, web stats and office documents. Facebook gets none of this. I don&#8217;t contact people through Facebook messages, I don&#8217;t use Facebook events and I won&#8217;t be using its new docs.com service. Google gets much more data from me, but knows that in order to keep accruing it, it can only monetize it  in ways that I don&#8217;t find invasive. Google wants me to be comfortable.</p>
+
+<p>Facebook cares very little about my level of comfort. Its  goal is to identify the threshold of invasion at which a user will abandon the service, and keep the user marginally (but safely) above that threshold. Zuckerberg is betting that the value Facebook gets out of the lesser  data it <em>does</em> collect from me outweighs the value of the data I am  withholding. By adopting this strategy, Facebook can force or coerce its users to  expose data that lures other users, making it an excellent strategy for  growth. And Facebook is exceptionally talented at keeping users just happy enough to keep using the site. Users are constantly complaining about Facebook&#8217;s policies, but never leaving the site.</p>
+
+<p>But what data is Facebook not receiving due to this lack of trust, and at what cost? First, there is the direct cost. If it&#8217;s enough data to drive 11 million ad conversions, then Facebook is losing the revenues of 11 million ad conversions. More importantly, there is an opportunity cost. <strong>Facebook cannot launch a service based on data that users are hesitant to hand over.</strong> For instance, if users don&#8217;t trust Facebook with private messages, then Facebook has no opportunity to launch a GMail competitor or a Google Voice competitor. Its docs.com partnership with Microsoft will suffer accordingly. Unlike Google, acquiring medical records or personal finance data will be a non-starter.</p>
+
+<p>None of these things stand in Facebook&#8217;s way right now, but will they in three years? The trust that Google accrued when it was a smaller company opened doors for many unforeseen consumer products. Every time Facebook uses data in a way that makes its users uncomfortable, it closes those doors a little further.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Chirp: Goals and Expectations]]></title>
+    <link href="http://rob-by.herokuapp.com/2010/on-chirp-goals-and-expectations/"/>
+    <updated>2010-04-14T09:29:03-04:00</updated>
+    <id>http://rob-by.herokuapp.com/2010/on-chirp-goals-and-expectations</id>
+    <content type="html"><![CDATA[<p>The kerfuffle between Twitter and its third party developers has been discussed, analyzed and debated ad nauseum over the past week. But aside from jokes of awkwardness, there has been surprisingly little talk about what it means for Chirp. What do third party developers want from the conference in light of recent events? What&#8217;s a win for Twitter?<!--more--></p>
+
+<p>Outside developers must come away with an understanding of the brutal expectations Twitter faces as a company valued at over a billion dollars. Unlike most of the people building Twitter tools, Twitter is not a small business or a weekend hack project; it is an enterprise that is expected to justify the enormous investments it has received. That will require it to act like a business in ways it has chosen not to act in the past. Tweetie will not be the last acquisition, and the iPhone will not be the last internally supported platform. Twitter needs to make this absolutely clear to developers so that they understand the (arguably new) stakes and can choose their risks accordingly.</p>
+
+<p>Twitter needs to walk away with an understanding of what it must do to keep its developer community happy and thriving. I imagine that even the most cynical, closed view held within Twitter would concede that the company needs its outside developers, who add tremendous value by extending Twitter&#8217;s features and providing new ideas and innovations.</p>
+
+<p>What I <em>don&#8217;t</em> expect &#8211; or want &#8211; is to see the debate on corporate policy that we have witnessed over the last week. Love it or hate it, that is for Twitter to decide. What I want to see is a mutual recognition of self-interest and codependence between Twitter and its third party developers, and a better understanding of what both sides need to do to make the most of that relationship.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Death of MacRuby for iPhone?]]></title>
+    <link href="http://rob-by.herokuapp.com/2010/the-death-of-macruby-for-iphone/"/>
+    <updated>2010-04-10T22:49:35-04:00</updated>
+    <id>http://rob-by.herokuapp.com/2010/the-death-of-macruby-for-iphone</id>
+    <content type="html"><![CDATA[<p>It&#8217;s a sad day for iPhone developers who like Ruby.<!--more--></p>
+
+<p><a href="http://www.macruby.org/">MacRuby</a> is a port of Ruby 1.9 that interfaces directly with Apple&#8217;s OS X Objective C runtime. In other words, it lets Mac developers write Cocoa apps in Ruby. This begs the question: will we ever be able to use MacRuby to write iPhone apps? For the time being, there is one technical hurdle: MacRuby needs garbage collection, and &#8221;<a href="http://developer.apple.com/iphone/library/DOCUMENTATION/Cocoa/Conceptual/MemoryMgmt/MemoryMgmt.html">garbage collection is not available on [the] iPhone.</a>&#8221;</p>
+
+<p>Last week, with rumors abound of multitasking in TouchOS 4, I wondered if we&#8217;d jump this hurdle. Instead of an answer, MacRuby&#8217;s path to the iPhone got an even bigger hurdle. It comes in the form of the new iPhone Developer Program License Agreement. Specifically, <a href="http://daringfireball.net/2010/04/iphone_agreement_bans_flash_compiler">section 3.3.1, which for the first time states</a>:</p>
+
+<blockquote><p>Applications must be originally written in Objective-C, C, C++, or JavaScript as executed by the iPhone OS WebKit engine, and only code written in C, C++, and Objective-C may compile and directly link against the Documented APIs (e.g., Applications that link to Documented APIs through an intermediary translation or compatibility layer or tool are prohibited).</p></blockquote>
+
+<p>Analysis rather than text is important here. MacRuby is an internal Apple product, and so Apple could easily make an exception for MacRuby if it wanted to. But Apple isn&#8217;t going to want to do that</p>
+
+<p>Gruber <a href="http://daringfireball.net/2010/04/why_apple_changed_section_331">writes</a>:</p>
+
+<blockquote><p>What Apple does not want is for some other company to establish a de  facto standard software platform <em>on top</em> of Cocoa Touch&#8230; If that were to happen,  there’s no lock-in advantage. If, say, a mobile Flash software platform —  which encompassed multiple lower-level platforms, running on iPhone,  Android, Windows Phone 7, and BlackBerry — were established, that app  market would not give people a reason to prefer the iPhone.</p></blockquote>
+
+<p>This logic has ramifications greater than its stated thesis. It&#8217;s not that Apple doesn&#8217;t want &#8220;some other company&#8221; to establish a higher level language standard; it&#8217;s that Apple doesn&#8217;t want <em>any</em> company to do that &#8211; including Apple. The reasoning is the same: if Apple were to allow developers to write iPhone apps using MacRuby (i.e. Ruby 1.9), there would be nothing to stop those apps from being moved to other mobile platforms that also support Ruby.</p>
+
+<p>Update April 11, 2010: After speaking with a couple of other developers about this, I think the above syllogism may not hold. If MacRuby is tied intimately to the operating system such that it literally maps API call to API call, then porting a MacRuby app to another platform would not be trivial. Instead, it would likely require a middle (&#8220;higher level&#8221;) layer, which is already banned by the new section 3.3.1. In this case, native MacRuby apps could be written under the current agreement, and this would not allow such apps to be easily ported to other platforms.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Twitter, Facebook and Viral Traffic]]></title>
+    <link href="http://rob-by.herokuapp.com/2010/twitter-facebook-and-viral-traffic/"/>
+    <updated>2010-04-07T10:00:44-04:00</updated>
+    <id>http://rob-by.herokuapp.com/2010/twitter-facebook-and-viral-traffic</id>
+    <content type="html"><![CDATA[<p>On the evening of the House health care reform vote, I built  <a href="http://didtheypasshealthcarereform.com">didtheypasshealthcarereform.com</a>, a single serve site, to report the status of the bill. Prior to the vote it read &#8220;no.&#8221; After the bill&#8217;s passage it read &#8220;yes!,&#8221; and celebrated the occasion with randomly-placed animated unicorns (courtesy of <a href="http://cornify.com/">Cornify</a>).</p>
+
+<p>I posted links to the site on my Twitter and Facebook accounts. As soon as the bill passed, traffic skyrocketed. 48 hours later, the dust settled. <!--more--> A quick glance at visitors per day shows how quickly the site gained and lost steam:</p>
+
+<p><img src="http://robby-blog.s3.amazonaws.com/2010/twitter-facebook-and-viral-traffic/dashboard.png" alt="Dashboard" /></p>
+
+<h2>Sources of Traffic</h2>
+
+<p>Google Analytics tallied the following:</p>
+
+<ul>
+<li><p>&#8220;Direct&#8221; (non-referral) traffic lead the way, providing 39% of all traffic.</p></li>
+<li><p>Facebook.com provided 30%, the most of any single domain.</p></li>
+<li><p>Twitter.com placed a distant second, providing just over 6.5%.</p></li>
+</ul>
+
+
+<h2>Analysis of Traffic</h2>
+
+<p>According to <a href="http://siteanalytics.compete.com/facebook.com+twitter.com/">the latest compete.com numbers</a>, Facebook.com gets 6.00 times more traffic than Twitter.com does (as of February &#8216;10). Theoretically, then, Facebook.com should drive six times as many visitors as Twitter.com.</p>
+
+<p>In reality that multiplier was 4.6, 24% less than expected. In other words, when normalized for total traffic, Twitter.com was over 30% more effective at driving traffic than Facebook.com was. (If that math confuses you, recall that 4 is 20% less than 5, but 5 is 25% more than 4; if that doesn&#8217;t make sense, don&#8217;t worry, the math is not what&#8217;s important).</p>
+
+<p>What&#8217;s important is that a Twitter.com user looking at a tweet was 30% more likely follow its link than a Facebook.com user looking at a status update.</p>
+
+<p>But that&#8217;s just the tip of the iceberg. Most Twitter users aren&#8217;t on Twitter.com; they&#8217;re using Twitter clients like Tweetie, TweetDeck and Twhirl. Click-throughs from these users show up not as Twitter.com referrals, but as &#8220;direct&#8221; traffic. And this direct traffic made up 40% of the total traffic.</p>
+
+<p>There&#8217;s a caveat: direct traffic is also generated the traditional way, by people typing &#8220;d-i-d-t-h-e-y-p-a-s-s-h-e-a-l-t-h-c-a-r-e-r-e-f-o-r-m-.-c-o-m&#8221; into the address bar in browsers. Unfortunately there is no method to distinguish these users from Twitter client users. There are, however, a few ways to make educated guesses at the comparative numbers. Each of these methods gives Twitter-driven  traffic estimates an enormous boost.</p>
+
+<p>The first way to guess, perhaps least appealing to statisticians and most appealing to philosophers, is simply to think about what makes sense. It makes very little sense for a  brand new web site to receive 40% of its hits from people typing the URL  into the address bar. This would be plausible for Google, but not for a budding web meme that did not exist a week earlier.</p>
+
+<p><img src="http://robby-blog.s3.amazonaws.com/2010/twitter-facebook-and-viral-traffic/all_direct_traffic_from_twitter.png" alt="All traffic from Twitter" /></p>
+
+<p>Didtheypasshealthcarereform.com received 85% of its traffic in a span of less  than 48 hours. Visitors had little if any time to commit the URL to memory and check up on it. One method, therefore, is to attribute all of the direct traffic to Twitter. This  has Twitter driving 45% of didtheypasshealthcarereform.com&#8217;s  total traffic.</p>
+
+<p><img src="http://robby-blog.s3.amazonaws.com/2010/twitter-facebook-and-viral-traffic/65_of_direct_traffic_from_twitter.png" alt="65% of direct traffic from Twitter" /></p>
+
+<p>The second way to guess is to look at other sites. One web site I run that doesn&#8217;t deal with Twitter in any capacity receives 13% of its traffic &#8220;directly.&#8221; Another receives 14.1%. If these numbers are typical for non-Twitter &#8220;direct&#8221; traffic,  then over 65% of the &#8220;direct&#8221; traffic to didtheypasshealthcarereform.com came from Twitter, putting the total percentage from Twitter above 32%. I suspect the real percentage from Twitter is even greater, because sites earn more direct traffic as they age, and the other two sites are much older than didtheypasshealthcarereform.com.</p>
+
+<p><img src="http://robby-blog.s3.amazonaws.com/2010/twitter-facebook-and-viral-traffic/direct_twitter_traffic_3-5x_twitter_com_traffic.png" alt="3-5x Twitter.com traffic" /></p>
+
+<p>The final way to guess is to look at other people&#8217;s numbers. Fred Wilson, with the help of John Borthwick, <a href="http://www.avc.com/a_vc/2010/01/twittercom-vs-the-twitter-ecosystem.html">argues</a> that  direct traffic from Twitter is between three and five times that from Twitter.com. This range implies that Twitter drove between 26% and 35% of didtheypasshealthcarereform.com&#8217;s total traffic. Splitting the difference comes to 30.5%.</p>
+
+<p>Whether you believe Twitter brought 30.5%, 32% or 45% of didtheypasshealthcarereform.com&#8217;s traffic, the conclusion remains the same: not only did Twitter win the  battle of relative numbers; Twitter drove more total traffic to the site than Facebook did.</p>
+
+<h2>Fun Facts</h2>
+
+<ul>
+<li><p>3 out of 5 visitors refreshed the site while visiting it.</p></li>
+<li><p>1 in 8 users returned to the site after his or her initial visit.</p></li>
+<li><p>Over 1,000,000 colored unicorns appeared on users&#8217; monitors.</p></li>
+<li><p>I used <a href="https://rowfeeder.com/">RowFeeder</a> to track what people  said about the site on Twitter. Over the course of 48 hours, 1200  Twitterers linked to it. That number does not include  tweets that used URL shorteners like bit.ly or awe.sm. I&#8217;ve published  the complete set of Twitter mentions of the domain name from March 21 to  March 29 <a href="http://spreadsheets.google.com/pub?key=tkgH7yyawLVdhDQjycl7kiQ&amp;single=true&amp;gid=0&amp;output=html">here</a>.</p></li>
+<li><p><a href="http://voices.washingtonpost.com/44/2010/03/at-single-serving-health-care.html">The Washington Post</a> published an article on the site, but it brought in only 1/2 of 1% of all traffic.</p></li>
+</ul>
+
+
+<h2>Discussion</h2>
+
+<p>If you know of better ways to determine the source of &#8220;direct&#8221; traffic, please comment below or <a href="http://twitter.com/freerobby">send me a link on Twitter.</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Follower Myth]]></title>
+    <link href="http://rob-by.herokuapp.com/2010/the-follower-myth/"/>
+    <updated>2010-02-01T10:00:53-05:00</updated>
+    <id>http://rob-by.herokuapp.com/2010/the-follower-myth</id>
+    <content type="html"><![CDATA[<p>There is a widely held belief that you can tell how interesting a Twitter user is by the number of followers that he or she has. This is a flawed line of thinking.<!--more--></p>
+
+<p>There are two ways to look at follower counts as a tell of value:</p>
+
+<ol>
+<li><p>Look for a high followers:following ratio (f/F). The rationale here is that others have subscribed to this person&#8217;s content without said person having to follow them back, so what this person is saying must be interesting.</p></li>
+<li><p>Look for a high number of total followers (f). The thinking here is that if thousands or millions of people are reading what somebody says, you&#8217;ll want to read his or her tweets, too.</p></li>
+</ol>
+
+
+<p>Both of these cases are premised on faulty logic.</p>
+
+<p>The first case is particularly bad in that it punishes those users who engage more heavily with other Twitter users. @scobleizer follows some 17,000+ companies, developers and other tech-minded folks, and actually reads what they say. I know this because I&#8217;m one of them, and he has replied to me on several occasions. @pistachio follows all 45,000+ users who follow her so that they have the option to direct message her. If you subscribe to the (f/F) theory, you are effectively punishing people like @scobleizer and @pistachio for being in tune with their readers.</p>
+
+<p>The second case is not much better. Let&#8217;s say I&#8217;m looking to find some amusing folks in the entertainment industry to follow. Twitter&#8217;s <a href="http://twitter.com/invitations/suggestions/entertainment">Suggested User List</a> (SUL) points me to @DENISE_RICHARDS, who has 1.5M followers. I don&#8217;t know much about her, but the (f) theory tells me that since she has 1.5M followers, she is probably worth checking out. I click on her profile to find her most recent tweet (at the time of this writing):</p>
+
+<blockquote><p>girls and I have a beauty appt with Richard @seCoiffer’ today. time for us all to get a hair trim!</p></blockquote>
+
+<p>I glanced at a few of her other tweets; this was not an anomaly. This might be read-worthy stuff for 1.5 million people, but it doesn&#8217;t play to my interests.</p>
+
+<p>I had the same problem in other categories, too. Let&#8217;s look at an area where one should expect a little more substance: politics. Among users with 25,000+ followers, the most interesting to me were @andersoncooper (439,024 followers), @politico (32,286), @HuffPolitics (33,325) and @Drudge_Report (52,202). But in my opinion, none of them offer nearly as good reporting, analysis or commentary as @marcambinder (11,065), @attackerman (4,057) or @ezraklein (12,072). And certainly none of them entertain me as much as @daveweigel (5,543).</p>
+
+<p>The lesson here is that there is no correlation between a user&#8217;s popularity and a user&#8217;s interest to me. Following is a personal decision, and relying on f or f/F will provide a crowdsourced answer rather than a personalized one.</p>
+
+<p>Another problem with both of these statistics is that as Twitter gains more users, it also gains more spammers, automated accounts and follower farms. Mashable <a href="http://mashable.com/2009/08/06/twitter-bots/">reports</a> that as of last August, 24% of all tweets are generated by robots. On Sunday, TechCrunch <a href="http://www.techcrunch.com/2010/01/31/twitter-followers-ebay-penny/">showcased</a> hard evidence that followers can be purchased for fractions of a penny. The same piece states:</p>
+
+<blockquote><p>another method we&#8217;ve heard about anecdotally uses cheap labor in China to create Twitter Follower farms (similar to the gold farms that grew around online games like World of Warcraft). Online laborers in China essentially create thousands of Twitter accounts which can then follow other accounts.</p></blockquote>
+
+<p>Other games are also played to garner followers. Look at this <a href="http://www.google.com/search?sourceid=chrome&amp;ie=UTF-8&amp;q=twitter+followers">Google search for &#8220;twitter followers&#8221;</a> or recall that @jason once <a href="http://www.techcrunch.com/2009/03/12/how-much-is-a-suggested-slot-on-twitter-worth-jason-calacanis-offers-250000/">offered $250,000 to be placed on Twitter&#8217;s Suggested User List</a> (a quick way to get hundreds of thousands of followers). Follower counts are easy to manipulate and not indicative of tweet quality.</p>
+
+<p>When making a &#8220;should I follow?&#8221; decision, I judge based on the user&#8217;s bio and prior tweets. I decide for myself whether or not I have a personal interest in what the person says. I would never defer this qualitative judgment to a statistic.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[It's All About the Users]]></title>
+    <link href="http://rob-by.herokuapp.com/2010/its-all-about-the-users/"/>
+    <updated>2010-01-14T10:00:39-05:00</updated>
+    <id>http://rob-by.herokuapp.com/2010/its-all-about-the-users</id>
+    <content type="html"><![CDATA[<p>What I love most about working at a startup is how close I am to the people I&#8217;m serving. Almost every task I work on directly benefits our customers. And working at a web startup means I can deliver that benefit as soon as it&#8217;s built.<!--more--></p>
+
+<p>A lack of customer interaction yielded many frustrations at my previous job, where I was part of an enterprise SDK team. I was separated from my users. Requirements were set by product managers; testing was done by quality assurance; feedback came from division heads. User interaction was not part of our process. I did have coworkers who were very much involved with their users, but they were a limited breed. They tended to be designers, managers or developers of the bottom (user-facing) layer of the stack.</p>
+
+<p>I say all of this without issuing criticism. Pairing up customers with developers can be exceedingly difficult in an enterprise setting. We&#8217;re not talking about a web app and a site visitor; we&#8217;re talking about a multi-layered technology stack and a user of a derivative work. For instance, if I&#8217;m working on a module inside an SDK that goes inside a search engine that is customized in a workbench and appears in a dashboard, when is a dashboard user one of my users? This example is not contrived to prove a point; I was the developer in this very instance. The difficulties get even tougher when it comes time to translate the dashboard requirements into SDK requirements. These were complicated problems that dealt with several layers of our technology stack, and product management was a necessary arbiter.</p>
+
+<p>The question is: at what point in the customer interaction process should product management step back and let developers take over? The answer is: as soon as possible. As soon as a user&#8217;s problem can be mapped to a particular developer (or a module for which a particular developer is responsible), product management should get out of the way. At this time the developer should consult directly with the customer.</p>
+
+<p>There are two reasons for this. The first is that it reduces confusion. When there is a chain between the customer and the developer, every link is a filter that obfuscates the customer&#8217;s needs. When I speak directly with a user, the odds of my understanding the user&#8217;s problem are very high. Those odds are dramatically reduced by each person placed between us.</p>
+
+<p>The other benefit is motivation. I cut code because I enjoy solving problems that make people&#8217;s lives easier or more enjoyable. Seeing such a problem first hand inspires me to solve it. There is a strong correlation between motivation and productivity, and letting developers interact with customers is an easy and efficient way to boost both. The customer wins, the company wins, the developer wins.</p>
+]]></content>
+  </entry>
   
 </feed>
