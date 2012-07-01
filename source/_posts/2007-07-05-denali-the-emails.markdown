@@ -15,7 +15,7 @@ They're presented in their respective entireties, with the exception that some l
 >From: Rick Rochelle
 >Date: Jun 13, 2007 3:09 PM
 >Subject: 2007 NOLS Denali Expedition Update #1
->To: NOLS_alaska@nols.edu
+>To: NOLS Alaska
 >
 >Hello,
 >
@@ -70,7 +70,7 @@ They're presented in their respective entireties, with the exception that some l
 > From: Rick Rochelle
 >Date: Jun 14, 2007 7:21 PM
 >Subject: 2007 NOLS Denali Expedition Update #2
->To: NOLS_alaska@nols.edu
+>To: NOLS Alasks
 >
 >Greetings,
 >
@@ -117,7 +117,7 @@ They're presented in their respective entireties, with the exception that some l
 > From: Rick Rochelle
 Date: Jun 23, 2007 8:23 PM
 Subject: 2007 NOLS Denali Expedition Update #3
-To: NOLS_alaska@nols.edu
+To: NOLS Alaska
 >
 >Greetings,
 >
@@ -159,7 +159,7 @@ Please share this with your email list from Denali 6/1/07. I wrote captions and 
 > From: Rick Rochelle
 >Date: Jun 27, 2007 3:56 PM
 >Subject: NOLS Denali Expedition Update #4-The summit!
->To: Rick Rochelle <Rick_Rochelle@nols.edu>
+>To: Rick Rochelle
 >
 >Hello,
 >
@@ -196,7 +196,7 @@ Please share this with your email list from Denali 6/1/07. I wrote captions and 
 > From: Rick Rochelle
 >Date: Jun 29, 2007 10:27 PM
 >Subject: 2007 NOLS Denali Expedition Update #5
->To: Rick Rochelle <Rick_Rochelle@nols.edu>
+>To: Rick Rochelle
 >
 >Greetings,
 >
@@ -219,7 +219,7 @@ Please share this with your email list from Denali 6/1/07. I wrote captions and 
 > From: Rick Rochelle
 >Date: Jul 2, 2007 1:42 PM
 >Subject: 2007 NOLS Denali Expedition Update #6 (final)
->To: Rick Rochelle <Rick_Rochelle@nols.edu>
+>To: Rick Rochelle
 >
 >Greetings,
 >
