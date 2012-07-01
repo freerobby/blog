@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Politics | Robby Grossman]]></title>
-  <link href="http://rob-by.herokuapp.com/blog/categories/politics/atom.xml" rel="self"/>
-  <link href="http://rob-by.herokuapp.com/"/>
-  <updated>2012-07-01T03:54:29-04:00</updated>
-  <id>http://rob-by.herokuapp.com/</id>
+  <link href="http://rob.by/blog/categories/politics/atom.xml" rel="self"/>
+  <link href="http://rob.by/"/>
+  <updated>2012-07-01T13:24:41-04:00</updated>
+  <id>http://rob.by/</id>
   <author>
     <name><![CDATA[Robby Grossman]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA['tis the Season]]></title>
-    <link href="http://rob-by.herokuapp.com/2008/tis-the-season/"/>
+    <link href="http://rob.by/2008/tis-the-season/"/>
     <updated>2008-12-26T23:53:31-05:00</updated>
-    <id>http://rob-by.herokuapp.com/2008/tis-the-season</id>
+    <id>http://rob.by/2008/tis-the-season</id>
     <content type="html"><![CDATA[<p>Friends &amp; Family,</p>
 
 <p>I hope you're all enjoying happy holidays, and I wish you the best of luck in the coming new year.</p>
@@ -47,9 +47,9 @@ Robby</p>
   
   <entry>
     <title type="html"><![CDATA[Where I Was on 9/11.]]></title>
-    <link href="http://rob-by.herokuapp.com/2008/where-i-was-on-911/"/>
+    <link href="http://rob.by/2008/where-i-was-on-911/"/>
     <updated>2008-09-11T15:35:00-04:00</updated>
-    <id>http://rob-by.herokuapp.com/2008/where-i-was-on-911</id>
+    <id>http://rob.by/2008/where-i-was-on-911</id>
     <content type="html"><![CDATA[<p>It was my junior year of high school. I was in the library when the first plane hit, about to run to Ms. Najman's classroom for Chemistry or Advanced Physics (she taught both; I don't know which class it was, my gut recalls the former). We spent the next fifty minutes on her computer trying to find out more, but were blocked by the first and only global internet malfunction of my lifetime. I don't think we got through to a single news site.</p>
 
 <p>Terrorism was my gut response. The act was inescapably intentional, I thought, but the idea of domestic terrorism to this extreme was so far removed from my day to day life, that such an event would put me in a surreality. But that's what 9/11 turned out to be. Things were suddenly different. My perception of the world matured more on that day than it did in all of my sixteen years preceding it.<!--more--></p>
@@ -68,9 +68,9 @@ Robby</p>
   
   <entry>
     <title type="html"><![CDATA[Thoughts on Ted Kennedy]]></title>
-    <link href="http://rob-by.herokuapp.com/2008/thoughts-on-ted-kennedy/"/>
+    <link href="http://rob.by/2008/thoughts-on-ted-kennedy/"/>
     <updated>2008-05-20T16:11:09-04:00</updated>
-    <id>http://rob-by.herokuapp.com/2008/thoughts-on-ted-kennedy</id>
+    <id>http://rob.by/2008/thoughts-on-ted-kennedy</id>
     <content type="html"><![CDATA[<p>Sad, disappointing, heartbreaking. Such adjectives don't do justice to the Liberal Lion. I have to defer to Michael Long of the National Review, whose story speaks louder than any words I can summon:<!--more--></p>
 
 <blockquote><p>A few days after my father died, I received a note from Kennedy’s office — a place I called maybe once a month to swap topics for the radio debate. I was touched, even though Cynical Me knew that it was probably just smart staff work. Still, sending me any acknowledgment at all, given the distant connection, was generous.</p>
@@ -93,9 +93,9 @@ Robby</p>
   
   <entry>
     <title type="html"><![CDATA[Addressing Dissent]]></title>
-    <link href="http://rob-by.herokuapp.com/2008/addressing-dissent/"/>
+    <link href="http://rob.by/2008/addressing-dissent/"/>
     <updated>2008-02-25T14:11:33-05:00</updated>
-    <id>http://rob-by.herokuapp.com/2008/addressing-dissent</id>
+    <id>http://rob.by/2008/addressing-dissent</id>
     <content type="html"><![CDATA[<p>Upon finding my blog, my Great Uncle Morris voiced disagreement.<!--more--></p>
 
 <blockquote><p>Feb. 15, 2008</p>
@@ -153,9 +153,9 @@ Robby</p>
   
   <entry>
     <title type="html"><![CDATA[The Obama Movement]]></title>
-    <link href="http://rob-by.herokuapp.com/2007/the-obama-movement/"/>
+    <link href="http://rob.by/2007/the-obama-movement/"/>
     <updated>2007-09-18T22:13:34-04:00</updated>
-    <id>http://rob-by.herokuapp.com/2007/the-obama-movement</id>
+    <id>http://rob.by/2007/the-obama-movement</id>
     <content type="html"><![CDATA[<p><em>The Obama Movement</em> is now available for purchase in select bookstores <a href="http://www.amazon.com/Obama-Movement-Barack-Speaks-Americas/dp/0595467032/ref=sr_1_1/102-8060843-4058564?ie=UTF8&amp;s=books&amp;qid=1190167163&amp;sr=8-1">and on Amazon.com</a>. It features a collection of short essays written by students and young professionals who support Barack Obama in his bid for the United States Presidency. One of those supporters is yours truly.<!--more--></p>
 
 <p><img src="http://robby-blog.s3.amazonaws.com/2007/the-obama-movement/theobamamovementcover.jpg" alt="The Obama Movement [Book Cover]" /></p>

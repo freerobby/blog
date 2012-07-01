@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Technology | Robby Grossman]]></title>
-  <link href="http://rob-by.herokuapp.com/blog/categories/technology/atom.xml" rel="self"/>
-  <link href="http://rob-by.herokuapp.com/"/>
-  <updated>2012-07-01T03:54:29-04:00</updated>
-  <id>http://rob-by.herokuapp.com/</id>
+  <link href="http://rob.by/blog/categories/technology/atom.xml" rel="self"/>
+  <link href="http://rob.by/"/>
+  <updated>2012-07-01T13:24:41-04:00</updated>
+  <id>http://rob.by/</id>
   <author>
     <name><![CDATA[Robby Grossman]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[GarageBand Has Found Its Interface]]></title>
-    <link href="http://rob-by.herokuapp.com/2011/garageband-has-found-its-interface/"/>
+    <link href="http://rob.by/2011/garageband-has-found-its-interface/"/>
     <updated>2011-03-16T00:29:55-04:00</updated>
-    <id>http://rob-by.herokuapp.com/2011/garageband-has-found-its-interface</id>
+    <id>http://rob.by/2011/garageband-has-found-its-interface</id>
     <content type="html"><![CDATA[<p>This is what you can do with GarageBand for iPad in about 2 hours:</p>
 
 <p><video width='' height='' preload='none' controls poster=''><source src='http://robby-blog.s3.amazonaws.com/music/garage-band-jam.m4a' type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'/></video><!--more--></p>
@@ -84,9 +84,9 @@
   
   <entry>
     <title type="html"><![CDATA[Middle Management for Your Heroku Workers]]></title>
-    <link href="http://rob-by.herokuapp.com/2011/middle-management-for-your-heroku-workers/"/>
+    <link href="http://rob.by/2011/middle-management-for-your-heroku-workers/"/>
     <updated>2011-01-20T10:52:03-05:00</updated>
-    <id>http://rob-by.herokuapp.com/2011/middle-management-for-your-heroku-workers</id>
+    <id>http://rob.by/2011/middle-management-for-your-heroku-workers</id>
     <content type="html"><![CDATA[<p>Heroku provides a highly scalable <a href="http://docs.heroku.com/background-jobs">background worker framework via delayed_job</a>, but leaves the burden of scaling it to the user. Several people have tried to solve this by either <a href="https://github.com/wxmn/delayed_job">forking the delayed_job gem</a> or hooking into the gold standard <a href="https://github.com/phaza/Heroku-Delayed-Job-Autoscale">collectiveidea gem</a>. I like the latter approach, but haven't seen an implementation that meets my requirements.<!--more--></p>
 
 <p>Specifically, I want the following in my scaling library:</p>
@@ -116,9 +116,9 @@
   
   <entry>
     <title type="html"><![CDATA[Finding Technical Cofounders Is Hard]]></title>
-    <link href="http://rob-by.herokuapp.com/2010/finding-technical-cofounders-is-hard/"/>
+    <link href="http://rob.by/2010/finding-technical-cofounders-is-hard/"/>
     <updated>2010-08-17T10:18:25-04:00</updated>
-    <id>http://rob-by.herokuapp.com/2010/finding-technical-cofounders-is-hard</id>
+    <id>http://rob.by/2010/finding-technical-cofounders-is-hard</id>
     <content type="html"><![CDATA[<p>Yesterday, Michael Pope posted an article titled <a href="http://captainrecruiter.blogspot.com/2010/08/technical-co-founders-are-myth.html"><em>Technical Cofounders Are a Myth</em></a>. He argued that software engineers don't finish what they start, and that you're better off paying a technical person than partnering with one. His frustrations are valid and not uncommon, but his conclusions are way off base for a lot of reasons.<!--more--></p>
 
 <p>He begins by explaining how he arrived at his conclusion:</p>
@@ -167,9 +167,9 @@
   
   <entry>
     <title type="html"><![CDATA[Wordpress and the GPL]]></title>
-    <link href="http://rob-by.herokuapp.com/2010/wordpress-and-the-gpl/"/>
+    <link href="http://rob.by/2010/wordpress-and-the-gpl/"/>
     <updated>2010-07-15T11:23:08-04:00</updated>
-    <id>http://rob-by.herokuapp.com/2010/wordpress-and-the-gpl</id>
+    <id>http://rob.by/2010/wordpress-and-the-gpl</id>
     <content type="html"><![CDATA[<p>Yesterday, <a href="http://wordpress.org/">Wordpress</a> founder <a href="http://twitter.com/photomatt">Matt Mullenweg</a> <a href="http://mixergy.com/chris-pearson-matt-mullenweg/">debated</a> <a href="http://www.diythemes.com/">Thesis Wordpress Theme</a> founder <a href="http://twitter.com/pearsonified">Chris Pearson</a> over the ethics, legality and benefits of using the GPL license for the Thesis theme. Matt argued that by not using the GPL license, Thesis is disrespecting the Wordpress community, violating the Wordpress license agreement and hurting its own business. Chris contends that Matt has no right to tell him how to license something that Chris built himself, even though he built it on top of the Wordpress platform.</p>
 
 <p>I'm not an attorney, but I am a human capable of reading and inferencing. The legal issues concerning the GPL seem pretty clear to me. There's a reason why Dan Rivcher is <a href="http://www.linux.com/archive/articles/113252">cited</a> by the Software Freedom Law Center's <a href="http://www.softwarefreedom.org/resources/2008/compliance-guide.html">compliance guide</a>. There's a reason why the SFLC <a href="http://wordpress.org/news/2009/07/themes-are-gpl-too/">sides with Wordpress</a>. There's a reason why lawyers at big companies tell their engineers not to use GPL open source projects. There's a reason why the LGPL exists. There's a reason why many communities, like the Ruby community, have moved to use the MIT license instead of the GPL. All of these reasons are the same: the GPL is a highly <a href="http://en.wikipedia.org/wiki/GNU_General_Public_License#Criticism">viral</a> license that infects everything it touches. If your code uses GPL, your code needs to be GPL. I don't know this because I'm a lawyer; I know it because every credible lawyer I talk to or read about or am influenced by reaches the same conclusion.</p>
@@ -214,9 +214,9 @@
   
   <entry>
     <title type="html"><![CDATA[Writing for People]]></title>
-    <link href="http://rob-by.herokuapp.com/2010/writing-for-people/"/>
+    <link href="http://rob.by/2010/writing-for-people/"/>
     <updated>2010-06-21T10:23:51-04:00</updated>
-    <id>http://rob-by.herokuapp.com/2010/writing-for-people</id>
+    <id>http://rob.by/2010/writing-for-people</id>
     <content type="html"><![CDATA[<p>Nearly all commercial web sites perform Search Engine Optimization (SEO), whereby they alter their site to be more Google-friendly, with the hope of receiving higher search rankings. Many of these changes are purely structural and invisible to users. For instance, using tags like &lt;h1&gt; or microformats like "hreview" can help Google make more sense of existing content without any changes being made to the text.</p>
 
 <p>Mature, profitable sites often take SEO to the next level by altering their visible content as well. In effect, they write their copy for machines instead of for people. From a user experience perspective, it shows. There is often an inherent conflict between what is best for a user and what is best for Google.<!--more--></p>

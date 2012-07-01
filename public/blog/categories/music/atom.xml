@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Music | Robby Grossman]]></title>
-  <link href="http://rob-by.herokuapp.com/blog/categories/music/atom.xml" rel="self"/>
-  <link href="http://rob-by.herokuapp.com/"/>
-  <updated>2012-07-01T03:54:29-04:00</updated>
-  <id>http://rob-by.herokuapp.com/</id>
+  <link href="http://rob.by/blog/categories/music/atom.xml" rel="self"/>
+  <link href="http://rob.by/"/>
+  <updated>2012-07-01T13:24:41-04:00</updated>
+  <id>http://rob.by/</id>
   <author>
     <name><![CDATA[Robby Grossman]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[GarageBand Has Found Its Interface]]></title>
-    <link href="http://rob-by.herokuapp.com/2011/garageband-has-found-its-interface/"/>
+    <link href="http://rob.by/2011/garageband-has-found-its-interface/"/>
     <updated>2011-03-16T00:29:55-04:00</updated>
-    <id>http://rob-by.herokuapp.com/2011/garageband-has-found-its-interface</id>
+    <id>http://rob.by/2011/garageband-has-found-its-interface</id>
     <content type="html"><![CDATA[<p>This is what you can do with GarageBand for iPad in about 2 hours:</p>
 
 <p><video width='' height='' preload='none' controls poster=''><source src='http://robby-blog.s3.amazonaws.com/music/garage-band-jam.m4a' type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'/></video><!--more--></p>
@@ -84,9 +84,9 @@
   
   <entry>
     <title type="html"><![CDATA[Jon Brion Does Bruce Springsteen]]></title>
-    <link href="http://rob-by.herokuapp.com/2008/jon-brion-does-bruce-springsteen/"/>
+    <link href="http://rob.by/2008/jon-brion-does-bruce-springsteen/"/>
     <updated>2008-01-08T19:36:29-05:00</updated>
-    <id>http://rob-by.herokuapp.com/2008/jon-brion-does-bruce-springsteen</id>
+    <id>http://rob.by/2008/jon-brion-does-bruce-springsteen</id>
     <content type="html"><![CDATA[<p>Among the highlights from <a href="/2008/jon-brion-the-harris-theater">Jon Brion's New Year's Eve show</a> was an impromptu impression of Bruce Springsteen--in the form of a fake Bruce Springsteen song.<!--more--></p>
 
 <p><img src="http://robby-blog.s3.amazonaws.com/2008/jon-brion-does-bruce-springsteen/jon-does-bruce.jpg" alt="Jon Brion as Bruce Springsteen" /></p>
@@ -140,9 +140,9 @@ There's not that much to sing about</p>
   
   <entry>
     <title type="html"><![CDATA[Jon Brion at The Harris Theater]]></title>
-    <link href="http://rob-by.herokuapp.com/2008/jon-brion-the-harris-theater/"/>
+    <link href="http://rob.by/2008/jon-brion-the-harris-theater/"/>
     <updated>2008-01-03T02:10:40-05:00</updated>
-    <id>http://rob-by.herokuapp.com/2008/jon-brion-the-harris-theater</id>
+    <id>http://rob.by/2008/jon-brion-the-harris-theater</id>
     <content type="html"><![CDATA[<p>I've never been one to question Jon Brion's musical prowess. In addition to completing <a href="http://cdbaby.com/cd/jonbrion">a self-released solo CD</a>, he's produced such artists as <a href="http://www.sweetadeline.net">Elliott Smith</a>, <a href="http://www.fiona-apple.com/">Fiona Apple</a>, <a href="http://www.aimeemann.com/">Aimee Mann</a> and <a href="http://www.rufuswainwright.com">Rufus Wainwright</a>, all of whom asked Jon to make the most of their songs. And if you haven't heard any of those artists' work, you've likely still heard Brion--at the movie theater. He's done the soundtracks for <a href="http://www.amazon.com/Punch-Drunk-Love-Score-Brion/dp/B00006YXF6/ref=sr_1_1?ie=UTF8&amp;s=music&amp;qid=1199339174&amp;sr=1-1">Punch-Drunk Love</a>, <a href="http://www.amazon.com/Magnolia-Score-1999-Film-Brion/dp/B00004S2W3/ref=sr_1_2?ie=UTF8&amp;s=music&amp;qid=1199339174&amp;sr=1-2">Magnolia</a>, <a href="http://www.amazon.com/Eternal-Sunshine-Spotless-Various-Artists/dp/B0001IXU1W/ref=sr_1_4?ie=UTF8&amp;s=music&amp;qid=1199339174&amp;sr=1-4">Eternal Sunshine of the Spotless Mind</a> and <a href="http://www.amazon.com/Heart-Huckabees-Score-Jason-Schwartzman/dp/B00049QKZG/ref=pd_bbs_sr_1?ie=UTF8&amp;s=music&amp;qid=1199339386&amp;sr=1-1">I Heart Huckabees</a>. Hip Hop star <a href="http://www.kanyeuniversecity.com/">Kanye West</a> was so impressed by Jon's soundtrack work that he sought Jon to produce part of <a href="http://www.cduniverse.com/search/xx/music/pid/7478247/a/Graduation.htm">his latest album</a>. And when Jon's not making music, <a href="http://www.google.com/search?hl=en&amp;safe=off&amp;q=Jon+Brion+Interview&amp;btnG=Search">he's talking about it</a>. To me it seems as though Jon has always been in a musical bubble, floating high above the pedestals of the other musicians I admire, far, far away from me.</p>
 
 <p>But last night I saw him up close and personal, and with a personality aimed to entertain and a humbleness as if he were one of the audience members, too. When he wasn't banging on drums or striking keys or programming a synthesizer or strumming a guitar or plucking bass notes or singing, he was cracking jokes, telling stories, impersonating Bruce Springsteen or inviting audience members up on stage--either to sing, play an instrument or request a song. There were moments in which the show seemed a small step away from Open Mic Night with Jon Brion.<!--more--></p>
@@ -159,9 +159,9 @@ There's not that much to sing about</p>
   
   <entry>
     <title type="html"><![CDATA[Musical Shareware]]></title>
-    <link href="http://rob-by.herokuapp.com/2007/musical-shareware/"/>
+    <link href="http://rob.by/2007/musical-shareware/"/>
     <updated>2007-10-02T12:26:55-04:00</updated>
-    <id>http://rob-by.herokuapp.com/2007/musical-shareware</id>
+    <id>http://rob.by/2007/musical-shareware</id>
     <content type="html"><![CDATA[<p><a href="http://www.radiohead.com">Radiohead</a> announced earlier this week that they would be selling their new album on October 10 for whatever price their listeners would like to pay. The mainstream media covered this so extensively that <a href="http://news.bbc.co.uk/2/hi/entertainment/7024130.stm">excessive traffic caused the band's web site to crash</a>.</p>
 
 <p>But the idea isn't so new. In December of 1999, Jon Brion was asked, "As a musician, are you afraid of the internet?" His <a href="http://www.neverisapromise.com/interviews/EQ1299.htm">response</a> was prophetic (emphasis mine):<!--more--></p>
@@ -182,9 +182,9 @@ There's not that much to sing about</p>
   
   <entry>
     <title type="html"><![CDATA[Guitar Lesson: Tomorrow Tomorrow]]></title>
-    <link href="http://rob-by.herokuapp.com/2007/guitar-lesson-tomorrow-tomorrow-2/"/>
+    <link href="http://rob.by/2007/guitar-lesson-tomorrow-tomorrow-2/"/>
     <updated>2007-01-29T21:13:07-05:00</updated>
-    <id>http://rob-by.herokuapp.com/2007/guitar-lesson-tomorrow-tomorrow-2</id>
+    <id>http://rob.by/2007/guitar-lesson-tomorrow-tomorrow-2</id>
     <content type="html"><![CDATA[<p>Since posting my cover of Elliott Smith's <em>Tomorrow Tomorrow</em> on YouTube a few months ago, I've received several requests for help from enthusiastic guitarists looking to learn the song themselves. Rather than address everybody in a brief reply, I thought I would make a thorough post explaining how I learned to play the more difficult parts of the song. If this post doesn't cut it, let me know! I'll be happy to field any further questions that you may have (post them as comments to this blog entry so that I see them when I go to make edits).<!--more--></p>
 
 <h2>The Video</h2>

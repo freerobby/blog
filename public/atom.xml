@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Robby Grossman]]></title>
-  <link href="http://rob-by.herokuapp.com/atom.xml" rel="self"/>
-  <link href="http://rob-by.herokuapp.com/"/>
-  <updated>2012-07-01T03:54:29-04:00</updated>
-  <id>http://rob-by.herokuapp.com/</id>
+  <link href="http://rob.by/atom.xml" rel="self"/>
+  <link href="http://rob.by/"/>
+  <updated>2012-07-01T13:24:41-04:00</updated>
+  <id>http://rob.by/</id>
   <author>
     <name><![CDATA[Robby Grossman]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Red Sox Tickets for Sale]]></title>
-    <link href="http://rob-by.herokuapp.com/2012/red-sox-tickets-for-sale/"/>
+    <link href="http://rob.by/2012/red-sox-tickets-for-sale/"/>
     <updated>2012-05-17T00:16:52-04:00</updated>
-    <id>http://rob-by.herokuapp.com/2012/red-sox-tickets-for-sale</id>
+    <id>http://rob.by/2012/red-sox-tickets-for-sale</id>
     <content type="html"><![CDATA[<p>Good news for me: I got the option to buy a Red Sox ticket package!</p>
 
 <p>Good news for you: I don&#8217;t need all the games, and I&#8217;d rather hook up friends, family and acquaintances than deal with Stubhub, Craigslist, etc.<!--more--></p>
@@ -43,9 +43,9 @@
   
   <entry>
     <title type="html"><![CDATA[For Two Quarters' Dividends, Apple Could Buy 77% of Netflix]]></title>
-    <link href="http://rob-by.herokuapp.com/2012/for-two-quarters-dividends-apple-could-buy-77-of-netflix/"/>
+    <link href="http://rob.by/2012/for-two-quarters-dividends-apple-could-buy-77-of-netflix/"/>
     <updated>2012-03-19T13:16:08-04:00</updated>
-    <id>http://rob-by.herokuapp.com/2012/for-two-quarters-dividends-apple-could-buy-77-of-netflix</id>
+    <id>http://rob.by/2012/for-two-quarters-dividends-apple-could-buy-77-of-netflix</id>
     <content type="html"><![CDATA[<p>Apple <a href="http://www.apple.com/pr/library/2012/03/19Apple-Announces-Plans-to-Initiate-Dividend-and-Share-Repurchase-Program.html">announced</a> today it would begin paying a $2.65 quarterly dividend.</p>
 
 <p>Cost of dividend: 932.4M shares outstanding * $2.65/quarter/share = <strong>$2.47B/quarter</strong></p>
@@ -62,9 +62,9 @@
   
   <entry>
     <title type="html"><![CDATA[First Impressions of the New iPad]]></title>
-    <link href="http://rob-by.herokuapp.com/2012/first-impressions-of-the-new-ipad/"/>
+    <link href="http://rob.by/2012/first-impressions-of-the-new-ipad/"/>
     <updated>2012-03-16T08:53:15-04:00</updated>
-    <id>http://rob-by.herokuapp.com/2012/first-impressions-of-the-new-ipad</id>
+    <id>http://rob.by/2012/first-impressions-of-the-new-ipad</id>
     <content type="html"><![CDATA[<p>I picked up &#8220;the new iPad&#8221; this morning. Here are my first impressions:<!--more--></p>
 
 <h2>Look &amp; Feel</h2>
@@ -94,9 +94,9 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
   
   <entry>
     <title type="html"><![CDATA[Remembering Joe Paterno]]></title>
-    <link href="http://rob-by.herokuapp.com/2012/remembering-joe-paterno/"/>
+    <link href="http://rob.by/2012/remembering-joe-paterno/"/>
     <updated>2012-01-22T14:01:04-05:00</updated>
-    <id>http://rob-by.herokuapp.com/2012/remembering-joe-paterno</id>
+    <id>http://rob.by/2012/remembering-joe-paterno</id>
     <content type="html"><![CDATA[<p>Lots of people are upset about Joe Paterno&#8217;s death right now. Lots of other people don&#8217;t understand how anybody can be upset given his inactions amid the Sandusky scandal.</p>
 
 <p>I don&#8217;t understand why people are so insistent on remembering Paterno in a particular light.<!--more--></p>
@@ -109,9 +109,9 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
   
   <entry>
     <title type="html"><![CDATA[Responding to Criticism]]></title>
-    <link href="http://rob-by.herokuapp.com/2011/responding-to-criticism/"/>
+    <link href="http://rob.by/2011/responding-to-criticism/"/>
     <updated>2011-05-17T10:00:13-04:00</updated>
-    <id>http://rob-by.herokuapp.com/2011/responding-to-criticism</id>
+    <id>http://rob.by/2011/responding-to-criticism</id>
     <content type="html"><![CDATA[<p>In 2006 I participated in <a href="http://www.nols.edu/courses/locations/alaska/aksemester.shtml">NOLS&#8217; Summer Semester in Alaska</a>, a 75-day kayaking, backpacking and mountaineering course, which helps students gain wilderness and leadership skills.</p>
 
 <p>A few days in I got my first review. I was a wreck. I packed my backpack as if I were paying homage to the Leaning Tower of Pisa. The most palatable meals I cooked were the ones that were burned beyond recognition. I might have been able to properly affix a rainfly to a tent, but I&#8217;ll never know because nobody trusted me to keep their tent dry. You know that guy who played on your middle school basketball team who had great hustle and personality but couldn&#8217;t make a layup? The guy the coach wanted to do well, but would never take chances with in the 4th quarter? That was me at the start of my first NOLS course.<!--more--></p>
@@ -132,10 +132,10 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
   
   <entry>
     <title type="html"><![CDATA[Writing for People, Part 2]]></title>
-    <link href="http://rob-by.herokuapp.com/2011/writing-for-people-part-2/"/>
+    <link href="http://rob.by/2011/writing-for-people-part-2/"/>
     <updated>2011-04-18T00:03:22-04:00</updated>
-    <id>http://rob-by.herokuapp.com/2011/writing-for-people-part-2</id>
-    <content type="html"><![CDATA[<p>Last year I <a href="http://rob-by.herokuapp.com/2010/writing-for-people">wrote</a> about the importance of writing for people rather than search engines, two target audiences that often compete with each other on the web.</p>
+    <id>http://rob.by/2011/writing-for-people-part-2</id>
+    <content type="html"><![CDATA[<p>Last year I <a href="http://rob.by/2010/writing-for-people">wrote</a> about the importance of writing for people rather than search engines, two target audiences that often compete with each other on the web.</p>
 
 <p>A similar problem occurs when authors write for companies instead of people. I see this most at business-to-business companies, where the customer is another company rather than a human. It&#8217;s important to remember that it&#8217;s always a human who will be reading your copy.<!--more--></p>
 
@@ -156,9 +156,9 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
   
   <entry>
     <title type="html"><![CDATA[GarageBand Has Found Its Interface]]></title>
-    <link href="http://rob-by.herokuapp.com/2011/garageband-has-found-its-interface/"/>
+    <link href="http://rob.by/2011/garageband-has-found-its-interface/"/>
     <updated>2011-03-16T00:29:55-04:00</updated>
-    <id>http://rob-by.herokuapp.com/2011/garageband-has-found-its-interface</id>
+    <id>http://rob.by/2011/garageband-has-found-its-interface</id>
     <content type="html"><![CDATA[<p>This is what you can do with GarageBand for iPad in about 2 hours:</p>
 
 <p><video width='' height='' preload='none' controls poster=''><source src='http://robby-blog.s3.amazonaws.com/music/garage-band-jam.m4a' type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'/></video><!--more--></p>
@@ -225,9 +225,9 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
   
   <entry>
     <title type="html"><![CDATA[Leadership]]></title>
-    <link href="http://rob-by.herokuapp.com/2011/leadership/"/>
+    <link href="http://rob.by/2011/leadership/"/>
     <updated>2011-02-10T10:29:31-05:00</updated>
-    <id>http://rob-by.herokuapp.com/2011/leadership</id>
+    <id>http://rob.by/2011/leadership</id>
     <content type="html"><![CDATA[<p>Leaders show themselves in various forms. There are rhetorical magicians (Barack Obama) and iconic revolutionaries (Steve Jobs). There are also workplace leaders - the silver-tongued employee who can articulate issues several steps beyond what others are thinking, or the clever, diligent coworker whose performance alone encourages others.</p>
 
 <p>Whatever the kind, leaders have three priceless skills: they&#8217;re doers, they persuade, and they inspire.<!--more--></p>
@@ -270,9 +270,9 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
   
   <entry>
     <title type="html"><![CDATA[Middle Management for Your Heroku Workers]]></title>
-    <link href="http://rob-by.herokuapp.com/2011/middle-management-for-your-heroku-workers/"/>
+    <link href="http://rob.by/2011/middle-management-for-your-heroku-workers/"/>
     <updated>2011-01-20T10:52:03-05:00</updated>
-    <id>http://rob-by.herokuapp.com/2011/middle-management-for-your-heroku-workers</id>
+    <id>http://rob.by/2011/middle-management-for-your-heroku-workers</id>
     <content type="html"><![CDATA[<p>Heroku provides a highly scalable <a href="http://docs.heroku.com/background-jobs">background worker framework via delayed_job</a>, but leaves the burden of scaling it to the user. Several people have tried to solve this by either <a href="https://github.com/wxmn/delayed_job">forking the delayed_job gem</a> or hooking into the gold standard <a href="https://github.com/phaza/Heroku-Delayed-Job-Autoscale">collectiveidea gem</a>. I like the latter approach, but haven&#8217;t seen an implementation that meets my requirements.<!--more--></p>
 
 <p>Specifically, I want the following in my scaling library:</p>
@@ -302,9 +302,9 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
   
   <entry>
     <title type="html"><![CDATA[Helping Blogs Be Blogs]]></title>
-    <link href="http://rob-by.herokuapp.com/2010/helping-blogs-be-blogs/"/>
+    <link href="http://rob.by/2010/helping-blogs-be-blogs/"/>
     <updated>2010-12-31T10:07:16-05:00</updated>
-    <id>http://rob-by.herokuapp.com/2010/helping-blogs-be-blogs</id>
+    <id>http://rob.by/2010/helping-blogs-be-blogs</id>
     <content type="html"><![CDATA[<p>As Wordpress has evolved from a writing platform into a full-blown CMS, theme developers have followed suit by using big header images, multi-level navigation and dozens of widgets that make sites look bigger they actually are and more complex than they need to be. It&#8217;s unclear to me how any of these things make blogs a better experience to read or authr. Do you click on tag clouds? Do you read embedded Twitter feeds? Do you browse old content by clicking on individual months listed under past years? For me, the answer to each of these questions is a resounding &#8220;no.&#8221; Blog design has become superfluous and distracting.<!--more--></p>
 
 <p>Janet Aronica recently <a href="http://janetaronica.com/2010/11/05/social-media-if-i-started-today/">wrote</a> about what I believe is a side effect of this:</p>
@@ -321,9 +321,9 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
   
   <entry>
     <title type="html"><![CDATA[Finding Technical Cofounders Is Hard]]></title>
-    <link href="http://rob-by.herokuapp.com/2010/finding-technical-cofounders-is-hard/"/>
+    <link href="http://rob.by/2010/finding-technical-cofounders-is-hard/"/>
     <updated>2010-08-17T10:18:25-04:00</updated>
-    <id>http://rob-by.herokuapp.com/2010/finding-technical-cofounders-is-hard</id>
+    <id>http://rob.by/2010/finding-technical-cofounders-is-hard</id>
     <content type="html"><![CDATA[<p>Yesterday, Michael Pope posted an article titled <a href="http://captainrecruiter.blogspot.com/2010/08/technical-co-founders-are-myth.html"><em>Technical Cofounders Are a Myth</em></a>. He argued that software engineers don&#8217;t finish what they start, and that you&#8217;re better off paying a technical person than partnering with one. His frustrations are valid and not uncommon, but his conclusions are way off base for a lot of reasons.<!--more--></p>
 
 <p>He begins by explaining how he arrived at his conclusion:</p>
@@ -372,9 +372,9 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
   
   <entry>
     <title type="html"><![CDATA[Wordpress and the GPL]]></title>
-    <link href="http://rob-by.herokuapp.com/2010/wordpress-and-the-gpl/"/>
+    <link href="http://rob.by/2010/wordpress-and-the-gpl/"/>
     <updated>2010-07-15T11:23:08-04:00</updated>
-    <id>http://rob-by.herokuapp.com/2010/wordpress-and-the-gpl</id>
+    <id>http://rob.by/2010/wordpress-and-the-gpl</id>
     <content type="html"><![CDATA[<p>Yesterday, <a href="http://wordpress.org/">Wordpress</a> founder <a href="http://twitter.com/photomatt">Matt Mullenweg</a> <a href="http://mixergy.com/chris-pearson-matt-mullenweg/">debated</a> <a href="http://www.diythemes.com/">Thesis Wordpress Theme</a> founder <a href="http://twitter.com/pearsonified">Chris Pearson</a> over the ethics, legality and benefits of using the GPL license for the Thesis theme. Matt argued that by not using the GPL license, Thesis is disrespecting the Wordpress community, violating the Wordpress license agreement and hurting its own business. Chris contends that Matt has no right to tell him how to license something that Chris built himself, even though he built it on top of the Wordpress platform.</p>
 
 <p>I&#8217;m not an attorney, but I am a human capable of reading and inferencing. The legal issues concerning the GPL seem pretty clear to me. There&#8217;s a reason why Dan Rivcher is <a href="http://www.linux.com/archive/articles/113252">cited</a> by the Software Freedom Law Center&#8217;s <a href="http://www.softwarefreedom.org/resources/2008/compliance-guide.html">compliance guide</a>. There&#8217;s a reason why the SFLC <a href="http://wordpress.org/news/2009/07/themes-are-gpl-too/">sides with Wordpress</a>. There&#8217;s a reason why lawyers at big companies tell their engineers not to use GPL open source projects. There&#8217;s a reason why the LGPL exists. There&#8217;s a reason why many communities, like the Ruby community, have moved to use the MIT license instead of the GPL. All of these reasons are the same: the GPL is a highly <a href="http://en.wikipedia.org/wiki/GNU_General_Public_License#Criticism">viral</a> license that infects everything it touches. If your code uses GPL, your code needs to be GPL. I don&#8217;t know this because I&#8217;m a lawyer; I know it because every credible lawyer I talk to or read about or am influenced by reaches the same conclusion.</p>
@@ -383,7 +383,7 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
 
 <h2>My Experience with the GPL</h2>
 
-<p>The GPL gave me my first headache when I was in college. I was building <a href="http://www.hudsonvalleypainter.com">my mother&#8217;s blog</a>, which required me to build what became <a href="http://rob-by.herokuapp.com/artpal">ArtPal</a>, a Wordpress plugin that lets artists post their work to their blogs and sell it with PayPal. Today, ArtPal is fairly popular for a niche plugin. It has 3,000+ downloads from artists all over the world who use it to sell their paintings, drawings, sketches and digital compositions. A modest estimate would have it responsible for hundreds of sales.</p>
+<p>The GPL gave me my first headache when I was in college. I was building <a href="http://www.hudsonvalleypainter.com">my mother&#8217;s blog</a>, which required me to build what became <a href="http://rob.by/artpal">ArtPal</a>, a Wordpress plugin that lets artists post their work to their blogs and sell it with PayPal. Today, ArtPal is fairly popular for a niche plugin. It has 3,000+ downloads from artists all over the world who use it to sell their paintings, drawings, sketches and digital compositions. A modest estimate would have it responsible for hundreds of sales.</p>
 
 <p>What is my cut? $0, thanks to the GPL. I say this without vent or complaint. I have no regrets about ArtPal being free, and I&#8217;m thrilled (really! I get a warm fuzzy feeling!) to know that the hard work I put in for my mother is helping tens or hundreds of other artists to sell their work online. I point out the following merely to explain how the GPL license can undermine the business worthiness of a technical venture.</p>
 
@@ -391,7 +391,7 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
 
 <p>But some time after my first client, my intellectual curiosity won out. I read the GPL, did some googling, and accepted the truth. ArtPal integrates with and requires Wordpress to function. That makes it a &#8220;derivative work&#8221; of Wordpress, which is also GPL licensed. Consequently, I must apply the GPL license to ArtPal. From this point on, ArtPal was open sourced and formally GPLed. Doing this did not prevent me from selling ArtPal, but it did give others permission to give ArtPal away for free. It doesn&#8217;t take a strong economics background to see the problem I quickly faced. While it made good resume candy, I never made another dime off of the plugin.</p>
 
-<p>Common questions I get when I tell this story include &#8220;Did it ever bring you money in other ways? Did it ever get you new clients? Did anybody pay for support?&#8221; No, no and no. I tried. I advertised ArtPal as being commercially supported by Digital Sublimity and referred people there if they ever wanted it customized. But nobody did. The problem, I suspect, is that I built ArtPal to be simple and easy to set up. Plug in your PayPal email address, choose a &#8220;buy it&#8221; button, and you&#8217;re up  and running. If you can install a PHP app on a web host, you can configure ArtPal. If you have a web guy who runs your blog, he can configure ArtPal. An end-user has no need for me. I do answer questions on my <a href="http://rob-by.herokuapp.com/artpal">ArtPal page</a> as they come up, but they are never in-depth enough to warrant a paid support contract.</p>
+<p>Common questions I get when I tell this story include &#8220;Did it ever bring you money in other ways? Did it ever get you new clients? Did anybody pay for support?&#8221; No, no and no. I tried. I advertised ArtPal as being commercially supported by Digital Sublimity and referred people there if they ever wanted it customized. But nobody did. The problem, I suspect, is that I built ArtPal to be simple and easy to set up. Plug in your PayPal email address, choose a &#8220;buy it&#8221; button, and you&#8217;re up  and running. If you can install a PHP app on a web host, you can configure ArtPal. If you have a web guy who runs your blog, he can configure ArtPal. An end-user has no need for me. I do answer questions on my <a href="http://rob.by/artpal">ArtPal page</a> as they come up, but they are never in-depth enough to warrant a paid support contract.</p>
 
 <p>The GPL effectively rendered ArtPal a pro bono project. As a part-time effort, I was unable to make it businessworthy while abiding by the full terms of the license.</p>
 
@@ -419,9 +419,9 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
   
   <entry>
     <title type="html"><![CDATA[Writing for People]]></title>
-    <link href="http://rob-by.herokuapp.com/2010/writing-for-people/"/>
+    <link href="http://rob.by/2010/writing-for-people/"/>
     <updated>2010-06-21T10:23:51-04:00</updated>
-    <id>http://rob-by.herokuapp.com/2010/writing-for-people</id>
+    <id>http://rob.by/2010/writing-for-people</id>
     <content type="html"><![CDATA[<p>Nearly all commercial web sites perform Search Engine Optimization (SEO), whereby they alter their site to be more Google-friendly, with the hope of receiving higher search rankings. Many of these changes are purely structural and invisible to users. For instance, using tags like &lt;h1&gt; or microformats like &#8220;hreview&#8221; can help Google make more sense of existing content without any changes being made to the text.</p>
 
 <p>Mature, profitable sites often take SEO to the next level by altering their visible content as well. In effect, they write their copy for machines instead of for people. From a user experience perspective, it shows. There is often an inherent conflict between what is best for a user and what is best for Google.<!--more--></p>
@@ -436,7 +436,7 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
 </ol>
 
 
-<p>Startups are different from the mature, profitable sites that can afford to play these SEO games in that they are more strictly about <a href="http://rob-by.herokuapp.com/2010/its-all-about-the-users/">solving users&#8217; problems and providing them optimal experiences</a>. Established companies, on the other hand, can make compelling business cases to diminish a user&#8217;s experience in order to reach and help a greater number of people. I hope oneforty gets there some day, but until we do, I will tirelessly advocate for a user&#8217;s experience over Google juice.</p>
+<p>Startups are different from the mature, profitable sites that can afford to play these SEO games in that they are more strictly about <a href="http://rob.by/2010/its-all-about-the-users/">solving users&#8217; problems and providing them optimal experiences</a>. Established companies, on the other hand, can make compelling business cases to diminish a user&#8217;s experience in order to reach and help a greater number of people. I hope oneforty gets there some day, but until we do, I will tirelessly advocate for a user&#8217;s experience over Google juice.</p>
 
 <p>For a more typical example of what I&#8217;m talking about, look at the <a href="http://tripadvisor.com">TripAdvisor</a> home page. An easy way to display hotels by city would be to have a heading called &#8220;Hotels&#8221; and under it list a bunch of cities. Any human could easily understand such a presentation. But TripAdvisor does something different:</p>
 
@@ -456,9 +456,9 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
   
   <entry>
     <title type="html"><![CDATA[Review: Kinesis Advantage Keyboard]]></title>
-    <link href="http://rob-by.herokuapp.com/2010/review-kinesis-advantage-keyboard/"/>
+    <link href="http://rob.by/2010/review-kinesis-advantage-keyboard/"/>
     <updated>2010-05-06T09:00:27-04:00</updated>
-    <id>http://rob-by.herokuapp.com/2010/review-kinesis-advantage-keyboard</id>
+    <id>http://rob.by/2010/review-kinesis-advantage-keyboard</id>
     <content type="html"><![CDATA[<p>I recently replaced my work and home keyboards with the <a href="http://www.kinesis-ergo.com/advantage.htm">Kinesis Advantage</a>. These are my collected thoughts on it after two full months of daily use.<!--more--></p>
 
 <h2>Adjustment Period</h2>
@@ -512,9 +512,9 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
   
   <entry>
     <title type="html"><![CDATA[Facebook, Google and the Value of Trust]]></title>
-    <link href="http://rob-by.herokuapp.com/2010/facebook-google-and-the-value-of-trust/"/>
+    <link href="http://rob.by/2010/facebook-google-and-the-value-of-trust/"/>
     <updated>2010-04-26T11:08:45-04:00</updated>
-    <id>http://rob-by.herokuapp.com/2010/facebook-google-and-the-value-of-trust</id>
+    <id>http://rob.by/2010/facebook-google-and-the-value-of-trust</id>
     <content type="html"><![CDATA[<p>Facebook is in many ways the hedge to Google&#8217;s bet that social machines are oiled with the trust of their users. As competition between Facebook and Google becomes increasingly visible, so too will the issues of trust that separate them.<!--more--></p>
 
 <p>When I upload a photo or post an update to Facebook, I assume that the world can see it. I make this assumption because there are too many privacy settings to remember, and because Facebook introduces new settings so often that I have no way of knowing when I have been defaulted into new ones.</p>
@@ -531,9 +531,9 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
   
   <entry>
     <title type="html"><![CDATA[Chirp: Goals and Expectations]]></title>
-    <link href="http://rob-by.herokuapp.com/2010/on-chirp-goals-and-expectations/"/>
+    <link href="http://rob.by/2010/on-chirp-goals-and-expectations/"/>
     <updated>2010-04-14T09:29:03-04:00</updated>
-    <id>http://rob-by.herokuapp.com/2010/on-chirp-goals-and-expectations</id>
+    <id>http://rob.by/2010/on-chirp-goals-and-expectations</id>
     <content type="html"><![CDATA[<p>The kerfuffle between Twitter and its third party developers has been discussed, analyzed and debated ad nauseum over the past week. But aside from jokes of awkwardness, there has been surprisingly little talk about what it means for Chirp. What do third party developers want from the conference in light of recent events? What&#8217;s a win for Twitter?<!--more--></p>
 
 <p>Outside developers must come away with an understanding of the brutal expectations Twitter faces as a company valued at over a billion dollars. Unlike most of the people building Twitter tools, Twitter is not a small business or a weekend hack project; it is an enterprise that is expected to justify the enormous investments it has received. That will require it to act like a business in ways it has chosen not to act in the past. Tweetie will not be the last acquisition, and the iPhone will not be the last internally supported platform. Twitter needs to make this absolutely clear to developers so that they understand the (arguably new) stakes and can choose their risks accordingly.</p>
@@ -546,9 +546,9 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
   
   <entry>
     <title type="html"><![CDATA[The Death of MacRuby for iPhone?]]></title>
-    <link href="http://rob-by.herokuapp.com/2010/the-death-of-macruby-for-iphone/"/>
+    <link href="http://rob.by/2010/the-death-of-macruby-for-iphone/"/>
     <updated>2010-04-10T22:49:35-04:00</updated>
-    <id>http://rob-by.herokuapp.com/2010/the-death-of-macruby-for-iphone</id>
+    <id>http://rob.by/2010/the-death-of-macruby-for-iphone</id>
     <content type="html"><![CDATA[<p>It&#8217;s a sad day for iPhone developers who like Ruby.<!--more--></p>
 
 <p><a href="http://www.macruby.org/">MacRuby</a> is a port of Ruby 1.9 that interfaces directly with Apple&#8217;s OS X Objective C runtime. In other words, it lets Mac developers write Cocoa apps in Ruby. This begs the question: will we ever be able to use MacRuby to write iPhone apps? For the time being, there is one technical hurdle: MacRuby needs garbage collection, and &#8221;<a href="http://developer.apple.com/iphone/library/DOCUMENTATION/Cocoa/Conceptual/MemoryMgmt/MemoryMgmt.html">garbage collection is not available on [the] iPhone.</a>&#8221;</p>
@@ -571,9 +571,9 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
   
   <entry>
     <title type="html"><![CDATA[Twitter, Facebook and Viral Traffic]]></title>
-    <link href="http://rob-by.herokuapp.com/2010/twitter-facebook-and-viral-traffic/"/>
+    <link href="http://rob.by/2010/twitter-facebook-and-viral-traffic/"/>
     <updated>2010-04-07T10:00:44-04:00</updated>
-    <id>http://rob-by.herokuapp.com/2010/twitter-facebook-and-viral-traffic</id>
+    <id>http://rob.by/2010/twitter-facebook-and-viral-traffic</id>
     <content type="html"><![CDATA[<p>On the evening of the House health care reform vote, I built  <a href="http://didtheypasshealthcarereform.com">didtheypasshealthcarereform.com</a>, a single serve site, to report the status of the bill. Prior to the vote it read &#8220;no.&#8221; After the bill&#8217;s passage it read &#8220;yes!,&#8221; and celebrated the occasion with randomly-placed animated unicorns (courtesy of <a href="http://cornify.com/">Cornify</a>).</p>
 
 <p>I posted links to the site on my Twitter and Facebook accounts. As soon as the bill passed, traffic skyrocketed. 48 hours later, the dust settled. <!--more--> A quick glance at visitors per day shows how quickly the site gained and lost steam:</p>
@@ -638,9 +638,9 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
   
   <entry>
     <title type="html"><![CDATA[The Follower Myth]]></title>
-    <link href="http://rob-by.herokuapp.com/2010/the-follower-myth/"/>
+    <link href="http://rob.by/2010/the-follower-myth/"/>
     <updated>2010-02-01T10:00:53-05:00</updated>
-    <id>http://rob-by.herokuapp.com/2010/the-follower-myth</id>
+    <id>http://rob.by/2010/the-follower-myth</id>
     <content type="html"><![CDATA[<p>There is a widely held belief that you can tell how interesting a Twitter user is by the number of followers that he or she has. This is a flawed line of thinking.<!--more--></p>
 
 <p>There are two ways to look at follower counts as a tell of value:</p>
@@ -677,9 +677,9 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
   
   <entry>
     <title type="html"><![CDATA[It's All About the Users]]></title>
-    <link href="http://rob-by.herokuapp.com/2010/its-all-about-the-users/"/>
+    <link href="http://rob.by/2010/its-all-about-the-users/"/>
     <updated>2010-01-14T10:00:39-05:00</updated>
-    <id>http://rob-by.herokuapp.com/2010/its-all-about-the-users</id>
+    <id>http://rob.by/2010/its-all-about-the-users</id>
     <content type="html"><![CDATA[<p>What I love most about working at a startup is how close I am to the people I&#8217;m serving. Almost every task I work on directly benefits our customers. And working at a web startup means I can deliver that benefit as soon as it&#8217;s built.<!--more--></p>
 
 <p>A lack of customer interaction yielded many frustrations at my previous job, where I was part of an enterprise SDK team. I was separated from my users. Requirements were set by product managers; testing was done by quality assurance; feedback came from division heads. User interaction was not part of our process. I did have coworkers who were very much involved with their users, but they were a limited breed. They tended to be designers, managers or developers of the bottom (user-facing) layer of the stack.</p>

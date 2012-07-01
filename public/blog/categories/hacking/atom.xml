@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Hacking | Robby Grossman]]></title>
-  <link href="http://rob-by.herokuapp.com/blog/categories/hacking/atom.xml" rel="self"/>
-  <link href="http://rob-by.herokuapp.com/"/>
-  <updated>2012-07-01T03:54:29-04:00</updated>
-  <id>http://rob-by.herokuapp.com/</id>
+  <link href="http://rob.by/blog/categories/hacking/atom.xml" rel="self"/>
+  <link href="http://rob.by/"/>
+  <updated>2012-07-01T13:24:41-04:00</updated>
+  <id>http://rob.by/</id>
   <author>
     <name><![CDATA[Robby Grossman]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Wake Machine]]></title>
-    <link href="http://rob-by.herokuapp.com/2009/wake-machine/"/>
+    <link href="http://rob.by/2009/wake-machine/"/>
     <updated>2009-09-06T13:15:17-04:00</updated>
-    <id>http://rob-by.herokuapp.com/2009/wake-machine</id>
+    <id>http://rob.by/2009/wake-machine</id>
     <content type="html"><![CDATA[<p>Wake Machine enables Time Machine to backup to a target that is sleeping. Without Wake Machine, such backups will fail because the remote disk won't mount.<!--more--></p>
 
 <p>Wake Machine runs as a mock daemon on the client. When Time Machine initiates a backup, Wake Machine sends a <a href="http://en.wikipedia.org/wiki/Wake-on-LAN#Magic_packet">magic packet</a> to the target machine to wake it up if it's sleeping.</p>
@@ -87,9 +87,9 @@
   
   <entry>
     <title type="html"><![CDATA[Use Time Machine with Wake on LAN to Enable Network Backups to Sleeping Devices]]></title>
-    <link href="http://rob-by.herokuapp.com/2009/use-time-machine-with-wake-on-lan-to-enable-network-backups-to-sleeping-devices/"/>
+    <link href="http://rob.by/2009/use-time-machine-with-wake-on-lan-to-enable-network-backups-to-sleeping-devices/"/>
     <updated>2009-09-05T17:30:29-04:00</updated>
-    <id>http://rob-by.herokuapp.com/2009/use-time-machine-with-wake-on-lan-to-enable-network-backups-to-sleeping-devices</id>
+    <id>http://rob.by/2009/use-time-machine-with-wake-on-lan-to-enable-network-backups-to-sleeping-devices</id>
     <content type="html"><![CDATA[<p><strong>Update Sept 6, 2009: </strong>I've created a project at github to simplify this process. More details <a href="https://github.com/freerobby/wakemachine">here</a>.</p>
 
 <p><strong>Task</strong>: You want to use Time Machine wirelessly to backup your Mac to a drive on another Mac on your network.</p>
@@ -163,9 +163,9 @@ done
   
   <entry>
     <title type="html"><![CDATA[Installing MySQL via MacPorts on Snow Leopard for Ruby Development]]></title>
-    <link href="http://rob-by.herokuapp.com/2009/installing-mysql-via-macports-on-snow-leopard-for-ruby-development/"/>
+    <link href="http://rob.by/2009/installing-mysql-via-macports-on-snow-leopard-for-ruby-development/"/>
     <updated>2009-09-01T14:23:23-04:00</updated>
-    <id>http://rob-by.herokuapp.com/2009/installing-mysql-via-macports-on-snow-leopard-for-ruby-development</id>
+    <id>http://rob.by/2009/installing-mysql-via-macports-on-snow-leopard-for-ruby-development</id>
     <content type="html"><![CDATA[<p>There are a number of tutorials floating around that explain how to install MySQL 5 on Snow Leopard. They all recommend the x86_64 universal binary supplied by MySQL. If you'd like to install MySQL via MacPorts (MySQL5 is <a href="http://trac.macports.org/wiki/snc/snowleopard">certified compatible</a>!), here are the steps:<!--more--></p>
 
 <p>First, install MySQL with developer libraries:</p>
@@ -209,9 +209,9 @@ done
   
   <entry>
     <title type="html"><![CDATA[Keep Your Play Counts and Statistics When Moving Your iTunes Library]]></title>
-    <link href="http://rob-by.herokuapp.com/2008/keep-your-play-counts-and-statistics-when-moving-your-itunes-library/"/>
+    <link href="http://rob.by/2008/keep-your-play-counts-and-statistics-when-moving-your-itunes-library/"/>
     <updated>2008-10-24T10:31:08-04:00</updated>
-    <id>http://rob-by.herokuapp.com/2008/keep-your-play-counts-and-statistics-when-moving-your-itunes-library</id>
+    <id>http://rob.by/2008/keep-your-play-counts-and-statistics-when-moving-your-itunes-library</id>
     <content type="html"><![CDATA[<p>If you're an iTunes user who doesn't let iTunes manage your music collection, you'll find that iTunes isn't very cooperative when it comes to moving your music around. For example, if you decide you want to move your music from your internal drive to an external drive, you'll find that you have to re-import your music, costing you all of your playcounts, playlists and library statistics.</p>
 
 <p>There's a better, easier way.<!--more--></p>
@@ -254,9 +254,9 @@ done
   
   <entry>
     <title type="html"><![CDATA[Remove My Bluetooth Places from Your Desktop]]></title>
-    <link href="http://rob-by.herokuapp.com/2008/remove-my-bluetooth-places-from-your-desktop/"/>
+    <link href="http://rob.by/2008/remove-my-bluetooth-places-from-your-desktop/"/>
     <updated>2008-01-02T12:44:50-05:00</updated>
-    <id>http://rob-by.herokuapp.com/2008/remove-my-bluetooth-places-from-your-desktop</id>
+    <id>http://rob.by/2008/remove-my-bluetooth-places-from-your-desktop</id>
     <content type="html"><![CDATA[<p>If you just installed WDM Bluetooth drivers, you'll find a new icon on your desktop. Unlike the others you've got, this one won't allow you to delete it. Luckily we can remove it with a bit of subterfuge. Here's how.<!--more--></p>
 
 <ol>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Finance | Robby Grossman]]></title>
-  <link href="http://rob-by.herokuapp.com/blog/categories/finance/atom.xml" rel="self"/>
-  <link href="http://rob-by.herokuapp.com/"/>
-  <updated>2012-07-01T03:54:29-04:00</updated>
-  <id>http://rob-by.herokuapp.com/</id>
+  <link href="http://rob.by/blog/categories/finance/atom.xml" rel="self"/>
+  <link href="http://rob.by/"/>
+  <updated>2012-07-01T13:24:41-04:00</updated>
+  <id>http://rob.by/</id>
   <author>
     <name><![CDATA[Robby Grossman]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[401k: Roth vs Pre-Tax]]></title>
-    <link href="http://rob-by.herokuapp.com/2007/401k-roth-vs-pre-tax/"/>
+    <link href="http://rob.by/2007/401k-roth-vs-pre-tax/"/>
     <updated>2007-08-14T17:10:56-04:00</updated>
-    <id>http://rob-by.herokuapp.com/2007/401k-roth-vs-pre-tax</id>
+    <id>http://rob.by/2007/401k-roth-vs-pre-tax</id>
     <content type="html"><![CDATA[<p>Not knowing which would serve me better, I made a spreadsheet to help me decide what to do.<!--more--></p>
 
 <p><img src="http://robby-blog.s3.amazonaws.com/2007/401k-roth-vs-pre-tax/401ksheet.jpg" alt="401k spreadsheet screen shot" /></p>

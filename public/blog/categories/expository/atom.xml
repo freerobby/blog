@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Expository | Robby Grossman]]></title>
-  <link href="http://rob-by.herokuapp.com/blog/categories/expository/atom.xml" rel="self"/>
-  <link href="http://rob-by.herokuapp.com/"/>
-  <updated>2012-07-01T03:54:29-04:00</updated>
-  <id>http://rob-by.herokuapp.com/</id>
+  <link href="http://rob.by/blog/categories/expository/atom.xml" rel="self"/>
+  <link href="http://rob.by/"/>
+  <updated>2012-07-01T13:24:41-04:00</updated>
+  <id>http://rob.by/</id>
   <author>
     <name><![CDATA[Robby Grossman]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Remembering Joe Paterno]]></title>
-    <link href="http://rob-by.herokuapp.com/2012/remembering-joe-paterno/"/>
+    <link href="http://rob.by/2012/remembering-joe-paterno/"/>
     <updated>2012-01-22T14:01:04-05:00</updated>
-    <id>http://rob-by.herokuapp.com/2012/remembering-joe-paterno</id>
+    <id>http://rob.by/2012/remembering-joe-paterno</id>
     <content type="html"><![CDATA[<p>Lots of people are upset about Joe Paterno's death right now. Lots of other people don't understand how anybody can be upset given his inactions amid the Sandusky scandal.</p>
 
 <p>I don't understand why people are so insistent on remembering Paterno in a particular light.<!--more--></p>
@@ -30,9 +30,9 @@
   
   <entry>
     <title type="html"><![CDATA[Helping Blogs Be Blogs]]></title>
-    <link href="http://rob-by.herokuapp.com/2010/helping-blogs-be-blogs/"/>
+    <link href="http://rob.by/2010/helping-blogs-be-blogs/"/>
     <updated>2010-12-31T10:07:16-05:00</updated>
-    <id>http://rob-by.herokuapp.com/2010/helping-blogs-be-blogs</id>
+    <id>http://rob.by/2010/helping-blogs-be-blogs</id>
     <content type="html"><![CDATA[<p>As Wordpress has evolved from a writing platform into a full-blown CMS, theme developers have followed suit by using big header images, multi-level navigation and dozens of widgets that make sites look bigger they actually are and more complex than they need to be. It's unclear to me how any of these things make blogs a better experience to read or authr. Do you click on tag clouds? Do you read embedded Twitter feeds? Do you browse old content by clicking on individual months listed under past years? For me, the answer to each of these questions is a resounding "no." Blog design has become superfluous and distracting.<!--more--></p>
 
 <p>Janet Aronica recently <a href="http://janetaronica.com/2010/11/05/social-media-if-i-started-today/">wrote</a> about what I believe is a side effect of this:</p>

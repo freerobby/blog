@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Business | Robby Grossman]]></title>
-  <link href="http://rob-by.herokuapp.com/blog/categories/business/atom.xml" rel="self"/>
-  <link href="http://rob-by.herokuapp.com/"/>
-  <updated>2012-07-01T03:54:29-04:00</updated>
-  <id>http://rob-by.herokuapp.com/</id>
+  <link href="http://rob.by/blog/categories/business/atom.xml" rel="self"/>
+  <link href="http://rob.by/"/>
+  <updated>2012-07-01T13:24:41-04:00</updated>
+  <id>http://rob.by/</id>
   <author>
     <name><![CDATA[Robby Grossman]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[For Two Quarters' Dividends, Apple Could Buy 77% of Netflix]]></title>
-    <link href="http://rob-by.herokuapp.com/2012/for-two-quarters-dividends-apple-could-buy-77-of-netflix/"/>
+    <link href="http://rob.by/2012/for-two-quarters-dividends-apple-could-buy-77-of-netflix/"/>
     <updated>2012-03-19T13:16:08-04:00</updated>
-    <id>http://rob-by.herokuapp.com/2012/for-two-quarters-dividends-apple-could-buy-77-of-netflix</id>
+    <id>http://rob.by/2012/for-two-quarters-dividends-apple-could-buy-77-of-netflix</id>
     <content type="html"><![CDATA[<p>Apple <a href="http://www.apple.com/pr/library/2012/03/19Apple-Announces-Plans-to-Initiate-Dividend-and-Share-Repurchase-Program.html">announced</a> today it would begin paying a $2.65 quarterly dividend.</p>
 
 <p>Cost of dividend: 932.4M shares outstanding * $2.65/quarter/share = <strong>$2.47B/quarter</strong></p>
@@ -34,9 +34,9 @@
   
   <entry>
     <title type="html"><![CDATA[Responding to Criticism]]></title>
-    <link href="http://rob-by.herokuapp.com/2011/responding-to-criticism/"/>
+    <link href="http://rob.by/2011/responding-to-criticism/"/>
     <updated>2011-05-17T10:00:13-04:00</updated>
-    <id>http://rob-by.herokuapp.com/2011/responding-to-criticism</id>
+    <id>http://rob.by/2011/responding-to-criticism</id>
     <content type="html"><![CDATA[<p>In 2006 I participated in <a href="http://www.nols.edu/courses/locations/alaska/aksemester.shtml">NOLS' Summer Semester in Alaska</a>, a 75-day kayaking, backpacking and mountaineering course, which helps students gain wilderness and leadership skills.</p>
 
 <p>A few days in I got my first review. I was a wreck. I packed my backpack as if I were paying homage to the Leaning Tower of Pisa. The most palatable meals I cooked were the ones that were burned beyond recognition. I might have been able to properly affix a rainfly to a tent, but I'll never know because nobody trusted me to keep their tent dry. You know that guy who played on your middle school basketball team who had great hustle and personality but couldn't make a layup? The guy the coach wanted to do well, but would never take chances with in the 4th quarter? That was me at the start of my first NOLS course.<!--more--></p>
@@ -57,9 +57,9 @@
   
   <entry>
     <title type="html"><![CDATA[Writing for People, Part 2]]></title>
-    <link href="http://rob-by.herokuapp.com/2011/writing-for-people-part-2/"/>
+    <link href="http://rob.by/2011/writing-for-people-part-2/"/>
     <updated>2011-04-18T00:03:22-04:00</updated>
-    <id>http://rob-by.herokuapp.com/2011/writing-for-people-part-2</id>
+    <id>http://rob.by/2011/writing-for-people-part-2</id>
     <content type="html"><![CDATA[<p>Last year I <a href="/2010/writing-for-people">wrote</a> about the importance of writing for people rather than search engines, two target audiences that often compete with each other on the web.</p>
 
 <p>A similar problem occurs when authors write for companies instead of people. I see this most at business-to-business companies, where the customer is another company rather than a human. It's important to remember that it's always a human who will be reading your copy.<!--more--></p>
@@ -81,9 +81,9 @@
   
   <entry>
     <title type="html"><![CDATA[Leadership]]></title>
-    <link href="http://rob-by.herokuapp.com/2011/leadership/"/>
+    <link href="http://rob.by/2011/leadership/"/>
     <updated>2011-02-10T10:29:31-05:00</updated>
-    <id>http://rob-by.herokuapp.com/2011/leadership</id>
+    <id>http://rob.by/2011/leadership</id>
     <content type="html"><![CDATA[<p>Leaders show themselves in various forms. There are rhetorical magicians (Barack Obama) and iconic revolutionaries (Steve Jobs). There are also workplace leaders - the silver-tongued employee who can articulate issues several steps beyond what others are thinking, or the clever, diligent coworker whose performance alone encourages others.</p>
 
 <p>Whatever the kind, leaders have three priceless skills: they're doers, they persuade, and they inspire.<!--more--></p>
@@ -126,9 +126,9 @@
   
   <entry>
     <title type="html"><![CDATA[Finding Technical Cofounders Is Hard]]></title>
-    <link href="http://rob-by.herokuapp.com/2010/finding-technical-cofounders-is-hard/"/>
+    <link href="http://rob.by/2010/finding-technical-cofounders-is-hard/"/>
     <updated>2010-08-17T10:18:25-04:00</updated>
-    <id>http://rob-by.herokuapp.com/2010/finding-technical-cofounders-is-hard</id>
+    <id>http://rob.by/2010/finding-technical-cofounders-is-hard</id>
     <content type="html"><![CDATA[<p>Yesterday, Michael Pope posted an article titled <a href="http://captainrecruiter.blogspot.com/2010/08/technical-co-founders-are-myth.html"><em>Technical Cofounders Are a Myth</em></a>. He argued that software engineers don't finish what they start, and that you're better off paying a technical person than partnering with one. His frustrations are valid and not uncommon, but his conclusions are way off base for a lot of reasons.<!--more--></p>
 
 <p>He begins by explaining how he arrived at his conclusion:</p>

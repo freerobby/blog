@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Reviews | Robby Grossman]]></title>
-  <link href="http://rob-by.herokuapp.com/blog/categories/reviews/atom.xml" rel="self"/>
-  <link href="http://rob-by.herokuapp.com/"/>
-  <updated>2012-07-01T03:54:29-04:00</updated>
-  <id>http://rob-by.herokuapp.com/</id>
+  <link href="http://rob.by/blog/categories/reviews/atom.xml" rel="self"/>
+  <link href="http://rob.by/"/>
+  <updated>2012-07-01T13:24:41-04:00</updated>
+  <id>http://rob.by/</id>
   <author>
     <name><![CDATA[Robby Grossman]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[First Impressions of the New iPad]]></title>
-    <link href="http://rob-by.herokuapp.com/2012/first-impressions-of-the-new-ipad/"/>
+    <link href="http://rob.by/2012/first-impressions-of-the-new-ipad/"/>
     <updated>2012-03-16T08:53:15-04:00</updated>
-    <id>http://rob-by.herokuapp.com/2012/first-impressions-of-the-new-ipad</id>
+    <id>http://rob.by/2012/first-impressions-of-the-new-ipad</id>
     <content type="html"><![CDATA[<p>I picked up "the new iPad" this morning. Here are my first impressions:<!--more--></p>
 
 <h2>Look &amp; Feel</h2>
@@ -47,9 +47,9 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
   
   <entry>
     <title type="html"><![CDATA[GarageBand Has Found Its Interface]]></title>
-    <link href="http://rob-by.herokuapp.com/2011/garageband-has-found-its-interface/"/>
+    <link href="http://rob.by/2011/garageband-has-found-its-interface/"/>
     <updated>2011-03-16T00:29:55-04:00</updated>
-    <id>http://rob-by.herokuapp.com/2011/garageband-has-found-its-interface</id>
+    <id>http://rob.by/2011/garageband-has-found-its-interface</id>
     <content type="html"><![CDATA[<p>This is what you can do with GarageBand for iPad in about 2 hours:</p>
 
 <p><video width='' height='' preload='none' controls poster=''><source src='http://robby-blog.s3.amazonaws.com/music/garage-band-jam.m4a' type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'/></video><!--more--></p>
@@ -116,9 +116,9 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
   
   <entry>
     <title type="html"><![CDATA[Review: Kinesis Advantage Keyboard]]></title>
-    <link href="http://rob-by.herokuapp.com/2010/review-kinesis-advantage-keyboard/"/>
+    <link href="http://rob.by/2010/review-kinesis-advantage-keyboard/"/>
     <updated>2010-05-06T09:00:27-04:00</updated>
-    <id>http://rob-by.herokuapp.com/2010/review-kinesis-advantage-keyboard</id>
+    <id>http://rob.by/2010/review-kinesis-advantage-keyboard</id>
     <content type="html"><![CDATA[<p>I recently replaced my work and home keyboards with the <a href="http://www.kinesis-ergo.com/advantage.htm">Kinesis Advantage</a>. These are my collected thoughts on it after two full months of daily use.<!--more--></p>
 
 <h2>Adjustment Period</h2>
@@ -172,9 +172,9 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
   
   <entry>
     <title type="html"><![CDATA[Thoughts on the Kindle]]></title>
-    <link href="http://rob-by.herokuapp.com/2009/thoughts-on-the-kindle/"/>
+    <link href="http://rob.by/2009/thoughts-on-the-kindle/"/>
     <updated>2009-12-24T12:25:22-05:00</updated>
-    <id>http://rob-by.herokuapp.com/2009/thoughts-on-the-kindle</id>
+    <id>http://rob.by/2009/thoughts-on-the-kindle</id>
     <content type="html"><![CDATA[<p>A week ago I purchased an Amazon Kindle. These are my initial impressions. I am using the <a href="http://www.amazon.com/dp/B0015T963C">6" Kindle</a> with the <a href="http://www.amazon.com/gp/help/customer/display.html?ie=UTF8&amp;nodeId=200324680">free 2.3 firmware update</a>.<!--more--></p>
 
 <h2>It's easy to use.</h2>
@@ -226,9 +226,9 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
   
   <entry>
     <title type="html"><![CDATA[My First Gig: a Self-Review]]></title>
-    <link href="http://rob-by.herokuapp.com/2006/my-first-gig-a-self-review/"/>
+    <link href="http://rob.by/2006/my-first-gig-a-self-review/"/>
     <updated>2006-10-06T03:13:28-04:00</updated>
-    <id>http://rob-by.herokuapp.com/2006/my-first-gig-a-self-review</id>
+    <id>http://rob.by/2006/my-first-gig-a-self-review</id>
     <content type="html"><![CDATA[<p>On Wednesday night at 8:30pm, I opened for Jake Armerding at the <em>Lyon's Den</em>, Wheaton College's student-run coffeehouse. It was my first public performance that wasn't an open mic. And it felt like it.</p>
 
 <p>I first realized how nervous I was when I picked up my water and took a sip. I wasn't trying to quench my thirst; I was trying to put off performing. I was doing everything I could think of to buy time.  Sip. Cough. Oops I lost my pick.  Check the mic levels. Again. Eventually I had to start.<!--more--></p>
