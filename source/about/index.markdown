@@ -8,7 +8,7 @@ sharing: false
 
 Hi, I'm Robby. I write mostly about startups and technology.
 
-I lead tech at [Shareaholic](http://shareaholic.com). I founded [PaperPhobic](http://paperphobic.com) and was previously a developer at [oneforty](http://oneforty).
+I lead tech at [Shareaholic](http://shareaholic.com). I founded [PaperPhobic](http://paperphobic.com) and was previously a developer at [oneforty](http://oneforty.com).
 
 I'm active [on Twitter](http://twitter.com/freerobby) and [github](http://github.com/freerobby).
 
