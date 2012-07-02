@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Technology | Robby Grossman]]></title>
   <link href="http://rob.by/blog/categories/technology/atom.xml" rel="self"/>
   <link href="http://rob.by/"/>
-  <updated>2012-07-01T13:43:39-04:00</updated>
+  <updated>2012-07-02T10:20:04-04:00</updated>
   <id>http://rob.by/</id>
   <author>
     <name><![CDATA[Robby Grossman]]></name>
@@ -12,6 +12,63 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[AWS Risk Mitigation Strategies]]></title>
+    <link href="http://rob.by/2012/aws-risk-mitigation-strategies/"/>
+    <updated>2012-07-02T10:05:00-04:00</updated>
+    <id>http://rob.by/2012/aws-risk-mitigation-strategies</id>
+    <content type="html"><![CDATA[<p>Even if you're not ready to roll your own hardware, there's a lot you can do to minimize your risk of downtime on AWS, and to mitigate the effects when it's unavoidable.<!-- more --></p>
+
+<h3>Plan for Brownouts Following Blackouts</h3>
+
+<p>Amazon <a href="http://status.aws.amazon.com/">emphasizes</a> that only "a single availability zone" suffered EC2 and EBS outages, but that is only half the story. The cascading effects that followed are equally important.</p>
+
+<p>For several hours on Friday night, I was unable to bring up a single instance in any of the five US-East availability zones. A commenter correctly <a href="http://news.ycombinator.com/item?id=4182137">pointed out</a> that this is what light utilization reserved instances are for, but in this case that would not have helped. The AWS web console was unreachable, as was the AWS API. I was eventually able to get an "insufficient capacity" error message, at which point a reserved instance may have been helpful, but that was hours later.</p>
+
+<p>I've confirmed that others had similar experiences. A source at a company with AWS Platinum Support told me that Amazon was throttling requests and the spawning of new instances in "unaffected" US-East availability zones. It sounds like a barrage of requests came in to launch new EC2 instances in these other availability zones, and Amazon was unable to support the demand.</p>
+
+<p>At <a href="http://shareaholic.com">Shareaholic</a> we determined a long time ago that implementing full redundancy was not worth the engineering cost. However, that was based on the assumption that if one availability zone went offline, we could bring up new instances in another one immediately to keep our core services operating. This proved to be a flawed assumption. We did not anticipate that the loss of one availability zone would create more demand than Amazon could handle in the other four.</p>
+
+<h3>Use Automated Infrastructure to Save Time and Headaches</h3>
+
+<p>Without exception, what saves me the most time recovering from an AWS outage is that our infrastructure stack is automated with Chef. Deploying new code or provisioning a new server requires only one terminal command.</p>
+
+<p>Automated infrastructure also provides an additional benefit: it serves as documentation for the configuration of every server. Not sure what your haproxy.cfg should look like? It's in Chef. Not sure how to setup your MySQL slave? It's in Chef.</p>
+
+<p>Whether you use Chef, Puppet, Rubber or homegrown deploy scripts, having an automated infrastructure stack saves you time and ensures that you aren't struggling to piece together a working config file at a critical moment.</p>
+
+<h3>Use Low TTL Values for Faster DNS Updates</h3>
+
+<p>At Shareaholic, we set a very low DNS TTL value (300 seconds) on our top level domain so that we can push out DNS updates within five minutes. Unfortunately, this is not 100% reliable: some ISPs do not enforce these low TTL values because they require more frequent fetching. Users of such ISPs resultantly see longer downtime than everybody else. Users whose ISPs react properly receive correct IP addresses within five minutes from when we push an update.</p>
+
+<p>This, combined with our use of Chef, is our best shot at restoring downed services in minutes rather than hours.</p>
+
+<h3>Use Virtualized Hardware, Not Services, to Reduce Risk of Outages</h3>
+
+<p>Amazon Web Services can be used either to virtualize raw hardware (EC2 instances with instance storage) or to virtualize core web services (ELB, EBS, RDS, etc.). This weekend's ELB, EBS and RDS failures demonstrate that you are at much greater risk of a service disruption if you use the latter. None of our instance storage EC2 instances suffered outages.</p>
+
+<p>For this reason, at Shareaholic, we've avoided using AWS' proprietary services whenever possible. Instead of using ELB, we run our own <a href="http://haproxy.1wt.eu/">HAProxy</a> load balancers. This has reliably fixed the problem of visitors getting directed to unresponsive instances when they go down. Unfortunately, it also means that we own the burden of implementing redundant load balancers. We got burned when the AWS API timed out, prohibiting us from reassigning our Elastic IP addresses to our redundant machines. However, we were still able to get our home-grown load balancers back up hours before Amazon resolved its ELB failures.</p>
+
+<p>We've rolled our own MySQL, Redis, MongoDB and Riak for the same reason. We still suffered downtime because we rely on EBS (which is something we'll work to avoid in the future), but our recovery efforts were made easier and more timely by the fact that we manage our data and load balancing stacks in-house.</p>
+
+<h3>Determine in Advance What Risks You're Willing to Take</h3>
+
+<p>My post-downtime debrief boils down to one question:</p>
+
+<p><em>Knowing what we know now, what engineering work would have been worth doing in advance to mitigate the downtime we just had?</em></p>
+
+<p>Usually my answer to this question is "none." This varies by business, but a few hours to a day of downtime per year is often less expensive than the engineering required to avoid it.</p>
+
+<h3>In Conclusion</h3>
+
+<p>Amazon Web Services is not one big service that stays up or goes down. It is comprised of many services of varying complexity. By understanding their individual reliabilities, organizations can engineer around many of AWS' shortcomings.</p>
+
+<p>Still, there's no silver bullet. When things do go wrong, the responsibility of recovery falls on you, the AWS customer. By determining in advance what risks you're willing to take, preparing your DNS for faster updates and automating the generation of your infrastructure, you can respond more quickly when you need to.</p>
+
+<p><em>Thanks to <a href="http://graysky.org">Mike Champion</a> and <a href="http://nirvdrum.com">Kevin Menard</a> for proofreading this post.</em></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[GarageBand Has Found Its Interface]]></title>
@@ -209,43 +266,6 @@
 <p>I never capitalized on any of this. The projects that people wanted me to do were too involved for what I had time for. Nobody wanted to pay me just to set up ArtPal; they wanted to pay me to set up, maintain and monitor an entire blog. But for me ArtPal was just a side project, and with a full time job I didn't have time to be a tech support guy for all of the people who wanted to use it.</p>
 
 <p>ArtPal was too small of a project to be made into a business under the GPL. But had I wanted to create a bigger business, ArtPal would have opened the doors to a larger client base.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Writing for People]]></title>
-    <link href="http://rob.by/2010/writing-for-people/"/>
-    <updated>2010-06-21T10:23:51-04:00</updated>
-    <id>http://rob.by/2010/writing-for-people</id>
-    <content type="html"><![CDATA[<p>Nearly all commercial web sites perform Search Engine Optimization (SEO), whereby they alter their site to be more Google-friendly, with the hope of receiving higher search rankings. Many of these changes are purely structural and invisible to users. For instance, using tags like &lt;h1&gt; or microformats like "hreview" can help Google make more sense of existing content without any changes being made to the text.</p>
-
-<p>Mature, profitable sites often take SEO to the next level by altering their visible content as well. In effect, they write their copy for machines instead of for people. From a user experience perspective, it shows. There is often an inherent conflict between what is best for a user and what is best for Google.<!--more--></p>
-
-<p>An instructive example of this came in a conversation I had with <a href="http://www.sachinagarwal.com">Sachin Agarwal</a> with respect to our page titles at oneforty. The title of our home page reads "Find the Best Twitter Apps." Sachin argued, correctly, that a better title for SEO purposes would be "Find the Best Twitter Apps <em>and Twitter Tools</em>" because it would match search queries for "twitter tools." I agree completely with his analysis, but I didn't want to make the change for a few reasons:</p>
-
-<ol>
-<li><p>It's redundant.</p></li>
-<li><p>It's more wordy.</p></li>
-<li><p>It would read "Find the Best Twitter Apps and..." in many browsers, which leaves the reader hanging.</p></li>
-<li><p>It provides no benefit to a user who is already on our site.</p></li>
-</ol>
-
-
-<p>Startups are different from the mature, profitable sites that can afford to play these SEO games in that they are more strictly about <a href="/2010/its-all-about-the-users/">solving users' problems and providing them optimal experiences</a>. Established companies, on the other hand, can make compelling business cases to diminish a user's experience in order to reach and help a greater number of people. I hope oneforty gets there some day, but until we do, I will tirelessly advocate for a user's experience over Google juice.</p>
-
-<p>For a more typical example of what I'm talking about, look at the <a href="http://tripadvisor.com">TripAdvisor</a> home page. An easy way to display hotels by city would be to have a heading called "Hotels" and under it list a bunch of cities. Any human could easily understand such a presentation. But TripAdvisor does something different:</p>
-
-<p><img src="http://robby-blog.s3.amazonaws.com/2010/writing-for-people/hotels.png" alt="TripAdvisor.com Hotels List" /></p>
-
-<p>Notice that it repeats the word "hotels" after each city, reading "Atlantic City hotels", "Boston hotels", "Chicago hotels", etc. It does this because it wants to rank highly in Google for queries like "Boston hotels." If it just used the word "Boston", Google wouldn't associate the link with content for a hotel (Google might be able to deduce this, but TripAdvisor doesn't want to leave that to chance). To Google this is highly descriptive content, but to a person it's cluttered and repetitive, using twice as much text as needed.</p>
-
-<p>Redundant headings are another common form of SEO-inspired messiness. Headings are heavily-weighted in search results, and so many sites overuse them and cram them with keywords. An example of this can be seen on <a href="http://www.yelp.com/c/cambridge-ma/restaurants">Yelp's "Cambridge Restaurants" page</a>. Look at all of these redundancies:</p>
-
-<p><img src="http://robby-blog.s3.amazonaws.com/2010/writing-for-people/yelp-screenshot.jpg" alt="Yelp Screenshot" /></p>
-
-<p>These phrase-based headings work wonders for Yelp's search rankings, but they make for a terrible user experience. There's no reason to tell me 9 times that I'm on the Cambridge Restaurants page when I'm the one who searched for restaurants in Cambridge. A title is fine; a heading is fine; but 9 of them is verbose and distracting. To make matters worse, the headings are all so similar that it's unclear which section actually contains what content. It's good for Google, but bad for people.</p>
-
-<p>Writing for people is about cleanliness and brevity. Writing for Google requires clutter and redundancy. Startups should write for their users because companies need to prove their value before they market it. Any startup that's writing for Google is getting ahead of itself.</p>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Startups | Robby Grossman]]></title>
   <link href="http://rob.by/blog/categories/startups/atom.xml" rel="self"/>
   <link href="http://rob.by/"/>
-  <updated>2012-07-01T13:43:39-04:00</updated>
+  <updated>2012-07-02T10:20:04-04:00</updated>
   <id>http://rob.by/</id>
   <author>
     <name><![CDATA[Robby Grossman]]></name>
@@ -12,6 +12,63 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[AWS Risk Mitigation Strategies]]></title>
+    <link href="http://rob.by/2012/aws-risk-mitigation-strategies/"/>
+    <updated>2012-07-02T10:05:00-04:00</updated>
+    <id>http://rob.by/2012/aws-risk-mitigation-strategies</id>
+    <content type="html"><![CDATA[<p>Even if you're not ready to roll your own hardware, there's a lot you can do to minimize your risk of downtime on AWS, and to mitigate the effects when it's unavoidable.<!-- more --></p>
+
+<h3>Plan for Brownouts Following Blackouts</h3>
+
+<p>Amazon <a href="http://status.aws.amazon.com/">emphasizes</a> that only "a single availability zone" suffered EC2 and EBS outages, but that is only half the story. The cascading effects that followed are equally important.</p>
+
+<p>For several hours on Friday night, I was unable to bring up a single instance in any of the five US-East availability zones. A commenter correctly <a href="http://news.ycombinator.com/item?id=4182137">pointed out</a> that this is what light utilization reserved instances are for, but in this case that would not have helped. The AWS web console was unreachable, as was the AWS API. I was eventually able to get an "insufficient capacity" error message, at which point a reserved instance may have been helpful, but that was hours later.</p>
+
+<p>I've confirmed that others had similar experiences. A source at a company with AWS Platinum Support told me that Amazon was throttling requests and the spawning of new instances in "unaffected" US-East availability zones. It sounds like a barrage of requests came in to launch new EC2 instances in these other availability zones, and Amazon was unable to support the demand.</p>
+
+<p>At <a href="http://shareaholic.com">Shareaholic</a> we determined a long time ago that implementing full redundancy was not worth the engineering cost. However, that was based on the assumption that if one availability zone went offline, we could bring up new instances in another one immediately to keep our core services operating. This proved to be a flawed assumption. We did not anticipate that the loss of one availability zone would create more demand than Amazon could handle in the other four.</p>
+
+<h3>Use Automated Infrastructure to Save Time and Headaches</h3>
+
+<p>Without exception, what saves me the most time recovering from an AWS outage is that our infrastructure stack is automated with Chef. Deploying new code or provisioning a new server requires only one terminal command.</p>
+
+<p>Automated infrastructure also provides an additional benefit: it serves as documentation for the configuration of every server. Not sure what your haproxy.cfg should look like? It's in Chef. Not sure how to setup your MySQL slave? It's in Chef.</p>
+
+<p>Whether you use Chef, Puppet, Rubber or homegrown deploy scripts, having an automated infrastructure stack saves you time and ensures that you aren't struggling to piece together a working config file at a critical moment.</p>
+
+<h3>Use Low TTL Values for Faster DNS Updates</h3>
+
+<p>At Shareaholic, we set a very low DNS TTL value (300 seconds) on our top level domain so that we can push out DNS updates within five minutes. Unfortunately, this is not 100% reliable: some ISPs do not enforce these low TTL values because they require more frequent fetching. Users of such ISPs resultantly see longer downtime than everybody else. Users whose ISPs react properly receive correct IP addresses within five minutes from when we push an update.</p>
+
+<p>This, combined with our use of Chef, is our best shot at restoring downed services in minutes rather than hours.</p>
+
+<h3>Use Virtualized Hardware, Not Services, to Reduce Risk of Outages</h3>
+
+<p>Amazon Web Services can be used either to virtualize raw hardware (EC2 instances with instance storage) or to virtualize core web services (ELB, EBS, RDS, etc.). This weekend's ELB, EBS and RDS failures demonstrate that you are at much greater risk of a service disruption if you use the latter. None of our instance storage EC2 instances suffered outages.</p>
+
+<p>For this reason, at Shareaholic, we've avoided using AWS' proprietary services whenever possible. Instead of using ELB, we run our own <a href="http://haproxy.1wt.eu/">HAProxy</a> load balancers. This has reliably fixed the problem of visitors getting directed to unresponsive instances when they go down. Unfortunately, it also means that we own the burden of implementing redundant load balancers. We got burned when the AWS API timed out, prohibiting us from reassigning our Elastic IP addresses to our redundant machines. However, we were still able to get our home-grown load balancers back up hours before Amazon resolved its ELB failures.</p>
+
+<p>We've rolled our own MySQL, Redis, MongoDB and Riak for the same reason. We still suffered downtime because we rely on EBS (which is something we'll work to avoid in the future), but our recovery efforts were made easier and more timely by the fact that we manage our data and load balancing stacks in-house.</p>
+
+<h3>Determine in Advance What Risks You're Willing to Take</h3>
+
+<p>My post-downtime debrief boils down to one question:</p>
+
+<p><em>Knowing what we know now, what engineering work would have been worth doing in advance to mitigate the downtime we just had?</em></p>
+
+<p>Usually my answer to this question is "none." This varies by business, but a few hours to a day of downtime per year is often less expensive than the engineering required to avoid it.</p>
+
+<h3>In Conclusion</h3>
+
+<p>Amazon Web Services is not one big service that stays up or goes down. It is comprised of many services of varying complexity. By understanding their individual reliabilities, organizations can engineer around many of AWS' shortcomings.</p>
+
+<p>Still, there's no silver bullet. When things do go wrong, the responsibility of recovery falls on you, the AWS customer. By determining in advance what risks you're willing to take, preparing your DNS for faster updates and automating the generation of your infrastructure, you can respond more quickly when you need to.</p>
+
+<p><em>Thanks to <a href="http://graysky.org">Mike Champion</a> and <a href="http://nirvdrum.com">Kevin Menard</a> for proofreading this post.</em></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Responding to Criticism]]></title>
@@ -153,21 +210,6 @@
 <p>A more appropriate conclusion to draw from Michael's experience, and one I see first-hand in the startup world every day, is that finding good cofounders is very difficult. One need only look at the necessary traits to find that the odds are stacked against the seeker: you need somebody you trust (ideally whom you know well), who shares your ambition, who complements your strengths, who compensates for your weaknesses, who is in a life position to take a big risk, and who is in a financial position to afford to take such a risk. Forget the haystack; you're looking for a needle in a field.</p>
 
 <p>Finding good <em>technical</em> cofounders is particularly difficult. This isn't because technical people are flakier or inherently less entrepreneurial; it's because by definition they have a narrower set of highly in-demand skills. They have lots of options because, for every one of them there are several "business people" trying to get their attention.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Chirp: Goals and Expectations]]></title>
-    <link href="http://rob.by/2010/on-chirp-goals-and-expectations/"/>
-    <updated>2010-04-14T09:29:03-04:00</updated>
-    <id>http://rob.by/2010/on-chirp-goals-and-expectations</id>
-    <content type="html"><![CDATA[<p>The kerfuffle between Twitter and its third party developers has been discussed, analyzed and debated ad nauseum over the past week. But aside from jokes of awkwardness, there has been surprisingly little talk about what it means for Chirp. What do third party developers want from the conference in light of recent events? What's a win for Twitter?<!--more--></p>
-
-<p>Outside developers must come away with an understanding of the brutal expectations Twitter faces as a company valued at over a billion dollars. Unlike most of the people building Twitter tools, Twitter is not a small business or a weekend hack project; it is an enterprise that is expected to justify the enormous investments it has received. That will require it to act like a business in ways it has chosen not to act in the past. Tweetie will not be the last acquisition, and the iPhone will not be the last internally supported platform. Twitter needs to make this absolutely clear to developers so that they understand the (arguably new) stakes and can choose their risks accordingly.</p>
-
-<p>Twitter needs to walk away with an understanding of what it must do to keep its developer community happy and thriving. I imagine that even the most cynical, closed view held within Twitter would concede that the company needs its outside developers, who add tremendous value by extending Twitter's features and providing new ideas and innovations.</p>
-
-<p>What I <em>don't</em> expect -- or want -- is to see the debate on corporate policy that we have witnessed over the last week. Love it or hate it, that is for Twitter to decide. What I want to see is a mutual recognition of self-interest and codependence between Twitter and its third party developers, and a better understanding of what both sides need to do to make the most of that relationship.</p>
 ]]></content>
   </entry>
   
