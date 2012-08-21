@@ -4,7 +4,7 @@ layout: page
 slug: artpal
 status: publish
 title: ArtPal
-wordpress_id: '242'
+comments: true
 ---
 
 ### Download
