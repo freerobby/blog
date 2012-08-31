@@ -4,7 +4,7 @@
   <title><![CDATA[Robby Grossman]]></title>
   <link href="http://rob.by/atom.xml" rel="self"/>
   <link href="http://rob.by/"/>
-  <updated>2012-08-21T00:45:30-04:00</updated>
+  <updated>2012-08-31T10:29:34-04:00</updated>
   <id>http://rob.by/</id>
   <author>
     <name><![CDATA[Robby Grossman]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Migrating to Riak at Shareaholic]]></title>
+    <link href="http://rob.by/2012/migrating-to-riak-at-shareaholic/"/>
+    <updated>2012-08-31T10:30:00-04:00</updated>
+    <id>http://rob.by/2012/migrating-to-riak-at-shareaholic</id>
+    <content type="html"><![CDATA[<p>Last night I presented &#8220;Migrating to Riak @Shareaholic&#8221; at the first <a href="http://www.meetup.com/Boston-Riak/events/77828202">Boston Riak meetup</a></p>
+
+<p>Below are my slides from the talk.</p>
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/14130056?rel=0" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen> </iframe>
+
+
+<p>One correction that I&#8217;ve updated in the slides: I mistakenly referenced Shareaholic using Hadoop MapReduce. Shareaholic uses Amazon&#8217;s Elastic MapReduce, which works similarly to Hadoop but is a separate implementation. My reference is intended only to distinguish it from Riak&#8217;s MapReduce implementation, which is substantially different.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[AWS Risk Mitigation Strategies]]></title>
@@ -690,45 +706,6 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
 <h2>Discussion</h2>
 
 <p>If you know of better ways to determine the source of &#8220;direct&#8221; traffic, please comment below or <a href="http://twitter.com/freerobby">send me a link on Twitter.</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[The Follower Myth]]></title>
-    <link href="http://rob.by/2010/the-follower-myth/"/>
-    <updated>2010-02-01T10:00:53-05:00</updated>
-    <id>http://rob.by/2010/the-follower-myth</id>
-    <content type="html"><![CDATA[<p>There is a widely held belief that you can tell how interesting a Twitter user is by the number of followers that he or she has. This is a flawed line of thinking.<!--more--></p>
-
-<p>There are two ways to look at follower counts as a tell of value:</p>
-
-<ol>
-<li><p>Look for a high followers:following ratio (f/F). The rationale here is that others have subscribed to this person&#8217;s content without said person having to follow them back, so what this person is saying must be interesting.</p></li>
-<li><p>Look for a high number of total followers (f). The thinking here is that if thousands or millions of people are reading what somebody says, you&#8217;ll want to read his or her tweets, too.</p></li>
-</ol>
-
-
-<p>Both of these cases are premised on faulty logic.</p>
-
-<p>The first case is particularly bad in that it punishes those users who engage more heavily with other Twitter users. @scobleizer follows some 17,000+ companies, developers and other tech-minded folks, and actually reads what they say. I know this because I&#8217;m one of them, and he has replied to me on several occasions. @pistachio follows all 45,000+ users who follow her so that they have the option to direct message her. If you subscribe to the (f/F) theory, you are effectively punishing people like @scobleizer and @pistachio for being in tune with their readers.</p>
-
-<p>The second case is not much better. Let&#8217;s say I&#8217;m looking to find some amusing folks in the entertainment industry to follow. Twitter&#8217;s <a href="http://twitter.com/invitations/suggestions/entertainment">Suggested User List</a> (SUL) points me to @DENISE_RICHARDS, who has 1.5M followers. I don&#8217;t know much about her, but the (f) theory tells me that since she has 1.5M followers, she is probably worth checking out. I click on her profile to find her most recent tweet (at the time of this writing):</p>
-
-<blockquote><p>girls and I have a beauty appt with Richard @seCoiffer’ today. time for us all to get a hair trim!</p></blockquote>
-
-<p>I glanced at a few of her other tweets; this was not an anomaly. This might be read-worthy stuff for 1.5 million people, but it doesn&#8217;t play to my interests.</p>
-
-<p>I had the same problem in other categories, too. Let&#8217;s look at an area where one should expect a little more substance: politics. Among users with 25,000+ followers, the most interesting to me were @andersoncooper (439,024 followers), @politico (32,286), @HuffPolitics (33,325) and @Drudge_Report (52,202). But in my opinion, none of them offer nearly as good reporting, analysis or commentary as @marcambinder (11,065), @attackerman (4,057) or @ezraklein (12,072). And certainly none of them entertain me as much as @daveweigel (5,543).</p>
-
-<p>The lesson here is that there is no correlation between a user&#8217;s popularity and a user&#8217;s interest to me. Following is a personal decision, and relying on f or f/F will provide a crowdsourced answer rather than a personalized one.</p>
-
-<p>Another problem with both of these statistics is that as Twitter gains more users, it also gains more spammers, automated accounts and follower farms. Mashable <a href="http://mashable.com/2009/08/06/twitter-bots/">reports</a> that as of last August, 24% of all tweets are generated by robots. On Sunday, TechCrunch <a href="http://www.techcrunch.com/2010/01/31/twitter-followers-ebay-penny/">showcased</a> hard evidence that followers can be purchased for fractions of a penny. The same piece states:</p>
-
-<blockquote><p>another method we&#8217;ve heard about anecdotally uses cheap labor in China to create Twitter Follower farms (similar to the gold farms that grew around online games like World of Warcraft). Online laborers in China essentially create thousands of Twitter accounts which can then follow other accounts.</p></blockquote>
-
-<p>Other games are also played to garner followers. Look at this <a href="http://www.google.com/search?sourceid=chrome&amp;ie=UTF-8&amp;q=twitter+followers">Google search for &#8220;twitter followers&#8221;</a> or recall that @jason once <a href="http://www.techcrunch.com/2009/03/12/how-much-is-a-suggested-slot-on-twitter-worth-jason-calacanis-offers-250000/">offered $250,000 to be placed on Twitter&#8217;s Suggested User List</a> (a quick way to get hundreds of thousands of followers). Follower counts are easy to manipulate and not indicative of tweet quality.</p>
-
-<p>When making a &#8220;should I follow?&#8221; decision, I judge based on the user&#8217;s bio and prior tweets. I decide for myself whether or not I have a personal interest in what the person says. I would never defer this qualitative judgment to a statistic.</p>
 ]]></content>
   </entry>
   

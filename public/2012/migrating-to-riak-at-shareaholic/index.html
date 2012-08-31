@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>It's All About the Users - Robby Grossman</title>
+  <title>Migrating to Riak at Shareaholic - Robby Grossman</title>
   <meta name="author" content="Robby Grossman">
 
   
-  <meta name="description" content="What I love most about working at a startup is how close I am to the people I&#8217;m serving. Almost every task I work on directly benefits our &hellip;">
+  <meta name="description" content="Last night I presented &#8220;Migrating to Riak @Shareaholic&#8221; at the first Boston Riak meetup Below are my slides from the talk. One correction &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://rob.by/2010/its-all-about-the-users/">
+  <link rel="canonical" href="http://rob.by/2012/migrating-to-riak-at-shareaholic/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -90,7 +90,7 @@
   
   <header>
     
-      <h1 class="entry-title">It's All About the Users</h1>
+      <h1 class="entry-title">Migrating to Riak at Shareaholic</h1>
     
     
       <p class="meta">
@@ -106,7 +106,7 @@
   
 
 
-<time datetime="2010-01-14T10:00:39-05:00" pubdate data-updated="true">Jan 14<span>th</span>, 2010</time>
+<time datetime="2012-08-31T10:30:00-04:00" pubdate data-updated="true">Aug 31<span>st</span>, 2012</time>
         
          | <a href="#disqus_thread">Comments</a>
         
@@ -115,17 +115,14 @@
   </header>
 
 
-<div class="entry-content"><p>What I love most about working at a startup is how close I am to the people I&#8217;m serving. Almost every task I work on directly benefits our customers. And working at a web startup means I can deliver that benefit as soon as it&#8217;s built.<!--more--></p>
+<div class="entry-content"><p>Last night I presented &#8220;Migrating to Riak @Shareaholic&#8221; at the first <a href="http://www.meetup.com/Boston-Riak/events/77828202">Boston Riak meetup</a></p>
 
-<p>A lack of customer interaction yielded many frustrations at my previous job, where I was part of an enterprise SDK team. I was separated from my users. Requirements were set by product managers; testing was done by quality assurance; feedback came from division heads. User interaction was not part of our process. I did have coworkers who were very much involved with their users, but they were a limited breed. They tended to be designers, managers or developers of the bottom (user-facing) layer of the stack.</p>
+<p>Below are my slides from the talk.</p>
 
-<p>I say all of this without issuing criticism. Pairing up customers with developers can be exceedingly difficult in an enterprise setting. We&#8217;re not talking about a web app and a site visitor; we&#8217;re talking about a multi-layered technology stack and a user of a derivative work. For instance, if I&#8217;m working on a module inside an SDK that goes inside a search engine that is customized in a workbench and appears in a dashboard, when is a dashboard user one of my users? This example is not contrived to prove a point; I was the developer in this very instance. The difficulties get even tougher when it comes time to translate the dashboard requirements into SDK requirements. These were complicated problems that dealt with several layers of our technology stack, and product management was a necessary arbiter.</p>
+<iframe src="http://www.slideshare.net/slideshow/embed_code/14130056?rel=0" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen> </iframe>
 
-<p>The question is: at what point in the customer interaction process should product management step back and let developers take over? The answer is: as soon as possible. As soon as a user&#8217;s problem can be mapped to a particular developer (or a module for which a particular developer is responsible), product management should get out of the way. At this time the developer should consult directly with the customer.</p>
 
-<p>There are two reasons for this. The first is that it reduces confusion. When there is a chain between the customer and the developer, every link is a filter that obfuscates the customer&#8217;s needs. When I speak directly with a user, the odds of my understanding the user&#8217;s problem are very high. Those odds are dramatically reduced by each person placed between us.</p>
-
-<p>The other benefit is motivation. I cut code because I enjoy solving problems that make people&#8217;s lives easier or more enjoyable. Seeing such a problem first hand inspires me to solve it. There is a strong correlation between motivation and productivity, and letting developers interact with customers is an easy and efficient way to boost both. The customer wins, the company wins, the developer wins.</p>
+<p>One correction that I&#8217;ve updated in the slides: I mistakenly referenced Shareaholic using Hadoop MapReduce. Shareaholic uses Amazon&#8217;s Elastic MapReduce, which works similarly to Hadoop but is a separate implementation. My reference is intended only to distinguish it from Riak&#8217;s MapReduce implementation, which is substantially different.</p>
 </div>
 
 
@@ -148,12 +145,12 @@
   
 
 
-<time datetime="2010-01-14T10:00:39-05:00" pubdate data-updated="true">Jan 14<span>th</span>, 2010</time>
+<time datetime="2012-08-31T10:30:00-04:00" pubdate data-updated="true">Aug 31<span>st</span>, 2012</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/business/'>Business</a>, <a class='category' href='/blog/categories/startups/'>Startups</a>, <a class='category' href='/blog/categories/technology/'>Technology</a>
+    <a class='category' href='/blog/categories/technology/'>Technology</a>
   
 </span>
 
@@ -163,7 +160,7 @@
       <div class="sharing">
   <p>If you took something from this page, please consider sharing it.</p>
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-text="It's All About the Users by @freerobby:" data-url="http://rob.by/2010/its-all-about-the-users/" data-counturl="http://rob.by/2010/its-all-about-the-users/" data-related="freerobby">Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-text="Migrating to Riak at Shareaholic by @freerobby:" data-url="http://rob.by/2012/migrating-to-riak-at-shareaholic/" data-counturl="http://rob.by/2012/migrating-to-riak-at-shareaholic/" data-related="freerobby">Tweet</a>
   
   
   
@@ -174,10 +171,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/2009/thoughts-on-the-kindle/" title="Previous Post: Thoughts on the Kindle">&laquo; Thoughts on the Kindle</a>
+        <a class="basic-alignment left" href="/2012/aws-risk-mitigation-strategies/" title="Previous Post: AWS Risk Mitigation Strategies">&laquo; AWS Risk Mitigation Strategies</a>
       
-      
-        <a class="basic-alignment right" href="/2010/the-follower-myth/" title="Next Post: The Follower Myth">The Follower Myth &raquo;</a>
       
     </p>
   </footer>
@@ -243,8 +238,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://rob.by/2010/its-all-about-the-users/';
-        var disqus_url = 'http://rob.by/2010/its-all-about-the-users/';
+        var disqus_identifier = 'http://rob.by/2012/migrating-to-riak-at-shareaholic/';
+        var disqus_url = 'http://rob.by/2012/migrating-to-riak-at-shareaholic/';
         var disqus_script = 'embed.js';
       
     (function () {
