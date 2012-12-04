@@ -43,15 +43,6 @@
   </script>
 
 
-  <script type="text/javascript">
-(function() {
-	var dgh = document.createElement('script');
-	dgh.type = 'text/javascript';
-	dgh.async = true;
-	dgh.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'dtym7iokkjlif.cloudfront.net/dough/1.0/recipe.js';var s = document.getElementsByTagName('script')[0]; 
-	s.parentNode.insertBefore(dgh, s);
-})();
-</script>
 </head>
 
 <body   >
@@ -324,6 +315,25 @@
 
 
 
+
+<script type="text/javascript">
+//<![CDATA[
+  (function() {
+    var shr = document.createElement('script');
+    shr.src = '//dtym7iokkjlif.cloudfront.net/assets/pub/shareaholic.js';
+    shr.type = 'text/javascript';
+    shr.async = 'true';
+    shr.onload = shr.onreadystatechange = function() {
+      var rs = this.readyState;
+      if (rs && rs != 'complete' && rs != 'loaded') return;
+      var apikey = 'a70ecdba30862eccb66258c8a83d50b4'
+      try { Shareaholic.init(apikey); } catch (e) {}
+    };
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(shr, s);
+  })();
+//]]>
+</script>
 
 
 </body>
