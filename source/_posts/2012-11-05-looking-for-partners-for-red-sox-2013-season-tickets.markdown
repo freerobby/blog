@@ -4,6 +4,7 @@ title: "Looking for Partners for Red Sox 2013 Season Tickets"
 date: 2012-11-06 10:00
 comments: true
 categories: [Sports]
+published: false
 ---
 
 I'm looking for partners for my 2013 Red Sox season ticket share. If you're interested in going to Red Sox games next year, and you don't want to pay the box office fees, fill out the form and I'll be in touch.<!--more-->

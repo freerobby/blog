@@ -4,7 +4,7 @@
   <title><![CDATA[Robby Grossman]]></title>
   <link href="http://rob.by/atom.xml" rel="self"/>
   <link href="http://rob.by/"/>
-  <updated>2012-12-04T16:57:19-05:00</updated>
+  <updated>2012-12-15T00:55:25-05:00</updated>
   <id>http://rob.by/</id>
   <author>
     <name><![CDATA[Robby Grossman]]></name>
@@ -12,26 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Looking for Partners for Red Sox 2013 Season Tickets]]></title>
-    <link href="http://rob.by/2012/looking-for-partners-for-red-sox-2013-season-tickets/"/>
-    <updated>2012-11-06T10:00:00-05:00</updated>
-    <id>http://rob.by/2012/looking-for-partners-for-red-sox-2013-season-tickets</id>
-    <content type="html"><![CDATA[<p>I&#8217;m looking for partners for my 2013 Red Sox season ticket share. If you&#8217;re interested in going to Red Sox games next year, and you don&#8217;t want to pay the box office fees, fill out the form and I&#8217;ll be in touch.<!--more--></p>
-
-<p>The seats are subject to change, but are currently infield grandstand, sec. 29, row 3 (behind third base). These seats are rain-covered, in the shade, and are not &#8220;obstructed view.&#8221; However like most of the grandstands, there is a pole in view. Luckily we have a clear shot of the entire infield:</p>
-
-<p><img src="http://robby-blog.s3.amazonaws.com/2012/looking-for-partners-for-red-sox-2013-season-tickets/smugshot2354143-M.jpg" alt="" /></p>
-
-<p><img src="http://robby-blog.s3.amazonaws.com/2012/looking-for-partners-for-red-sox-2013-season-tickets/smugshot2783330-M.jpg" alt="" /></p>
-
-<p>Each game is $95; that price includes both of the two seats.</p>
-
-<iframe src="https://docs.google.com/a/freerobby.com/spreadsheet/embeddedform?formkey=dG1oVDZNUm5GX3JidTQ4aEJGVVhXLXc6MQ" width="340" height="540"></iframe>
-
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[Migrating to Riak at Shareaholic]]></title>
@@ -103,34 +83,6 @@
 <p>Still, there&#8217;s no silver bullet. When things do go wrong, the responsibility of recovery falls on you, the AWS customer. By determining in advance what risks you&#8217;re willing to take, preparing your DNS for faster updates and automating the generation of your infrastructure, you can respond more quickly when you need to.</p>
 
 <p><em>Thanks to <a href="http://graysky.org">Mike Champion</a> and <a href="http://nirvdrum.com">Kevin Menard</a> for proofreading this post.</em></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Red Sox Tickets for Sale]]></title>
-    <link href="http://rob.by/2012/red-sox-tickets-for-sale/"/>
-    <updated>2012-05-17T00:16:52-04:00</updated>
-    <id>http://rob.by/2012/red-sox-tickets-for-sale</id>
-    <content type="html"><![CDATA[<p>Good news for me: I got the option to buy a Red Sox ticket package!</p>
-
-<p>Good news for you: I don&#8217;t need all the games, and I&#8217;d rather hook up friends, family and acquaintances than deal with Stubhub, Craigslist, etc.<!--more--></p>
-
-<p>All tickets will be sold at face value ($104/game, includes both tickets).</p>
-
-<p>For each game I have 2 seats in Infield Grandstand 29, Row 3.</p>
-
-<p>Disclaimer: part of the outfield (left or center, depending on the seat) is blocked by a pole from these seats. This is fairly typical for grandstands at Fenway, and these tickets are not considered &#8220;obstructed view&#8221; seats by the Red Sox, but if following outfield fly balls is mission critical for you, or if a pole in your peripheral will drive you nuts, these are not the seats for you. On the other hand if having a close view of the infield with full rain protection sounds good, these are tough to beat value-wise. The photos below describe better than words, but I wanted to add a written disclaimer just to be safe.</p>
-
-<p>The following photos were taken from the seat on the right:</p>
-
-<p><img src="http://robby-blog.s3.amazonaws.com/2012/red-sox-tickets-for-sale/smugshot2354143-M.jpg" alt="" /></p>
-
-<p><img src="http://robby-blog.s3.amazonaws.com/2012/red-sox-tickets-for-sale/smugshot2783330-M.jpg" alt="" /></p>
-
-<p>Please use this form to request seats to games that you&#8217;re interested in:</p>
-
-<iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dDAxTUYxbm1YMkJLZmJLLWdPWW5SX2c6MQ" width="600" height="710"></iframe>
-
 ]]></content>
   </entry>
   
@@ -659,6 +611,112 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
 <p>This logic has ramifications greater than its stated thesis. It&#8217;s not that Apple doesn&#8217;t want &#8220;some other company&#8221; to establish a higher level language standard; it&#8217;s that Apple doesn&#8217;t want <em>any</em> company to do that &#8211; including Apple. The reasoning is the same: if Apple were to allow developers to write iPhone apps using MacRuby (i.e. Ruby 1.9), there would be nothing to stop those apps from being moved to other mobile platforms that also support Ruby.</p>
 
 <p>Update April 11, 2010: After speaking with a couple of other developers about this, I think the above syllogism may not hold. If MacRuby is tied intimately to the operating system such that it literally maps API call to API call, then porting a MacRuby app to another platform would not be trivial. Instead, it would likely require a middle (&#8220;higher level&#8221;) layer, which is already banned by the new section 3.3.1. In this case, native MacRuby apps could be written under the current agreement, and this would not allow such apps to be easily ported to other platforms.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Twitter, Facebook and Viral Traffic]]></title>
+    <link href="http://rob.by/2010/twitter-facebook-and-viral-traffic/"/>
+    <updated>2010-04-07T10:00:44-04:00</updated>
+    <id>http://rob.by/2010/twitter-facebook-and-viral-traffic</id>
+    <content type="html"><![CDATA[<p>On the evening of the House health care reform vote, I built  <a href="http://didtheypasshealthcarereform.com">didtheypasshealthcarereform.com</a>, a single serve site, to report the status of the bill. Prior to the vote it read &#8220;no.&#8221; After the bill&#8217;s passage it read &#8220;yes!,&#8221; and celebrated the occasion with randomly-placed animated unicorns (courtesy of <a href="http://cornify.com/">Cornify</a>).</p>
+
+<p>I posted links to the site on my Twitter and Facebook accounts. As soon as the bill passed, traffic skyrocketed. 48 hours later, the dust settled. <!--more--> A quick glance at visitors per day shows how quickly the site gained and lost steam:</p>
+
+<p><img src="http://robby-blog.s3.amazonaws.com/2010/twitter-facebook-and-viral-traffic/dashboard.png" alt="Dashboard" /></p>
+
+<h2>Sources of Traffic</h2>
+
+<p>Google Analytics tallied the following:</p>
+
+<ul>
+<li><p>&#8220;Direct&#8221; (non-referral) traffic lead the way, providing 39% of all traffic.</p></li>
+<li><p>Facebook.com provided 30%, the most of any single domain.</p></li>
+<li><p>Twitter.com placed a distant second, providing just over 6.5%.</p></li>
+</ul>
+
+
+<h2>Analysis of Traffic</h2>
+
+<p>According to <a href="http://siteanalytics.compete.com/facebook.com+twitter.com/">the latest compete.com numbers</a>, Facebook.com gets 6.00 times more traffic than Twitter.com does (as of February &#8216;10). Theoretically, then, Facebook.com should drive six times as many visitors as Twitter.com.</p>
+
+<p>In reality that multiplier was 4.6, 24% less than expected. In other words, when normalized for total traffic, Twitter.com was over 30% more effective at driving traffic than Facebook.com was. (If that math confuses you, recall that 4 is 20% less than 5, but 5 is 25% more than 4; if that doesn&#8217;t make sense, don&#8217;t worry, the math is not what&#8217;s important).</p>
+
+<p>What&#8217;s important is that a Twitter.com user looking at a tweet was 30% more likely follow its link than a Facebook.com user looking at a status update.</p>
+
+<p>But that&#8217;s just the tip of the iceberg. Most Twitter users aren&#8217;t on Twitter.com; they&#8217;re using Twitter clients like Tweetie, TweetDeck and Twhirl. Click-throughs from these users show up not as Twitter.com referrals, but as &#8220;direct&#8221; traffic. And this direct traffic made up 40% of the total traffic.</p>
+
+<p>There&#8217;s a caveat: direct traffic is also generated the traditional way, by people typing &#8220;d-i-d-t-h-e-y-p-a-s-s-h-e-a-l-t-h-c-a-r-e-r-e-f-o-r-m-.-c-o-m&#8221; into the address bar in browsers. Unfortunately there is no method to distinguish these users from Twitter client users. There are, however, a few ways to make educated guesses at the comparative numbers. Each of these methods gives Twitter-driven  traffic estimates an enormous boost.</p>
+
+<p>The first way to guess, perhaps least appealing to statisticians and most appealing to philosophers, is simply to think about what makes sense. It makes very little sense for a  brand new web site to receive 40% of its hits from people typing the URL  into the address bar. This would be plausible for Google, but not for a budding web meme that did not exist a week earlier.</p>
+
+<p><img src="http://robby-blog.s3.amazonaws.com/2010/twitter-facebook-and-viral-traffic/all_direct_traffic_from_twitter.png" alt="All traffic from Twitter" /></p>
+
+<p>Didtheypasshealthcarereform.com received 85% of its traffic in a span of less  than 48 hours. Visitors had little if any time to commit the URL to memory and check up on it. One method, therefore, is to attribute all of the direct traffic to Twitter. This  has Twitter driving 45% of didtheypasshealthcarereform.com&#8217;s  total traffic.</p>
+
+<p><img src="http://robby-blog.s3.amazonaws.com/2010/twitter-facebook-and-viral-traffic/65_of_direct_traffic_from_twitter.png" alt="65% of direct traffic from Twitter" /></p>
+
+<p>The second way to guess is to look at other sites. One web site I run that doesn&#8217;t deal with Twitter in any capacity receives 13% of its traffic &#8220;directly.&#8221; Another receives 14.1%. If these numbers are typical for non-Twitter &#8220;direct&#8221; traffic,  then over 65% of the &#8220;direct&#8221; traffic to didtheypasshealthcarereform.com came from Twitter, putting the total percentage from Twitter above 32%. I suspect the real percentage from Twitter is even greater, because sites earn more direct traffic as they age, and the other two sites are much older than didtheypasshealthcarereform.com.</p>
+
+<p><img src="http://robby-blog.s3.amazonaws.com/2010/twitter-facebook-and-viral-traffic/direct_twitter_traffic_3-5x_twitter_com_traffic.png" alt="3-5x Twitter.com traffic" /></p>
+
+<p>The final way to guess is to look at other people&#8217;s numbers. Fred Wilson, with the help of John Borthwick, <a href="http://www.avc.com/a_vc/2010/01/twittercom-vs-the-twitter-ecosystem.html">argues</a> that  direct traffic from Twitter is between three and five times that from Twitter.com. This range implies that Twitter drove between 26% and 35% of didtheypasshealthcarereform.com&#8217;s total traffic. Splitting the difference comes to 30.5%.</p>
+
+<p>Whether you believe Twitter brought 30.5%, 32% or 45% of didtheypasshealthcarereform.com&#8217;s traffic, the conclusion remains the same: not only did Twitter win the  battle of relative numbers; Twitter drove more total traffic to the site than Facebook did.</p>
+
+<h2>Fun Facts</h2>
+
+<ul>
+<li><p>3 out of 5 visitors refreshed the site while visiting it.</p></li>
+<li><p>1 in 8 users returned to the site after his or her initial visit.</p></li>
+<li><p>Over 1,000,000 colored unicorns appeared on users&#8217; monitors.</p></li>
+<li><p>I used <a href="https://rowfeeder.com/">RowFeeder</a> to track what people  said about the site on Twitter. Over the course of 48 hours, 1200  Twitterers linked to it. That number does not include  tweets that used URL shorteners like bit.ly or awe.sm. I&#8217;ve published  the complete set of Twitter mentions of the domain name from March 21 to  March 29 <a href="http://spreadsheets.google.com/pub?key=tkgH7yyawLVdhDQjycl7kiQ&amp;single=true&amp;gid=0&amp;output=html">here</a>.</p></li>
+<li><p><a href="http://voices.washingtonpost.com/44/2010/03/at-single-serving-health-care.html">The Washington Post</a> published an article on the site, but it brought in only 1/2 of 1% of all traffic.</p></li>
+</ul>
+
+
+<h2>Discussion</h2>
+
+<p>If you know of better ways to determine the source of &#8220;direct&#8221; traffic, please comment below or <a href="http://twitter.com/freerobby">send me a link on Twitter.</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Follower Myth]]></title>
+    <link href="http://rob.by/2010/the-follower-myth/"/>
+    <updated>2010-02-01T10:00:53-05:00</updated>
+    <id>http://rob.by/2010/the-follower-myth</id>
+    <content type="html"><![CDATA[<p>There is a widely held belief that you can tell how interesting a Twitter user is by the number of followers that he or she has. This is a flawed line of thinking.<!--more--></p>
+
+<p>There are two ways to look at follower counts as a tell of value:</p>
+
+<ol>
+<li><p>Look for a high followers:following ratio (f/F). The rationale here is that others have subscribed to this person&#8217;s content without said person having to follow them back, so what this person is saying must be interesting.</p></li>
+<li><p>Look for a high number of total followers (f). The thinking here is that if thousands or millions of people are reading what somebody says, you&#8217;ll want to read his or her tweets, too.</p></li>
+</ol>
+
+
+<p>Both of these cases are premised on faulty logic.</p>
+
+<p>The first case is particularly bad in that it punishes those users who engage more heavily with other Twitter users. @scobleizer follows some 17,000+ companies, developers and other tech-minded folks, and actually reads what they say. I know this because I&#8217;m one of them, and he has replied to me on several occasions. @pistachio follows all 45,000+ users who follow her so that they have the option to direct message her. If you subscribe to the (f/F) theory, you are effectively punishing people like @scobleizer and @pistachio for being in tune with their readers.</p>
+
+<p>The second case is not much better. Let&#8217;s say I&#8217;m looking to find some amusing folks in the entertainment industry to follow. Twitter&#8217;s <a href="http://twitter.com/invitations/suggestions/entertainment">Suggested User List</a> (SUL) points me to @DENISE_RICHARDS, who has 1.5M followers. I don&#8217;t know much about her, but the (f) theory tells me that since she has 1.5M followers, she is probably worth checking out. I click on her profile to find her most recent tweet (at the time of this writing):</p>
+
+<blockquote><p>girls and I have a beauty appt with Richard @seCoiffer’ today. time for us all to get a hair trim!</p></blockquote>
+
+<p>I glanced at a few of her other tweets; this was not an anomaly. This might be read-worthy stuff for 1.5 million people, but it doesn&#8217;t play to my interests.</p>
+
+<p>I had the same problem in other categories, too. Let&#8217;s look at an area where one should expect a little more substance: politics. Among users with 25,000+ followers, the most interesting to me were @andersoncooper (439,024 followers), @politico (32,286), @HuffPolitics (33,325) and @Drudge_Report (52,202). But in my opinion, none of them offer nearly as good reporting, analysis or commentary as @marcambinder (11,065), @attackerman (4,057) or @ezraklein (12,072). And certainly none of them entertain me as much as @daveweigel (5,543).</p>
+
+<p>The lesson here is that there is no correlation between a user&#8217;s popularity and a user&#8217;s interest to me. Following is a personal decision, and relying on f or f/F will provide a crowdsourced answer rather than a personalized one.</p>
+
+<p>Another problem with both of these statistics is that as Twitter gains more users, it also gains more spammers, automated accounts and follower farms. Mashable <a href="http://mashable.com/2009/08/06/twitter-bots/">reports</a> that as of last August, 24% of all tweets are generated by robots. On Sunday, TechCrunch <a href="http://www.techcrunch.com/2010/01/31/twitter-followers-ebay-penny/">showcased</a> hard evidence that followers can be purchased for fractions of a penny. The same piece states:</p>
+
+<blockquote><p>another method we&#8217;ve heard about anecdotally uses cheap labor in China to create Twitter Follower farms (similar to the gold farms that grew around online games like World of Warcraft). Online laborers in China essentially create thousands of Twitter accounts which can then follow other accounts.</p></blockquote>
+
+<p>Other games are also played to garner followers. Look at this <a href="http://www.google.com/search?sourceid=chrome&amp;ie=UTF-8&amp;q=twitter+followers">Google search for &#8220;twitter followers&#8221;</a> or recall that @jason once <a href="http://www.techcrunch.com/2009/03/12/how-much-is-a-suggested-slot-on-twitter-worth-jason-calacanis-offers-250000/">offered $250,000 to be placed on Twitter&#8217;s Suggested User List</a> (a quick way to get hundreds of thousands of followers). Follower counts are easy to manipulate and not indicative of tweet quality.</p>
+
+<p>When making a &#8220;should I follow?&#8221; decision, I judge based on the user&#8217;s bio and prior tweets. I decide for myself whether or not I have a personal interest in what the person says. I would never defer this qualitative judgment to a statistic.</p>
 ]]></content>
   </entry>
   
