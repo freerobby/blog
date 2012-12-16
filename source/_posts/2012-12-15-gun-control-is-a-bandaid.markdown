@@ -6,7 +6,7 @@ comments: true
 categories: [Politics]
 ---
 
-I understand the outrage over gun laws right now, but gun control is distracting us from a bigger problem: **we don’t treat mental illness in this country**.<!--more-->
+I understand the outrage over gun laws right now, but gun control is distracting us from a bigger problem: **too many of our citizens are inspired to commit acts of violence**.<!--more-->
 
 Gun control is a bandaid. What do you do when you get cut? You put on a bandaid. But what would you do if you got cut regularly and repeatedly? Would you single-handedly keep Johnson & Johnson in business for decades? No, you'd think "Hey, I keep cutting myself! I should stop cutting myself!"
 
