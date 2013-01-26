@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Technology | Robby Grossman]]></title>
   <link href="http://rob.by/blog/categories/technology/atom.xml" rel="self"/>
   <link href="http://rob.by/"/>
-  <updated>2012-12-15T20:05:25-05:00</updated>
+  <updated>2013-01-26T16:37:16-05:00</updated>
   <id>http://rob.by/</id>
   <author>
     <name><![CDATA[Robby Grossman]]></name>
@@ -12,6 +12,108 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Remove Merged Branches from Git]]></title>
+    <link href="http://rob.by/2013/remove-merged-branches-from-git/"/>
+    <updated>2013-01-26T16:28:00-05:00</updated>
+    <id>http://rob.by/2013/remove-merged-branches-from-git</id>
+    <content type="html"><![CDATA[<p>I wrote a bash function that prunes a git repository's ancestral branches, helping you keep your local and remote repos tidy.</p>
+
+<p>This function removes all branches, local and remote, that have been merged into your current branch. Simply run "rmb" from the command line. Don’t worry - prompt safeguards are in place to show you what you'll be removing before it delets anything. And it won't let you delete "master." :-)</p>
+
+<p>Add this to your ~/.profile, run "source ~/.profile" and you’re good to go.</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>rmb.sh </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+<span class='line-number'>37</span>
+<span class='line-number'>38</span>
+<span class='line-number'>39</span>
+<span class='line-number'>40</span>
+<span class='line-number'>41</span>
+<span class='line-number'>42</span>
+<span class='line-number'>43</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="k">function </span>rmb <span class="o">{</span>
+</span><span class='line'>  <span class="nv">current_branch</span><span class="o">=</span><span class="k">$(</span>git branch --no-color 2&gt; /dev/null | sed -e <span class="s1">&#39;/&lt;sup&gt;[&lt;sup&gt;*]/d&#39;</span>&lt;/sup&gt;&lt;/sup&gt; -e <span class="s1">&#39;s/&lt;em&gt; (.&lt;/em&gt;)/\1/&#39;</span><span class="k">)</span>
+</span><span class='line'>  <span class="k">if</span> <span class="o">[</span> <span class="s2">&quot;$current_branch&quot;</span> !<span class="o">=</span> <span class="s2">&quot;master&quot;</span> <span class="o">]</span>; <span class="k">then</span>&lt;/p&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;pre&gt;&lt;code&gt;echo <span class="s2">&quot;WARNING: You are on branch $current_branch, NOT master.&quot;</span>
+</span><span class='line'>&lt;/code&gt;&lt;/pre&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;p&gt;  <span class="k">fi</span>&lt;/p&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;pre&gt;&lt;code&gt;echo <span class="s2">&quot;Fetching merged branches...&quot;</span>
+</span><span class='line'>&lt;/code&gt;&lt;/pre&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;p&gt;  git remote prune origin
+</span><span class='line'>  <span class="nv">remote_branches</span><span class="o">=</span><span class="k">$(</span>git branch -r --merged | grep -v <span class="s1">&#39;/master$&#39;</span> | grep -v <span class="s2">&quot;/$current_branch$&quot;</span><span class="k">)</span>
+</span><span class='line'>  <span class="nv">local_branches</span><span class="o">=</span><span class="k">$(</span>git branch --merged | grep -v <span class="s1">&#39;master$&#39;</span> | grep -v <span class="s2">&quot;$current_branch$&quot;</span><span class="k">)</span>
+</span><span class='line'>  <span class="k">if</span> <span class="o">[</span> -z <span class="s2">&quot;$remote_branches&quot;</span> <span class="o">]</span> &amp;amp;&amp;amp; <span class="o">[</span> -z <span class="s2">&quot;$local_branches&quot;</span> <span class="o">]</span>; <span class="k">then</span>&lt;/p&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;pre&gt;&lt;code&gt;echo <span class="s2">&quot;No existing branches have been merged into $current_branch.&quot;</span>
+</span><span class='line'>&lt;/code&gt;&lt;/pre&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;p&gt;  <span class="k">else</span>&lt;/p&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;pre&gt;&lt;code&gt;echo <span class="s2">&quot;This will remove the following branches:&quot;</span>
+</span><span class='line'><span class="k">if</span> <span class="o">[</span> -n <span class="s2">&quot;$remote_branches&quot;</span> <span class="o">]</span>; <span class="k">then</span>
+</span><span class='line'><span class="k">  </span><span class="nb">echo</span> <span class="s2">&quot;$remote_branches&quot;</span>
+</span><span class='line'><span class="k">fi</span>
+</span><span class='line'><span class="k">if</span> <span class="o">[</span> -n <span class="s2">&quot;$local_branches&quot;</span> <span class="o">]</span>; <span class="k">then</span>
+</span><span class='line'><span class="k">  </span><span class="nb">echo</span> <span class="s2">&quot;$local_branches&quot;</span>
+</span><span class='line'><span class="k">fi</span>
+</span><span class='line'><span class="nb">read</span> -p <span class="s2">&quot;Continue? (y/n): &quot;</span> -n 1 choice
+</span><span class='line'><span class="nb">echo</span>
+</span><span class='line'><span class="k">if</span> <span class="o">[</span> <span class="s2">&quot;$choice&quot;</span> <span class="o">==</span> <span class="s2">&quot;y&quot;</span> <span class="o">]</span> <span class="o">||</span> <span class="o">[</span> <span class="s2">&quot;$choice&quot;</span> <span class="o">==</span> <span class="s2">&quot;Y&quot;</span> <span class="o">]</span>; <span class="k">then</span>
+</span><span class='line'>  <span class="c"># Remove remote branches</span>
+</span><span class='line'>  git push origin <span class="sb">`</span>git branch -r --merged | grep -v <span class="s1">&#39;/master$&#39;</span> | grep -v <span class="s2">&quot;/$current_branch$&quot;</span> | sed <span class="s1">&#39;s/origin\//:/g&#39;</span> | tr -d <span class="s1">&#39;\n&#39;</span><span class="sb">`</span>
+</span><span class='line'>  <span class="c"># Remove local branches</span>
+</span><span class='line'>  git branch -d <span class="sb">`</span>git branch --merged | grep -v <span class="s1">&#39;master$&#39;</span> | grep -v <span class="s2">&quot;$current_branch$&quot;</span> | sed <span class="s1">&#39;s/origin\///g&#39;</span> | tr -d <span class="s1">&#39;\n&#39;</span><span class="sb">`</span>
+</span><span class='line'><span class="k">else</span>
+</span><span class='line'><span class="k">  </span><span class="nb">echo</span> <span class="s2">&quot;No branches removed.&quot;</span>
+</span><span class='line'><span class="k">fi</span>
+</span><span class='line'>&lt;/code&gt;&lt;/pre&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;p&gt;  <span class="k">fi</span>
+</span><span class='line'><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Migrating to Riak at Shareaholic]]></title>
@@ -184,57 +286,6 @@
 
 
 <p>The <a href="https://github.com/freerobby/middle_management">code</a> is on github and the <a href="https://rubygems.org/gems/middle_management">gem</a> is on Rubygems. Check out the <a href="https://github.com/freerobby/middle_management/blob/master/README">readme</a> for further details.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Finding Technical Cofounders Is Hard]]></title>
-    <link href="http://rob.by/2010/finding-technical-cofounders-is-hard/"/>
-    <updated>2010-08-17T10:18:25-04:00</updated>
-    <id>http://rob.by/2010/finding-technical-cofounders-is-hard</id>
-    <content type="html"><![CDATA[<p>Yesterday, Michael Pope posted an article titled <a href="http://captainrecruiter.blogspot.com/2010/08/technical-co-founders-are-myth.html"><em>Technical Cofounders Are a Myth</em></a>. He argued that software engineers don't finish what they start, and that you're better off paying a technical person than partnering with one. His frustrations are valid and not uncommon, but his conclusions are way off base for a lot of reasons.<!--more--></p>
-
-<p>He begins by explaining how he arrived at his conclusion:</p>
-
-<blockquote><p>I began the hunt to find a technical co-founder - a software engineer  who works for no cash - to help me build my dream website.  Twelve  months into my startup journey I had four half-built websites that had  been built by my four ex-technical co-founders.</p></blockquote>
-
-<p>It's entirely possible that he picked four flaky technical cofounders. But it's also possible that:</p>
-
-<ul>
-<li><p>He didn't communicate his idea and vision well enough for them to be implemented.</p></li>
-<li><p>His idea was too vague or his vision changed too often to be fully realized.</p></li>
-<li><p>He had trouble selling his  credentials to his cofounders, causing them to lose faith in him.</p></li>
-<li><p>He was a <a href="http://rob.by/wp-content/uploads/everybodyworks.png">delegator, not a doer</a>. (link goes to <em>Everybody Works</em> from 37signals' <a href="http://www.amazon.com/Rework-Jason-Fried/dp/0307463745/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1282018997&amp;sr=8-1">Rework</a>)</p></li>
-<li><p>He picked engineers who were technically-driven but not entrepreneurially-driven.</p></li>
-<li><p>He picked engineers who weren't comfortable taking risks as great as he wanted to take.</p></li>
-<li><p>He was difficult to work with.</p></li>
-<li><p>His cofounders felt he wasn't was pulling his own weight.</p></li>
-</ul>
-
-
-<p>I don't know Michael, and I'm not leveling any accusations here. There are many possibilities for what went wrong. But the simple fact that things did go wrong is not a referendum on the value of having a technical cofounder, nor is it sufficient evidence to conclude that good technical cofounders don't exist.</p>
-
-<p>Michael's second problem comes from holding software engineers to an unprecedented standard of business savviness:</p>
-
-<blockquote><p>Most software engineers aren't business people.  The only way a software  engineer can tell a business idea is a viable is to see the money  coming in.  A business geek with no money and no income isn't going to  inspire confidence in a software geek.  If a software geek really wants  to try building something for no pay, they're going to work for themself  instead of following another cashless entrepreneur.</p></blockquote>
-
-<p>There are three double standards here. First, it's true that "most software engineers aren't business people." But it's also true that most <em>people</em> aren't business people. If you are looking for a business-savvy technical cofounder, then your requirement is not merely a "software engineer." I'm a fan of Micah Baldwin's post on <a href="http://learntoduck.com/micah/hackers-hustlers">Hackers and Hustlers</a>. If you want a technical cofounder, look for a hacker as Micah describes it.</p>
-
-<p>Second, <em>nobody</em> knows the viability of a business idea without seeing financial numbers. Picking winners is <a href="http://www.slideshare.net/angelbootcamp/simeon-simeonov-june-2010">extremely difficult, and doesn't work</a>. When it comes to picking the next big thing, the best VCs have worse batting averages than MLB pitchers. It's not just software engineers who are lacking in this department. Furthermore, there's more to a business than the idea. There's the team. There's execution. There's competition. None of these things are entirely predictable, even for the most savvy people in the industry. If they were predictable, investing wouldn't have risk.</p>
-
-<p>Third, most people, not just software engineers, would choose to work for themselves if they could do it in a financially viable and risk-minimized way. What makes software engineers different in the startup world is that they have the requisite skills to hack together an idea on their own if they so choose. But software engineers also pay a price for working by themselves. It means they have to deal with finances and customers and investors and other things that aren't what they love to do, which is building software. I have side projects, and I hold entrepreneurial ambitions. I absolutely want cofounders when the time comes.</p>
-
-<p>Michael's last gripe is that "software engineers don't work for free." I believe that by this he means they want cash rather than equity. Based on counterexamples I know for a fact that this is an over-generalization. But conceptually it does ring of some truth. Let's examine why this is the case.</p>
-
-<p>"Business people" and "software people" are misnomers. A  "business person" can fall anywhere on the charts of aptitude, skills, education, experience, wits, and a handful of other areas relevant to starting a company. A "software person" on the other hand is more narrowly defined. Skills and education are a known quantity, and experience is more easily described. These traits of a software engineer are always in demand by a great number of companies.</p>
-
-<p>Business people have it tougher. A business person may have equal or more valuable skills than a software person, but they   are not universally understood in the simplistic way that software people's skills are. Ask anybody what a software developer does and they can give you the one-sentence "makes software" answer. Ask them what a "business person" does and you'll be lucky to get a coherent sentence. That's because business people cover a wider range of skills and responsibilities; the work they do is more varied.</p>
-
-<p>My hunch is that most good software engineers only work for cash because they don't feel that working for equity is worth the risk of failure. They can make good money consulting or working as an employee of another company. They can easily get great benefits and a six figure salary. The risk of failure doesn't seem worth it, especially when the potential reward seems so far away. But an important distinction is that this has to do with their options, not with their profession. If we look at business people who have skills-specific training like software people have, they fall in a similar risk-averse bucket: <a href="http://www.asktheharvardmba.com/2009/07/03/how-many-graduating-harvard-mbas-start-their-own-businesses/">only 3% of Harvard MBAs use their educations to start a company</a>.</p>
-
-<p>A more appropriate conclusion to draw from Michael's experience, and one I see first-hand in the startup world every day, is that finding good cofounders is very difficult. One need only look at the necessary traits to find that the odds are stacked against the seeker: you need somebody you trust (ideally whom you know well), who shares your ambition, who complements your strengths, who compensates for your weaknesses, who is in a life position to take a big risk, and who is in a financial position to afford to take such a risk. Forget the haystack; you're looking for a needle in a field.</p>
-
-<p>Finding good <em>technical</em> cofounders is particularly difficult. This isn't because technical people are flakier or inherently less entrepreneurial; it's because by definition they have a narrower set of highly in-demand skills. They have lots of options because, for every one of them there are several "business people" trying to get their attention.</p>
 ]]></content>
   </entry>
   

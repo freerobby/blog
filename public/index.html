@@ -9,7 +9,7 @@
   <meta name="author" content="Robby Grossman">
 
   
-  <meta name="description" content="I understand the outrage over gun laws right now, but gun control is distracting us from a bigger problem: too many of our citizens are inspired to &hellip;">
+  <meta name="description" content="I wrote a bash function that prunes a git repository&#8217;s ancestral branches, helping you keep your local and remote repos tidy. This function &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -78,6 +78,116 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2013/remove-merged-branches-from-git/">Remove Merged Branches From Git</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-01-26T16:28:00-05:00" pubdate data-updated="true">Jan 26<span>th</span>, 2013</time>
+        
+         | <a href="/2013/remove-merged-branches-from-git/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I wrote a bash function that prunes a git repository&#8217;s ancestral branches, helping you keep your local and remote repos tidy.</p>
+
+<p>This function removes all branches, local and remote, that have been merged into your current branch. Simply run &#8220;rmb&#8221; from the command line. Don’t worry - prompt safeguards are in place to show you what you&#8217;ll be removing before it delets anything. And it won&#8217;t let you delete &#8220;master.&#8221; :-)</p>
+
+<p>Add this to your ~/.profile, run &#8220;source ~/.profile&#8221; and you’re good to go.</p>
+
+<figure class='code'><figcaption><span>rmb.sh </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="k">function </span>rmb <span class="o">{</span>
+</span><span class='line'>  <span class="nv">current_branch</span><span class="o">=</span><span class="k">$(</span>git branch --no-color 2&gt; /dev/null | sed -e <span class="s1">&#39;/^[^*]/d&#39;</span> -e <span class="s1">&#39;s/* \(.*\)/\1/&#39;</span><span class="k">)</span>
+</span><span class='line'>  <span class="k">if</span> <span class="o">[</span> <span class="s2">&quot;$current_branch&quot;</span> !<span class="o">=</span> <span class="s2">&quot;master&quot;</span> <span class="o">]</span>; <span class="k">then</span>
+</span><span class='line'><span class="k">    </span><span class="nb">echo</span> <span class="s2">&quot;WARNING: You are on branch $current_branch, NOT master.&quot;</span>
+</span><span class='line'>  <span class="k">fi</span>
+</span><span class='line'><span class="k">    </span><span class="nb">echo</span> <span class="s2">&quot;Fetching merged branches...&quot;</span>
+</span><span class='line'>  git remote prune origin
+</span><span class='line'>  <span class="nv">remote_branches</span><span class="o">=</span><span class="k">$(</span>git branch -r --merged | grep -v <span class="s1">&#39;/master$&#39;</span> | grep -v <span class="s2">&quot;/$current_branch$&quot;</span><span class="k">)</span>
+</span><span class='line'>  <span class="nv">local_branches</span><span class="o">=</span><span class="k">$(</span>git branch --merged | grep -v <span class="s1">&#39;master$&#39;</span> | grep -v <span class="s2">&quot;$current_branch$&quot;</span><span class="k">)</span>
+</span><span class='line'>  <span class="k">if</span> <span class="o">[</span> -z <span class="s2">&quot;$remote_branches&quot;</span> <span class="o">]</span> <span class="o">&amp;&amp;</span> <span class="o">[</span> -z <span class="s2">&quot;$local_branches&quot;</span> <span class="o">]</span>; <span class="k">then</span>
+</span><span class='line'><span class="k">    </span><span class="nb">echo</span> <span class="s2">&quot;No existing branches have been merged into $current_branch.&quot;</span>
+</span><span class='line'>  <span class="k">else</span>
+</span><span class='line'><span class="k">    </span><span class="nb">echo</span> <span class="s2">&quot;This will remove the following branches:&quot;</span>
+</span><span class='line'>    <span class="k">if</span> <span class="o">[</span> -n <span class="s2">&quot;$remote_branches&quot;</span> <span class="o">]</span>; <span class="k">then</span>
+</span><span class='line'><span class="k">      </span><span class="nb">echo</span> <span class="s2">&quot;$remote_branches&quot;</span>
+</span><span class='line'>    <span class="k">fi</span>
+</span><span class='line'><span class="k">    if</span> <span class="o">[</span> -n <span class="s2">&quot;$local_branches&quot;</span> <span class="o">]</span>; <span class="k">then</span>
+</span><span class='line'><span class="k">      </span><span class="nb">echo</span> <span class="s2">&quot;$local_branches&quot;</span>
+</span><span class='line'>    <span class="k">fi</span>
+</span><span class='line'><span class="k">    </span><span class="nb">read</span> -p <span class="s2">&quot;Continue? (y/n): &quot;</span> -n 1 choice
+</span><span class='line'>    <span class="nb">echo</span>
+</span><span class='line'><span class="nb">    </span><span class="k">if</span> <span class="o">[</span> <span class="s2">&quot;$choice&quot;</span> <span class="o">==</span> <span class="s2">&quot;y&quot;</span> <span class="o">]</span> <span class="o">||</span> <span class="o">[</span> <span class="s2">&quot;$choice&quot;</span> <span class="o">==</span> <span class="s2">&quot;Y&quot;</span> <span class="o">]</span>; <span class="k">then</span>
+</span><span class='line'>      <span class="c"># Remove remote branches</span>
+</span><span class='line'>      git push origin <span class="sb">`</span>git branch -r --merged | grep -v <span class="s1">&#39;/master$&#39;</span> | grep -v <span class="s2">&quot;/$current_branch$&quot;</span> | sed <span class="s1">&#39;s/origin\//:/g&#39;</span> | tr -d <span class="s1">&#39;\n&#39;</span><span class="sb">`</span>
+</span><span class='line'>      <span class="c"># Remove local branches</span>
+</span><span class='line'>      git branch -d <span class="sb">`</span>git branch --merged | grep -v <span class="s1">&#39;master$&#39;</span> | grep -v <span class="s2">&quot;$current_branch$&quot;</span> | sed <span class="s1">&#39;s/origin\///g&#39;</span> | tr -d <span class="s1">&#39;\n&#39;</span><span class="sb">`</span>
+</span><span class='line'>    <span class="k">else</span>
+</span><span class='line'><span class="k">      </span><span class="nb">echo</span> <span class="s2">&quot;No branches removed.&quot;</span>
+</span><span class='line'>    <span class="k">fi</span>
+</span><span class='line'><span class="k">  fi</span>
+</span><span class='line'><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -884,49 +994,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2010/twitter-facebook-and-viral-traffic/">Twitter, Facebook and Viral Traffic</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-04-07T10:00:44-04:00" pubdate data-updated="true">Apr 7<span>th</span>, 2010</time>
-        
-         | <a href="/2010/twitter-facebook-and-viral-traffic/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>On the evening of the House health care reform vote, I built  <a href="http://didtheypasshealthcarereform.com">didtheypasshealthcarereform.com</a>, a single serve site, to report the status of the bill. Prior to the vote it read &#8220;no.&#8221; After the bill&#8217;s passage it read &#8220;yes!,&#8221; and celebrated the occasion with randomly-placed animated unicorns (courtesy of <a href="http://cornify.com/">Cornify</a>).</p>
-
-<p>I posted links to the site on my Twitter and Facebook accounts. As soon as the bill passed, traffic skyrocketed. 48 hours later, the dust settled. </div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/2010/twitter-facebook-and-viral-traffic/">Read full post &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -942,15 +1009,15 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2013/remove-merged-branches-from-git/">Remove Merged Branches from Git</a>
+      </li>
+    
+      <li class="post">
         <a href="/2012/gun-control-is-a-bandaid/">Gun Control Is a Bandaid</a>
       </li>
     
       <li class="post">
         <a href="/2012/migrating-to-riak-at-shareaholic/">Migrating to Riak at Shareaholic</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/aws-risk-mitigation-strategies/">AWS Risk Mitigation Strategies</a>
       </li>
     
   </ul>
@@ -975,7 +1042,7 @@
     </div>
   </div>
   <footer role="contentinfo"><p>
-  &copy; 2012 by Robby Grossman
+  &copy; 2013 by Robby Grossman
 </p>
 
 </footer>
