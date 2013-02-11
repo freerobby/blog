@@ -9,7 +9,7 @@
   <meta name="author" content="Robby Grossman">
 
   
-  <meta name="description" content="Wake Machine enables Time Machine to backup to a target that is sleeping. Without Wake Machine, such backups will fail because the remote disk won&# &hellip;">
+  <meta name="description" content="Wake Machine enables Time Machine to backup to a target that is sleeping. Without Wake Machine, such backups will fail because the remote disk won’t &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -106,21 +106,21 @@
   </header>
 
 
-<div class="entry-content"><p>Wake Machine enables Time Machine to backup to a target that is sleeping. Without Wake Machine, such backups will fail because the remote disk won&#8217;t mount.<!--more--></p>
+<div class="entry-content"><p>Wake Machine enables Time Machine to backup to a target that is sleeping. Without Wake Machine, such backups will fail because the remote disk won’t mount.<!--more--></p>
 
-<p>Wake Machine runs as a mock daemon on the client. When Time Machine initiates a backup, Wake Machine sends a <a href="http://en.wikipedia.org/wiki/Wake-on-LAN#Magic_packet">magic packet</a> to the target machine to wake it up if it&#8217;s sleeping.</p>
+<p>Wake Machine runs as a mock daemon on the client. When Time Machine initiates a backup, Wake Machine sends a <a href="http://en.wikipedia.org/wiki/Wake-on-LAN#Magic_packet">magic packet</a> to the target machine to wake it up if it’s sleeping.</p>
 
-<p>Caveats: If you&#8217;re using an older Mac, the target machine must be connected via ethernet (the machine you&#8217;re backing up can still be connected wirelessly via Airport). New Macs support wake on LAN using Airport.</p>
+<p>Caveats: If you’re using an older Mac, the target machine must be connected via ethernet (the machine you’re backing up can still be connected wirelessly via Airport). New Macs support wake on LAN using Airport.</p>
 
-<h2>Prerequisites</h2>
+<h2 id="prerequisites">Prerequisites</h2>
 
 <p>Wake Machine works out of the box with OS X Leopard and Snow Leopard.</p>
 
-<p>However, you&#8217;ll need <a href="http://git-scm.com/download">git</a> in order to install Wake Machine.</p>
+<p>However, you’ll need <a href="http://git-scm.com/download">git</a> in order to install Wake Machine.</p>
 
-<h2>Getting Started</h2>
+<h2 id="getting-started">Getting Started</h2>
 
-<p>Installation is as easy as cloning the Wake Machine repository. Navigate to the directory you&#8217;d like to install it in and run:</p>
+<p>Installation is as easy as cloning the Wake Machine repository. Navigate to the directory you’d like to install it in and run:</p>
 
 <pre><code>git clone http://github.com/freerobby/wakemachine.git
 </code></pre>
@@ -128,18 +128,23 @@
 <p>Once installed, you must set up Wake Machine. The recommended method for doing this is the following:</p>
 
 <ol>
-<li><p>Ensure that both the target computer is awake.</p></li>
-<li><p>Run a time machine backup.</p></li>
-<li><p>Run Wake Machine setup:</p>
+  <li>
+    <p>Ensure that both the target computer is awake.</p>
+  </li>
+  <li>
+    <p>Run a time machine backup.</p>
+  </li>
+  <li>
+    <p>Run Wake Machine setup:</p>
 
-<pre><code>bash wakemachine.sh setup
-</code></pre></li>
+    <pre><code>bash wakemachine.sh setup
+</code></pre>
+  </li>
 </ol>
-
 
 <p>Setup will automatically detect your time machine target, resolve its IP address and discover its MAC address. This information will be written to your user profile.</p>
 
-<h2>Running Wake Machine</h2>
+<h2 id="running-wake-machine">Running Wake Machine</h2>
 
 <p>To launch the Wake Machine daemon manually, run:</p>
 
@@ -149,25 +154,37 @@
 <p>To set up Wake Machine to run automatically on your system:</p>
 
 <ol>
-<li><p>Go to System Preferences and open the &#8220;Accounts&#8221; panel.</p></li>
-<li><p>Click &#8220;Login Items&#8221; at the top.</p></li>
-<li><p>Click the + icon to add a new login item.</p></li>
-<li><p>Select the wakemachine_daemon executable, and check the box next to it marked &#8220;Hide&#8221;.</p></li>
-<li><p>Restart your computer</p></li>
+  <li>
+    <p>Go to System Preferences and open the “Accounts” panel.</p>
+  </li>
+  <li>
+    <p>Click “Login Items” at the top.</p>
+  </li>
+  <li>
+    <p>Click the + icon to add a new login item.</p>
+  </li>
+  <li>
+    <p>Select the wakemachine_daemon executable, and check the box next to it marked “Hide”.</p>
+  </li>
+  <li>
+    <p>Restart your computer</p>
+  </li>
 </ol>
-
 
 <p>Voilà, your target machine will now be woken up whenever Time Machine runs.</p>
 
-<h2>Key Links</h2>
+<h2 id="key-links">Key Links</h2>
 
 <ul>
-<li><p><a href="http://github.com/freerobby/wakemachine/tree/master">Wake Machine development at github</a></p></li>
-<li><p><a href="http://www.pivotaltracker.com/projects/28564">Wake Machine tracking at Pivotal Tracker</a></p></li>
+  <li>
+    <p><a href="http://github.com/freerobby/wakemachine/tree/master">Wake Machine development at github</a></p>
+  </li>
+  <li>
+    <p><a href="http://www.pivotaltracker.com/projects/28564">Wake Machine tracking at Pivotal Tracker</a></p>
+  </li>
 </ul>
 
-
-<h2>Acknowledgments</h2>
+<h2 id="acknowledgments">Acknowledgments</h2>
 
 <p>Wake Machine uses the <a href="http://gsd.di.uminho.pt/jpo/software/wakeonlan/">Wakeonlan perl script</a> written by Ico Doornekamp and José Pedro Oliveira.</p>
 </div>
@@ -233,9 +250,6 @@
 </div>
   </section>
 
-
-<div class='shareaholic-canvas' data-shareaholic-widgets='recommendations'></div>
-
 </div>
 
 <aside class="sidebar">
@@ -245,15 +259,15 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2013/how-to-negotiate-your-startup-job-offer/">How to Negotiate Your Startup Job Offer</a>
+      </li>
+    
+      <li class="post">
         <a href="/2013/remove-merged-branches-from-git/">Remove Merged Branches from Git</a>
       </li>
     
       <li class="post">
         <a href="/2012/gun-control-is-a-bandaid/">Gun Control Is a Bandaid</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/migrating-to-riak-at-shareaholic/">Migrating to Riak at Shareaholic</a>
       </li>
     
   </ul>
@@ -328,25 +342,6 @@
 
 
 
-
-<script type="text/javascript">
-//<![CDATA[
-  (function() {
-    var shr = document.createElement('script');
-    shr.src = '//dtym7iokkjlif.cloudfront.net/assets/pub/shareaholic.js';
-    shr.type = 'text/javascript';
-    shr.async = 'true';
-    shr.onload = shr.onreadystatechange = function() {
-      var rs = this.readyState;
-      if (rs && rs != 'complete' && rs != 'loaded') return;
-      var apikey = 'a70ecdba30862eccb66258c8a83d50b4'
-      try { Shareaholic.init(apikey); } catch (e) {}
-    };
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(shr, s);
-  })();
-//]]>
-</script>
 
 
 </body>

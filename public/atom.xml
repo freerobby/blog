@@ -4,7 +4,7 @@
   <title><![CDATA[Robby Grossman]]></title>
   <link href="http://rob.by/atom.xml" rel="self"/>
   <link href="http://rob.by/"/>
-  <updated>2013-01-26T16:37:16-05:00</updated>
+  <updated>2013-02-12T00:09:34-05:00</updated>
   <id>http://rob.by/</id>
   <author>
     <name><![CDATA[Robby Grossman]]></name>
@@ -14,82 +14,266 @@
 
   
   <entry>
+    <title type="html"><![CDATA[How to Negotiate Your Startup Job Offer]]></title>
+    <link href="http://rob.by/2013/how-to-negotiate-your-startup-job-offer/"/>
+    <updated>2013-02-11T08:51:00-05:00</updated>
+    <id>http://rob.by/2013/how-to-negotiate-your-startup-job-offer</id>
+    <content type="html"><![CDATA[<p>Over the last three years I’ve been on both the giving and receiving ends of job offers at startups. One thing that’s struck me repeatedly is how little most job applicants know about what to expect in a job offer/negotiation, and in many cases, what the written offer they’ve received actually means. I was extremely fortunate that the first startup job offer I received was written by a <a href="https://twitter.com/Pistachio">pair</a> of <a href="https://twitter.com/graysky">founders</a> who had the utmost integrity and explained things very clearly. Since then I’ve learned that not every employee is so lucky.</p>
+
+<p>This post is not a lesson on negotiation itself, but rather a lesson on the standards and vernacular of startup negotiations. It assumes you’re a startup newcomer, with the goal of helping you fully understand the things you’ll be negotiating. After reading this post, it’s my hope that you’ll know exactly what your offer letter means, and you’ll have a good sense of whether you’re getting a fair shake or being taken advantage of.<!--more--></p>
+
+<h2 id="salary">Salary</h2>
+
+<p>One of the biggest myths that I’d heard while tucked away in my big company cubicle was that in order to get into the startup game, you had to take a substantial paycut. This is false, especially if you’re a developer in today’s funding climate. VC funded startups pay very close to market rate salaries, certainly close enough that your asking price should be the same asking price you’d make at a company with hundreds or thousands of people.</p>
+
+<h3 id="seed-stage-companies">Seed-Stage Companies</h3>
+
+<p>An exception to the above statement exists for companies who have raised a minimal amount of funding (a “seed round,” typically of a few hundred thousand dollars) to prove out some metrics. These companies do not usually have full salaries budgeted into them. If you join a seed stage company, you should expect to work for less than a market rate salary during this period. However, you should also be compensated for this in one of two ways. Either:</p>
+
+<ol>
+  <li>You receive an above-market equity stake that accounts for this 1-2 year period of increased risk and reduced salary; or</li>
+  <li>If and when the company raises a Series A ($1M+ in funding), your compensation is retroactively adjusted immediately by way of a bonus.</li>
+</ol>
+
+<p>Some founders prefer option 1 because investors dislike investing in companies that have financial debts. I like option 1 because early employees are extremely important, and I think them having more skin in the game is beneficial to everybody. However, some employees prefer the safer bet of a bonus, and some founders prefer to conserve equity, and that’s fine so long as it’s mutually agreed upon.</p>
+
+<p>Whatever agreement you come to, it should be formally stipulated in your offer letter.</p>
+
+<p>Before signing, you should have some discussion around what your market rate salary will be after raising the Series A. This way neither you nor the founders are surprised later, and the founders are better prepared to craft their post-A round budgets, which they’ll need to do in order to fundraise. Because you haven’t yet demonstrated your skills inside the company and because the funding timeline is indefinite, it’s difficult for either party to make specific promises. My recommendation is to have something written that states what market rate would be for you right now. This way, if it takes two years to raise a Series A and you’ve grown into a bigger role during that time, you aren’t boxed into a number that you arrived at two years earlier and whose value you’ve surpassed, but you do have a quantitative starting point for determining what your salary will be.</p>
+
+<p>As a reference point, when I joined oneforty in 2009, I took a 30% pay cut. We expected to raise money in 6-12 months, and structured my employment offer such that I would receive a 30% bonus upon sale of the company or raising of a Series A (whichever came first, and subject to “outstanding performance” per my manager’s discretion). The offer also stated that at that time, my salary would be raised to a market rate. It did not specify what that market rate would be. Before joining, I informed the founders via email of the other offers I was prepared to pass on, and they told me that what I cited was “in a reasonable range.” The entire process from initial offer to post-Series A adjustment went very smoothly and without any surprises for anyone.</p>
+
+<h3 id="what-about-bonuses">What About Bonuses?</h3>
+
+<p>Startups do not typically offer bonuses.<sup id="fnref:sales-bonuses"><a href="#fn:sales-bonuses" rel="footnote">1</a></sup> As nonprofitable entities with limited runway, it is much better for everybody that the company provides monthly compensation without accruing variable costs of ~10% of annual payroll every year. It’s easier on the books and it prevents the company from setting expectations that it may be unable to meet. Though your cash compensation will likely be comprised only of salary; you can certainly use a bonus you’d earn elsewhere as leverage during negotiations.</p>
+
+<h2 id="equity">Equity</h2>
+
+<p>Equity procedures and vernacular are by far the least understood component of a startup job offer. Especially for employees with no background in business law or finance, the specifics pertaining to equity grants are often wildly misunderstood.</p>
+
+<h3 id="the-problems-with-equity-a-narrative">The Problems With Equity: A Narrative</h3>
+
+<p>Four years ago, a company granted you 0.5% of it to join as a seed stage engineer. The company has now raised a Series B, and you’re ready to take your shares and move on.</p>
+
+<p>Not so fast.</p>
+
+<p>First, the company didn’t really grant you 0.5% of it. It granted you the option to <em>buy</em> 0.5% of it at some discount from its seed stage valuation (when you joined). Let’s say that discount was 70% and that valuation was $5M, so you have the option to buy 0.5% ($25k) of it at a 70% discount of $7,500. You decide you’ll just wait until it sells or goes public, then buy your shares for $7,500 and then sell them at market price.</p>
+
+<p>That won’t work either.</p>
+
+<p>Leaving the company invokes your exit clause, which stipulates that you have 90 days to purchase your options, or else you completely forfeit them. The company is not obligated to remind you of this. If you forget to exercise your options during this period, they’re gone. If you don’t have $7,500 to spare during this period, they’re gone. Your only option is to cough up $7,500 or relinquish all of the equity you were told you’d been “given.”</p>
+
+<p>If you’re leaving Facebook, this is a no brainer. But you’re probably not leaving Facebook. You’re probably leaving a B stage company that is growing fast but still has problems with churn or customer acquisition or scalability or some other solvable but imminent problem, and while promising, its success is far from certain. You have to decide whether you want to place a $7,500 wager on this company.</p>
+
+<p>You place the wager, and two years later, the company sells for $20M after a year of mediocre numbers and failing to raise a Series C in a downward-sloping economy. It’s not the beachhouse you were hoping for, but your $7,500 investment looks to be worth $100k based on a 4x multiple of the original $25,000 value, right?</p>
+
+<p>Nope.</p>
+
+<p>Your stock was restricted, not common. Investors have “preference,” which means they get reimbursed for what they put in before anybody else sees a dime. The company raised $18M in combined seed, Series A and Series B investments. First, those investors get their $18M back. Then, there’s $2M to be distributed proportionally among stakeholders. You’ve come out a narrow 25% ahead because of your discount price ($5M * 0.3 vs 2M). You leave with a $2,500 pre-tax profit on your $7,500 investment.</p>
+
+<p>Nope.</p>
+
+<p>When the company issued new shares to Series A and Series B investors, you got diluted. Your 0.5% of the company now constitutes only 0.35% of it. 0.35% of 2M leaves you with… $7,000.</p>
+
+<p>That’s right. After four years of work and digging into your savings to preserve your stake in the company, you’ve <em>lost</em> $500. You let out a long sigh, lamenting that this “granted” equity became a $500 liability and a source of stress and crushed dreams. After hearing this news, you go home and do some research, surprised to discover that this outcome ranks in the most successful quantile of startup outcomes.</p>
+
+<p>There are many details in this story that could have gone differently. You could have never bought your shares. The company could have sold for $25M or you could have gotten a bigger discount on your shares to bring you out of the red. It’s a contrived story but it has no doubt happened to many real people. I recount it like this to emphasize how important it is for you to understand how equity distribution actually works when you’re negotiating it.</p>
+
+<h3 id="how-does-equity-work">How Does Equity Work?</h3>
+
+<p>Equity is given in the form of stock options. Stock options are not gifts; rather they are “options” to buy some amount of stock at a fixed, discounted price. The nice thing about this system is that, at least in the ideal case, you don’t need to buy the options until you are ready to sell them.</p>
+
+<p>For example, you have options to buy 1000 shares at $0.80/ea, but the shares are valued at $2/ea. The shares increase in value to $16/ea when the company sells, and when you exercise them, you buy them at $0.80 and sell them at $16, netting you $15,200 before taxes.</p>
+
+<h3 id="how-much-equity-should-i-get">How Much Equity Should I Get?</h3>
+
+<p>There are too many  variables (company stage, company valuation, employee experience, employee domain knowledge, employee salary requirements), let alone disagreement among industry veterans<sup id="fnref:fair-equity"><a href="#fn:fair-equity" rel="footnote">2</a></sup>, to generalize how much equity you should get and when, but Babak Nivi put together a <a href="http://venturehacks.com/articles/option-pool-shuffle#market">table of option grants</a> that rings true based on my experiences:</p>
+
+<blockquote>
+  <p>Title Range (%)</p>
+
+  <p>CEO 5 – 10</p>
+
+  <p>COO 2 – 5</p>
+
+  <p>VP  1 – 2</p>
+
+  <p>Independent Board Member  1</p>
+
+  <p>Director  0.4 – 1.25</p>
+
+  <p>Lead Engineer 0.5 – 1</p>
+
+  <p>5+ years experience Engineer  0.33 – 0.66</p>
+
+  <p>Manager or Junior Engineer  0.2 – 0.33</p>
+</blockquote>
+
+<p>You’ll notice that Nivy talks about equity in terms of percentages. As Chris Dixon <a href="http://cdixon.org/2009/08/27/the-one-number-you-should-know-about-your-equity-grant">explains</a>, this is the only number you care about in your equity offer:</p>
+
+<blockquote>
+  <p>The only thing that matters in terms of your equity when you join a startup is what percent of the company they are giving you. If management tells you the number of shares and not the total shares outstanding so you can’t compute the percent you own – don’t join the company! They are dishonest and are tricking you and will trick you again many times.</p>
+</blockquote>
+
+<p>It’s a dangerous game to try to anticipate what your shares will be worth, but if you want to indulge, take your percentage, divide it by two to account for dilution and a low strike price, and multiply it by whatever you think the company might sell for. That’s what a home run hit gets you.</p>
+
+<p>If you’re a startup employee, I caution you not to think about equity in such absolute terms, as they are difficult to predict. Look at your equity as a great bonus if things go well. For the sake of financial planning, assume it will amount to nothing. In the best case scenario it will buy you a nice car or provide a down payment on a home. It’s not a ticket to establishing independent wealth or never to work again.</p>
+
+<h3 id="vesting-schedules">Vesting Schedules</h3>
+
+<p>Your equity should be allocated immediately upon your start of employment. Do not listen to any hiring manager who tells you that in order to protect the company, you need to work for a while before you’ll receive equity paperwork. There is a process called “vesting” that takes care of this and any founder who is both honest and knowledgable uses it.</p>
+
+<p>Vesting lets the company give you some fixed number of stock options, subject to your working at the company for some period of time. Brad Feld has <a href="http://www.feld.com/wp/archives/2005/05/term-sheet-vesting.html">covered</a> the standard 4/1 vesting schedule:</p>
+
+<blockquote>
+  <p>Industry standard vesting for early stage companies is a one year cliff and monthly thereafter for a total of 4 years. This means that if you leave before the first year is up, you don’t vest any of your stock. After a year, you have vested 25% (that’s the “cliff”). Then – you begin vesting monthly (or quarterly, or annually) over the remaining period. So – if you have a monthly vest with a one year cliff and you leave the company after 18 months, you’ll have vested 37.25% of your stock.</p>
+</blockquote>
+
+<p>Vesting is great because it protects everybody. Employees know exactly what they will get if they put in their time, and companies avoid the risk of an employee who takes equity and runs away with it.</p>
+
+<h3 id="trading-salary-for-equity-do-the-math">Trading Salary for Equity: Do the Math</h3>
+
+<p>Some employers talk about equity and salary as dials that you can adjust, increasing one while decreasing the other. Since startups are strapped for cash, this is always presented as the employee giving up some salary in exchange for more equity.</p>
+
+<p>Sometimes these deals are fair, and sometimes they’re not. What makes them difficult and often unfair for the employee is that there are a handful of existential disadvantages that come along with taking equity as a substitute for salary, and it’s important that they be overcome:</p>
+
+<ol>
+  <li>Salary accrues over one year, while stock options vest over four years, so all things being equal, you’re only getting 25% of your salary value in options. To break even, the value of your extra stock options needs to be 4x the salary that you’re giving up. In reality it should be even more because your stock is going to be a different class than what the investors get, and that means the investors will get preference over you should the company endure a <a href="http://www.investopedia.com/terms/d/downround.asp#axzz2KbknGfYk">downround</a> or a poor exit. This is immensely unfair to you because if you’re giving up cash for equity, you are effectively investing in the company but not receiving the favorable terms that other investors get.</li>
+  <li>Even if the company is doing well, your stock options will almost certainly get diluted at some point over your four year vesting schedule when the company raises more money. This decreases the percentage of the company that you have the right to buy.</li>
+  <li>Stock options are a one-time grant, so you’re accepting one-time compensation in exchange for recurring compensation. The portion of your compensation that you receive in equity will not be accounted for in your future salary bumps at the company, and because salary increases are often given in terms of percentages, your losses will likely be compounded during this time.</li>
+  <li>Company valuations are monopoly money until their stock becomes liquid. Having $200,000 in stock options doesn’t mean anything if you can’t sell your stock, and you can’t sell your stock unless your company goes public or you find a private buyer in a secondary market, which won’t happen unless your company is far down its path to a successful exit.</li>
+</ol>
+
+<p>Now that you understand the inherent disadvantages of this trade, you want to know if the specific deal on the table (to exchange some $x in equity for some $y in salary) is a good one. The best way to determine this is to look at the deal that the investors get, and compare it to the deal that you’re getting. You want a risk/reward ratio that is better than theirs.</p>
+
+<p>Let’s start with a losing scenario. Tony Wright has an <a href="http://www.tonywright.com/2008/a-newbies-guide-to-startup-compensation-or-stock-options-will-make-me-rich">illustrative but incomplete example</a> that can be used to show the equity-salary lever as a bad deal for the employee:</p>
+
+<blockquote>
+  <p>Let’s say we have an engineer who is getting .5% of the company vested over 4 years. He’s making $80k, but probably could make $90k at a company with limited equity opportunity. Let’s assume a target exit price of $50,000,000 (oh, happy day!).</p>
+
+  <p>Our engineer is spending $10k per year to have a shot at a $62,500 per year. If he spends the full four years there, he’s “invested” $40k for a shot at $250k (a 6x+ return– not bad). When you run the same scenario with a billion dollar exit, it’s starting to look a lot prettier. When you run it at a Flickr-sized exit ($20m), it’s not looking like that great of a bet.</p>
+</blockquote>
+
+<p>A 6x-exit does sound rosy. But when you’re shooting for a big reward, you must also consider the big risk, and when you dig into the details here, you’ll see that:
+1. You’re taking a bigger risk than the company’s investors are; and
+1. You receive only half the reward that the company’s investors receive in the case of a success.</p>
+
+<p>Let’s say you got into the company when it had a $4M valuation (A $90k engineer receiving a 0.5% equity grant implies (s)he is early). Your 0.5% entitles you to buy $20k worth of its shares at that valuation. That means that after four years, you’ve given up $40k in cash (with a 4-year future value of ~$43k at 3% interest) for $20k worth of illiquid stock. If you were an investor in the company, your money would have bought you $40k worth of the stock, it would be preferred stock rather than common stock, and it would not be subject to any vesting period. Dollar for dollar, an investor got twice as much stock as you, and got it on much better terms.</p>
+
+<p>Now let’s change the hypothetical to show when taking equity might make sense. A Director of Engineering comes on for $110k and 1.25% (he would normally make $140k) after the company raises a Series A and is valued at $14M. He is giving up $120k over four years to pick up $175k worth of options, earning 46% more stock per dollar invested than the investors who put in money at a $14M valuation. This increased reward helps to compensate for the increased risk stemming from the aforementioned disadvantages of taking equity over stock.</p>
+
+<p>If you can afford to play the risk/reward game and want to turn up your equity in exchange for some salary, by all means see if you can find a deal that makes sense. There are founders who offer very meaningful equity grants to employees who are willing to sacrifice a portion of their paycheck. But in my experience, this latter example is the exception and Tony’s example is the rule. Whatever’s on the table, do the math and be cognizant of the tradeoff you’re making.</p>
+
+<h3 id="the-most-important-thing-about-equity">The Most Important Thing About Equity</h3>
+
+<p>Your equity will be worth something or it won’t. Which side of that coin you land on matters more than anything – more than how quickly you vest or how much equity you get or what kind of discount you get or what stage you join at. A bad negotiator at a successful company will wind up with more equity value than a shrewd negotiator at an unsuccessful company.</p>
+
+<p>Betting on equity had better imply that you believe in the vision of the company and you have immense faith in the people you’re working with. At the end of the day, those things will impact how much your equity is worth more than any of the aforementioned advice.</p>
+
+<h2 id="benefits">Benefits</h2>
+
+<p>With the exception of health insurance, benefits are less numerous and less generous at startups than they are at established companies. Few startups offer 401k plans; even fewer provide employer matching. The startups I’ve seen or been at that offered 401k plans instituted them because there was some bloc of employees who wanted to put away more than $5k per year ($5k is the maximum you can do on your own via an IRA).</p>
+
+<p>Startups that have raised funding of any sort should provide your health insurance and they should pick up most if not all of the bill. If the startup doesn’t offer a healthcare plan, it should reimburse you for an individual health care plan. Some startups will provide you with dental and VSP, but you shouldn’t expect it going in.</p>
+
+<h2 id="in-conclusion">In Conclusion</h2>
+
+<p>The difficult part of negotiating a startup job offer is learning the inside baseball. If you can get past the litany of jargon that you never saw until today, you’ll find that, like most negotiations, it boils down to math and common sense.</p>
+
+<p>There are plenty of things to adapt to when you switch to startup life – culture, work hours, individual autonomy – but unless you’re committed to joining at the seed stage or earlier, a jarring compensation reduction isn’t one of them.</p>
+
+<p>If you still have questions about something in your offer letter, or if something seems a little fishy, you can ask questions in the comments and I will answer them, or if it’s confidential, you can email me at <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#114;&#111;&#098;&#098;&#121;&#064;&#102;&#114;&#101;&#101;&#114;&#111;&#098;&#098;&#121;&#046;&#099;&#111;&#109;">&#114;&#111;&#098;&#098;&#121;&#064;&#102;&#114;&#101;&#101;&#114;&#111;&#098;&#098;&#121;&#046;&#099;&#111;&#109;</a> and I’ll respond privately.</p>
+
+<p><em>Thanks to <a href="http://hellohappy.org">Chad Mazzola</a> and <a href="http://cdixon.org">Chris Dixon</a> for reading early drafts of this post and providing valuable feedback.</em></p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:sales-bonuses">
+      <p>Exceptions exist for roles whose market compensation is typically paid in the form of bonuses, e.g. sales executives who are paid according to how much revenue they bring in.<a href="#fnref:sales-bonuses" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:fair-equity">
+      <p>I love Joel Spolsky’s <a href="http://answers.onstartups.com/questions/6949/forming-a-new-software-startup-how-do-i-allocate-ownership-fairly/23326#23326">approach to divvying equity</a>, but it is a minority opinion.<a href="#fnref:fair-equity" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Remove Merged Branches from Git]]></title>
     <link href="http://rob.by/2013/remove-merged-branches-from-git/"/>
     <updated>2013-01-26T16:28:00-05:00</updated>
     <id>http://rob.by/2013/remove-merged-branches-from-git</id>
-    <content type="html"><![CDATA[<p>I wrote a bash function that prunes a git repository&#8217;s ancestral branches, helping you keep your local and remote repos tidy.</p>
+    <content type="html"><![CDATA[<p>I wrote a bash function that prunes a git repository’s ancestral branches, helping you keep your local and remote repos tidy.</p>
 
-<p>This function removes all branches, local and remote, that have been merged into your current branch. Simply run &#8220;rmb&#8221; from the command line. Don’t worry - prompt safeguards are in place to show you what you&#8217;ll be removing before it delets anything. And it won&#8217;t let you delete &#8220;master.&#8221; :-)</p>
+<p>This function removes all branches, local and remote, that have been merged into your current branch. Simply run “rmb” from the command line. Don’t worry - prompt safeguards are in place to show you what you’ll be removing before it delets anything. And it won’t let you delete “master.” :-)</p>
 
-<p>Add this to your ~/.profile, run &#8220;source ~/.profile&#8221; and you’re good to go.</p>
+<p>Add this to your ~/.profile, run “source ~/.profile” and you’re good to go.</p>
 
-<figure class='code'><figcaption><span>rmb.sh </span></figcaption>
- <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-<span class='line-number'>20</span>
-<span class='line-number'>21</span>
-<span class='line-number'>22</span>
-<span class='line-number'>23</span>
-<span class='line-number'>24</span>
-<span class='line-number'>25</span>
-<span class='line-number'>26</span>
-<span class='line-number'>27</span>
-<span class='line-number'>28</span>
-<span class='line-number'>29</span>
-<span class='line-number'>30</span>
-<span class='line-number'>31</span>
-</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="k">function </span>rmb <span class="o">{</span>
-</span><span class='line'>  <span class="nv">current_branch</span><span class="o">=</span><span class="k">$(</span>git branch --no-color 2&gt; /dev/null | sed -e <span class="s1">&#39;/^[^*]/d&#39;</span> -e <span class="s1">&#39;s/* \(.*\)/\1/&#39;</span><span class="k">)</span>
-</span><span class='line'>  <span class="k">if</span> <span class="o">[</span> <span class="s2">&quot;$current_branch&quot;</span> !<span class="o">=</span> <span class="s2">&quot;master&quot;</span> <span class="o">]</span>; <span class="k">then</span>
-</span><span class='line'><span class="k">    </span><span class="nb">echo</span> <span class="s2">&quot;WARNING: You are on branch $current_branch, NOT master.&quot;</span>
-</span><span class='line'>  <span class="k">fi</span>
-</span><span class='line'><span class="k">    </span><span class="nb">echo</span> <span class="s2">&quot;Fetching merged branches...&quot;</span>
-</span><span class='line'>  git remote prune origin
-</span><span class='line'>  <span class="nv">remote_branches</span><span class="o">=</span><span class="k">$(</span>git branch -r --merged | grep -v <span class="s1">&#39;/master$&#39;</span> | grep -v <span class="s2">&quot;/$current_branch$&quot;</span><span class="k">)</span>
-</span><span class='line'>  <span class="nv">local_branches</span><span class="o">=</span><span class="k">$(</span>git branch --merged | grep -v <span class="s1">&#39;master$&#39;</span> | grep -v <span class="s2">&quot;$current_branch$&quot;</span><span class="k">)</span>
-</span><span class='line'>  <span class="k">if</span> <span class="o">[</span> -z <span class="s2">&quot;$remote_branches&quot;</span> <span class="o">]</span> <span class="o">&amp;&amp;</span> <span class="o">[</span> -z <span class="s2">&quot;$local_branches&quot;</span> <span class="o">]</span>; <span class="k">then</span>
-</span><span class='line'><span class="k">    </span><span class="nb">echo</span> <span class="s2">&quot;No existing branches have been merged into $current_branch.&quot;</span>
-</span><span class='line'>  <span class="k">else</span>
-</span><span class='line'><span class="k">    </span><span class="nb">echo</span> <span class="s2">&quot;This will remove the following branches:&quot;</span>
-</span><span class='line'>    <span class="k">if</span> <span class="o">[</span> -n <span class="s2">&quot;$remote_branches&quot;</span> <span class="o">]</span>; <span class="k">then</span>
-</span><span class='line'><span class="k">      </span><span class="nb">echo</span> <span class="s2">&quot;$remote_branches&quot;</span>
-</span><span class='line'>    <span class="k">fi</span>
-</span><span class='line'><span class="k">    if</span> <span class="o">[</span> -n <span class="s2">&quot;$local_branches&quot;</span> <span class="o">]</span>; <span class="k">then</span>
-</span><span class='line'><span class="k">      </span><span class="nb">echo</span> <span class="s2">&quot;$local_branches&quot;</span>
-</span><span class='line'>    <span class="k">fi</span>
-</span><span class='line'><span class="k">    </span><span class="nb">read</span> -p <span class="s2">&quot;Continue? (y/n): &quot;</span> -n 1 choice
-</span><span class='line'>    <span class="nb">echo</span>
-</span><span class='line'><span class="nb">    </span><span class="k">if</span> <span class="o">[</span> <span class="s2">&quot;$choice&quot;</span> <span class="o">==</span> <span class="s2">&quot;y&quot;</span> <span class="o">]</span> <span class="o">||</span> <span class="o">[</span> <span class="s2">&quot;$choice&quot;</span> <span class="o">==</span> <span class="s2">&quot;Y&quot;</span> <span class="o">]</span>; <span class="k">then</span>
-</span><span class='line'>      <span class="c"># Remove remote branches</span>
-</span><span class='line'>      git push origin <span class="sb">`</span>git branch -r --merged | grep -v <span class="s1">&#39;/master$&#39;</span> | grep -v <span class="s2">&quot;/$current_branch$&quot;</span> | sed <span class="s1">&#39;s/origin\//:/g&#39;</span> | tr -d <span class="s1">&#39;\n&#39;</span><span class="sb">`</span>
-</span><span class='line'>      <span class="c"># Remove local branches</span>
-</span><span class='line'>      git branch -d <span class="sb">`</span>git branch --merged | grep -v <span class="s1">&#39;master$&#39;</span> | grep -v <span class="s2">&quot;$current_branch$&quot;</span> | sed <span class="s1">&#39;s/origin\///g&#39;</span> | tr -d <span class="s1">&#39;\n&#39;</span><span class="sb">`</span>
-</span><span class='line'>    <span class="k">else</span>
-</span><span class='line'><span class="k">      </span><span class="nb">echo</span> <span class="s2">&quot;No branches removed.&quot;</span>
-</span><span class='line'>    <span class="k">fi</span>
-</span><span class='line'><span class="k">  fi</span>
-</span><span class='line'><span class="o">}</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>rmb.sh </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+<span class="line-number">11</span>
+<span class="line-number">12</span>
+<span class="line-number">13</span>
+<span class="line-number">14</span>
+<span class="line-number">15</span>
+<span class="line-number">16</span>
+<span class="line-number">17</span>
+<span class="line-number">18</span>
+<span class="line-number">19</span>
+<span class="line-number">20</span>
+<span class="line-number">21</span>
+<span class="line-number">22</span>
+<span class="line-number">23</span>
+<span class="line-number">24</span>
+<span class="line-number">25</span>
+<span class="line-number">26</span>
+<span class="line-number">27</span>
+<span class="line-number">28</span>
+<span class="line-number">29</span>
+<span class="line-number">30</span>
+<span class="line-number">31</span>
+</pre></td><td class="code"><pre><code class="sh"><span class="line"><span class="k">function </span>rmb <span class="o">{</span>
+</span><span class="line">  <span class="nv">current_branch</span><span class="o">=</span><span class="k">$(</span>git branch --no-color 2&gt; /dev/null | sed -e <span class="s1">&#39;/^[^*]/d&#39;</span> -e <span class="s1">&#39;s/* \(.*\)/\1/&#39;</span><span class="k">)</span>
+</span><span class="line">  <span class="k">if</span> <span class="o">[</span> <span class="s2">&quot;$current_branch&quot;</span> !<span class="o">=</span> <span class="s2">&quot;master&quot;</span> <span class="o">]</span>; <span class="k">then</span>
+</span><span class="line"><span class="k">    </span><span class="nb">echo</span> <span class="s2">&quot;WARNING: You are on branch $current_branch, NOT master.&quot;</span>
+</span><span class="line">  <span class="k">fi</span>
+</span><span class="line"><span class="k">    </span><span class="nb">echo</span> <span class="s2">&quot;Fetching merged branches...&quot;</span>
+</span><span class="line">  git remote prune origin
+</span><span class="line">  <span class="nv">remote_branches</span><span class="o">=</span><span class="k">$(</span>git branch -r --merged | grep -v <span class="s1">&#39;/master$&#39;</span> | grep -v <span class="s2">&quot;/$current_branch$&quot;</span><span class="k">)</span>
+</span><span class="line">  <span class="nv">local_branches</span><span class="o">=</span><span class="k">$(</span>git branch --merged | grep -v <span class="s1">&#39;master$&#39;</span> | grep -v <span class="s2">&quot;$current_branch$&quot;</span><span class="k">)</span>
+</span><span class="line">  <span class="k">if</span> <span class="o">[</span> -z <span class="s2">&quot;$remote_branches&quot;</span> <span class="o">]</span> <span class="o">&amp;&amp;</span> <span class="o">[</span> -z <span class="s2">&quot;$local_branches&quot;</span> <span class="o">]</span>; <span class="k">then</span>
+</span><span class="line"><span class="k">    </span><span class="nb">echo</span> <span class="s2">&quot;No existing branches have been merged into $current_branch.&quot;</span>
+</span><span class="line">  <span class="k">else</span>
+</span><span class="line"><span class="k">    </span><span class="nb">echo</span> <span class="s2">&quot;This will remove the following branches:&quot;</span>
+</span><span class="line">    <span class="k">if</span> <span class="o">[</span> -n <span class="s2">&quot;$remote_branches&quot;</span> <span class="o">]</span>; <span class="k">then</span>
+</span><span class="line"><span class="k">      </span><span class="nb">echo</span> <span class="s2">&quot;$remote_branches&quot;</span>
+</span><span class="line">    <span class="k">fi</span>
+</span><span class="line"><span class="k">    if</span> <span class="o">[</span> -n <span class="s2">&quot;$local_branches&quot;</span> <span class="o">]</span>; <span class="k">then</span>
+</span><span class="line"><span class="k">      </span><span class="nb">echo</span> <span class="s2">&quot;$local_branches&quot;</span>
+</span><span class="line">    <span class="k">fi</span>
+</span><span class="line"><span class="k">    </span><span class="nb">read</span> -p <span class="s2">&quot;Continue? (y/n): &quot;</span> -n 1 choice
+</span><span class="line">    <span class="nb">echo</span>
+</span><span class="line"><span class="nb">    </span><span class="k">if</span> <span class="o">[</span> <span class="s2">&quot;$choice&quot;</span> <span class="o">==</span> <span class="s2">&quot;y&quot;</span> <span class="o">]</span> <span class="o">||</span> <span class="o">[</span> <span class="s2">&quot;$choice&quot;</span> <span class="o">==</span> <span class="s2">&quot;Y&quot;</span> <span class="o">]</span>; <span class="k">then</span>
+</span><span class="line">      <span class="c"># Remove remote branches</span>
+</span><span class="line">      git push origin <span class="sb">`</span>git branch -r --merged | grep -v <span class="s1">&#39;/master$&#39;</span> | grep -v <span class="s2">&quot;/$current_branch$&quot;</span> | sed <span class="s1">&#39;s/origin\//:/g&#39;</span> | tr -d <span class="s1">&#39;\n&#39;</span><span class="sb">`</span>
+</span><span class="line">      <span class="c"># Remove local branches</span>
+</span><span class="line">      git branch -d <span class="sb">`</span>git branch --merged | grep -v <span class="s1">&#39;master$&#39;</span> | grep -v <span class="s2">&quot;$current_branch$&quot;</span> | sed <span class="s1">&#39;s/origin\///g&#39;</span> | tr -d <span class="s1">&#39;\n&#39;</span><span class="sb">`</span>
+</span><span class="line">    <span class="k">else</span>
+</span><span class="line"><span class="k">      </span><span class="nb">echo</span> <span class="s2">&quot;No branches removed.&quot;</span>
+</span><span class="line">    <span class="k">fi</span>
+</span><span class="line"><span class="k">  fi</span>
+</span><span class="line"><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
 
 ]]></content>
   </entry>
@@ -101,13 +285,32 @@
     <id>http://rob.by/2012/gun-control-is-a-bandaid</id>
     <content type="html"><![CDATA[<p>I understand the outrage over gun laws right now, but gun control is distracting us from a bigger problem: <strong>too many of our citizens are inspired to commit acts of violence</strong>.<!--more--></p>
 
-<p>Gun control is a bandaid. What do you do when you get cut? You put on a bandaid. But what would you do if you got cut regularly and repeatedly? Would you single-handedly keep Johnson &amp; Johnson in business for decades? No, you&#8217;d think &#8220;Hey, I keep cutting myself! I should stop cutting myself!&#8221;</p>
+<p>Gun control is a bandaid. What do you do when you get cut? You put on a bandaid. But what would you do if you got cut regularly and repeatedly? Would you single-handedly keep Johnson &amp; Johnson in business for decades? No, you’d think “Hey, I keep cutting myself! I should stop cutting myself!”</p>
 
-<p>That&#8217;s what we need to do now, in the aftermath of the Sandy Hook tragedy. We need to stop cutting ourself and fix the underlying problem.</p>
+<p>That’s what we need to do now, in the aftermath of the Sandy Hook tragedy. We need to stop cutting ourself and fix the underlying problem.</p>
 
-<p>The underlying problem is that people want to perform these atrocities. They want to commit mass murder against toddlers and teenagers. <a href="http://m.motherjones.com/politics/2012/11/jared-loughner-mass-shootings-mental-illness">More than half of them don&#8217;t care about the consequences because they plan to die among their victims</a>. This alone merits treatment and our full attention. We should not accept that people will want to do these things. We should not limit our protective approach to denying them the capability to carry out their attacks. It&#8217;s not sustainable. There will always be ways to hurt people.</p>
+<p>The underlying problem is that people want to perform these atrocities. They want to commit mass murder against toddlers and teenagers. <a href="http://m.motherjones.com/politics/2012/11/jared-loughner-mass-shootings-mental-illness">More than half of them don’t care about the consequences because they plan to die among their victims</a>. This alone merits treatment and our full attention. We should not accept that people will want to do these things. We should not limit our protective approach to denying them the capability to carry out their attacks. It’s not sustainable. There will always be ways to hurt people.</p>
 
-<p>If we need gun control as a bandaid to mend our wounds in the short term, so be it. But if that&#8217;s the political goal we&#8217;re rallying around &#8211; if the bar is set that low for our societal progress &#8211; then we&#8217;ve already lost the larger battle, because we&#8217;re conceding that we will regularly have born-and-raised Americans who want to commit mass murder against other Americans.</p>
+<p>If we need gun control as a bandaid to mend our wounds in the short term, so be it. But if that’s the political goal we’re rallying around – if the bar is set that low for our societal progress – then we’ve already lost the larger battle, because we’re conceding that we will regularly have born-and-raised Americans who want to commit mass murder against other Americans.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Looking for Partners for Red Sox 2013 Season Tickets]]></title>
+    <link href="http://rob.by/2012/looking-for-partners-for-red-sox-2013-season-tickets/"/>
+    <updated>2012-11-06T10:00:00-05:00</updated>
+    <id>http://rob.by/2012/looking-for-partners-for-red-sox-2013-season-tickets</id>
+    <content type="html"><![CDATA[<p>I’m looking for partners for my 2013 Red Sox season ticket share. If you’re interested in going to Red Sox games next year, and you don’t want to pay the box office fees, fill out the form and I’ll be in touch.<!--more--></p>
+
+<p>The seats are subject to change, but are currently infield grandstand, sec. 29, row 3 (behind third base). These seats are rain-covered, in the shade, and are not “obstructed view.” However like most of the grandstands, there is a pole in view. Luckily we have a clear shot of the entire infield:</p>
+
+<p><img src="http://robby-blog.s3.amazonaws.com/2012/looking-for-partners-for-red-sox-2013-season-tickets/smugshot2354143-M.jpg" alt="" /></p>
+
+<p><img src="http://robby-blog.s3.amazonaws.com/2012/looking-for-partners-for-red-sox-2013-season-tickets/smugshot2783330-M.jpg" alt="" /></p>
+
+<p>Each game is $95; that price includes both of the two seats.</p>
+
+<iframe src="https://docs.google.com/a/freerobby.com/spreadsheet/embeddedform?formkey=dG1oVDZNUm5GX3JidTQ4aEJGVVhXLXc6MQ" width="340" height="540"></iframe>
 ]]></content>
   </entry>
   
@@ -116,14 +319,13 @@
     <link href="http://rob.by/2012/migrating-to-riak-at-shareaholic/"/>
     <updated>2012-08-31T10:30:00-04:00</updated>
     <id>http://rob.by/2012/migrating-to-riak-at-shareaholic</id>
-    <content type="html"><![CDATA[<p>Last night I presented &#8220;Migrating to Riak @Shareaholic&#8221; at the first <a href="http://www.meetup.com/Boston-Riak/events/77828202">Boston Riak meetup</a></p>
+    <content type="html"><![CDATA[<p>Last night I presented “Migrating to Riak @Shareaholic” at the first <a href="http://www.meetup.com/Boston-Riak/events/77828202">Boston Riak meetup</a></p>
 
 <p>Below are my slides from the talk.</p>
 
-<iframe src="http://www.slideshare.net/slideshow/embed_code/14130056?rel=0" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen> </iframe>
+<iframe src="http://www.slideshare.net/slideshow/embed_code/14130056?rel=0" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen=""> </iframe>
 
-
-<p>One correction that I&#8217;ve updated in the slides: I mistakenly referenced Shareaholic using Hadoop MapReduce. Shareaholic uses Amazon&#8217;s Elastic MapReduce, which works similarly to Hadoop but is a separate implementation. My reference is intended only to distinguish it from Riak&#8217;s MapReduce implementation, which is substantially different.</p>
+<p>One correction that I’ve updated in the slides: I mistakenly referenced Shareaholic using Hadoop MapReduce. Shareaholic uses Amazon’s Elastic MapReduce, which works similarly to Hadoop but is a separate implementation. My reference is intended only to distinguish it from Riak’s MapReduce implementation, which is substantially different.</p>
 ]]></content>
   </entry>
   
@@ -132,55 +334,82 @@
     <link href="http://rob.by/2012/aws-risk-mitigation-strategies/"/>
     <updated>2012-07-02T10:05:00-04:00</updated>
     <id>http://rob.by/2012/aws-risk-mitigation-strategies</id>
-    <content type="html"><![CDATA[<p>Even if you&#8217;re not ready to roll your own hardware, there&#8217;s a lot you can do to minimize your risk of downtime on AWS, and to mitigate the effects when it&#8217;s unavoidable.<!-- more --></p>
+    <content type="html"><![CDATA[<p>Even if you’re not ready to roll your own hardware, there’s a lot you can do to minimize your risk of downtime on AWS, and to mitigate the effects when it’s unavoidable.<!-- more --></p>
 
-<h3>Plan for Brownouts Following Blackouts</h3>
+<h3 id="plan-for-brownouts-following-blackouts">Plan for Brownouts Following Blackouts</h3>
 
-<p>Amazon <a href="http://status.aws.amazon.com/">emphasizes</a> that only &#8220;a single availability zone&#8221; suffered EC2 and EBS outages, but that is only half the story. The cascading effects that followed are equally important.</p>
+<p>Amazon <a href="http://status.aws.amazon.com/">emphasizes</a> that only “a single availability zone” suffered EC2 and EBS outages, but that is only half the story. The cascading effects that followed are equally important.</p>
 
-<p>For several hours on Friday night, I was unable to bring up a single instance in any of the five US-East availability zones. A commenter correctly <a href="http://news.ycombinator.com/item?id=4182137">pointed out</a> that this is what light utilization reserved instances are for, but in this case that would not have helped. The AWS web console was unreachable, as was the AWS API. I was eventually able to get an &#8220;insufficient capacity&#8221; error message, at which point a reserved instance may have been helpful, but that was hours later.</p>
+<p>For several hours on Friday night, I was unable to bring up a single instance in any of the five US-East availability zones. A commenter correctly <a href="http://news.ycombinator.com/item?id=4182137">pointed out</a> that this is what light utilization reserved instances are for, but in this case that would not have helped. The AWS web console was unreachable, as was the AWS API. I was eventually able to get an “insufficient capacity” error message, at which point a reserved instance may have been helpful, but that was hours later.</p>
 
-<p>I&#8217;ve confirmed that others had similar experiences. A source at a company with AWS Platinum Support told me that Amazon was throttling requests and the spawning of new instances in &#8220;unaffected&#8221; US-East availability zones. It sounds like a barrage of requests came in to launch new EC2 instances in these other availability zones, and Amazon was unable to support the demand.</p>
+<p>I’ve confirmed that others had similar experiences. A source at a company with AWS Platinum Support told me that Amazon was throttling requests and the spawning of new instances in “unaffected” US-East availability zones. It sounds like a barrage of requests came in to launch new EC2 instances in these other availability zones, and Amazon was unable to support the demand.</p>
 
 <p>At <a href="http://shareaholic.com">Shareaholic</a> we determined a long time ago that implementing full redundancy was not worth the engineering cost. However, that was based on the assumption that if one availability zone went offline, we could bring up new instances in another one immediately to keep our core services operating. This proved to be a flawed assumption. We did not anticipate that the loss of one availability zone would create more demand than Amazon could handle in the other four.</p>
 
-<h3>Use Automated Infrastructure to Save Time and Headaches</h3>
+<h3 id="use-automated-infrastructure-to-save-time-and-headaches">Use Automated Infrastructure to Save Time and Headaches</h3>
 
 <p>Without exception, what saves me the most time recovering from an AWS outage is that our infrastructure stack is automated with Chef. Deploying new code or provisioning a new server requires only one terminal command.</p>
 
-<p>Automated infrastructure also provides an additional benefit: it serves as documentation for the configuration of every server. Not sure what your haproxy.cfg should look like? It&#8217;s in Chef. Not sure how to setup your MySQL slave? It&#8217;s in Chef.</p>
+<p>Automated infrastructure also provides an additional benefit: it serves as documentation for the configuration of every server. Not sure what your haproxy.cfg should look like? It’s in Chef. Not sure how to setup your MySQL slave? It’s in Chef.</p>
 
-<p>Whether you use Chef, Puppet, Rubber or homegrown deploy scripts, having an automated infrastructure stack saves you time and ensures that you aren&#8217;t struggling to piece together a working config file at a critical moment.</p>
+<p>Whether you use Chef, Puppet, Rubber or homegrown deploy scripts, having an automated infrastructure stack saves you time and ensures that you aren’t struggling to piece together a working config file at a critical moment.</p>
 
-<h3>Use Low TTL Values for Faster DNS Updates</h3>
+<h3 id="use-low-ttl-values-for-faster-dns-updates">Use Low TTL Values for Faster DNS Updates</h3>
 
 <p>At Shareaholic, we set a very low DNS TTL value (300 seconds) on our top level domain so that we can push out DNS updates within five minutes. Unfortunately, this is not 100% reliable: some ISPs do not enforce these low TTL values because they require more frequent fetching. Users of such ISPs resultantly see longer downtime than everybody else. Users whose ISPs react properly receive correct IP addresses within five minutes from when we push an update.</p>
 
 <p>This, combined with our use of Chef, is our best shot at restoring downed services in minutes rather than hours.</p>
 
-<h3>Use Virtualized Hardware, Not Services, to Reduce Risk of Outages</h3>
+<h3 id="use-virtualized-hardware-not-services-to-reduce-risk-of-outages">Use Virtualized Hardware, Not Services, to Reduce Risk of Outages</h3>
 
-<p>Amazon Web Services can be used either to virtualize raw hardware (EC2 instances with instance storage) or to virtualize core web services (ELB, EBS, RDS, etc.). This weekend&#8217;s ELB, EBS and RDS failures demonstrate that you are at much greater risk of a service disruption if you use the latter. None of our instance storage EC2 instances suffered outages.</p>
+<p>Amazon Web Services can be used either to virtualize raw hardware (EC2 instances with instance storage) or to virtualize core web services (ELB, EBS, RDS, etc.). This weekend’s ELB, EBS and RDS failures demonstrate that you are at much greater risk of a service disruption if you use the latter. None of our instance storage EC2 instances suffered outages.</p>
 
-<p>For this reason, at Shareaholic, we&#8217;ve avoided using AWS&#8217; proprietary services whenever possible. Instead of using ELB, we run our own <a href="http://haproxy.1wt.eu/">HAProxy</a> load balancers. This has reliably fixed the problem of visitors getting directed to unresponsive instances when they go down. Unfortunately, it also means that we own the burden of implementing redundant load balancers. We got burned when the AWS API timed out, prohibiting us from reassigning our Elastic IP addresses to our redundant machines. However, we were still able to get our home-grown load balancers back up hours before Amazon resolved its ELB failures.</p>
+<p>For this reason, at Shareaholic, we’ve avoided using AWS’ proprietary services whenever possible. Instead of using ELB, we run our own <a href="http://haproxy.1wt.eu/">HAProxy</a> load balancers. This has reliably fixed the problem of visitors getting directed to unresponsive instances when they go down. Unfortunately, it also means that we own the burden of implementing redundant load balancers. We got burned when the AWS API timed out, prohibiting us from reassigning our Elastic IP addresses to our redundant machines. However, we were still able to get our home-grown load balancers back up hours before Amazon resolved its ELB failures.</p>
 
-<p>We&#8217;ve rolled our own MySQL, Redis, MongoDB and Riak for the same reason. We still suffered downtime because we rely on EBS (which is something we&#8217;ll work to avoid in the future), but our recovery efforts were made easier and more timely by the fact that we manage our data and load balancing stacks in-house.</p>
+<p>We’ve rolled our own MySQL, Redis, MongoDB and Riak for the same reason. We still suffered downtime because we rely on EBS (which is something we’ll work to avoid in the future), but our recovery efforts were made easier and more timely by the fact that we manage our data and load balancing stacks in-house.</p>
 
-<h3>Determine in Advance What Risks You&#8217;re Willing to Take</h3>
+<h3 id="determine-in-advance-what-risks-youre-willing-to-take">Determine in Advance What Risks You’re Willing to Take</h3>
 
 <p>My post-downtime debrief boils down to one question:</p>
 
 <p><em>Knowing what we know now, what engineering work would have been worth doing in advance to mitigate the downtime we just had?</em></p>
 
-<p>Usually my answer to this question is &#8220;none.&#8221; This varies by business, but a few hours to a day of downtime per year is often less expensive than the engineering required to avoid it.</p>
+<p>Usually my answer to this question is “none.” This varies by business, but a few hours to a day of downtime per year is often less expensive than the engineering required to avoid it.</p>
 
-<h3>In Conclusion</h3>
+<h3 id="in-conclusion">In Conclusion</h3>
 
-<p>Amazon Web Services is not one big service that stays up or goes down. It is comprised of many services of varying complexity. By understanding their individual reliabilities, organizations can engineer around many of AWS&#8217; shortcomings.</p>
+<p>Amazon Web Services is not one big service that stays up or goes down. It is comprised of many services of varying complexity. By understanding their individual reliabilities, organizations can engineer around many of AWS’ shortcomings.</p>
 
-<p>Still, there&#8217;s no silver bullet. When things do go wrong, the responsibility of recovery falls on you, the AWS customer. By determining in advance what risks you&#8217;re willing to take, preparing your DNS for faster updates and automating the generation of your infrastructure, you can respond more quickly when you need to.</p>
+<p>Still, there’s no silver bullet. When things do go wrong, the responsibility of recovery falls on you, the AWS customer. By determining in advance what risks you’re willing to take, preparing your DNS for faster updates and automating the generation of your infrastructure, you can respond more quickly when you need to.</p>
 
 <p><em>Thanks to <a href="http://graysky.org">Mike Champion</a> and <a href="http://nirvdrum.com">Kevin Menard</a> for proofreading this post.</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Red Sox Tickets for Sale]]></title>
+    <link href="http://rob.by/2012/red-sox-tickets-for-sale/"/>
+    <updated>2012-05-17T00:16:52-04:00</updated>
+    <id>http://rob.by/2012/red-sox-tickets-for-sale</id>
+    <content type="html"><![CDATA[<p>Good news for me: I got the option to buy a Red Sox ticket package!</p>
+
+<p>Good news for you: I don’t need all the games, and I’d rather hook up friends, family and acquaintances than deal with Stubhub, Craigslist, etc.<!--more--></p>
+
+<p>All tickets will be sold at face value ($104/game, includes both tickets).</p>
+
+<p>For each game I have 2 seats in Infield Grandstand 29, Row 3.</p>
+
+<p>Disclaimer: part of the outfield (left or center, depending on the seat) is blocked by a pole from these seats. This is fairly typical for grandstands at Fenway, and these tickets are not considered “obstructed view” seats by the Red Sox, but if following outfield fly balls is mission critical for you, or if a pole in your peripheral will drive you nuts, these are not the seats for you. On the other hand if having a close view of the infield with full rain protection sounds good, these are tough to beat value-wise. The photos below describe better than words, but I wanted to add a written disclaimer just to be safe.</p>
+
+<p>The following photos were taken from the seat on the right:</p>
+
+<p><img src="http://robby-blog.s3.amazonaws.com/2012/red-sox-tickets-for-sale/smugshot2354143-M.jpg" alt="" /></p>
+
+<p><img src="http://robby-blog.s3.amazonaws.com/2012/red-sox-tickets-for-sale/smugshot2783330-M.jpg" alt="" /></p>
+
+<p>Please use this form to request seats to games that you’re interested in:</p>
+
+<iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dDAxTUYxbm1YMkJLZmJLLWdPWW5SX2c6MQ" width="600" height="710"></iframe>
 ]]></content>
   </entry>
   
@@ -195,11 +424,11 @@
 
 <p>Cost of a majority stake in Netflix*: $6.36B market cap / 2 = <strong>$3.18B</strong></p>
 
-<p>For two quarters&#8217; dividends, Apple could buy 77% of Netflix.<!--more--></p>
+<p>For two quarters’ dividends, Apple could buy 77% of Netflix.<!--more--></p>
 
-<p>This dividend is good PR and CNBC fodder, but as an investor I&#8217;d prefer my investment be invested.</p>
+<p>This dividend is good PR and CNBC fodder, but as an investor I’d prefer my investment be invested.</p>
 
-<p>*<em> My intent is to illustrate what Apple could do with this much money. Even if you don&#8217;t think Netflix would provide enough strategic value to justify a buyout, the point remains that there are large, competitive, growing companies that Apple could invest in.</em></p>
+<p>*<em> My intent is to illustrate what Apple could do with this much money. Even if you don’t think Netflix would provide enough strategic value to justify a buyout, the point remains that there are large, competitive, growing companies that Apple could invest in.</em></p>
 ]]></content>
   </entry>
   
@@ -208,30 +437,30 @@
     <link href="http://rob.by/2012/first-impressions-of-the-new-ipad/"/>
     <updated>2012-03-16T08:53:15-04:00</updated>
     <id>http://rob.by/2012/first-impressions-of-the-new-ipad</id>
-    <content type="html"><![CDATA[<p>I picked up &#8220;the new iPad&#8221; this morning. Here are my first impressions:<!--more--></p>
+    <content type="html"><![CDATA[<p>I picked up “the new iPad” this morning. Here are my first impressions:<!--more--></p>
 
-<h2>Look &amp; Feel</h2>
+<h2 id="look--feel">Look &amp; Feel</h2>
 
-<p>The touchscreen and overall UX is a lot more responsive than my iPad 1 (running iOS 5.1). Apps load substantially faster; I would estimate a 4x speedup. I do not own an iPad 2 so I can&#8217;t offer a comparison there.</p>
+<p>The touchscreen and overall UX is a lot more responsive than my iPad 1 (running iOS 5.1). Apps load substantially faster; I would estimate a 4x speedup. I do not own an iPad 2 so I can’t offer a comparison there.</p>
 
-<h2>Screen</h2>
+<h2 id="screen">Screen</h2>
 
 <p>Like I found when upgrading to the iPhone 4, the screen resolution is amazing. The visual difference between icons that are retina display-optimized and the icons that are not is immediately striking.</p>
 
-<p>My only letdown: one of my complaints about my first generation iPad is that the blacks are a bit bright. This is especially noticeable when watching movies. I was hoping that the increased color saturation on the new iPad&#8217;s retina display would address this and keep them darker, but after comparing Netflix playback on both of them, I do not see any difference.</p>
+<p>My only letdown: one of my complaints about my first generation iPad is that the blacks are a bit bright. This is especially noticeable when watching movies. I was hoping that the increased color saturation on the new iPad’s retina display would address this and keep them darker, but after comparing Netflix playback on both of them, I do not see any difference.</p>
 
-<h2>Dictation</h2>
+<h2 id="dictation">Dictation</h2>
 
-<p>The dictation function is very fast. I dictated eight sentences in one take and the iPad had them transcribed in under a second - about as fast as Apple makes Siri look in its commercials. Textual accuracy was near-perfect (it mistook &#8220;is&#8221; for &#8220;in&#8221; and &#8220;the&#8221; for &#8220;a&#8221;), and could definitely be used for publishing longer form text on the go after a quick proofread.</p>
+<p>The dictation function is very fast. I dictated eight sentences in one take and the iPad had them transcribed in under a second - about as fast as Apple makes Siri look in its commercials. Textual accuracy was near-perfect (it mistook “is” for “in” and “the” for “a”), and could definitely be used for publishing longer form text on the go after a quick proofread.</p>
 
-<h2>Data Plan</h2>
+<h2 id="data-plan">Data Plan</h2>
 
-<p>I have a grandfathered AT&amp;T unlimited data plan from my original iPad. I searched around and called AT&amp;T to verify I could move it to the new one. They assured me I could, and I&#8217;m happy to report that transferring it to the new device was fast and straightforward. There were no gotchas or tricks intended to get me to cancel it. My existing plan was selected by default:</p>
+<p>I have a grandfathered AT&amp;T unlimited data plan from my original iPad. I searched around and called AT&amp;T to verify I could move it to the new one. They assured me I could, and I’m happy to report that transferring it to the new device was fast and straightforward. There were no gotchas or tricks intended to get me to cancel it. My existing plan was selected by default:</p>
 
 <p><img src="http://robby-blog.s3.amazonaws.com/2012/first-impressions-of-the-new-ipad/unlimited-data.jpg" alt="Unlimited data plan selected by default" /></p>
 
 <p>Update:
-Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/180654166681718784">pointing out</a> that I initially used the dictation feature incorrectly. I&#8217;ve updated the review to reflect how it works when used properly.</p>
+Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/180654166681718784">pointing out</a> that I initially used the dictation feature incorrectly. I’ve updated the review to reflect how it works when used properly.</p>
 ]]></content>
   </entry>
   
@@ -240,11 +469,11 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
     <link href="http://rob.by/2012/remembering-joe-paterno/"/>
     <updated>2012-01-22T14:01:04-05:00</updated>
     <id>http://rob.by/2012/remembering-joe-paterno</id>
-    <content type="html"><![CDATA[<p>Lots of people are upset about Joe Paterno&#8217;s death right now. Lots of other people don&#8217;t understand how anybody can be upset given his inactions amid the Sandusky scandal.</p>
+    <content type="html"><![CDATA[<p>Lots of people are upset about Joe Paterno’s death right now. Lots of other people don’t understand how anybody can be upset given his inactions amid the Sandusky scandal.</p>
 
-<p>I don&#8217;t understand why people are so insistent on remembering Paterno in a particular light.<!--more--></p>
+<p>I don’t understand why people are so insistent on remembering Paterno in a particular light.<!--more--> </p>
 
-<p>I&#8217;m still shocked by the whole story, and I have a lot of difficulty and clashing emotions contrasting the Paterno I knew about with the Paterno I just learned about. I can&#8217;t summon a single emotion that encapsulates these two very dichotomous narratives. The bad doesn&#8217;t cancel out the good, and the good doesn&#8217;t cancel out the bad. It is what it is; he was who he was.</p>
+<p>I’m still shocked by the whole story, and I have a lot of difficulty and clashing emotions contrasting the Paterno I knew about with the Paterno I just learned about. I can’t summon a single emotion that encapsulates these two very dichotomous narratives. The bad doesn’t cancel out the good, and the good doesn’t cancel out the bad. It is what it is; he was who he was.</p>
 
 <p>People are complex creatures. I honor the good he did and I loathe what he allowed to happen, all at the same time.</p>
 ]]></content>
@@ -255,21 +484,21 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
     <link href="http://rob.by/2011/responding-to-criticism/"/>
     <updated>2011-05-17T10:00:13-04:00</updated>
     <id>http://rob.by/2011/responding-to-criticism</id>
-    <content type="html"><![CDATA[<p>In 2006 I participated in <a href="http://www.nols.edu/courses/locations/alaska/aksemester.shtml">NOLS&#8217; Summer Semester in Alaska</a>, a 75-day kayaking, backpacking and mountaineering course, which helps students gain wilderness and leadership skills.</p>
+    <content type="html"><![CDATA[<p>In 2006 I participated in <a href="http://www.nols.edu/courses/locations/alaska/aksemester.shtml">NOLS’ Summer Semester in Alaska</a>, a 75-day kayaking, backpacking and mountaineering course, which helps students gain wilderness and leadership skills.</p>
 
-<p>A few days in I got my first review. I was a wreck. I packed my backpack as if I were paying homage to the Leaning Tower of Pisa. The most palatable meals I cooked were the ones that were burned beyond recognition. I might have been able to properly affix a rainfly to a tent, but I&#8217;ll never know because nobody trusted me to keep their tent dry. You know that guy who played on your middle school basketball team who had great hustle and personality but couldn&#8217;t make a layup? The guy the coach wanted to do well, but would never take chances with in the 4th quarter? That was me at the start of my first NOLS course.<!--more--></p>
+<p>A few days in I got my first review. I was a wreck. I packed my backpack as if I were paying homage to the Leaning Tower of Pisa. The most palatable meals I cooked were the ones that were burned beyond recognition. I might have been able to properly affix a rainfly to a tent, but I’ll never know because nobody trusted me to keep their tent dry. You know that guy who played on your middle school basketball team who had great hustle and personality but couldn’t make a layup? The guy the coach wanted to do well, but would never take chances with in the 4th quarter? That was me at the start of my first NOLS course.<!--more--></p>
 
-<p>My second review provided a laundry list as long as the first one. &#8220;Is there <em>anything</em> I&#8217;m doing right?&#8221;, I fished. The instructor looked me squarely in the eyes and told me that I&#8217;m accepting and responding to their criticisms very well - certainly better than anybody else on the trip, and maybe better than any other student he&#8217;s had. If I were young and stupid, I&#8217;d have thought this was the most condescending thing he could possibly say to me. Oh wait, I was young and stupid, and that&#8217;s exactly what I thought. Miraculously aware that acting somber or exploding would be of no value, I swallowed and said &#8220;thanks.&#8221;</p>
+<p>My second review provided a laundry list as long as the first one. “Is there <em>anything</em> I’m doing right?”, I fished. The instructor looked me squarely in the eyes and told me that I’m accepting and responding to their criticisms very well - certainly better than anybody else on the trip, and maybe better than any other student he’s had. If I were young and stupid, I’d have thought this was the most condescending thing he could possibly say to me. Oh wait, I was young and stupid, and that’s exactly what I thought. Miraculously aware that acting somber or exploding would be of no value, I swallowed and said “thanks.”</p>
 
-<p>I later came to understand that my instructor had actually paid me one of the most gracious compliments I&#8217;d ever receive. Over the next week, my skills improved &#8211; not hugely, but demonstrably. I continued receiving feedback and making iterative progress over the duration of the course, and it eventually became clear to me, and to others, that I had more than paid off my skills deficit.</p>
+<p>I later came to understand that my instructor had actually paid me one of the most gracious compliments I’d ever receive. Over the next week, my skills improved – not hugely, but demonstrably. I continued receiving feedback and making iterative progress over the duration of the course, and it eventually became clear to me, and to others, that I had more than paid off my skills deficit.</p>
 
-<p>The reason I was so offended at first is that I thought that taking criticism was the standard of a student in a student-teacher relationship. To me it was like force-praising a bad teacher by saying &#8220;you do a great job showing up to class everyday.&#8221; <em>That&#8217;s what you&#8217;d say to a teacher who had no teaching skills.</em> But I quickly learned that my analogy was flawed. Taking criticism was a skill in itself. There were students who did not take feedback well. To this day I feel very sorry for them, because they lost out on 75 days worth of fantastic wilderness lessons.</p>
+<p>The reason I was so offended at first is that I thought that taking criticism was the standard of a student in a student-teacher relationship. To me it was like force-praising a bad teacher by saying “you do a great job showing up to class everyday.” <em>That’s what you’d say to a teacher who had no teaching skills.</em> But I quickly learned that my analogy was flawed. Taking criticism was a skill in itself. There were students who did not take feedback well. To this day I feel very sorry for them, because they lost out on 75 days worth of fantastic wilderness lessons.</p>
 
-<p>And here&#8217;s why: nobody was willing to criticize these people after the first week because everybody knew it would lead to conflict. And so by the mountaineering section, when I was getting advanced critiques on navigating through a whiteout (very, very difficult), the more defensive folks were just trotting along, with the same navigation skillsets they had when they started.</p>
+<p>And here’s why: nobody was willing to criticize these people after the first week because everybody knew it would lead to conflict. And so by the mountaineering section, when I was getting advanced critiques on navigating through a whiteout (very, very difficult), the more defensive folks were just trotting along, with the same navigation skillsets they had when they started.</p>
 
-<p>Eventually I returned to civilization, and a while later I got my first job. I learned that people function exactly the same way in the office. I&#8217;ve seen people at work who take criticism well and respond with a thank you. They continue to get constructive feedback because people feel safe giving it to them. I&#8217;ve also seen people who explode in the way that I miraculously avoided despite being young and stupid. I feel sad when I see people do this, because I know that when everybody else is learning the advanced techniques for navigating their corporate worlds (very, very difficult), these people will be trotting along, the same as they were when they started.</p>
+<p>Eventually I returned to civilization, and a while later I got my first job. I learned that people function exactly the same way in the office. I’ve seen people at work who take criticism well and respond with a thank you. They continue to get constructive feedback because people feel safe giving it to them. I’ve also seen people who explode in the way that I miraculously avoided despite being young and stupid. I feel sad when I see people do this, because I know that when everybody else is learning the advanced techniques for navigating their corporate worlds (very, very difficult), these people will be trotting along, the same as they were when they started.</p>
 
-<p>Do everything you can to be in that first group of people. No matter how harsh or personal or crushing someone&#8217;s feedback feels, take it constructively and with the best of intentions. Show them gratitude for having the courage to help you in a way that was probably uncomfortable for them. If you don&#8217;t respond positively, they&#8217;ll never be honest with you again and you&#8217;ll miss out on a lot of invaluable learning opportunities.</p>
+<p>Do everything you can to be in that first group of people. No matter how harsh or personal or crushing someone’s feedback feels, take it constructively and with the best of intentions. Show them gratitude for having the courage to help you in a way that was probably uncomfortable for them. If you don’t respond positively, they’ll never be honest with you again and you’ll miss out on a lot of invaluable learning opportunities.</p>
 ]]></content>
   </entry>
   
@@ -280,18 +509,17 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
     <id>http://rob.by/2011/writing-for-people-part-2</id>
     <content type="html"><![CDATA[<p>Last year I <a href="http://rob.by/2010/writing-for-people">wrote</a> about the importance of writing for people rather than search engines, two target audiences that often compete with each other on the web.</p>
 
-<p>A similar problem occurs when authors write for companies instead of people. I see this most at business-to-business companies, where the customer is another company rather than a human. It&#8217;s important to remember that it&#8217;s always a human who will be reading your copy.<!--more--></p>
+<p>A similar problem occurs when authors write for companies instead of people. I see this most at business-to-business companies, where the customer is another company rather than a human. It’s important to remember that it’s always a human who will be reading your copy.<!--more--></p>
 
-<p>One way to make that easier is to imagine the people who are reading your copy. Conjuring that image forces you to speak to them on their terms. I think a leading cause of corporate nonsense speak is the  failure of copywriters to personify the audience they&#8217;re talking to.</p>
+<p>One way to make that easier is to imagine the people who are reading your copy. Conjuring that image forces you to speak to them on their terms. I think a leading cause of corporate nonsense speak is the  failure of copywriters to personify the audience they’re talking to.</p>
 
 <p>For the benefit of my <a href="http://www.extension.harvard.edu/courses/spch.jsp#e-130">Executive Speaking</a> classmates, many of whom work at big business-to-business companies, I decided to make my final semester speech on this topic.</p>
 
 <p>The slides contain several examples, citing both successes and failures. You can <a href="http://robby-blog.s3.amazonaws.com/2011/writing-for-people-part-2/Writing-for-People.pdf">download them</a> or view them below.</p>
 
-<div style="width:595px" id="__ss_7659704"><iframe src="http://www.slideshare.net/slideshow/embed_code/7659704" width="595" height="497" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0" allowfullscreen></iframe></div>
+<div style="width:595px" id="__ss_7659704"><iframe src="http://www.slideshare.net/slideshow/embed_code/7659704" width="595" height="497" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0" allowfullscreen=""></iframe></div>
 
-
-<h2>Credits</h2>
+<h2 id="credits">Credits</h2>
 
 <p>A few of my examples came from UX Designer <a href="http://www.natashascorner.com/">Natasha Lloyd</a>. Specific citations are at the bottom of each applicable slide.</p>
 ]]></content>
@@ -304,25 +532,26 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
     <id>http://rob.by/2011/garageband-has-found-its-interface</id>
     <content type="html"><![CDATA[<p>This is what you can do with GarageBand for iPad in about 2 hours:</p>
 
-<p><video width='' height='' preload='none' controls poster=''><source src='http://robby-blog.s3.amazonaws.com/music/garage-band-jam.m4a' type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'/></video><!--more--></p>
+<video width="" height="" preload="none" controls="" poster=""><source src="http://robby-blog.s3.amazonaws.com/music/garage-band-jam.m4a" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;" /></video>
+<!--more-->
 
 <p><a href="http://robby-blog.s3.amazonaws.com/music/garage-band-jam.m4a">Download link</a></p>
 
 <p>I wrote this song for the purpose of trying GarageBand for iPad this evening. I used vocals, guitars and virtual instruments in ways that I believe most people would use them, and I capped the project at two hours.</p>
 
-<h2>Composition</h2>
+<h2 id="composition">Composition</h2>
 
-<p>The above song was recorded entirely on a <strong>first generation iPad</strong>. It consists of eight virtual tracks: two recorded acoustic guitars, two recorded vocal tracks, two recorded electric guitars, a virtual bass, and a virtual drumkit. All audio tracks were recorded with the iPad&#8217;s internal condenser microphone.</p>
+<p>The above song was recorded entirely on a <strong>first generation iPad</strong>. It consists of eight virtual tracks: two recorded acoustic guitars, two recorded vocal tracks, two recorded electric guitars, a virtual bass, and a virtual drumkit. All audio tracks were recorded with the iPad’s internal condenser microphone.</p>
 
 <p><img src="http://robby-blog.s3.amazonaws.com/2011/garageband-has-found-its-interface/Final_Track_Layout.png" alt="Final Track Layout" /></p>
 
-<h2>Recording Process</h2>
+<h2 id="recording-process">Recording Process</h2>
 
-<p>The two acoustic guitar tracks are panned about 75% left and 75% right. The left is strumming chords; the right is alternating between chords and arpeggiated notes. I chose the &#8220;small room&#8221; preset for both to provide ambiance.</p>
+<p>The two acoustic guitar tracks are panned about 75% left and 75% right. The left is strumming chords; the right is alternating between chords and arpeggiated notes. I chose the “small room” preset for both to provide ambiance.</p>
 
 <p>The two vocal tracks are separate takes of the same lines, panned about two thirds left and two thirds right. This process provides a full sound without requiring any unnatural reverb (Elliott Smith is perhaps best known for using this technique; John Lennon and Bon Iver have also employed it).</p>
 
-<p>The two electric guitar tracks are panned about 60% each way. These are not virtual instruments; they are real electric guitars played through a Fender Pro Junior amp. I struggled to maintain a consistent volume because even at 15 watts my Pro Junior was too loud for the iPad&#8217;s internal mic. I got the levels manageable with a makeshift damper made from tissues.</p>
+<p>The two electric guitar tracks are panned about 60% each way. These are not virtual instruments; they are real electric guitars played through a Fender Pro Junior amp. I struggled to maintain a consistent volume because even at 15 watts my Pro Junior was too loud for the iPad’s internal mic. I got the levels manageable with a makeshift damper made from tissues.</p>
 
 <p>I created the virtual bass lines by plucking individual strings from chords in the selected key. Non-musicians will appreciate this method because they can improvise without the risk of playing out of key. Musicians, and particularly composers, will find this limiting. There were a couple times when I wanted to create dissonance, and had to change the key in order to pluck an intermediate semitone.</p>
 
@@ -330,39 +559,39 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
 
 <p>The virtual drumkit is by far the most fun part of creating songs. GarageBand provides two ways to lay down your beats:</p>
 
-<p>The first is a clickable drumset that plays the drum you tap at the time you tap it. Overdubs are allowed within a single track, so you can focus on one drum per take and get the timing right. If you have a specific drumbeat in your head, this is the method you&#8217;ll need to use to translate it for the virtual drumset. GarageBand lets you quantize virtual instruments (up to the nearest 64th note), so you can stay on rhythm even if your hands aren&#8217;t perfect.</p>
+<p>The first is a clickable drumset that plays the drum you tap at the time you tap it. Overdubs are allowed within a single track, so you can focus on one drum per take and get the timing right. If you have a specific drumbeat in your head, this is the method you’ll need to use to translate it for the virtual drumset. GarageBand lets you quantize virtual instruments (up to the nearest 64th note), so you can stay on rhythm even if your hands aren’t perfect.</p>
 
 <p>The other means of entry is a grid onto which you place drums. The grid ranges from simple to complex and from quiet to loud. If you want to experiment with beats or just get a rhythm down to record with (metronomes are boring), this is the quickest way to get up and running. You can also click the die to generate a random beat.</p>
 
 <p><img src="http://robby-blog.s3.amazonaws.com/2011/garageband-has-found-its-interface/Virtual_Drums.png" alt="GarageBand Virtual Drums" /></p>
 
-<h2>Impressions</h2>
+<h2 id="impressions">Impressions</h2>
 
-<p>GarageBand has found its interface (spoiler: it comes in a 9.7&#8221; version, but not 13&#8221;, 15&#8221; or 17&#8221;). Buttons that you actually push. Sliders that you actually slide. Drums that you actually hit. Good riddance, mouse; you will not be missed. It feels like this is what the iPad was made to do.</p>
+<p>GarageBand has found its interface (spoiler: it comes in a 9.7” version, but not 13”, 15” or 17”). Buttons that you actually push. Sliders that you actually slide. Drums that you actually hit. Good riddance, mouse; you will not be missed. It feels like this is what the iPad was made to do.</p>
 
-<p>But the impressiveness of the interface is only half of why GarageBand for iPad is so great. The other half is that Apple has proven that the whole of the iPad is greater than the sum of its parts. It isn&#8217;t that the GarageBand keyboard has better sensitivity and sound than Pianist (though it does), or that the virtual guitar is easier to use than Air Guitar (though it is), or that the beat sequencers are easier to use than Korg&#8217;s iElectribe (though they are), or that the drums sound better than those of JamPad (though they do), or that the recording interface is smoother than FourTrack&#8217;s (though it is). It&#8217;s that all of these things are now integrated perfectly into part of a larger whole. It is an all-in-one-piece music creation suite, and it is the most capable one on the market.</p>
+<p>But the impressiveness of the interface is only half of why GarageBand for iPad is so great. The other half is that Apple has proven that the whole of the iPad is greater than the sum of its parts. It isn’t that the GarageBand keyboard has better sensitivity and sound than Pianist (though it does), or that the virtual guitar is easier to use than Air Guitar (though it is), or that the beat sequencers are easier to use than Korg’s iElectribe (though they are), or that the drums sound better than those of JamPad (though they do), or that the recording interface is smoother than FourTrack’s (though it is). It’s that all of these things are now integrated perfectly into part of a larger whole. It is an all-in-one-piece music creation suite, and it is the most capable one on the market.</p>
 
-<p>The closest competition it has is the <a href="http://www.bossus.com/gear/productdetails.php?ProductId=818">Boss Micro BR</a>, which trails far behind in several respects. GarageBand is easy and intuitive to use while the Micro BR&#8217;s functionality is arcane; GarageBand supports eight tracks while the Micro BR supports only four; GarageBand provides several virtual instruments while the Micro BR provides none. The Micro BR is smaller (5.5&#8221;x3.25x0.875&#8221;), which makes it slightly more portable, but this also contributes to its poor usability. My Micro BR has served me well for years. Tomorrow it goes up on Craigslist.</p>
+<p>The closest competition it has is the <a href="http://www.bossus.com/gear/productdetails.php?ProductId=818">Boss Micro BR</a>, which trails far behind in several respects. GarageBand is easy and intuitive to use while the Micro BR’s functionality is arcane; GarageBand supports eight tracks while the Micro BR supports only four; GarageBand provides several virtual instruments while the Micro BR provides none. The Micro BR is smaller (5.5”x3.25x0.875”), which makes it slightly more portable, but this also contributes to its poor usability. My Micro BR has served me well for years. Tomorrow it goes up on Craigslist.</p>
 
 <p><img src="http://robby-blog.s3.amazonaws.com/2011/garageband-has-found-its-interface/micro-br.jpg" alt="Boss Micro BR" /></p>
 
-<h2>Room for Improvement</h2>
+<h2 id="room-for-improvement">Room for Improvement</h2>
 
-<p>I&#8217;d like to see an input level adjustment in the next version. Controlling individual track volumes at playback time is not sufficient for this purpose, especially for songs that vary from quiet vocals to loud, distorted guitars.</p>
+<p>I’d like to see an input level adjustment in the next version. Controlling individual track volumes at playback time is not sufficient for this purpose, especially for songs that vary from quiet vocals to loud, distorted guitars.</p>
 
-<p>A more traditional drum machine interface (with individual tracks for each drum laid out on a timeline) would be helpful for creating drumbeats that exist in my head. The touch sensitivity of the on-screen drumset is impressive but imperfect. It&#8217;s frustrating to get through 14 out of 16 measures and then miss a beat.</p>
+<p>A more traditional drum machine interface (with individual tracks for each drum laid out on a timeline) would be helpful for creating drumbeats that exist in my head. The touch sensitivity of the on-screen drumset is impressive but imperfect. It’s frustrating to get through 14 out of 16 measures and then miss a beat.</p>
 
-<p>The condenser mic in my iPad (again, first generation) is acceptable, but leaves something to be desired, particularly on the high end. I don&#8217;t know if this mic has been upgraded in the iPad2, but something of higher quality would be much appreciated. In the mean the <a href="http://www.amazon.com/Blue-Microphones-Yeti-USB-Microphone/dp/B002VA464S/ref=sr_1_1?ie=UTF8&amp;qid=1300250784&amp;sr=8-1">Blue Yeti</a> is an excellent USB microphone, and works with the <a href="http://store.apple.com/us/product/MC531ZM/A">camera connection kit</a>. Obviously, this makes the setup much less portable.</p>
+<p>The condenser mic in my iPad (again, first generation) is acceptable, but leaves something to be desired, particularly on the high end. I don’t know if this mic has been upgraded in the iPad2, but something of higher quality would be much appreciated. In the mean the <a href="http://www.amazon.com/Blue-Microphones-Yeti-USB-Microphone/dp/B002VA464S/ref=sr_1_1?ie=UTF8&amp;qid=1300250784&amp;sr=8-1">Blue Yeti</a> is an excellent USB microphone, and works with the <a href="http://store.apple.com/us/product/MC531ZM/A">camera connection kit</a>. Obviously, this makes the setup much less portable.</p>
 
-<h2>A Note on iPad vs iPad 2 Performance</h2>
+<h2 id="a-note-on-ipad-vs-ipad-2-performance">A Note on iPad vs iPad 2 Performance</h2>
 
-<p>GarageBand&#8217;s performance on my first generation iPad was noticeably but not painfully sluggish. The most frequent lag occurs when switching between the track and recording screens. It lasts for about one second.</p>
+<p>GarageBand’s performance on my first generation iPad was noticeably but not painfully sluggish. The most frequent lag occurs when switching between the track and recording screens. It lasts for about one second.</p>
 
-<p>There is another lag, longer in duration but less frequent in occurrence, that I ran into seemingly arbitrarily. A box will pop up that says &#8220;Optimizing Performance&#8221; and you will have to wait 15-20 seconds while it chugs along. I encountered this four or five times over the course of two hours. I suspect what GarageBand is doing is loading audio content into and out of RAM. If that&#8217;s the case, then performance should be better on the iPad 2, which has 512MB as opposed to the 256MB of the original.</p>
+<p>There is another lag, longer in duration but less frequent in occurrence, that I ran into seemingly arbitrarily. A box will pop up that says “Optimizing Performance” and you will have to wait 15-20 seconds while it chugs along. I encountered this four or five times over the course of two hours. I suspect what GarageBand is doing is loading audio content into and out of RAM. If that’s the case, then performance should be better on the iPad 2, which has 512MB as opposed to the 256MB of the original.</p>
 
-<h2>TL;DR</h2>
+<h2 id="tldr">TL;DR</h2>
 
-<p>GarageBand for iPad is the most complete and capable all-in-one music creation package available anywhere. It&#8217;s fun, it&#8217;s easy, and it&#8217;s effective. At $4.99, it has replaced my $220 Micro BR.</p>
+<p>GarageBand for iPad is the most complete and capable all-in-one music creation package available anywhere. It’s fun, it’s easy, and it’s effective. At $4.99, it has replaced my $220 Micro BR.</p>
 ]]></content>
   </entry>
   
@@ -373,41 +602,41 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
     <id>http://rob.by/2011/leadership</id>
     <content type="html"><![CDATA[<p>Leaders show themselves in various forms. There are rhetorical magicians (Barack Obama) and iconic revolutionaries (Steve Jobs). There are also workplace leaders - the silver-tongued employee who can articulate issues several steps beyond what others are thinking, or the clever, diligent coworker whose performance alone encourages others.</p>
 
-<p>Whatever the kind, leaders have three priceless skills: they&#8217;re doers, they persuade, and they inspire.<!--more--></p>
+<p>Whatever the kind, leaders have three priceless skills: they’re doers, they persuade, and they inspire.<!--more--></p>
 
-<h2>Be a Doer</h2>
+<h2 id="be-a-doer">Be a Doer</h2>
 
-<p>This is widely accepted as an absolute necessity in startup circles, so I&#8217;ll leave it at that and let you read <a href="http://37signals.com/rework/">37signals&#8217; take on it</a> if you want an explanation (see chapter: &#8220;Everybody Works&#8221;).</p>
+<p>This is widely accepted as an absolute necessity in startup circles, so I’ll leave it at that and let you read <a href="http://37signals.com/rework/">37signals’ take on it</a> if you want an explanation (see chapter: “Everybody Works”).</p>
 
-<h2>Persuasion</h2>
+<h2 id="persuasion">Persuasion</h2>
 
 <p>To persuade is to find common ground among your audience, anchor into it, and use it to lead them stepwise through your train of thought, arriving with you at your conclusion or solution. It is a very logically-grounded process, almost entirely syllogistic, but with enough color along the way to keep people interested and motivated to take the next step with you.</p>
 
-<p>At SAP I had the pleasure of working alongside Bob McCarty, an excellent persuasive leader. Sprint planning meetings were often a mess, with total incongruence between business needs and engineering needs. Management wanted more features out of a codebase that wasn&#8217;t ready for it, and engineering wanted to take enormous amounts of time to fix things that probably weren&#8217;t worth fixing.</p>
+<p>At SAP I had the pleasure of working alongside Bob McCarty, an excellent persuasive leader. Sprint planning meetings were often a mess, with total incongruence between business needs and engineering needs. Management wanted more features out of a codebase that wasn’t ready for it, and engineering wanted to take enormous amounts of time to fix things that probably weren’t worth fixing.</p>
 
-<p>Bob, a senior engineer, had a natural knack not only for seeing what was most important for the company, but for walking the rest of us through his thinking in a way that engendered a room full of &#8220;oh yeah, yeah!&#8221;s. We all knew where we were, but it took a Bob to see where we needed to get to. There was nothing magical about how Bob operated; he just had a lot of foresight and logical consistency, and used those things to build trust and get everybody on the same page.</p>
+<p>Bob, a senior engineer, had a natural knack not only for seeing what was most important for the company, but for walking the rest of us through his thinking in a way that engendered a room full of “oh yeah, yeah!”s. We all knew where we were, but it took a Bob to see where we needed to get to. There was nothing magical about how Bob operated; he just had a lot of foresight and logical consistency, and used those things to build trust and get everybody on the same page. </p>
 
-<h2>Inspiration</h2>
+<h2 id="inspiration">Inspiration</h2>
 
-<p>Inspiration is taking something that seems impossible and making people believe they can accomplish it anyway. This lends itself to metaphor and abstract expression more than persuasion does, but fluffy thinkers are not off the hook: to sell your case, you have to convince your audience that they can really achieve this seemingly impossible task. If you don&#8217;t convince them, you&#8217;ll come across as naive and be ignored.</p>
+<p>Inspiration is taking something that seems impossible and making people believe they can accomplish it anyway. This lends itself to metaphor and abstract expression more than persuasion does, but fluffy thinkers are not off the hook: to sell your case, you have to convince your audience that they can really achieve this seemingly impossible task. If you don’t convince them, you’ll come across as naive and be ignored.</p>
 
-<p>The proven way to convince someone that the impossible is possible is to paint them a picture of it and give them something tangible to do. Unlike persuasive leadership, you don&#8217;t need to guide them all the way to the solution; you just need to show them what success looks like, and give them an actionable first step that they feel puts them on the correct trajectory.</p>
+<p>The proven way to convince someone that the impossible is possible is to paint them a picture of it and give them something tangible to do. Unlike persuasive leadership, you don’t need to guide them all the way to the solution; you just need to show them what success looks like, and give them an actionable first step that they feel puts them on the correct trajectory.</p>
 
-<p>Obama, for instance, when running for President in 2008, convinced supporters that America could pass health care reform. It didn&#8217;t take a cynic to find this daunting. Health care has long been rigged by lobbyists on both sides, and Hillarycare suffered a demoralizing defeat in the mid-90s. These facts were inescapable in the minds of reform supporters, leaving them no reason for optimism.</p>
+<p>Obama, for instance, when running for President in 2008, convinced supporters that America could pass health care reform. It didn’t take a cynic to find this daunting. Health care has long been rigged by lobbyists on both sides, and Hillarycare suffered a demoralizing defeat in the mid-90s. These facts were inescapable in the minds of reform supporters, leaving them no reason for optimism.</p>
 
 <p>But Obama was still able to sell it. He painted a picture of what success looked like, by speaking of an America that no longer sends the sick home from hospitals or the disabled into bankruptcy. He pointed to his <a href="http://www.washingtonpost.com/wp-dyn/content/article/2008/01/03/AR2008010303303.html">history</a> of delivering on seemingly impossible legal agendas, and he explained that his bipartisan methods were the first step towards bringing that change to Washington. With that, he gave them a first step - to vote for him.</p>
 
-<h2>When to Use What</h2>
+<h2 id="when-to-use-what">When to Use What</h2>
 
-<p>When should you persuade and when should you inspire? Here&#8217;s a good rule of thumb: when a path from a problem to a solution is clear to you, persuade your audience to follow that path. If a solution is unclear, inspire them to find it with you.</p>
+<p>When should you persuade and when should you inspire? Here’s a good rule of thumb: when a path from a problem to a solution is clear to you, persuade your audience to follow that path. If a solution is unclear, inspire them to find it with you.</p>
 
 <p>Bob was able to map out a full solution to our sprint planning problem in his head and walk us through it. Obama, on the other hand, could not have possibly foreseen the political calculus that would exist two years later, so he opted instead to inspire us to get there with him.</p>
 
-<p>When you&#8217;re leading others, consider which approach makes more sense. For an early, idea-stage startup, inspirational leadership will keep people&#8217;s minds open and ambitious. On the other hand, if you&#8217;ve found your revenue model, it&#8217;s probably time to paint the complete picture of what success looks like and explain to your team how they fit into that picture.</p>
+<p>When you’re leading others, consider which approach makes more sense. For an early, idea-stage startup, inspirational leadership will keep people’s minds open and ambitious. On the other hand, if you’ve found your revenue model, it’s probably time to paint the complete picture of what success looks like and explain to your team how they fit into that picture.</p>
 
-<h2>Credits</h2>
+<h2 id="credits">Credits</h2>
 
-<p><em>I became aware of most of this while taking Professor <a href="http://www.stevendcohen.net/">Steven D. Cohen</a>&#8217;s <a href="http://isites.harvard.edu/icb/icb.do?keyword=k65765">public speaking class</a> in 2010. Steven deserves credit for much of what I&#8217;ve explained above, and I recommend his class to anybody who wants to become a better leader, speaker or writer.</em></p>
+<p><em>I became aware of most of this while taking Professor <a href="http://www.stevendcohen.net/">Steven D. Cohen</a>’s <a href="http://isites.harvard.edu/icb/icb.do?keyword=k65765">public speaking class</a> in 2010. Steven deserves credit for much of what I’ve explained above, and I recommend his class to anybody who wants to become a better leader, speaker or writer.</em></p>
 ]]></content>
   </entry>
   
@@ -416,28 +645,40 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
     <link href="http://rob.by/2011/middle-management-for-your-heroku-workers/"/>
     <updated>2011-01-20T10:52:03-05:00</updated>
     <id>http://rob.by/2011/middle-management-for-your-heroku-workers</id>
-    <content type="html"><![CDATA[<p>Heroku provides a highly scalable <a href="http://docs.heroku.com/background-jobs">background worker framework via delayed_job</a>, but leaves the burden of scaling it to the user. Several people have tried to solve this by either <a href="https://github.com/wxmn/delayed_job">forking the delayed_job gem</a> or hooking into the gold standard <a href="https://github.com/phaza/Heroku-Delayed-Job-Autoscale">collectiveidea gem</a>. I like the latter approach, but haven&#8217;t seen an implementation that meets my requirements.<!--more--></p>
+    <content type="html"><![CDATA[<p>Heroku provides a highly scalable <a href="http://docs.heroku.com/background-jobs">background worker framework via delayed_job</a>, but leaves the burden of scaling it to the user. Several people have tried to solve this by either <a href="https://github.com/wxmn/delayed_job">forking the delayed_job gem</a> or hooking into the gold standard <a href="https://github.com/phaza/Heroku-Delayed-Job-Autoscale">collectiveidea gem</a>. I like the latter approach, but haven’t seen an implementation that meets my requirements.<!--more--></p>
 
 <p>Specifically, I want the following in my scaling library:</p>
 
 <ol>
-<li><p>Don&#8217;t require any special third party forks.</p></li>
-<li><p>Let me set minimum and maximum worker counts &#8211; and change them without redeploying.</p></li>
-<li><p>Let me set how busy I want my workers to be.</p></li>
-<li><p>Work out of the box with minimal configuration.</p></li>
+  <li>
+    <p>Don’t require any special third party forks.</p>
+  </li>
+  <li>
+    <p>Let me set minimum and maximum worker counts – and change them without redeploying.</p>
+  </li>
+  <li>
+    <p>Let me set how busy I want my workers to be.</p>
+  </li>
+  <li>
+    <p>Work out of the box with minimal configuration.</p>
+  </li>
 </ol>
-
 
 <p>To achieve these things, I built <a href="https://github.com/freerobby/middle_management">middle_management</a>.</p>
 
 <p>You can get up and running with it very quickly:</p>
 
 <ol>
-<li><p>Add &#8220;middle_management&#8221; to your Gemfile</p></li>
-<li><p>Set the required heroku environment variables (MIDDLE_MANAGEMENT_HEROKU_USERNAME, MIDDLE_MANAGEMENT_HEROKU_PASSWORD, MIDDLE_MANAGEMENT_HEROKU_APP, MIDDLE_MANAGEMENT_MIN_WORKERS, MIDDLE_MANAGEMENT_MAX_WORKERS).</p></li>
-<li><p>Deploy.</p></li>
+  <li>
+    <p>Add “middle_management” to your Gemfile</p>
+  </li>
+  <li>
+    <p>Set the required heroku environment variables (MIDDLE_MANAGEMENT_HEROKU_USERNAME, MIDDLE_MANAGEMENT_HEROKU_PASSWORD, MIDDLE_MANAGEMENT_HEROKU_APP, MIDDLE_MANAGEMENT_MIN_WORKERS, MIDDLE_MANAGEMENT_MAX_WORKERS).</p>
+  </li>
+  <li>
+    <p>Deploy.</p>
+  </li>
 </ol>
-
 
 <p>The <a href="https://github.com/freerobby/middle_management">code</a> is on github and the <a href="https://rubygems.org/gems/middle_management">gem</a> is on Rubygems. Check out the <a href="https://github.com/freerobby/middle_management/blob/master/README">readme</a> for further details.</p>
 ]]></content>
@@ -448,17 +689,19 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
     <link href="http://rob.by/2010/helping-blogs-be-blogs/"/>
     <updated>2010-12-31T10:07:16-05:00</updated>
     <id>http://rob.by/2010/helping-blogs-be-blogs</id>
-    <content type="html"><![CDATA[<p>As Wordpress has evolved from a writing platform into a full-blown CMS, theme developers have followed suit by using big header images, multi-level navigation and dozens of widgets that make sites look bigger they actually are and more complex than they need to be. It&#8217;s unclear to me how any of these things make blogs a better experience to read or authr. Do you click on tag clouds? Do you read embedded Twitter feeds? Do you browse old content by clicking on individual months listed under past years? For me, the answer to each of these questions is a resounding &#8220;no.&#8221; Blog design has become superfluous and distracting.<!--more--></p>
+    <content type="html"><![CDATA[<p>As Wordpress has evolved from a writing platform into a full-blown CMS, theme developers have followed suit by using big header images, multi-level navigation and dozens of widgets that make sites look bigger they actually are and more complex than they need to be. It’s unclear to me how any of these things make blogs a better experience to read or authr. Do you click on tag clouds? Do you read embedded Twitter feeds? Do you browse old content by clicking on individual months listed under past years? For me, the answer to each of these questions is a resounding “no.” Blog design has become superfluous and distracting.<!--more--></p>
 
 <p>Janet Aronica recently <a href="http://janetaronica.com/2010/11/05/social-media-if-i-started-today/">wrote</a> about what I believe is a side effect of this:</p>
 
-<blockquote><p>A mistake I made in blogging is wasting a lot of time on the look/feel of my blogs and getting frustrated with coding stuff I didn’t understand. I wasted time I could’ve spent writing screwing around with HTML and whatchamacallit and getting no where with it.</p></blockquote>
+<blockquote>
+  <p>A mistake I made in blogging is wasting a lot of time on the look/feel of my blogs and getting frustrated with coding stuff I didn’t understand. I wasted time I could’ve spent writing screwing around with HTML and whatchamacallit and getting no where with it.</p>
+</blockquote>
 
-<p>This is a common problem, and while authors bear responsibility for how they spend their time, it&#8217;s not entirely their fault. Modern blog themes focus the reader on crowded designs and superfluous features. In doing so they deceive us into believing that those things, not content, will make a site important and popular.</p>
+<p>This is a common problem, and while authors bear responsibility for how they spend their time, it’s not entirely their fault. Modern blog themes focus the reader on crowded designs and superfluous features. In doing so they deceive us into believing that those things, not content, will make a site important and popular.</p>
 
-<p>I&#8217;m guilty of this, too. My <a href="http://www.woothemes.com/2009/07/mainstream/">last theme</a> had so much visual candy that the emphasis was no longer on my content. Like Janet I spent too much time finessing my &#8220;about me&#8221; blurb, or deciding how many tweets belong in my twitter feed, or tweaking my category names to make them fit properly in the dynamic navigation menu. I didn&#8217;t do this because it&#8217;s what I set out to do; I did it because that&#8217;s what my theme begged of me, and it didn&#8217;t immediately occur to me how unnecessary all of it was to begin with.</p>
+<p>I’m guilty of this, too. My <a href="http://www.woothemes.com/2009/07/mainstream/">last theme</a> had so much visual candy that the emphasis was no longer on my content. Like Janet I spent too much time finessing my “about me” blurb, or deciding how many tweets belong in my twitter feed, or tweaking my category names to make them fit properly in the dynamic navigation menu. I didn’t do this because it’s what I set out to do; I did it because that’s what my theme begged of me, and it didn’t immediately occur to me how unnecessary all of it was to begin with.</p>
 
-<p>With the obviousness of hind sight, and a clean, simple, content-focused theme to get me started, I&#8217;ve resolved to spend my blogging time writing rather than designing.</p>
+<p>With the obviousness of hind sight, and a clean, simple, content-focused theme to get me started, I’ve resolved to spend my blogging time writing rather than designing.</p>
 ]]></content>
   </entry>
   
@@ -467,49 +710,68 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
     <link href="http://rob.by/2010/finding-technical-cofounders-is-hard/"/>
     <updated>2010-08-17T10:18:25-04:00</updated>
     <id>http://rob.by/2010/finding-technical-cofounders-is-hard</id>
-    <content type="html"><![CDATA[<p>Yesterday, Michael Pope posted an article titled <a href="http://captainrecruiter.blogspot.com/2010/08/technical-co-founders-are-myth.html"><em>Technical Cofounders Are a Myth</em></a>. He argued that software engineers don&#8217;t finish what they start, and that you&#8217;re better off paying a technical person than partnering with one. His frustrations are valid and not uncommon, but his conclusions are way off base for a lot of reasons.<!--more--></p>
+    <content type="html"><![CDATA[<p>Yesterday, Michael Pope posted an article titled <a href="http://captainrecruiter.blogspot.com/2010/08/technical-co-founders-are-myth.html"><em>Technical Cofounders Are a Myth</em></a>. He argued that software engineers don’t finish what they start, and that you’re better off paying a technical person than partnering with one. His frustrations are valid and not uncommon, but his conclusions are way off base for a lot of reasons.<!--more--></p>
 
 <p>He begins by explaining how he arrived at his conclusion:</p>
 
-<blockquote><p>I began the hunt to find a technical co-founder - a software engineer  who works for no cash - to help me build my dream website.  Twelve  months into my startup journey I had four half-built websites that had  been built by my four ex-technical co-founders.</p></blockquote>
+<blockquote>
+  <p>I began the hunt to find a technical co-founder - a software engineer  who works for no cash - to help me build my dream website.  Twelve  months into my startup journey I had four half-built websites that had  been built by my four ex-technical co-founders.</p>
+</blockquote>
 
-<p>It&#8217;s entirely possible that he picked four flaky technical cofounders. But it&#8217;s also possible that:</p>
+<p>It’s entirely possible that he picked four flaky technical cofounders. But it’s also possible that:</p>
 
 <ul>
-<li><p>He didn&#8217;t communicate his idea and vision well enough for them to be implemented.</p></li>
-<li><p>His idea was too vague or his vision changed too often to be fully realized.</p></li>
-<li><p>He had trouble selling his  credentials to his cofounders, causing them to lose faith in him.</p></li>
-<li><p>He was a <a href="http://rob.by/wp-content/uploads/everybodyworks.png">delegator, not a doer</a>. (link goes to <em>Everybody Works</em> from 37signals&#8217; <a href="http://www.amazon.com/Rework-Jason-Fried/dp/0307463745/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1282018997&amp;sr=8-1">Rework</a>)</p></li>
-<li><p>He picked engineers who were technically-driven but not entrepreneurially-driven.</p></li>
-<li><p>He picked engineers who weren&#8217;t comfortable taking risks as great as he wanted to take.</p></li>
-<li><p>He was difficult to work with.</p></li>
-<li><p>His cofounders felt he wasn&#8217;t was pulling his own weight.</p></li>
+  <li>
+    <p>He didn’t communicate his idea and vision well enough for them to be implemented.</p>
+  </li>
+  <li>
+    <p>His idea was too vague or his vision changed too often to be fully realized.</p>
+  </li>
+  <li>
+    <p>He had trouble selling his  credentials to his cofounders, causing them to lose faith in him.</p>
+  </li>
+  <li>
+    <p>He was a <a href="http://rob.by/wp-content/uploads/everybodyworks.png">delegator, not a doer</a>. (link goes to <em>Everybody Works</em> from 37signals’ <a href="http://www.amazon.com/Rework-Jason-Fried/dp/0307463745/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1282018997&amp;sr=8-1">Rework</a>)</p>
+  </li>
+  <li>
+    <p>He picked engineers who were technically-driven but not entrepreneurially-driven.</p>
+  </li>
+  <li>
+    <p>He picked engineers who weren’t comfortable taking risks as great as he wanted to take.</p>
+  </li>
+  <li>
+    <p>He was difficult to work with.</p>
+  </li>
+  <li>
+    <p>His cofounders felt he wasn’t was pulling his own weight.</p>
+  </li>
 </ul>
 
+<p>I don’t know Michael, and I’m not leveling any accusations here. There are many possibilities for what went wrong. But the simple fact that things did go wrong is not a referendum on the value of having a technical cofounder, nor is it sufficient evidence to conclude that good technical cofounders don’t exist.</p>
 
-<p>I don&#8217;t know Michael, and I&#8217;m not leveling any accusations here. There are many possibilities for what went wrong. But the simple fact that things did go wrong is not a referendum on the value of having a technical cofounder, nor is it sufficient evidence to conclude that good technical cofounders don&#8217;t exist.</p>
+<p>Michael’s second problem comes from holding software engineers to an unprecedented standard of business savviness:</p>
 
-<p>Michael&#8217;s second problem comes from holding software engineers to an unprecedented standard of business savviness:</p>
+<blockquote>
+  <p>Most software engineers aren’t business people.  The only way a software  engineer can tell a business idea is a viable is to see the money  coming in.  A business geek with no money and no income isn’t going to  inspire confidence in a software geek.  If a software geek really wants  to try building something for no pay, they’re going to work for themself  instead of following another cashless entrepreneur.</p>
+</blockquote>
 
-<blockquote><p>Most software engineers aren&#8217;t business people.  The only way a software  engineer can tell a business idea is a viable is to see the money  coming in.  A business geek with no money and no income isn&#8217;t going to  inspire confidence in a software geek.  If a software geek really wants  to try building something for no pay, they&#8217;re going to work for themself  instead of following another cashless entrepreneur.</p></blockquote>
+<p>There are three double standards here. First, it’s true that “most software engineers aren’t business people.” But it’s also true that most <em>people</em> aren’t business people. If you are looking for a business-savvy technical cofounder, then your requirement is not merely a “software engineer.” I’m a fan of Micah Baldwin’s post on <a href="http://learntoduck.com/micah/hackers-hustlers">Hackers and Hustlers</a>. If you want a technical cofounder, look for a hacker as Micah describes it.</p>
 
-<p>There are three double standards here. First, it&#8217;s true that &#8220;most software engineers aren&#8217;t business people.&#8221; But it&#8217;s also true that most <em>people</em> aren&#8217;t business people. If you are looking for a business-savvy technical cofounder, then your requirement is not merely a &#8220;software engineer.&#8221; I&#8217;m a fan of Micah Baldwin&#8217;s post on <a href="http://learntoduck.com/micah/hackers-hustlers">Hackers and Hustlers</a>. If you want a technical cofounder, look for a hacker as Micah describes it.</p>
+<p>Second, <em>nobody</em> knows the viability of a business idea without seeing financial numbers. Picking winners is <a href="http://www.slideshare.net/angelbootcamp/simeon-simeonov-june-2010">extremely difficult, and doesn’t work</a>. When it comes to picking the next big thing, the best VCs have worse batting averages than MLB pitchers. It’s not just software engineers who are lacking in this department. Furthermore, there’s more to a business than the idea. There’s the team. There’s execution. There’s competition. None of these things are entirely predictable, even for the most savvy people in the industry. If they were predictable, investing wouldn’t have risk.</p>
 
-<p>Second, <em>nobody</em> knows the viability of a business idea without seeing financial numbers. Picking winners is <a href="http://www.slideshare.net/angelbootcamp/simeon-simeonov-june-2010">extremely difficult, and doesn&#8217;t work</a>. When it comes to picking the next big thing, the best VCs have worse batting averages than MLB pitchers. It&#8217;s not just software engineers who are lacking in this department. Furthermore, there&#8217;s more to a business than the idea. There&#8217;s the team. There&#8217;s execution. There&#8217;s competition. None of these things are entirely predictable, even for the most savvy people in the industry. If they were predictable, investing wouldn&#8217;t have risk.</p>
+<p>Third, most people, not just software engineers, would choose to work for themselves if they could do it in a financially viable and risk-minimized way. What makes software engineers different in the startup world is that they have the requisite skills to hack together an idea on their own if they so choose. But software engineers also pay a price for working by themselves. It means they have to deal with finances and customers and investors and other things that aren’t what they love to do, which is building software. I have side projects, and I hold entrepreneurial ambitions. I absolutely want cofounders when the time comes.</p>
 
-<p>Third, most people, not just software engineers, would choose to work for themselves if they could do it in a financially viable and risk-minimized way. What makes software engineers different in the startup world is that they have the requisite skills to hack together an idea on their own if they so choose. But software engineers also pay a price for working by themselves. It means they have to deal with finances and customers and investors and other things that aren&#8217;t what they love to do, which is building software. I have side projects, and I hold entrepreneurial ambitions. I absolutely want cofounders when the time comes.</p>
+<p>Michael’s last gripe is that “software engineers don’t work for free.” I believe that by this he means they want cash rather than equity. Based on counterexamples I know for a fact that this is an over-generalization. But conceptually it does ring of some truth. Let’s examine why this is the case.</p>
 
-<p>Michael&#8217;s last gripe is that &#8220;software engineers don&#8217;t work for free.&#8221; I believe that by this he means they want cash rather than equity. Based on counterexamples I know for a fact that this is an over-generalization. But conceptually it does ring of some truth. Let&#8217;s examine why this is the case.</p>
+<p>“Business people” and “software people” are misnomers. A  “business person” can fall anywhere on the charts of aptitude, skills, education, experience, wits, and a handful of other areas relevant to starting a company. A “software person” on the other hand is more narrowly defined. Skills and education are a known quantity, and experience is more easily described. These traits of a software engineer are always in demand by a great number of companies.</p>
 
-<p>&#8220;Business people&#8221; and &#8220;software people&#8221; are misnomers. A  &#8220;business person&#8221; can fall anywhere on the charts of aptitude, skills, education, experience, wits, and a handful of other areas relevant to starting a company. A &#8220;software person&#8221; on the other hand is more narrowly defined. Skills and education are a known quantity, and experience is more easily described. These traits of a software engineer are always in demand by a great number of companies.</p>
+<p>Business people have it tougher. A business person may have equal or more valuable skills than a software person, but they   are not universally understood in the simplistic way that software people’s skills are. Ask anybody what a software developer does and they can give you the one-sentence “makes software” answer. Ask them what a “business person” does and you’ll be lucky to get a coherent sentence. That’s because business people cover a wider range of skills and responsibilities; the work they do is more varied.</p>
 
-<p>Business people have it tougher. A business person may have equal or more valuable skills than a software person, but they   are not universally understood in the simplistic way that software people&#8217;s skills are. Ask anybody what a software developer does and they can give you the one-sentence &#8220;makes software&#8221; answer. Ask them what a &#8220;business person&#8221; does and you&#8217;ll be lucky to get a coherent sentence. That&#8217;s because business people cover a wider range of skills and responsibilities; the work they do is more varied.</p>
+<p>My hunch is that most good software engineers only work for cash because they don’t feel that working for equity is worth the risk of failure. They can make good money consulting or working as an employee of another company. They can easily get great benefits and a six figure salary. The risk of failure doesn’t seem worth it, especially when the potential reward seems so far away. But an important distinction is that this has to do with their options, not with their profession. If we look at business people who have skills-specific training like software people have, they fall in a similar risk-averse bucket: <a href="http://www.asktheharvardmba.com/2009/07/03/how-many-graduating-harvard-mbas-start-their-own-businesses/">only 3% of Harvard MBAs use their educations to start a company</a>.</p>
 
-<p>My hunch is that most good software engineers only work for cash because they don&#8217;t feel that working for equity is worth the risk of failure. They can make good money consulting or working as an employee of another company. They can easily get great benefits and a six figure salary. The risk of failure doesn&#8217;t seem worth it, especially when the potential reward seems so far away. But an important distinction is that this has to do with their options, not with their profession. If we look at business people who have skills-specific training like software people have, they fall in a similar risk-averse bucket: <a href="http://www.asktheharvardmba.com/2009/07/03/how-many-graduating-harvard-mbas-start-their-own-businesses/">only 3% of Harvard MBAs use their educations to start a company</a>.</p>
+<p>A more appropriate conclusion to draw from Michael’s experience, and one I see first-hand in the startup world every day, is that finding good cofounders is very difficult. One need only look at the necessary traits to find that the odds are stacked against the seeker: you need somebody you trust (ideally whom you know well), who shares your ambition, who complements your strengths, who compensates for your weaknesses, who is in a life position to take a big risk, and who is in a financial position to afford to take such a risk. Forget the haystack; you’re looking for a needle in a field.</p>
 
-<p>A more appropriate conclusion to draw from Michael&#8217;s experience, and one I see first-hand in the startup world every day, is that finding good cofounders is very difficult. One need only look at the necessary traits to find that the odds are stacked against the seeker: you need somebody you trust (ideally whom you know well), who shares your ambition, who complements your strengths, who compensates for your weaknesses, who is in a life position to take a big risk, and who is in a financial position to afford to take such a risk. Forget the haystack; you&#8217;re looking for a needle in a field.</p>
-
-<p>Finding good <em>technical</em> cofounders is particularly difficult. This isn&#8217;t because technical people are flakier or inherently less entrepreneurial; it&#8217;s because by definition they have a narrower set of highly in-demand skills. They have lots of options because, for every one of them there are several &#8220;business people&#8221; trying to get their attention.</p>
+<p>Finding good <em>technical</em> cofounders is particularly difficult. This isn’t because technical people are flakier or inherently less entrepreneurial; it’s because by definition they have a narrower set of highly in-demand skills. They have lots of options because, for every one of them there are several “business people” trying to get their attention.</p>
 ]]></content>
   </entry>
   
@@ -520,41 +782,41 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
     <id>http://rob.by/2010/wordpress-and-the-gpl</id>
     <content type="html"><![CDATA[<p>Yesterday, <a href="http://wordpress.org/">Wordpress</a> founder <a href="http://twitter.com/photomatt">Matt Mullenweg</a> <a href="http://mixergy.com/chris-pearson-matt-mullenweg/">debated</a> <a href="http://www.diythemes.com/">Thesis Wordpress Theme</a> founder <a href="http://twitter.com/pearsonified">Chris Pearson</a> over the ethics, legality and benefits of using the GPL license for the Thesis theme. Matt argued that by not using the GPL license, Thesis is disrespecting the Wordpress community, violating the Wordpress license agreement and hurting its own business. Chris contends that Matt has no right to tell him how to license something that Chris built himself, even though he built it on top of the Wordpress platform.</p>
 
-<p>I&#8217;m not an attorney, but I am a human capable of reading and inferencing. The legal issues concerning the GPL seem pretty clear to me. There&#8217;s a reason why Dan Rivcher is <a href="http://www.linux.com/archive/articles/113252">cited</a> by the Software Freedom Law Center&#8217;s <a href="http://www.softwarefreedom.org/resources/2008/compliance-guide.html">compliance guide</a>. There&#8217;s a reason why the SFLC <a href="http://wordpress.org/news/2009/07/themes-are-gpl-too/">sides with Wordpress</a>. There&#8217;s a reason why lawyers at big companies tell their engineers not to use GPL open source projects. There&#8217;s a reason why the LGPL exists. There&#8217;s a reason why many communities, like the Ruby community, have moved to use the MIT license instead of the GPL. All of these reasons are the same: the GPL is a highly <a href="http://en.wikipedia.org/wiki/GNU_General_Public_License#Criticism">viral</a> license that infects everything it touches. If your code uses GPL, your code needs to be GPL. I don&#8217;t know this because I&#8217;m a lawyer; I know it because every credible lawyer I talk to or read about or am influenced by reaches the same conclusion.</p>
+<p>I’m not an attorney, but I am a human capable of reading and inferencing. The legal issues concerning the GPL seem pretty clear to me. There’s a reason why Dan Rivcher is <a href="http://www.linux.com/archive/articles/113252">cited</a> by the Software Freedom Law Center’s <a href="http://www.softwarefreedom.org/resources/2008/compliance-guide.html">compliance guide</a>. There’s a reason why the SFLC <a href="http://wordpress.org/news/2009/07/themes-are-gpl-too/">sides with Wordpress</a>. There’s a reason why lawyers at big companies tell their engineers not to use GPL open source projects. There’s a reason why the LGPL exists. There’s a reason why many communities, like the Ruby community, have moved to use the MIT license instead of the GPL. All of these reasons are the same: the GPL is a highly <a href="http://en.wikipedia.org/wiki/GNU_General_Public_License#Criticism">viral</a> license that infects everything it touches. If your code uses GPL, your code needs to be GPL. I don’t know this because I’m a lawyer; I know it because every credible lawyer I talk to or read about or am influenced by reaches the same conclusion.</p>
 
-<p>And I&#8217;m reminded of how well I know this, because I gave up healthy means of income in order to abide by it.<!--more--></p>
+<p>And I’m reminded of how well I know this, because I gave up healthy means of income in order to abide by it.<!--more--></p>
 
-<h2>My Experience with the GPL</h2>
+<h2 id="my-experience-with-the-gpl">My Experience with the GPL</h2>
 
-<p>The GPL gave me my first headache when I was in college. I was building <a href="http://www.hudsonvalleypainter.com">my mother&#8217;s blog</a>, which required me to build what became <a href="http://rob.by/artpal">ArtPal</a>, a Wordpress plugin that lets artists post their work to their blogs and sell it with PayPal. Today, ArtPal is fairly popular for a niche plugin. It has 3,000+ downloads from artists all over the world who use it to sell their paintings, drawings, sketches and digital compositions. A modest estimate would have it responsible for hundreds of sales.</p>
+<p>The GPL gave me my first headache when I was in college. I was building <a href="http://www.hudsonvalleypainter.com">my mother’s blog</a>, which required me to build what became <a href="http://rob.by/artpal">ArtPal</a>, a Wordpress plugin that lets artists post their work to their blogs and sell it with PayPal. Today, ArtPal is fairly popular for a niche plugin. It has 3,000+ downloads from artists all over the world who use it to sell their paintings, drawings, sketches and digital compositions. A modest estimate would have it responsible for hundreds of sales.</p>
 
-<p>What is my cut? $0, thanks to the GPL. I say this without vent or complaint. I have no regrets about ArtPal being free, and I&#8217;m thrilled (really! I get a warm fuzzy feeling!) to know that the hard work I put in for my mother is helping tens or hundreds of other artists to sell their work online. I point out the following merely to explain how the GPL license can undermine the business worthiness of a technical venture.</p>
+<p>What is my cut? $0, thanks to the GPL. I say this without vent or complaint. I have no regrets about ArtPal being free, and I’m thrilled (really! I get a warm fuzzy feeling!) to know that the hard work I put in for my mother is helping tens or hundreds of other artists to sell their work online. I point out the following merely to explain how the GPL license can undermine the business worthiness of a technical venture.</p>
 
-<p>I started out by retaining the full rights to ArtPal under the name of Digital Sublimity, the corporate outfit I used for my consulting work. I let myself live in denial, trying to convince myself of the argument that Chris Pearson put forward yesterday. &#8220;It&#8217;s its own thing; it just adds functionality to Wordpress,&#8221; I would assure to myself. &#8220;ArtPal was <em>my</em> innovation, not Automattic&#8217;s.&#8221; I felt I had an ethical, exclusive right to own my product, and I did not accept that the legal terms of the GPL might preclude that.</p>
+<p>I started out by retaining the full rights to ArtPal under the name of Digital Sublimity, the corporate outfit I used for my consulting work. I let myself live in denial, trying to convince myself of the argument that Chris Pearson put forward yesterday. “It’s its own thing; it just adds functionality to Wordpress,” I would assure to myself. “ArtPal was <em>my</em> innovation, not Automattic’s.” I felt I had an ethical, exclusive right to own my product, and I did not accept that the legal terms of the GPL might preclude that.</p>
 
-<p>But some time after my first client, my intellectual curiosity won out. I read the GPL, did some googling, and accepted the truth. ArtPal integrates with and requires Wordpress to function. That makes it a &#8220;derivative work&#8221; of Wordpress, which is also GPL licensed. Consequently, I must apply the GPL license to ArtPal. From this point on, ArtPal was open sourced and formally GPLed. Doing this did not prevent me from selling ArtPal, but it did give others permission to give ArtPal away for free. It doesn&#8217;t take a strong economics background to see the problem I quickly faced. While it made good resume candy, I never made another dime off of the plugin.</p>
+<p>But some time after my first client, my intellectual curiosity won out. I read the GPL, did some googling, and accepted the truth. ArtPal integrates with and requires Wordpress to function. That makes it a “derivative work” of Wordpress, which is also GPL licensed. Consequently, I must apply the GPL license to ArtPal. From this point on, ArtPal was open sourced and formally GPLed. Doing this did not prevent me from selling ArtPal, but it did give others permission to give ArtPal away for free. It doesn’t take a strong economics background to see the problem I quickly faced. While it made good resume candy, I never made another dime off of the plugin.</p>
 
-<p>Common questions I get when I tell this story include &#8220;Did it ever bring you money in other ways? Did it ever get you new clients? Did anybody pay for support?&#8221; No, no and no. I tried. I advertised ArtPal as being commercially supported by Digital Sublimity and referred people there if they ever wanted it customized. But nobody did. The problem, I suspect, is that I built ArtPal to be simple and easy to set up. Plug in your PayPal email address, choose a &#8220;buy it&#8221; button, and you&#8217;re up  and running. If you can install a PHP app on a web host, you can configure ArtPal. If you have a web guy who runs your blog, he can configure ArtPal. An end-user has no need for me. I do answer questions on my <a href="http://rob.by/artpal">ArtPal page</a> as they come up, but they are never in-depth enough to warrant a paid support contract.</p>
+<p>Common questions I get when I tell this story include “Did it ever bring you money in other ways? Did it ever get you new clients? Did anybody pay for support?” No, no and no. I tried. I advertised ArtPal as being commercially supported by Digital Sublimity and referred people there if they ever wanted it customized. But nobody did. The problem, I suspect, is that I built ArtPal to be simple and easy to set up. Plug in your PayPal email address, choose a “buy it” button, and you’re up  and running. If you can install a PHP app on a web host, you can configure ArtPal. If you have a web guy who runs your blog, he can configure ArtPal. An end-user has no need for me. I do answer questions on my <a href="http://rob.by/artpal">ArtPal page</a> as they come up, but they are never in-depth enough to warrant a paid support contract.</p>
 
 <p>The GPL effectively rendered ArtPal a pro bono project. As a part-time effort, I was unable to make it businessworthy while abiding by the full terms of the license.</p>
 
-<h2>Why the GPL Is Good for Wordpress</h2>
+<h2 id="why-the-gpl-is-good-for-wordpress">Why the GPL Is Good for Wordpress</h2>
 
 <p>You might expect me to be resentful or frustrated given the aforementioned story, but I have no beef with Automattic for choosing the GPL license for Wordpress. I would probably have made the same decision if I were Automattic.</p>
 
 <p>By GPLing Wordpress (and therefore its plugins and themes), Automattic ensures that any Wordpress user can get up and running with all the community has to offer, for free. A user may need to pay for support or for customization, but they can get any plugin or theme out of the box for $0, because the GPL stipulates a number of things that make such content freely available. This effectively lets Wordpress outsource the development of thousands of features to its developer community for free.</p>
 
-<p>Less obviously but more importantly, it commoditizes plugins and themes, which are <a href="http://en.wikipedia.org/wiki/Complementary_good">complementary goods</a>. Joel Spolsky <a href="http://www.joelonsoftware.com/articles/StrategyLetterV.html">famously wrote about</a> this business practice known as &#8220;commoditizing the complement.&#8221; More recently, Chris Dixon <a href="http://cdixon.org/2009/12/22/google-should-open-source-what-actually-matters-their-search-ranking-algorithm/">called out</a> Google for disingenuously using the same strategy. For those who aren&#8217;t familiar, here&#8217;s what &#8220;commoditizing the complement&#8221; means for Automattic: a blog platform + theme + plugins + hosting is worth $x to a customer. By making plugins and themes free, more of that x can be captured under &#8220;blog platform&#8221; and &#8220;hosting.&#8221; Not coincidentally, &#8220;blog platform&#8221; and &#8220;hosting&#8221; are the things that Automattic sells at wordpress.com.</p>
+<p>Less obviously but more importantly, it commoditizes plugins and themes, which are <a href="http://en.wikipedia.org/wiki/Complementary_good">complementary goods</a>. Joel Spolsky <a href="http://www.joelonsoftware.com/articles/StrategyLetterV.html">famously wrote about</a> this business practice known as “commoditizing the complement.” More recently, Chris Dixon <a href="http://cdixon.org/2009/12/22/google-should-open-source-what-actually-matters-their-search-ranking-algorithm/">called out</a> Google for disingenuously using the same strategy. For those who aren’t familiar, here’s what “commoditizing the complement” means for Automattic: a blog platform + theme + plugins + hosting is worth $x to a customer. By making plugins and themes free, more of that x can be captured under “blog platform” and “hosting.” Not coincidentally, “blog platform” and “hosting” are the things that Automattic sells at wordpress.com.</p>
 
 <p>The GPL lets Automattic outsource development efforts for free while capturing a bigger piece of the pie.</p>
 
-<h2>What the GPL Meant for Me As a Wordpress Developer</h2>
+<h2 id="what-the-gpl-meant-for-me-as-a-wordpress-developer">What the GPL Meant for Me As a Wordpress Developer</h2>
 
 <p>The GPL limits occasional Wordpress developers like myself to service-oriented businesses. Charging for a plugin is not practical, but charging for a customization is. Designers may find themselves in similar situations where they cannot realistically charge for a stock design, but they can charge to custom-tailor it for a client.</p>
 
 <p>One might argue that this provides a disincentive to develop plugins. Why spend all that time building it if somebody else can customize it and earn the money off it? The business counter-argument is reputation. ArtPal created a lot of possibilities for me. When I did Wordpress consulting, people had an immediate trust in my work because (1) they knew I built it and knew how to tweak it; (2) I had a strong online presence with a reputation for backing what I built; and (3) I had personal interactions with many of them in the comments section of my blog.</p>
 
-<p>I never capitalized on any of this. The projects that people wanted me to do were too involved for what I had time for. Nobody wanted to pay me just to set up ArtPal; they wanted to pay me to set up, maintain and monitor an entire blog. But for me ArtPal was just a side project, and with a full time job I didn&#8217;t have time to be a tech support guy for all of the people who wanted to use it.</p>
+<p>I never capitalized on any of this. The projects that people wanted me to do were too involved for what I had time for. Nobody wanted to pay me just to set up ArtPal; they wanted to pay me to set up, maintain and monitor an entire blog. But for me ArtPal was just a side project, and with a full time job I didn’t have time to be a tech support guy for all of the people who wanted to use it.</p>
 
 <p>ArtPal was too small of a project to be made into a business under the GPL. But had I wanted to create a bigger business, ArtPal would have opened the doors to a larger client base.</p>
 ]]></content>
@@ -565,35 +827,42 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
     <link href="http://rob.by/2010/writing-for-people/"/>
     <updated>2010-06-21T10:23:51-04:00</updated>
     <id>http://rob.by/2010/writing-for-people</id>
-    <content type="html"><![CDATA[<p>Nearly all commercial web sites perform Search Engine Optimization (SEO), whereby they alter their site to be more Google-friendly, with the hope of receiving higher search rankings. Many of these changes are purely structural and invisible to users. For instance, using tags like &lt;h1&gt; or microformats like &#8220;hreview&#8221; can help Google make more sense of existing content without any changes being made to the text.</p>
+    <content type="html"><![CDATA[<p>Nearly all commercial web sites perform Search Engine Optimization (SEO), whereby they alter their site to be more Google-friendly, with the hope of receiving higher search rankings. Many of these changes are purely structural and invisible to users. For instance, using tags like &lt;h1&gt; or microformats like “hreview” can help Google make more sense of existing content without any changes being made to the text.</p>
 
 <p>Mature, profitable sites often take SEO to the next level by altering their visible content as well. In effect, they write their copy for machines instead of for people. From a user experience perspective, it shows. There is often an inherent conflict between what is best for a user and what is best for Google.<!--more--></p>
 
-<p>An instructive example of this came in a conversation I had with <a href="http://www.sachinagarwal.com">Sachin Agarwal</a> with respect to our page titles at oneforty. The title of our home page reads &#8220;Find the Best Twitter Apps.&#8221; Sachin argued, correctly, that a better title for SEO purposes would be &#8220;Find the Best Twitter Apps <em>and Twitter Tools</em>&#8221; because it would match search queries for &#8220;twitter tools.&#8221; I agree completely with his analysis, but I didn&#8217;t want to make the change for a few reasons:</p>
+<p>An instructive example of this came in a conversation I had with <a href="http://www.sachinagarwal.com">Sachin Agarwal</a> with respect to our page titles at oneforty. The title of our home page reads “Find the Best Twitter Apps.” Sachin argued, correctly, that a better title for SEO purposes would be “Find the Best Twitter Apps <em>and Twitter Tools</em>” because it would match search queries for “twitter tools.” I agree completely with his analysis, but I didn’t want to make the change for a few reasons:</p>
 
 <ol>
-<li><p>It&#8217;s redundant.</p></li>
-<li><p>It&#8217;s more wordy.</p></li>
-<li><p>It would read &#8220;Find the Best Twitter Apps and&#8230;&#8221; in many browsers, which leaves the reader hanging.</p></li>
-<li><p>It provides no benefit to a user who is already on our site.</p></li>
+  <li>
+    <p>It’s redundant.</p>
+  </li>
+  <li>
+    <p>It’s more wordy.</p>
+  </li>
+  <li>
+    <p>It would read “Find the Best Twitter Apps and…” in many browsers, which leaves the reader hanging.</p>
+  </li>
+  <li>
+    <p>It provides no benefit to a user who is already on our site.</p>
+  </li>
 </ol>
 
+<p>Startups are different from the mature, profitable sites that can afford to play these SEO games in that they are more strictly about <a href="http://rob.by/2010/its-all-about-the-users/">solving users’ problems and providing them optimal experiences</a>. Established companies, on the other hand, can make compelling business cases to diminish a user’s experience in order to reach and help a greater number of people. I hope oneforty gets there some day, but until we do, I will tirelessly advocate for a user’s experience over Google juice.</p>
 
-<p>Startups are different from the mature, profitable sites that can afford to play these SEO games in that they are more strictly about <a href="http://rob.by/2010/its-all-about-the-users/">solving users&#8217; problems and providing them optimal experiences</a>. Established companies, on the other hand, can make compelling business cases to diminish a user&#8217;s experience in order to reach and help a greater number of people. I hope oneforty gets there some day, but until we do, I will tirelessly advocate for a user&#8217;s experience over Google juice.</p>
-
-<p>For a more typical example of what I&#8217;m talking about, look at the <a href="http://tripadvisor.com">TripAdvisor</a> home page. An easy way to display hotels by city would be to have a heading called &#8220;Hotels&#8221; and under it list a bunch of cities. Any human could easily understand such a presentation. But TripAdvisor does something different:</p>
+<p>For a more typical example of what I’m talking about, look at the <a href="http://tripadvisor.com">TripAdvisor</a> home page. An easy way to display hotels by city would be to have a heading called “Hotels” and under it list a bunch of cities. Any human could easily understand such a presentation. But TripAdvisor does something different:</p>
 
 <p><img src="http://robby-blog.s3.amazonaws.com/2010/writing-for-people/hotels.png" alt="TripAdvisor.com Hotels List" /></p>
 
-<p>Notice that it repeats the word &#8220;hotels&#8221; after each city, reading &#8220;Atlantic City hotels&#8221;, &#8220;Boston hotels&#8221;, &#8220;Chicago hotels&#8221;, etc. It does this because it wants to rank highly in Google for queries like &#8220;Boston hotels.&#8221; If it just used the word &#8220;Boston&#8221;, Google wouldn&#8217;t associate the link with content for a hotel (Google might be able to deduce this, but TripAdvisor doesn&#8217;t want to leave that to chance). To Google this is highly descriptive content, but to a person it&#8217;s cluttered and repetitive, using twice as much text as needed.</p>
+<p>Notice that it repeats the word “hotels” after each city, reading “Atlantic City hotels”, “Boston hotels”, “Chicago hotels”, etc. It does this because it wants to rank highly in Google for queries like “Boston hotels.” If it just used the word “Boston”, Google wouldn’t associate the link with content for a hotel (Google might be able to deduce this, but TripAdvisor doesn’t want to leave that to chance). To Google this is highly descriptive content, but to a person it’s cluttered and repetitive, using twice as much text as needed.</p>
 
-<p>Redundant headings are another common form of SEO-inspired messiness. Headings are heavily-weighted in search results, and so many sites overuse them and cram them with keywords. An example of this can be seen on <a href="http://www.yelp.com/c/cambridge-ma/restaurants">Yelp&#8217;s &#8220;Cambridge Restaurants&#8221; page</a>. Look at all of these redundancies:</p>
+<p>Redundant headings are another common form of SEO-inspired messiness. Headings are heavily-weighted in search results, and so many sites overuse them and cram them with keywords. An example of this can be seen on <a href="http://www.yelp.com/c/cambridge-ma/restaurants">Yelp’s “Cambridge Restaurants” page</a>. Look at all of these redundancies:</p>
 
 <p><img src="http://robby-blog.s3.amazonaws.com/2010/writing-for-people/yelp-screenshot.jpg" alt="Yelp Screenshot" /></p>
 
-<p>These phrase-based headings work wonders for Yelp&#8217;s search rankings, but they make for a terrible user experience. There&#8217;s no reason to tell me 9 times that I&#8217;m on the Cambridge Restaurants page when I&#8217;m the one who searched for restaurants in Cambridge. A title is fine; a heading is fine; but 9 of them is verbose and distracting. To make matters worse, the headings are all so similar that it&#8217;s unclear which section actually contains what content. It&#8217;s good for Google, but bad for people.</p>
+<p>These phrase-based headings work wonders for Yelp’s search rankings, but they make for a terrible user experience. There’s no reason to tell me 9 times that I’m on the Cambridge Restaurants page when I’m the one who searched for restaurants in Cambridge. A title is fine; a heading is fine; but 9 of them is verbose and distracting. To make matters worse, the headings are all so similar that it’s unclear which section actually contains what content. It’s good for Google, but bad for people.</p>
 
-<p>Writing for people is about cleanliness and brevity. Writing for Google requires clutter and redundancy. Startups should write for their users because companies need to prove their value before they market it. Any startup that&#8217;s writing for Google is getting ahead of itself.</p>
+<p>Writing for people is about cleanliness and brevity. Writing for Google requires clutter and redundancy. Startups should write for their users because companies need to prove their value before they market it. Any startup that’s writing for Google is getting ahead of itself.</p>
 ]]></content>
   </entry>
   
@@ -604,111 +873,68 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
     <id>http://rob.by/2010/review-kinesis-advantage-keyboard</id>
     <content type="html"><![CDATA[<p>I recently replaced my work and home keyboards with the <a href="http://www.kinesis-ergo.com/advantage.htm">Kinesis Advantage</a>. These are my collected thoughts on it after two full months of daily use.<!--more--></p>
 
-<h2>Adjustment Period</h2>
+<h2 id="adjustment-period">Adjustment Period</h2>
 
 <p>Adjusting to the Kinesis Advantage layout took some time. It is not a typical ergonomic keyboard, and the differences are more than the separated hand positions. It spaces and aligns the keys differently. Many non-alphanumeric keys have different positions. Even if you have perfect typing habits, you will suffer during the break-in period.</p>
 
 <p>The good news is that the pain ends quickly. For alphanumeric keys, I was back to my normal speed within a week. For special keys (chiefly command, option, control, tilda, backspace) it took me two to three weeks to reach full speed. The arrow keys were particularly difficult to adjust to; they required a full month.</p>
 
-<h2>Comfort</h2>
+<h2 id="comfort">Comfort</h2>
 
-<p>My previous keyboard was a standard Apple chiclet model. I&#8217;ve always had minor wrist discomfort, but the Apple Keyboard brought out the worst of it. It became unbearable. I had to rest and flex my hands after only 20 minutes of typing. Using a computer had become unsustainable. When I heard about the Kinesis, I read as many detailed reviews as I could find online (not many). I then talked to my friends @zapnap and @nirvdrum, both Kinesis owners, who had nothing but nice things to say about it. I took the plunge.</p>
+<p>My previous keyboard was a standard Apple chiclet model. I’ve always had minor wrist discomfort, but the Apple Keyboard brought out the worst of it. It became unbearable. I had to rest and flex my hands after only 20 minutes of typing. Using a computer had become unsustainable. When I heard about the Kinesis, I read as many detailed reviews as I could find online (not many). I then talked to my friends @zapnap and @nirvdrum, both Kinesis owners, who had nothing but nice things to say about it. I took the plunge.</p>
 
 <p>What a world of difference. Two months later <strong>my wrist pain is gone</strong>. Not only does it feel better when I type, but also when I play guitar and piano. There were certain discomforts that I had grown accustom to over the years, which I had accepted as common or inevitable. Yet after just two months with the Kinesis they are gone. I began feeling relief within a couple of days. My wrists gradually felt better for a little over a month until the pain was entirely gone. In hindsight I cannot believe I waited so long to do something about it.</p>
 
-<h2>Typing Speed</h2>
+<h2 id="typing-speed">Typing Speed</h2>
 
-<p>My typing speed has also benefited. Part of this is because my hands are more relaxed and I can hit the keys faster, but mostly it&#8217;s because my hands don&#8217;t travel as far for routine tasks. I don&#8217;t have to move my right hand to use arrow keys; I no longer have to place my pinky, middle finger and thumb into an awkward position to hit control+command+3; I no longer need my pinky to press backspace (overuse of the pinky stresses tendons, which can lead to wrist pain). <strong>The Kinesis layout, once I became used to it, proved much more efficient than a traditional qwerty layout</strong>.</p>
+<p>My typing speed has also benefited. Part of this is because my hands are more relaxed and I can hit the keys faster, but mostly it’s because my hands don’t travel as far for routine tasks. I don’t have to move my right hand to use arrow keys; I no longer have to place my pinky, middle finger and thumb into an awkward position to hit control+command+3; I no longer need my pinky to press backspace (overuse of the pinky stresses tendons, which can lead to wrist pain). <strong>The Kinesis layout, once I became used to it, proved much more efficient than a traditional qwerty layout</strong>.</p>
 
-<h2>Macros</h2>
+<h2 id="macros">Macros</h2>
 
 <p>The Kinesis takes an optional footswich ($35), which I highly recommend. It allows you to activate the number pad in a hands-free manner. It also gives you quick access to your custom macros.</p>
 
 <p>I did not expect to use macros, but they have proven very useful for inputting certain keyboard shortcuts. For instance, I have an app called MercuryMover that moves windows to preset locations. It is activated by pressing control+command+up. This is awkward and difficult to remember. Instead, I have a custom mapping to footswitch+w, which triggers that series of keys.</p>
 
-<h2>Quirks</h2>
+<h2 id="quirks">Quirks</h2>
 
 <p>There are a few things about the keyboard that I would change if I had the chance:</p>
 
 <ol>
-<li><p>It&#8217;s loud. Clickety-clack is unavoidable when using it.</p></li>
-<li><p>Macros cannot be listed, backed up or restored. If you overwrite them, they&#8217;re gone. If you forget one, there&#8217;s no means to recall it.</p></li>
-<li><p>There are no finger placement indentations on the &#8220;f&#8221; and &#8220;j&#8221; keys. The Kinesis has a unique feel to it that in my opinion renders these unnecessary, but I missed them until I fully adjusted.</p></li>
+  <li>
+    <p>It’s loud. Clickety-clack is unavoidable when using it.</p>
+  </li>
+  <li>
+    <p>Macros cannot be listed, backed up or restored. If you overwrite them, they’re gone. If you forget one, there’s no means to recall it.</p>
+  </li>
+  <li>
+    <p>There are no finger placement indentations on the “f” and “j” keys. The Kinesis has a unique feel to it that in my opinion renders these unnecessary, but I missed them until I fully adjusted.</p>
+  </li>
 </ol>
 
-
-<h2>Answers to Anticipated Questions</h2>
+<h2 id="answers-to-anticipated-questions">Answers to Anticipated Questions</h2>
 
 <ol>
-<li><p>Dvorak legends are available.</p></li>
-<li><p>If you don&#8217;t like the default layout, you can map any key to any other key.</p></li>
-<li><p>Look for <a href="http://208.84.117.151/Merchant2/merchant.mvc?Screen=CTGY&amp;Category_Code=CKBDUSB%28R%29">refurbs</a>! I saved $60 per keyboard by choosing this option. It looks brand new and carries the full warranty.</p></li>
-<li><p>In my opinion the Pro model is not worth the cost difference. The memory provided for macros on the standard model is plenty.</p></li>
-<li><p>The foam wrist pads (included) are a nice touch. They are definitely more comfortable than the bare plastic.</p></li>
-<li><p>I have no issues switching between a Kinesis and a traditional keyboard. I routinely use my MacBook&#8217;s built-in keyboard when I travel.</p></li>
+  <li>
+    <p>Dvorak legends are available.</p>
+  </li>
+  <li>
+    <p>If you don’t like the default layout, you can map any key to any other key.</p>
+  </li>
+  <li>
+    <p>Look for <a href="http://208.84.117.151/Merchant2/merchant.mvc?Screen=CTGY&amp;Category_Code=CKBDUSB%28R%29">refurbs</a>! I saved $60 per keyboard by choosing this option. It looks brand new and carries the full warranty.</p>
+  </li>
+  <li>
+    <p>In my opinion the Pro model is not worth the cost difference. The memory provided for macros on the standard model is plenty.</p>
+  </li>
+  <li>
+    <p>The foam wrist pads (included) are a nice touch. They are definitely more comfortable than the bare plastic.</p>
+  </li>
+  <li>
+    <p>I have no issues switching between a Kinesis and a traditional keyboard. I routinely use my MacBook’s built-in keyboard when I travel.</p>
+  </li>
 </ol>
 
-
-<p>If you&#8217;re considering buying a Kinesis, feel free to ask questions in the comments of this post and I will respond to them.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Facebook, Google and the Value of Trust]]></title>
-    <link href="http://rob.by/2010/facebook-google-and-the-value-of-trust/"/>
-    <updated>2010-04-26T11:08:45-04:00</updated>
-    <id>http://rob.by/2010/facebook-google-and-the-value-of-trust</id>
-    <content type="html"><![CDATA[<p>Facebook is in many ways the hedge to Google&#8217;s bet that social machines are oiled with the trust of their users. As competition between Facebook and Google becomes increasingly visible, so too will the issues of trust that separate them.<!--more--></p>
-
-<p>When I upload a photo or post an update to Facebook, I assume that the world can see it. I make this assumption because there are too many privacy settings to remember, and because Facebook introduces new settings so often that I have no way of knowing when I have been defaulted into new ones.</p>
-
-<p>I don&#8217;t have this problem with Google. I know my GMail, Google Finance and Google Analytics data is private, and I know what I share in Google Reader or post to Blogger is public. In exchange for this trust, Google gets my email, stock portfolio, voicemail, calendar, contacts, web stats and office documents. Facebook gets none of this. I don&#8217;t contact people through Facebook messages, I don&#8217;t use Facebook events and I won&#8217;t be using its new docs.com service. Google gets much more data from me, but knows that in order to keep accruing it, it can only monetize it  in ways that I don&#8217;t find invasive. Google wants me to be comfortable.</p>
-
-<p>Facebook cares very little about my level of comfort. Its  goal is to identify the threshold of invasion at which a user will abandon the service, and keep the user marginally (but safely) above that threshold. Zuckerberg is betting that the value Facebook gets out of the lesser  data it <em>does</em> collect from me outweighs the value of the data I am  withholding. By adopting this strategy, Facebook can force or coerce its users to  expose data that lures other users, making it an excellent strategy for  growth. And Facebook is exceptionally talented at keeping users just happy enough to keep using the site. Users are constantly complaining about Facebook&#8217;s policies, but never leaving the site.</p>
-
-<p>But what data is Facebook not receiving due to this lack of trust, and at what cost? First, there is the direct cost. If it&#8217;s enough data to drive 11 million ad conversions, then Facebook is losing the revenues of 11 million ad conversions. More importantly, there is an opportunity cost. <strong>Facebook cannot launch a service based on data that users are hesitant to hand over.</strong> For instance, if users don&#8217;t trust Facebook with private messages, then Facebook has no opportunity to launch a GMail competitor or a Google Voice competitor. Its docs.com partnership with Microsoft will suffer accordingly. Unlike Google, acquiring medical records or personal finance data will be a non-starter.</p>
-
-<p>None of these things stand in Facebook&#8217;s way right now, but will they in three years? The trust that Google accrued when it was a smaller company opened doors for many unforeseen consumer products. Every time Facebook uses data in a way that makes its users uncomfortable, it closes those doors a little further.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Chirp: Goals and Expectations]]></title>
-    <link href="http://rob.by/2010/on-chirp-goals-and-expectations/"/>
-    <updated>2010-04-14T09:29:03-04:00</updated>
-    <id>http://rob.by/2010/on-chirp-goals-and-expectations</id>
-    <content type="html"><![CDATA[<p>The kerfuffle between Twitter and its third party developers has been discussed, analyzed and debated ad nauseum over the past week. But aside from jokes of awkwardness, there has been surprisingly little talk about what it means for Chirp. What do third party developers want from the conference in light of recent events? What&#8217;s a win for Twitter?<!--more--></p>
-
-<p>Outside developers must come away with an understanding of the brutal expectations Twitter faces as a company valued at over a billion dollars. Unlike most of the people building Twitter tools, Twitter is not a small business or a weekend hack project; it is an enterprise that is expected to justify the enormous investments it has received. That will require it to act like a business in ways it has chosen not to act in the past. Tweetie will not be the last acquisition, and the iPhone will not be the last internally supported platform. Twitter needs to make this absolutely clear to developers so that they understand the (arguably new) stakes and can choose their risks accordingly.</p>
-
-<p>Twitter needs to walk away with an understanding of what it must do to keep its developer community happy and thriving. I imagine that even the most cynical, closed view held within Twitter would concede that the company needs its outside developers, who add tremendous value by extending Twitter&#8217;s features and providing new ideas and innovations.</p>
-
-<p>What I <em>don&#8217;t</em> expect &#8211; or want &#8211; is to see the debate on corporate policy that we have witnessed over the last week. Love it or hate it, that is for Twitter to decide. What I want to see is a mutual recognition of self-interest and codependence between Twitter and its third party developers, and a better understanding of what both sides need to do to make the most of that relationship.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[The Death of MacRuby for iPhone?]]></title>
-    <link href="http://rob.by/2010/the-death-of-macruby-for-iphone/"/>
-    <updated>2010-04-10T22:49:35-04:00</updated>
-    <id>http://rob.by/2010/the-death-of-macruby-for-iphone</id>
-    <content type="html"><![CDATA[<p>It&#8217;s a sad day for iPhone developers who like Ruby.<!--more--></p>
-
-<p><a href="http://www.macruby.org/">MacRuby</a> is a port of Ruby 1.9 that interfaces directly with Apple&#8217;s OS X Objective C runtime. In other words, it lets Mac developers write Cocoa apps in Ruby. This begs the question: will we ever be able to use MacRuby to write iPhone apps? For the time being, there is one technical hurdle: MacRuby needs garbage collection, and &#8221;<a href="http://developer.apple.com/iphone/library/DOCUMENTATION/Cocoa/Conceptual/MemoryMgmt/MemoryMgmt.html">garbage collection is not available on [the] iPhone.</a>&#8221;</p>
-
-<p>Last week, with rumors abound of multitasking in TouchOS 4, I wondered if we&#8217;d jump this hurdle. Instead of an answer, MacRuby&#8217;s path to the iPhone got an even bigger hurdle. It comes in the form of the new iPhone Developer Program License Agreement. Specifically, <a href="http://daringfireball.net/2010/04/iphone_agreement_bans_flash_compiler">section 3.3.1, which for the first time states</a>:</p>
-
-<blockquote><p>Applications must be originally written in Objective-C, C, C++, or JavaScript as executed by the iPhone OS WebKit engine, and only code written in C, C++, and Objective-C may compile and directly link against the Documented APIs (e.g., Applications that link to Documented APIs through an intermediary translation or compatibility layer or tool are prohibited).</p></blockquote>
-
-<p>Analysis rather than text is important here. MacRuby is an internal Apple product, and so Apple could easily make an exception for MacRuby if it wanted to. But Apple isn&#8217;t going to want to do that</p>
-
-<p>Gruber <a href="http://daringfireball.net/2010/04/why_apple_changed_section_331">writes</a>:</p>
-
-<blockquote><p>What Apple does not want is for some other company to establish a de  facto standard software platform <em>on top</em> of Cocoa Touch&#8230; If that were to happen,  there’s no lock-in advantage. If, say, a mobile Flash software platform —  which encompassed multiple lower-level platforms, running on iPhone,  Android, Windows Phone 7, and BlackBerry — were established, that app  market would not give people a reason to prefer the iPhone.</p></blockquote>
-
-<p>This logic has ramifications greater than its stated thesis. It&#8217;s not that Apple doesn&#8217;t want &#8220;some other company&#8221; to establish a higher level language standard; it&#8217;s that Apple doesn&#8217;t want <em>any</em> company to do that &#8211; including Apple. The reasoning is the same: if Apple were to allow developers to write iPhone apps using MacRuby (i.e. Ruby 1.9), there would be nothing to stop those apps from being moved to other mobile platforms that also support Ruby.</p>
-
-<p>Update April 11, 2010: After speaking with a couple of other developers about this, I think the above syllogism may not hold. If MacRuby is tied intimately to the operating system such that it literally maps API call to API call, then porting a MacRuby app to another platform would not be trivial. Instead, it would likely require a middle (&#8220;higher level&#8221;) layer, which is already banned by the new section 3.3.1. In this case, native MacRuby apps could be written under the current agreement, and this would not allow such apps to be easily ported to other platforms.</p>
+<p>If you’re considering buying a Kinesis, feel free to ask questions in the comments of this post and I will respond to them.</p>
 ]]></content>
   </entry>
   

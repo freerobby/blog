@@ -9,7 +9,7 @@
   <meta name="author" content="Robby Grossman">
 
   
-  <meta name="description" content="I wrote a bash function that prunes a git repository&#8217;s ancestral branches, helping you keep your local and remote repos tidy. This function &hellip;">
+  <meta name="description" content="Over the last three years I’ve been on both the giving and receiving ends of job offers at startups. One thing that’s struck me repeatedly is how &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -84,6 +84,49 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/2013/how-to-negotiate-your-startup-job-offer/">How to Negotiate Your Startup Job Offer</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-02-11T08:51:00-05:00" pubdate data-updated="true">Feb 11<span>th</span>, 2013</time>
+        
+         | <a href="/2013/how-to-negotiate-your-startup-job-offer/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Over the last three years I’ve been on both the giving and receiving ends of job offers at startups. One thing that’s struck me repeatedly is how little most job applicants know about what to expect in a job offer/negotiation, and in many cases, what the written offer they’ve received actually means. I was extremely fortunate that the first startup job offer I received was written by a <a href="https://twitter.com/Pistachio">pair</a> of <a href="https://twitter.com/graysky">founders</a> who had the utmost integrity and explained things very clearly. Since then I’ve learned that not every employee is so lucky.</p>
+
+<p>This post is not a lesson on negotiation itself, but rather a lesson on the standards and vernacular of startup negotiations. It assumes you’re a startup newcomer, with the goal of helping you fully understand the things you’ll be negotiating. After reading this post, it’s my hope that you’ll know exactly what your offer letter means, and you’ll have a good sense of whether you’re getting a fair shake or being taken advantage of.</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/2013/how-to-negotiate-your-startup-job-offer/">Read full post &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/2013/remove-merged-branches-from-git/">Remove Merged Branches From Git</a></h1>
     
     
@@ -109,78 +152,76 @@
   </header>
 
 
-  <div class="entry-content"><p>I wrote a bash function that prunes a git repository&#8217;s ancestral branches, helping you keep your local and remote repos tidy.</p>
+  <div class="entry-content"><p>I wrote a bash function that prunes a git repository’s ancestral branches, helping you keep your local and remote repos tidy.</p>
 
-<p>This function removes all branches, local and remote, that have been merged into your current branch. Simply run &#8220;rmb&#8221; from the command line. Don’t worry - prompt safeguards are in place to show you what you&#8217;ll be removing before it delets anything. And it won&#8217;t let you delete &#8220;master.&#8221; :-)</p>
+<p>This function removes all branches, local and remote, that have been merged into your current branch. Simply run “rmb” from the command line. Don’t worry - prompt safeguards are in place to show you what you’ll be removing before it delets anything. And it won’t let you delete “master.” :-)</p>
 
-<p>Add this to your ~/.profile, run &#8220;source ~/.profile&#8221; and you’re good to go.</p>
+<p>Add this to your ~/.profile, run “source ~/.profile” and you’re good to go.</p>
 
-<figure class='code'><figcaption><span>rmb.sh </span></figcaption>
- <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-<span class='line-number'>20</span>
-<span class='line-number'>21</span>
-<span class='line-number'>22</span>
-<span class='line-number'>23</span>
-<span class='line-number'>24</span>
-<span class='line-number'>25</span>
-<span class='line-number'>26</span>
-<span class='line-number'>27</span>
-<span class='line-number'>28</span>
-<span class='line-number'>29</span>
-<span class='line-number'>30</span>
-<span class='line-number'>31</span>
-</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="k">function </span>rmb <span class="o">{</span>
-</span><span class='line'>  <span class="nv">current_branch</span><span class="o">=</span><span class="k">$(</span>git branch --no-color 2&gt; /dev/null | sed -e <span class="s1">&#39;/^[^*]/d&#39;</span> -e <span class="s1">&#39;s/* \(.*\)/\1/&#39;</span><span class="k">)</span>
-</span><span class='line'>  <span class="k">if</span> <span class="o">[</span> <span class="s2">&quot;$current_branch&quot;</span> !<span class="o">=</span> <span class="s2">&quot;master&quot;</span> <span class="o">]</span>; <span class="k">then</span>
-</span><span class='line'><span class="k">    </span><span class="nb">echo</span> <span class="s2">&quot;WARNING: You are on branch $current_branch, NOT master.&quot;</span>
-</span><span class='line'>  <span class="k">fi</span>
-</span><span class='line'><span class="k">    </span><span class="nb">echo</span> <span class="s2">&quot;Fetching merged branches...&quot;</span>
-</span><span class='line'>  git remote prune origin
-</span><span class='line'>  <span class="nv">remote_branches</span><span class="o">=</span><span class="k">$(</span>git branch -r --merged | grep -v <span class="s1">&#39;/master$&#39;</span> | grep -v <span class="s2">&quot;/$current_branch$&quot;</span><span class="k">)</span>
-</span><span class='line'>  <span class="nv">local_branches</span><span class="o">=</span><span class="k">$(</span>git branch --merged | grep -v <span class="s1">&#39;master$&#39;</span> | grep -v <span class="s2">&quot;$current_branch$&quot;</span><span class="k">)</span>
-</span><span class='line'>  <span class="k">if</span> <span class="o">[</span> -z <span class="s2">&quot;$remote_branches&quot;</span> <span class="o">]</span> <span class="o">&amp;&amp;</span> <span class="o">[</span> -z <span class="s2">&quot;$local_branches&quot;</span> <span class="o">]</span>; <span class="k">then</span>
-</span><span class='line'><span class="k">    </span><span class="nb">echo</span> <span class="s2">&quot;No existing branches have been merged into $current_branch.&quot;</span>
-</span><span class='line'>  <span class="k">else</span>
-</span><span class='line'><span class="k">    </span><span class="nb">echo</span> <span class="s2">&quot;This will remove the following branches:&quot;</span>
-</span><span class='line'>    <span class="k">if</span> <span class="o">[</span> -n <span class="s2">&quot;$remote_branches&quot;</span> <span class="o">]</span>; <span class="k">then</span>
-</span><span class='line'><span class="k">      </span><span class="nb">echo</span> <span class="s2">&quot;$remote_branches&quot;</span>
-</span><span class='line'>    <span class="k">fi</span>
-</span><span class='line'><span class="k">    if</span> <span class="o">[</span> -n <span class="s2">&quot;$local_branches&quot;</span> <span class="o">]</span>; <span class="k">then</span>
-</span><span class='line'><span class="k">      </span><span class="nb">echo</span> <span class="s2">&quot;$local_branches&quot;</span>
-</span><span class='line'>    <span class="k">fi</span>
-</span><span class='line'><span class="k">    </span><span class="nb">read</span> -p <span class="s2">&quot;Continue? (y/n): &quot;</span> -n 1 choice
-</span><span class='line'>    <span class="nb">echo</span>
-</span><span class='line'><span class="nb">    </span><span class="k">if</span> <span class="o">[</span> <span class="s2">&quot;$choice&quot;</span> <span class="o">==</span> <span class="s2">&quot;y&quot;</span> <span class="o">]</span> <span class="o">||</span> <span class="o">[</span> <span class="s2">&quot;$choice&quot;</span> <span class="o">==</span> <span class="s2">&quot;Y&quot;</span> <span class="o">]</span>; <span class="k">then</span>
-</span><span class='line'>      <span class="c"># Remove remote branches</span>
-</span><span class='line'>      git push origin <span class="sb">`</span>git branch -r --merged | grep -v <span class="s1">&#39;/master$&#39;</span> | grep -v <span class="s2">&quot;/$current_branch$&quot;</span> | sed <span class="s1">&#39;s/origin\//:/g&#39;</span> | tr -d <span class="s1">&#39;\n&#39;</span><span class="sb">`</span>
-</span><span class='line'>      <span class="c"># Remove local branches</span>
-</span><span class='line'>      git branch -d <span class="sb">`</span>git branch --merged | grep -v <span class="s1">&#39;master$&#39;</span> | grep -v <span class="s2">&quot;$current_branch$&quot;</span> | sed <span class="s1">&#39;s/origin\///g&#39;</span> | tr -d <span class="s1">&#39;\n&#39;</span><span class="sb">`</span>
-</span><span class='line'>    <span class="k">else</span>
-</span><span class='line'><span class="k">      </span><span class="nb">echo</span> <span class="s2">&quot;No branches removed.&quot;</span>
-</span><span class='line'>    <span class="k">fi</span>
-</span><span class='line'><span class="k">  fi</span>
-</span><span class='line'><span class="o">}</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>rmb.sh </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+<span class="line-number">11</span>
+<span class="line-number">12</span>
+<span class="line-number">13</span>
+<span class="line-number">14</span>
+<span class="line-number">15</span>
+<span class="line-number">16</span>
+<span class="line-number">17</span>
+<span class="line-number">18</span>
+<span class="line-number">19</span>
+<span class="line-number">20</span>
+<span class="line-number">21</span>
+<span class="line-number">22</span>
+<span class="line-number">23</span>
+<span class="line-number">24</span>
+<span class="line-number">25</span>
+<span class="line-number">26</span>
+<span class="line-number">27</span>
+<span class="line-number">28</span>
+<span class="line-number">29</span>
+<span class="line-number">30</span>
+<span class="line-number">31</span>
+</pre></td><td class="code"><pre><code class="sh"><span class="line"><span class="k">function </span>rmb <span class="o">{</span>
+</span><span class="line">  <span class="nv">current_branch</span><span class="o">=</span><span class="k">$(</span>git branch --no-color 2&gt; /dev/null | sed -e <span class="s1">&#39;/^[^*]/d&#39;</span> -e <span class="s1">&#39;s/* \(.*\)/\1/&#39;</span><span class="k">)</span>
+</span><span class="line">  <span class="k">if</span> <span class="o">[</span> <span class="s2">&quot;$current_branch&quot;</span> !<span class="o">=</span> <span class="s2">&quot;master&quot;</span> <span class="o">]</span>; <span class="k">then</span>
+</span><span class="line"><span class="k">    </span><span class="nb">echo</span> <span class="s2">&quot;WARNING: You are on branch $current_branch, NOT master.&quot;</span>
+</span><span class="line">  <span class="k">fi</span>
+</span><span class="line"><span class="k">    </span><span class="nb">echo</span> <span class="s2">&quot;Fetching merged branches...&quot;</span>
+</span><span class="line">  git remote prune origin
+</span><span class="line">  <span class="nv">remote_branches</span><span class="o">=</span><span class="k">$(</span>git branch -r --merged | grep -v <span class="s1">&#39;/master$&#39;</span> | grep -v <span class="s2">&quot;/$current_branch$&quot;</span><span class="k">)</span>
+</span><span class="line">  <span class="nv">local_branches</span><span class="o">=</span><span class="k">$(</span>git branch --merged | grep -v <span class="s1">&#39;master$&#39;</span> | grep -v <span class="s2">&quot;$current_branch$&quot;</span><span class="k">)</span>
+</span><span class="line">  <span class="k">if</span> <span class="o">[</span> -z <span class="s2">&quot;$remote_branches&quot;</span> <span class="o">]</span> <span class="o">&amp;&amp;</span> <span class="o">[</span> -z <span class="s2">&quot;$local_branches&quot;</span> <span class="o">]</span>; <span class="k">then</span>
+</span><span class="line"><span class="k">    </span><span class="nb">echo</span> <span class="s2">&quot;No existing branches have been merged into $current_branch.&quot;</span>
+</span><span class="line">  <span class="k">else</span>
+</span><span class="line"><span class="k">    </span><span class="nb">echo</span> <span class="s2">&quot;This will remove the following branches:&quot;</span>
+</span><span class="line">    <span class="k">if</span> <span class="o">[</span> -n <span class="s2">&quot;$remote_branches&quot;</span> <span class="o">]</span>; <span class="k">then</span>
+</span><span class="line"><span class="k">      </span><span class="nb">echo</span> <span class="s2">&quot;$remote_branches&quot;</span>
+</span><span class="line">    <span class="k">fi</span>
+</span><span class="line"><span class="k">    if</span> <span class="o">[</span> -n <span class="s2">&quot;$local_branches&quot;</span> <span class="o">]</span>; <span class="k">then</span>
+</span><span class="line"><span class="k">      </span><span class="nb">echo</span> <span class="s2">&quot;$local_branches&quot;</span>
+</span><span class="line">    <span class="k">fi</span>
+</span><span class="line"><span class="k">    </span><span class="nb">read</span> -p <span class="s2">&quot;Continue? (y/n): &quot;</span> -n 1 choice
+</span><span class="line">    <span class="nb">echo</span>
+</span><span class="line"><span class="nb">    </span><span class="k">if</span> <span class="o">[</span> <span class="s2">&quot;$choice&quot;</span> <span class="o">==</span> <span class="s2">&quot;y&quot;</span> <span class="o">]</span> <span class="o">||</span> <span class="o">[</span> <span class="s2">&quot;$choice&quot;</span> <span class="o">==</span> <span class="s2">&quot;Y&quot;</span> <span class="o">]</span>; <span class="k">then</span>
+</span><span class="line">      <span class="c"># Remove remote branches</span>
+</span><span class="line">      git push origin <span class="sb">`</span>git branch -r --merged | grep -v <span class="s1">&#39;/master$&#39;</span> | grep -v <span class="s2">&quot;/$current_branch$&quot;</span> | sed <span class="s1">&#39;s/origin\//:/g&#39;</span> | tr -d <span class="s1">&#39;\n&#39;</span><span class="sb">`</span>
+</span><span class="line">      <span class="c"># Remove local branches</span>
+</span><span class="line">      git branch -d <span class="sb">`</span>git branch --merged | grep -v <span class="s1">&#39;master$&#39;</span> | grep -v <span class="s2">&quot;$current_branch$&quot;</span> | sed <span class="s1">&#39;s/origin\///g&#39;</span> | tr -d <span class="s1">&#39;\n&#39;</span><span class="sb">`</span>
+</span><span class="line">    <span class="k">else</span>
+</span><span class="line"><span class="k">      </span><span class="nb">echo</span> <span class="s2">&quot;No branches removed.&quot;</span>
+</span><span class="line">    <span class="k">fi</span>
+</span><span class="line"><span class="k">  fi</span>
+</span><span class="line"><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
 
 </div>
   
@@ -235,6 +276,47 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/2012/looking-for-partners-for-red-sox-2013-season-tickets/">Looking for Partners for Red Sox 2013 Season Tickets</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-11-06T10:00:00-05:00" pubdate data-updated="true">Nov 6<span>th</span>, 2012</time>
+        
+         | <a href="/2012/looking-for-partners-for-red-sox-2013-season-tickets/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I’m looking for partners for my 2013 Red Sox season ticket share. If you’re interested in going to Red Sox games next year, and you don’t want to pay the box office fees, fill out the form and I’ll be in touch.</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/2012/looking-for-partners-for-red-sox-2013-season-tickets/">Read full post &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/2012/migrating-to-riak-at-shareaholic/">Migrating to Riak at Shareaholic</a></h1>
     
     
@@ -260,14 +342,13 @@
   </header>
 
 
-  <div class="entry-content"><p>Last night I presented &#8220;Migrating to Riak @Shareaholic&#8221; at the first <a href="http://www.meetup.com/Boston-Riak/events/77828202">Boston Riak meetup</a></p>
+  <div class="entry-content"><p>Last night I presented “Migrating to Riak @Shareaholic” at the first <a href="http://www.meetup.com/Boston-Riak/events/77828202">Boston Riak meetup</a></p>
 
 <p>Below are my slides from the talk.</p>
 
-<iframe src="http://www.slideshare.net/slideshow/embed_code/14130056?rel=0" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen> </iframe>
+<iframe src="http://www.slideshare.net/slideshow/embed_code/14130056?rel=0" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen=""> </iframe>
 
-
-<p>One correction that I&#8217;ve updated in the slides: I mistakenly referenced Shareaholic using Hadoop MapReduce. Shareaholic uses Amazon&#8217;s Elastic MapReduce, which works similarly to Hadoop but is a separate implementation. My reference is intended only to distinguish it from Riak&#8217;s MapReduce implementation, which is substantially different.</p>
+<p>One correction that I’ve updated in the slides: I mistakenly referenced Shareaholic using Hadoop MapReduce. Shareaholic uses Amazon’s Elastic MapReduce, which works similarly to Hadoop but is a separate implementation. My reference is intended only to distinguish it from Riak’s MapReduce implementation, which is substantially different.</p>
 </div>
   
   
@@ -305,11 +386,54 @@
   </header>
 
 
-  <div class="entry-content"><p>Even if you&#8217;re not ready to roll your own hardware, there&#8217;s a lot you can do to minimize your risk of downtime on AWS, and to mitigate the effects when it&#8217;s unavoidable.</div>
+  <div class="entry-content"><p>Even if you’re not ready to roll your own hardware, there’s a lot you can do to minimize your risk of downtime on AWS, and to mitigate the effects when it’s unavoidable.</div>
   
   
     <footer>
       <a rel="full-article" href="/2012/aws-risk-mitigation-strategies/">Read full post &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2012/red-sox-tickets-for-sale/">Red Sox Tickets for Sale</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-05-17T00:16:52-04:00" pubdate data-updated="true">May 17<span>th</span>, 2012</time>
+        
+         | <a href="/2012/red-sox-tickets-for-sale/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Good news for me: I got the option to buy a Red Sox ticket package!</p>
+
+<p>Good news for you: I don’t need all the games, and I’d rather hook up friends, family and acquaintances than deal with Stubhub, Craigslist, etc.</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/2012/red-sox-tickets-for-sale/">Read full post &rarr;</a>
     </footer>
   
 
@@ -352,7 +476,7 @@
 
 <p>Cost of a majority stake in Netflix*: $6.36B market cap / 2 = <strong>$3.18B</strong></p>
 
-<p>For two quarters&#8217; dividends, Apple could buy 77% of Netflix.</div>
+<p>For two quarters’ dividends, Apple could buy 77% of Netflix.</div>
   
   
     <footer>
@@ -393,7 +517,7 @@
   </header>
 
 
-  <div class="entry-content"><p>I picked up &#8220;the new iPad&#8221; this morning. Here are my first impressions:</div>
+  <div class="entry-content"><p>I picked up “the new iPad” this morning. Here are my first impressions:</div>
   
   
     <footer>
@@ -434,9 +558,9 @@
   </header>
 
 
-  <div class="entry-content"><p>Lots of people are upset about Joe Paterno&#8217;s death right now. Lots of other people don&#8217;t understand how anybody can be upset given his inactions amid the Sandusky scandal.</p>
+  <div class="entry-content"><p>Lots of people are upset about Joe Paterno’s death right now. Lots of other people don’t understand how anybody can be upset given his inactions amid the Sandusky scandal.</p>
 
-<p>I don&#8217;t understand why people are so insistent on remembering Paterno in a particular light.</div>
+<p>I don’t understand why people are so insistent on remembering Paterno in a particular light.</div>
   
   
     <footer>
@@ -477,9 +601,9 @@
   </header>
 
 
-  <div class="entry-content"><p>In 2006 I participated in <a href="http://www.nols.edu/courses/locations/alaska/aksemester.shtml">NOLS&#8217; Summer Semester in Alaska</a>, a 75-day kayaking, backpacking and mountaineering course, which helps students gain wilderness and leadership skills.</p>
+  <div class="entry-content"><p>In 2006 I participated in <a href="http://www.nols.edu/courses/locations/alaska/aksemester.shtml">NOLS’ Summer Semester in Alaska</a>, a 75-day kayaking, backpacking and mountaineering course, which helps students gain wilderness and leadership skills.</p>
 
-<p>A few days in I got my first review. I was a wreck. I packed my backpack as if I were paying homage to the Leaning Tower of Pisa. The most palatable meals I cooked were the ones that were burned beyond recognition. I might have been able to properly affix a rainfly to a tent, but I&#8217;ll never know because nobody trusted me to keep their tent dry. You know that guy who played on your middle school basketball team who had great hustle and personality but couldn&#8217;t make a layup? The guy the coach wanted to do well, but would never take chances with in the 4th quarter? That was me at the start of my first NOLS course.</div>
+<p>A few days in I got my first review. I was a wreck. I packed my backpack as if I were paying homage to the Leaning Tower of Pisa. The most palatable meals I cooked were the ones that were burned beyond recognition. I might have been able to properly affix a rainfly to a tent, but I’ll never know because nobody trusted me to keep their tent dry. You know that guy who played on your middle school basketball team who had great hustle and personality but couldn’t make a layup? The guy the coach wanted to do well, but would never take chances with in the 4th quarter? That was me at the start of my first NOLS course.</div>
   
   
     <footer>
@@ -522,7 +646,7 @@
 
   <div class="entry-content"><p>Last year I <a href="/2010/writing-for-people">wrote</a> about the importance of writing for people rather than search engines, two target audiences that often compete with each other on the web.</p>
 
-<p>A similar problem occurs when authors write for companies instead of people. I see this most at business-to-business companies, where the customer is another company rather than a human. It&#8217;s important to remember that it&#8217;s always a human who will be reading your copy.</div>
+<p>A similar problem occurs when authors write for companies instead of people. I see this most at business-to-business companies, where the customer is another company rather than a human. It’s important to remember that it’s always a human who will be reading your copy.</div>
   
   
     <footer>
@@ -565,7 +689,8 @@
 
   <div class="entry-content"><p>This is what you can do with GarageBand for iPad in about 2 hours:</p>
 
-<p><video width='' height='' preload='none' controls poster=''><source src='http://robby-blog.s3.amazonaws.com/music/garage-band-jam.m4a' type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'/></video></div>
+<video width="" height="" preload="none" controls="" poster=""><source src="http://robby-blog.s3.amazonaws.com/music/garage-band-jam.m4a" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;" /></video>
+</div>
   
   
     <footer>
@@ -608,7 +733,7 @@
 
   <div class="entry-content"><p>Leaders show themselves in various forms. There are rhetorical magicians (Barack Obama) and iconic revolutionaries (Steve Jobs). There are also workplace leaders - the silver-tongued employee who can articulate issues several steps beyond what others are thinking, or the clever, diligent coworker whose performance alone encourages others.</p>
 
-<p>Whatever the kind, leaders have three priceless skills: they&#8217;re doers, they persuade, and they inspire.</div>
+<p>Whatever the kind, leaders have three priceless skills: they’re doers, they persuade, and they inspire.</div>
   
   
     <footer>
@@ -649,7 +774,7 @@
   </header>
 
 
-  <div class="entry-content"><p>Heroku provides a highly scalable <a href="http://docs.heroku.com/background-jobs">background worker framework via delayed_job</a>, but leaves the burden of scaling it to the user. Several people have tried to solve this by either <a href="https://github.com/wxmn/delayed_job">forking the delayed_job gem</a> or hooking into the gold standard <a href="https://github.com/phaza/Heroku-Delayed-Job-Autoscale">collectiveidea gem</a>. I like the latter approach, but haven&#8217;t seen an implementation that meets my requirements.</div>
+  <div class="entry-content"><p>Heroku provides a highly scalable <a href="http://docs.heroku.com/background-jobs">background worker framework via delayed_job</a>, but leaves the burden of scaling it to the user. Several people have tried to solve this by either <a href="https://github.com/wxmn/delayed_job">forking the delayed_job gem</a> or hooking into the gold standard <a href="https://github.com/phaza/Heroku-Delayed-Job-Autoscale">collectiveidea gem</a>. I like the latter approach, but haven’t seen an implementation that meets my requirements.</div>
   
   
     <footer>
@@ -690,7 +815,7 @@
   </header>
 
 
-  <div class="entry-content"><p>As Wordpress has evolved from a writing platform into a full-blown CMS, theme developers have followed suit by using big header images, multi-level navigation and dozens of widgets that make sites look bigger they actually are and more complex than they need to be. It&#8217;s unclear to me how any of these things make blogs a better experience to read or authr. Do you click on tag clouds? Do you read embedded Twitter feeds? Do you browse old content by clicking on individual months listed under past years? For me, the answer to each of these questions is a resounding &#8220;no.&#8221; Blog design has become superfluous and distracting.</div>
+  <div class="entry-content"><p>As Wordpress has evolved from a writing platform into a full-blown CMS, theme developers have followed suit by using big header images, multi-level navigation and dozens of widgets that make sites look bigger they actually are and more complex than they need to be. It’s unclear to me how any of these things make blogs a better experience to read or authr. Do you click on tag clouds? Do you read embedded Twitter feeds? Do you browse old content by clicking on individual months listed under past years? For me, the answer to each of these questions is a resounding “no.” Blog design has become superfluous and distracting.</div>
   
   
     <footer>
@@ -731,7 +856,7 @@
   </header>
 
 
-  <div class="entry-content"><p>Yesterday, Michael Pope posted an article titled <a href="http://captainrecruiter.blogspot.com/2010/08/technical-co-founders-are-myth.html"><em>Technical Cofounders Are a Myth</em></a>. He argued that software engineers don&#8217;t finish what they start, and that you&#8217;re better off paying a technical person than partnering with one. His frustrations are valid and not uncommon, but his conclusions are way off base for a lot of reasons.</div>
+  <div class="entry-content"><p>Yesterday, Michael Pope posted an article titled <a href="http://captainrecruiter.blogspot.com/2010/08/technical-co-founders-are-myth.html"><em>Technical Cofounders Are a Myth</em></a>. He argued that software engineers don’t finish what they start, and that you’re better off paying a technical person than partnering with one. His frustrations are valid and not uncommon, but his conclusions are way off base for a lot of reasons.</div>
   
   
     <footer>
@@ -774,9 +899,9 @@
 
   <div class="entry-content"><p>Yesterday, <a href="http://wordpress.org/">Wordpress</a> founder <a href="http://twitter.com/photomatt">Matt Mullenweg</a> <a href="http://mixergy.com/chris-pearson-matt-mullenweg/">debated</a> <a href="http://www.diythemes.com/">Thesis Wordpress Theme</a> founder <a href="http://twitter.com/pearsonified">Chris Pearson</a> over the ethics, legality and benefits of using the GPL license for the Thesis theme. Matt argued that by not using the GPL license, Thesis is disrespecting the Wordpress community, violating the Wordpress license agreement and hurting its own business. Chris contends that Matt has no right to tell him how to license something that Chris built himself, even though he built it on top of the Wordpress platform.</p>
 
-<p>I&#8217;m not an attorney, but I am a human capable of reading and inferencing. The legal issues concerning the GPL seem pretty clear to me. There&#8217;s a reason why Dan Rivcher is <a href="http://www.linux.com/archive/articles/113252">cited</a> by the Software Freedom Law Center&#8217;s <a href="http://www.softwarefreedom.org/resources/2008/compliance-guide.html">compliance guide</a>. There&#8217;s a reason why the SFLC <a href="http://wordpress.org/news/2009/07/themes-are-gpl-too/">sides with Wordpress</a>. There&#8217;s a reason why lawyers at big companies tell their engineers not to use GPL open source projects. There&#8217;s a reason why the LGPL exists. There&#8217;s a reason why many communities, like the Ruby community, have moved to use the MIT license instead of the GPL. All of these reasons are the same: the GPL is a highly <a href="http://en.wikipedia.org/wiki/GNU_General_Public_License#Criticism">viral</a> license that infects everything it touches. If your code uses GPL, your code needs to be GPL. I don&#8217;t know this because I&#8217;m a lawyer; I know it because every credible lawyer I talk to or read about or am influenced by reaches the same conclusion.</p>
+<p>I’m not an attorney, but I am a human capable of reading and inferencing. The legal issues concerning the GPL seem pretty clear to me. There’s a reason why Dan Rivcher is <a href="http://www.linux.com/archive/articles/113252">cited</a> by the Software Freedom Law Center’s <a href="http://www.softwarefreedom.org/resources/2008/compliance-guide.html">compliance guide</a>. There’s a reason why the SFLC <a href="http://wordpress.org/news/2009/07/themes-are-gpl-too/">sides with Wordpress</a>. There’s a reason why lawyers at big companies tell their engineers not to use GPL open source projects. There’s a reason why the LGPL exists. There’s a reason why many communities, like the Ruby community, have moved to use the MIT license instead of the GPL. All of these reasons are the same: the GPL is a highly <a href="http://en.wikipedia.org/wiki/GNU_General_Public_License#Criticism">viral</a> license that infects everything it touches. If your code uses GPL, your code needs to be GPL. I don’t know this because I’m a lawyer; I know it because every credible lawyer I talk to or read about or am influenced by reaches the same conclusion.</p>
 
-<p>And I&#8217;m reminded of how well I know this, because I gave up healthy means of income in order to abide by it.</div>
+<p>And I’m reminded of how well I know this, because I gave up healthy means of income in order to abide by it.</div>
   
   
     <footer>
@@ -817,7 +942,7 @@
   </header>
 
 
-  <div class="entry-content"><p>Nearly all commercial web sites perform Search Engine Optimization (SEO), whereby they alter their site to be more Google-friendly, with the hope of receiving higher search rankings. Many of these changes are purely structural and invisible to users. For instance, using tags like &lt;h1&gt; or microformats like &#8220;hreview&#8221; can help Google make more sense of existing content without any changes being made to the text.</p>
+  <div class="entry-content"><p>Nearly all commercial web sites perform Search Engine Optimization (SEO), whereby they alter their site to be more Google-friendly, with the hope of receiving higher search rankings. Many of these changes are purely structural and invisible to users. For instance, using tags like &lt;h1&gt; or microformats like “hreview” can help Google make more sense of existing content without any changes being made to the text.</p>
 
 <p>Mature, profitable sites often take SEO to the next level by altering their visible content as well. In effect, they write their copy for machines instead of for people. From a user experience perspective, it shows. There is often an inherent conflict between what is best for a user and what is best for Google.</div>
   
@@ -871,129 +996,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2010/facebook-google-and-the-value-of-trust/">Facebook, Google and the Value of Trust</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-04-26T11:08:45-04:00" pubdate data-updated="true">Apr 26<span>th</span>, 2010</time>
-        
-         | <a href="/2010/facebook-google-and-the-value-of-trust/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Facebook is in many ways the hedge to Google&#8217;s bet that social machines are oiled with the trust of their users. As competition between Facebook and Google becomes increasingly visible, so too will the issues of trust that separate them.</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/2010/facebook-google-and-the-value-of-trust/">Read full post &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2010/on-chirp-goals-and-expectations/">Chirp: Goals and Expectations</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-04-14T09:29:03-04:00" pubdate data-updated="true">Apr 14<span>th</span>, 2010</time>
-        
-         | <a href="/2010/on-chirp-goals-and-expectations/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>The kerfuffle between Twitter and its third party developers has been discussed, analyzed and debated ad nauseum over the past week. But aside from jokes of awkwardness, there has been surprisingly little talk about what it means for Chirp. What do third party developers want from the conference in light of recent events? What&#8217;s a win for Twitter?</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/2010/on-chirp-goals-and-expectations/">Read full post &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2010/the-death-of-macruby-for-iphone/">The Death of MacRuby for iPhone?</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-04-10T22:49:35-04:00" pubdate data-updated="true">Apr 10<span>th</span>, 2010</time>
-        
-         | <a href="/2010/the-death-of-macruby-for-iphone/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>It&#8217;s a sad day for iPhone developers who like Ruby.</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/2010/the-death-of-macruby-for-iphone/">Read full post &rarr;</a>
-    </footer>
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -1009,15 +1011,15 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2013/how-to-negotiate-your-startup-job-offer/">How to Negotiate Your Startup Job Offer</a>
+      </li>
+    
+      <li class="post">
         <a href="/2013/remove-merged-branches-from-git/">Remove Merged Branches from Git</a>
       </li>
     
       <li class="post">
         <a href="/2012/gun-control-is-a-bandaid/">Gun Control Is a Bandaid</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/migrating-to-riak-at-shareaholic/">Migrating to Riak at Shareaholic</a>
       </li>
     
   </ul>
@@ -1088,25 +1090,6 @@
 
 
 
-
-<script type="text/javascript">
-//<![CDATA[
-  (function() {
-    var shr = document.createElement('script');
-    shr.src = '//dtym7iokkjlif.cloudfront.net/assets/pub/shareaholic.js';
-    shr.type = 'text/javascript';
-    shr.async = 'true';
-    shr.onload = shr.onreadystatechange = function() {
-      var rs = this.readyState;
-      if (rs && rs != 'complete' && rs != 'loaded') return;
-      var apikey = 'a70ecdba30862eccb66258c8a83d50b4'
-      try { Shareaholic.init(apikey); } catch (e) {}
-    };
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(shr, s);
-  })();
-//]]>
-</script>
 
 
 </body>

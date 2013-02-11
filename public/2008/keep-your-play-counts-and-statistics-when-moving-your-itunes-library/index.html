@@ -9,7 +9,7 @@
   <meta name="author" content="Robby Grossman">
 
   
-  <meta name="description" content="If you&#8217;re an iTunes user who doesn&#8217;t let iTunes manage your music collection, you&#8217;ll find that iTunes isn&#8217;t very cooperative &hellip;">
+  <meta name="description" content="If you’re an iTunes user who doesn’t let iTunes manage your music collection, you’ll find that iTunes isn’t very cooperative when it comes to moving &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -106,43 +106,85 @@
   </header>
 
 
-<div class="entry-content"><p>If you&#8217;re an iTunes user who doesn&#8217;t let iTunes manage your music collection, you&#8217;ll find that iTunes isn&#8217;t very cooperative when it comes to moving your music around. For example, if you decide you want to move your music from your internal drive to an external drive, you&#8217;ll find that you have to re-import your music, costing you all of your playcounts, playlists and library statistics.</p>
+<div class="entry-content"><p>If you’re an iTunes user who doesn’t let iTunes manage your music collection, you’ll find that iTunes isn’t very cooperative when it comes to moving your music around. For example, if you decide you want to move your music from your internal drive to an external drive, you’ll find that you have to re-import your music, costing you all of your playcounts, playlists and library statistics.</p>
 
-<p>There&#8217;s a better, easier way.<!--more--></p>
+<p>There’s a better, easier way.<!--more--></p>
 
-<p>Here&#8217;s what this how-to guide assumes:</p>
-
-<ol>
-<li><p>You&#8217;re a Mac user.</p></li>
-<li><p>You want to move your music from one location to another.</p></li>
-<li><p>The directory structure in which your music resides will not change, but rather you will be moving all of it under some top-level folder.</p></li>
-<li><p>You want to keep your iTunes library as it currently exists.</p></li>
-</ol>
-
-
-<p>Here&#8217;s how to do it:</p>
+<p>Here’s what this how-to guide assumes:</p>
 
 <ol>
-<li><p>Quit iTunes</p></li>
-<li><p>Make note of the top-level directory under which your music currently resides. For example, since I am moving my music from my user&#8217;s Music folder, my directory is &#8220;/Users/robby/Music&#8221;.</p></li>
-<li><p>Move your music from your old location to your new location.</p></li>
-<li><p>Make note of the new top-level directory under which you&#8217;ve put your music. For example, since I moved my music to an external hard drive called &#8220;Music&#8221;, my new directory is &#8220;/Volumes/Music&#8221;.</p></li>
-<li><p>Open up Finder and navigate to your &#8220;iTunes&#8221; directory (by default, this is in your user&#8217;s &#8220;Music&#8221; directory).</p></li>
-<li><p>You should see a file called &#8220;iTunes Music Library.xml&#8221;. Open it up with your favorite text editor.</p></li>
-<li><p>Open said text editor&#8217;s find/replace dialog.</p></li>
-<li><p>In the &#8220;Find&#8221; field, type &#8220;file://localhost/<old directory name here>&#8221;</p></li>
-<li><p>In the &#8220;Replace field, type &#8220;file://localhost/<new directory name here>&#8221;</p></li>
-<li><p>Select &#8220;Replace All&#8221;.</p></li>
-<li><p>Save the file to disk.</p></li>
-<li><p>Go back to the Finder box. Drag the file named &#8220;iTunes Library&#8221; to your desktop. If you see files named &#8220;iTunes Library Extras.itdb&#8221; and &#8220;iTunes Library Genius.itdb&#8221;, do the same with those files.</p></li>
-<li><p>Open iTunes. (Don&#8217;t panic, your library should be empty).</p></li>
-<li><p>Select File > Library > Import Playlist&#8230;</p></li>
-<li><p>Select the iTunes Music Library.xml file that you edited and click Open.</p></li>
-<li><p>iTunes will import your library with your new folder locations.</p></li>
-<li><p>The import will create duplicates of the iTunes default playlists, so you may want to delete those copies.</p></li>
-<li><p>If all goes well, you can delete the iTunes Library files from your desktop.</p></li>
+  <li>
+    <p>You’re a Mac user.</p>
+  </li>
+  <li>
+    <p>You want to move your music from one location to another.</p>
+  </li>
+  <li>
+    <p>The directory structure in which your music resides will not change, but rather you will be moving all of it under some top-level folder.</p>
+  </li>
+  <li>
+    <p>You want to keep your iTunes library as it currently exists.</p>
+  </li>
 </ol>
 
+<p>Here’s how to do it:</p>
+
+<ol>
+  <li>
+    <p>Quit iTunes</p>
+  </li>
+  <li>
+    <p>Make note of the top-level directory under which your music currently resides. For example, since I am moving my music from my user’s Music folder, my directory is “/Users/robby/Music”.</p>
+  </li>
+  <li>
+    <p>Move your music from your old location to your new location.</p>
+  </li>
+  <li>
+    <p>Make note of the new top-level directory under which you’ve put your music. For example, since I moved my music to an external hard drive called “Music”, my new directory is “/Volumes/Music”.</p>
+  </li>
+  <li>
+    <p>Open up Finder and navigate to your “iTunes” directory (by default, this is in your user’s “Music” directory).</p>
+  </li>
+  <li>
+    <p>You should see a file called “iTunes Music Library.xml”. Open it up with your favorite text editor.</p>
+  </li>
+  <li>
+    <p>Open said text editor’s find/replace dialog.</p>
+  </li>
+  <li>
+    <p>In the “Find” field, type “file://localhost/<old directory="" name="" here="">&#8221;</old></p>
+  </li>
+  <li>
+    <p>In the “Replace field, type “file://localhost/<new directory="" name="" here="">&#8221;</new></p>
+  </li>
+  <li>
+    <p>Select “Replace All”.</p>
+  </li>
+  <li>
+    <p>Save the file to disk.</p>
+  </li>
+  <li>
+    <p>Go back to the Finder box. Drag the file named “iTunes Library” to your desktop. If you see files named “iTunes Library Extras.itdb” and “iTunes Library Genius.itdb”, do the same with those files.</p>
+  </li>
+  <li>
+    <p>Open iTunes. (Don’t panic, your library should be empty).</p>
+  </li>
+  <li>
+    <p>Select File &gt; Library &gt; Import Playlist…</p>
+  </li>
+  <li>
+    <p>Select the iTunes Music Library.xml file that you edited and click Open.</p>
+  </li>
+  <li>
+    <p>iTunes will import your library with your new folder locations.</p>
+  </li>
+  <li>
+    <p>The import will create duplicates of the iTunes default playlists, so you may want to delete those copies.</p>
+  </li>
+  <li>
+    <p>If all goes well, you can delete the iTunes Library files from your desktop.</p>
+  </li>
+</ol>
 </div>
 
 
@@ -206,9 +248,6 @@
 </div>
   </section>
 
-
-<div class='shareaholic-canvas' data-shareaholic-widgets='recommendations'></div>
-
 </div>
 
 <aside class="sidebar">
@@ -218,15 +257,15 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2013/how-to-negotiate-your-startup-job-offer/">How to Negotiate Your Startup Job Offer</a>
+      </li>
+    
+      <li class="post">
         <a href="/2013/remove-merged-branches-from-git/">Remove Merged Branches from Git</a>
       </li>
     
       <li class="post">
         <a href="/2012/gun-control-is-a-bandaid/">Gun Control Is a Bandaid</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/migrating-to-riak-at-shareaholic/">Migrating to Riak at Shareaholic</a>
       </li>
     
   </ul>
@@ -301,25 +340,6 @@
 
 
 
-
-<script type="text/javascript">
-//<![CDATA[
-  (function() {
-    var shr = document.createElement('script');
-    shr.src = '//dtym7iokkjlif.cloudfront.net/assets/pub/shareaholic.js';
-    shr.type = 'text/javascript';
-    shr.async = 'true';
-    shr.onload = shr.onreadystatechange = function() {
-      var rs = this.readyState;
-      if (rs && rs != 'complete' && rs != 'loaded') return;
-      var apikey = 'a70ecdba30862eccb66258c8a83d50b4'
-      try { Shareaholic.init(apikey); } catch (e) {}
-    };
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(shr, s);
-  })();
-//]]>
-</script>
 
 
 </body>

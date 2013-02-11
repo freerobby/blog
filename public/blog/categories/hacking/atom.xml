@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Hacking | Robby Grossman]]></title>
   <link href="http://rob.by/blog/categories/hacking/atom.xml" rel="self"/>
   <link href="http://rob.by/"/>
-  <updated>2013-01-26T16:37:16-05:00</updated>
+  <updated>2013-02-12T00:09:34-05:00</updated>
   <id>http://rob.by/</id>
   <author>
     <name><![CDATA[Robby Grossman]]></name>
@@ -18,21 +18,21 @@
     <link href="http://rob.by/2009/wake-machine/"/>
     <updated>2009-09-06T13:15:17-04:00</updated>
     <id>http://rob.by/2009/wake-machine</id>
-    <content type="html"><![CDATA[<p>Wake Machine enables Time Machine to backup to a target that is sleeping. Without Wake Machine, such backups will fail because the remote disk won't mount.<!--more--></p>
+    <content type="html"><![CDATA[<p>Wake Machine enables Time Machine to backup to a target that is sleeping. Without Wake Machine, such backups will fail because the remote disk won’t mount.<!--more--></p>
 
-<p>Wake Machine runs as a mock daemon on the client. When Time Machine initiates a backup, Wake Machine sends a <a href="http://en.wikipedia.org/wiki/Wake-on-LAN#Magic_packet">magic packet</a> to the target machine to wake it up if it's sleeping.</p>
+<p>Wake Machine runs as a mock daemon on the client. When Time Machine initiates a backup, Wake Machine sends a <a href="http://en.wikipedia.org/wiki/Wake-on-LAN#Magic_packet">magic packet</a> to the target machine to wake it up if it’s sleeping.</p>
 
-<p>Caveats: If you're using an older Mac, the target machine must be connected via ethernet (the machine you're backing up can still be connected wirelessly via Airport). New Macs support wake on LAN using Airport.</p>
+<p>Caveats: If you’re using an older Mac, the target machine must be connected via ethernet (the machine you’re backing up can still be connected wirelessly via Airport). New Macs support wake on LAN using Airport.</p>
 
-<h2>Prerequisites</h2>
+<h2 id="prerequisites">Prerequisites</h2>
 
 <p>Wake Machine works out of the box with OS X Leopard and Snow Leopard.</p>
 
-<p>However, you'll need <a href="http://git-scm.com/download">git</a> in order to install Wake Machine.</p>
+<p>However, you’ll need <a href="http://git-scm.com/download">git</a> in order to install Wake Machine.</p>
 
-<h2>Getting Started</h2>
+<h2 id="getting-started">Getting Started</h2>
 
-<p>Installation is as easy as cloning the Wake Machine repository. Navigate to the directory you'd like to install it in and run:</p>
+<p>Installation is as easy as cloning the Wake Machine repository. Navigate to the directory you’d like to install it in and run:</p>
 
 <pre><code>git clone http://github.com/freerobby/wakemachine.git
 </code></pre>
@@ -40,18 +40,23 @@
 <p>Once installed, you must set up Wake Machine. The recommended method for doing this is the following:</p>
 
 <ol>
-<li><p>Ensure that both the target computer is awake.</p></li>
-<li><p>Run a time machine backup.</p></li>
-<li><p>Run Wake Machine setup:</p>
+  <li>
+    <p>Ensure that both the target computer is awake.</p>
+  </li>
+  <li>
+    <p>Run a time machine backup.</p>
+  </li>
+  <li>
+    <p>Run Wake Machine setup:</p>
 
-<pre><code>bash wakemachine.sh setup
-</code></pre></li>
+    <pre><code>bash wakemachine.sh setup
+</code></pre>
+  </li>
 </ol>
-
 
 <p>Setup will automatically detect your time machine target, resolve its IP address and discover its MAC address. This information will be written to your user profile.</p>
 
-<h2>Running Wake Machine</h2>
+<h2 id="running-wake-machine">Running Wake Machine</h2>
 
 <p>To launch the Wake Machine daemon manually, run:</p>
 
@@ -61,25 +66,37 @@
 <p>To set up Wake Machine to run automatically on your system:</p>
 
 <ol>
-<li><p>Go to System Preferences and open the "Accounts" panel.</p></li>
-<li><p>Click "Login Items" at the top.</p></li>
-<li><p>Click the + icon to add a new login item.</p></li>
-<li><p>Select the wakemachine_daemon executable, and check the box next to it marked "Hide".</p></li>
-<li><p>Restart your computer</p></li>
+  <li>
+    <p>Go to System Preferences and open the “Accounts” panel.</p>
+  </li>
+  <li>
+    <p>Click “Login Items” at the top.</p>
+  </li>
+  <li>
+    <p>Click the + icon to add a new login item.</p>
+  </li>
+  <li>
+    <p>Select the wakemachine_daemon executable, and check the box next to it marked “Hide”.</p>
+  </li>
+  <li>
+    <p>Restart your computer</p>
+  </li>
 </ol>
-
 
 <p>Voilà, your target machine will now be woken up whenever Time Machine runs.</p>
 
-<h2>Key Links</h2>
+<h2 id="key-links">Key Links</h2>
 
 <ul>
-<li><p><a href="http://github.com/freerobby/wakemachine/tree/master">Wake Machine development at github</a></p></li>
-<li><p><a href="http://www.pivotaltracker.com/projects/28564">Wake Machine tracking at Pivotal Tracker</a></p></li>
+  <li>
+    <p><a href="http://github.com/freerobby/wakemachine/tree/master">Wake Machine development at github</a></p>
+  </li>
+  <li>
+    <p><a href="http://www.pivotaltracker.com/projects/28564">Wake Machine tracking at Pivotal Tracker</a></p>
+  </li>
 </ul>
 
-
-<h2>Acknowledgments</h2>
+<h2 id="acknowledgments">Acknowledgments</h2>
 
 <p>Wake Machine uses the <a href="http://gsd.di.uminho.pt/jpo/software/wakeonlan/">Wakeonlan perl script</a> written by Ico Doornekamp and José Pedro Oliveira.</p>
 ]]></content>
@@ -90,74 +107,120 @@
     <link href="http://rob.by/2009/use-time-machine-with-wake-on-lan-to-enable-network-backups-to-sleeping-devices/"/>
     <updated>2009-09-05T17:30:29-04:00</updated>
     <id>http://rob.by/2009/use-time-machine-with-wake-on-lan-to-enable-network-backups-to-sleeping-devices</id>
-    <content type="html"><![CDATA[<p><strong>Update Sept 6, 2009: </strong>I've created a project at github to simplify this process. More details <a href="https://github.com/freerobby/wakemachine">here</a>.</p>
+    <content type="html"><![CDATA[<p>**Update Sept 6, 2009: **I’ve created a project at github to simplify this process. More details <a href="https://github.com/freerobby/wakemachine">here</a>.</p>
 
 <p><strong>Task</strong>: You want to use Time Machine wirelessly to backup your Mac to a drive on another Mac on your network.</p>
 
-<p><strong>Problem</strong>: If the target machine is in "sleep" mode, your backup will fail.</p>
+<p><strong>Problem</strong>: If the target machine is in “sleep” mode, your backup will fail.</p>
 
-<p><strong>Solution</strong>: Send a "magic packet" to the target machine to wake it up if it's sleeping.<!--more--></p>
+<p><strong>Solution</strong>: Send a “magic packet” to the target machine to wake it up if it’s sleeping.<!--more--></p>
 
-<p><strong>Gotcha</strong>: New Macs <a href="http://www.tuaw.com/2009/08/29/snow-leopard-extends-wake-on-lan-feature-if-your-config-is-ri/">support WOL via Airport</a>. However if you're using an older Mac, the target machine must be connected via ethernet (the machine you're backing up can still be connected via wifi).</p>
+<p><strong>Gotcha</strong>: New Macs <a href="http://www.tuaw.com/2009/08/29/snow-leopard-extends-wake-on-lan-feature-if-your-config-is-ri/">support WOL via Airport</a>. However if you’re using an older Mac, the target machine must be connected via ethernet (the machine you’re backing up can still be connected via wifi).</p>
 
-<p>Let's roll:</p>
+<p>Let’s roll:</p>
 
-<h2>Prep the Target Machine</h2>
+<h2 id="prep-the-target-machine">Prep the Target Machine</h2>
 
 <p>The target machine is the Mac that will <em>hold</em> your backups.</p>
 
 <ol>
-<li><p>On the target machine, go to System Preferences and open the "Energy Saver" panel.</p></li>
-<li><p>Configure sleep settings as desired</p></li>
-<li><p>Be sure to check the "Wake for Ethernet network access" box at the bottom.</p></li>
-<li><p>Close out of system preferences.</p></li>
-<li><p>Open System Profiler from your Utilities directory in Applications.</p></li>
-<li><p>Click  "Network" in the left panel.</p></li>
-<li><p>Click "Ethernet" in the top panel.</p></li>
-<li><p>In the bottom panel, scroll down until you see "Ethernet:" with a line under it showing something like "MAC Address 00:15:d4:a3:cf:1b". Write down this 12-digit MAC address.</p></li>
-<li><p>Exit System Profiler</p></li>
+  <li>
+    <p>On the target machine, go to System Preferences and open the “Energy Saver” panel.</p>
+  </li>
+  <li>
+    <p>Configure sleep settings as desired</p>
+  </li>
+  <li>
+    <p>Be sure to check the “Wake for Ethernet network access” box at the bottom.</p>
+  </li>
+  <li>
+    <p>Close out of system preferences.</p>
+  </li>
+  <li>
+    <p>Open System Profiler from your Utilities directory in Applications.</p>
+  </li>
+  <li>
+    <p>Click  “Network” in the left panel.</p>
+  </li>
+  <li>
+    <p>Click “Ethernet” in the top panel.</p>
+  </li>
+  <li>
+    <p>In the bottom panel, scroll down until you see “Ethernet:” with a line under it showing something like “MAC Address 00:15:d4:a3:cf:1b”. Write down this 12-digit MAC address.</p>
+  </li>
+  <li>
+    <p>Exit System Profiler</p>
+  </li>
 </ol>
 
-
-<h2>Configure the Host Machine</h2>
+<h2 id="configure-the-host-machine">Configure the Host Machine</h2>
 
 <p>The host machine is the Mac that you will be backing up.</p>
 
 <ol>
-<li><p>On the host machine, <a href="http://www.macports.org/install.php">install MacPorts</a> if you haven't already.</p></li>
-<li><p>Open up a Terminal from your Utilities directory in Applications.</p></li>
-<li><p>Type: "sudo port install wakeonlan" and press return.</p></li>
-<li><p>Enter your password when prompted, and wait while MacPorts installs the utility and its dependencies.</p></li>
-<li><p>Open Automator in Applications.</p></li>
-<li><p>Create a new "Application" workflow when prompted.</p></li>
-<li><p>Double-click the "Run Shell Script" library item on the left. In the box that appears, erase "cat" and instead type:</p>
+  <li>
+    <p>On the host machine, <a href="http://www.macports.org/install.php">install MacPorts</a> if you haven’t already.</p>
+  </li>
+  <li>
+    <p>Open up a Terminal from your Utilities directory in Applications.</p>
+  </li>
+  <li>
+    <p>Type: “sudo port install wakeonlan” and press return.</p>
+  </li>
+  <li>
+    <p>Enter your password when prompted, and wait while MacPorts installs the utility and its dependencies.</p>
+  </li>
+  <li>
+    <p>Open Automator in Applications.</p>
+  </li>
+  <li>
+    <p>Create a new “Application” workflow when prompted.</p>
+  </li>
+  <li>
+    <p>Double-click the “Run Shell Script” library item on the left. In the box that appears, erase “cat” and instead type:</p>
 
-<pre><code>macaddress="00:00:00:00:00:00"
+    <pre><code>macaddress="00:00:00:00:00:00"
 while true
 do
-    results=`syslog -k Sender com.apple.backupd -k Time gt -10s -k Message Seq 'Starting standard backup'`
-    if [ -n "$results" ]
-    then
-        /opt/local/bin/wakeonlan "$macaddress"
-        while [ -n "$results" ]
-        do
-            sleep 10
-            results=`syslog -k Sender com.apple.backupd -k Time gt -10s -k Message Seq 'Starting standard backup'`
-        done
-    fi
-    sleep 10
+ 	   results=`syslog -k Sender com.apple.backupd -k Time gt -10s -k Message Seq 'Starting standard backup'`
+ 	   if [ -n "$results" ]
+ 	   then
+ 		   /opt/local/bin/wakeonlan "$macaddress"
+ 		   while [ -n "$results" ]
+ 		   do
+ 			   sleep 10
+ 			   results=`syslog -k Sender com.apple.backupd -k Time gt -10s -k Message Seq 'Starting standard backup'`
+ 		   done
+ 	   fi
+ 	   sleep 10
 done
-</code></pre></li>
-<li><p>In the first line, replace the 00:00:00:00:00:00 with the MAC Address that you wrote down earlier. Be sure to keep the quotes.</p></li>
-<li><p>Choose File > Save As..., and name it "WOL Daemon" in the Applications folder when prompted.</p></li>
-<li><p>Exit Automator.</p></li>
-<li><p>Go to System Preferences and open the "Accounts" panel.</p></li>
-<li><p>Click "Login Items" at the top.</p></li>
-<li><p>Click the + icon to add a new one.</p></li>
-<li><p>Select the WOL Daemon that you just created, and check the box next to it marked "Hide".</p></li>
-<li><p>Restart your computer, and voilà, your target machine will now be woken up if it's asleep while Time Machine runs.</p></li>
+</code></pre>
+  </li>
+  <li>
+    <p>In the first line, replace the 00:00:00:00:00:00 with the MAC Address that you wrote down earlier. Be sure to keep the quotes.</p>
+  </li>
+  <li>
+    <p>Choose File &gt; Save As…, and name it “WOL Daemon” in the Applications folder when prompted.</p>
+  </li>
+  <li>
+    <p>Exit Automator.</p>
+  </li>
+  <li>
+    <p>Go to System Preferences and open the “Accounts” panel.</p>
+  </li>
+  <li>
+    <p>Click “Login Items” at the top.</p>
+  </li>
+  <li>
+    <p>Click the + icon to add a new one.</p>
+  </li>
+  <li>
+    <p>Select the WOL Daemon that you just created, and check the box next to it marked “Hide”.</p>
+  </li>
+  <li>
+    <p>Restart your computer, and voilà, your target machine will now be woken up if it’s asleep while Time Machine runs.</p>
+  </li>
 </ol>
-
 ]]></content>
   </entry>
   
@@ -166,7 +229,7 @@ done
     <link href="http://rob.by/2009/installing-mysql-via-macports-on-snow-leopard-for-ruby-development/"/>
     <updated>2009-09-01T14:23:23-04:00</updated>
     <id>http://rob.by/2009/installing-mysql-via-macports-on-snow-leopard-for-ruby-development</id>
-    <content type="html"><![CDATA[<p>There are a number of tutorials floating around that explain how to install MySQL 5 on Snow Leopard. They all recommend the x86_64 universal binary supplied by MySQL. If you'd like to install MySQL via MacPorts (MySQL5 is <a href="http://trac.macports.org/wiki/snc/snowleopard">certified compatible</a>!), here are the steps:<!--more--></p>
+    <content type="html"><![CDATA[<p>There are a number of tutorials floating around that explain how to install MySQL 5 on Snow Leopard. They all recommend the x86_64 universal binary supplied by MySQL. If you’d like to install MySQL via MacPorts (MySQL5 is <a href="http://trac.macports.org/wiki/snc/snowleopard">certified compatible</a>!), here are the steps:<!--more--></p>
 
 <p>First, install MySQL with developer libraries:</p>
 
@@ -178,7 +241,7 @@ done
 <pre><code>sudo /opt/local/lib/mysql5/bin/mysql_install_db --user=mysql
 </code></pre>
 
-<p>If you get permissions errors, run (warning: don't do this in production!):</p>
+<p>If you get permissions errors, run (warning: don’t do this in production!):</p>
 
 <pre><code>sudo chmod -Rf 777 /opt/local/var/db/mysql5
 </code></pre>
@@ -200,7 +263,7 @@ done
 <pre><code>sudo gem install mysql --version 2.7 -- --with-mysql-config=/opt/local/bin/mysql_config5
 </code></pre>
 
-<p>You're ready to roll. To start your MySQL daemon, run:</p>
+<p>You’re ready to roll. To start your MySQL daemon, run:</p>
 
 <pre><code>sudo /opt/local/lib/mysql5/bin/mysqld_safe &amp;
 </code></pre>
@@ -212,43 +275,85 @@ done
     <link href="http://rob.by/2008/keep-your-play-counts-and-statistics-when-moving-your-itunes-library/"/>
     <updated>2008-10-24T10:31:08-04:00</updated>
     <id>http://rob.by/2008/keep-your-play-counts-and-statistics-when-moving-your-itunes-library</id>
-    <content type="html"><![CDATA[<p>If you're an iTunes user who doesn't let iTunes manage your music collection, you'll find that iTunes isn't very cooperative when it comes to moving your music around. For example, if you decide you want to move your music from your internal drive to an external drive, you'll find that you have to re-import your music, costing you all of your playcounts, playlists and library statistics.</p>
+    <content type="html"><![CDATA[<p>If you’re an iTunes user who doesn’t let iTunes manage your music collection, you’ll find that iTunes isn’t very cooperative when it comes to moving your music around. For example, if you decide you want to move your music from your internal drive to an external drive, you’ll find that you have to re-import your music, costing you all of your playcounts, playlists and library statistics.</p>
 
-<p>There's a better, easier way.<!--more--></p>
+<p>There’s a better, easier way.<!--more--></p>
 
-<p>Here's what this how-to guide assumes:</p>
-
-<ol>
-<li><p>You're a Mac user.</p></li>
-<li><p>You want to move your music from one location to another.</p></li>
-<li><p>The directory structure in which your music resides will not change, but rather you will be moving all of it under some top-level folder.</p></li>
-<li><p>You want to keep your iTunes library as it currently exists.</p></li>
-</ol>
-
-
-<p>Here's how to do it:</p>
+<p>Here’s what this how-to guide assumes:</p>
 
 <ol>
-<li><p>Quit iTunes</p></li>
-<li><p>Make note of the top-level directory under which your music currently resides. For example, since I am moving my music from my user's Music folder, my directory is "/Users/robby/Music".</p></li>
-<li><p>Move your music from your old location to your new location.</p></li>
-<li><p>Make note of the new top-level directory under which you've put your music. For example, since I moved my music to an external hard drive called "Music", my new directory is "/Volumes/Music".</p></li>
-<li><p>Open up Finder and navigate to your "iTunes" directory (by default, this is in your user's "Music" directory).</p></li>
-<li><p>You should see a file called "iTunes Music Library.xml". Open it up with your favorite text editor.</p></li>
-<li><p>Open said text editor's find/replace dialog.</p></li>
-<li><p>In the "Find" field, type "file://localhost/<old directory name here>"</p></li>
-<li><p>In the "Replace field, type "file://localhost/<new directory name here>"</p></li>
-<li><p>Select "Replace All".</p></li>
-<li><p>Save the file to disk.</p></li>
-<li><p>Go back to the Finder box. Drag the file named "iTunes Library" to your desktop. If you see files named "iTunes Library Extras.itdb" and "iTunes Library Genius.itdb", do the same with those files.</p></li>
-<li><p>Open iTunes. (Don't panic, your library should be empty).</p></li>
-<li><p>Select File > Library > Import Playlist...</p></li>
-<li><p>Select the iTunes Music Library.xml file that you edited and click Open.</p></li>
-<li><p>iTunes will import your library with your new folder locations.</p></li>
-<li><p>The import will create duplicates of the iTunes default playlists, so you may want to delete those copies.</p></li>
-<li><p>If all goes well, you can delete the iTunes Library files from your desktop.</p></li>
+  <li>
+    <p>You’re a Mac user.</p>
+  </li>
+  <li>
+    <p>You want to move your music from one location to another.</p>
+  </li>
+  <li>
+    <p>The directory structure in which your music resides will not change, but rather you will be moving all of it under some top-level folder.</p>
+  </li>
+  <li>
+    <p>You want to keep your iTunes library as it currently exists.</p>
+  </li>
 </ol>
 
+<p>Here’s how to do it:</p>
+
+<ol>
+  <li>
+    <p>Quit iTunes</p>
+  </li>
+  <li>
+    <p>Make note of the top-level directory under which your music currently resides. For example, since I am moving my music from my user’s Music folder, my directory is “/Users/robby/Music”.</p>
+  </li>
+  <li>
+    <p>Move your music from your old location to your new location.</p>
+  </li>
+  <li>
+    <p>Make note of the new top-level directory under which you’ve put your music. For example, since I moved my music to an external hard drive called “Music”, my new directory is “/Volumes/Music”.</p>
+  </li>
+  <li>
+    <p>Open up Finder and navigate to your “iTunes” directory (by default, this is in your user’s “Music” directory).</p>
+  </li>
+  <li>
+    <p>You should see a file called “iTunes Music Library.xml”. Open it up with your favorite text editor.</p>
+  </li>
+  <li>
+    <p>Open said text editor’s find/replace dialog.</p>
+  </li>
+  <li>
+    <p>In the “Find” field, type “file://localhost/<old directory="" name="" here="">"</old></p>
+  </li>
+  <li>
+    <p>In the “Replace field, type “file://localhost/<new directory="" name="" here="">"</new></p>
+  </li>
+  <li>
+    <p>Select “Replace All”.</p>
+  </li>
+  <li>
+    <p>Save the file to disk.</p>
+  </li>
+  <li>
+    <p>Go back to the Finder box. Drag the file named “iTunes Library” to your desktop. If you see files named “iTunes Library Extras.itdb” and “iTunes Library Genius.itdb”, do the same with those files.</p>
+  </li>
+  <li>
+    <p>Open iTunes. (Don’t panic, your library should be empty).</p>
+  </li>
+  <li>
+    <p>Select File &gt; Library &gt; Import Playlist…</p>
+  </li>
+  <li>
+    <p>Select the iTunes Music Library.xml file that you edited and click Open.</p>
+  </li>
+  <li>
+    <p>iTunes will import your library with your new folder locations.</p>
+  </li>
+  <li>
+    <p>The import will create duplicates of the iTunes default playlists, so you may want to delete those copies.</p>
+  </li>
+  <li>
+    <p>If all goes well, you can delete the iTunes Library files from your desktop.</p>
+  </li>
+</ol>
 ]]></content>
   </entry>
   
@@ -257,33 +362,57 @@ done
     <link href="http://rob.by/2008/remove-my-bluetooth-places-from-your-desktop/"/>
     <updated>2008-01-02T12:44:50-05:00</updated>
     <id>http://rob.by/2008/remove-my-bluetooth-places-from-your-desktop</id>
-    <content type="html"><![CDATA[<p>If you just installed WDM Bluetooth drivers, you'll find a new icon on your desktop. Unlike the others you've got, this one won't allow you to delete it. Luckily we can remove it with a bit of subterfuge. Here's how.<!--more--></p>
+    <content type="html"><![CDATA[<p>If you just installed WDM Bluetooth drivers, you’ll find a new icon on your desktop. Unlike the others you’ve got, this one won’t allow you to delete it. Luckily we can remove it with a bit of subterfuge. Here’s how.<!--more--></p>
 
 <ol>
-<li><p>Right click anywhere on your desktop (not on an icon), click "Properties"</p></li>
-<li><p>Click the "Desktop" tab.</p></li>
-<li><p>Click the "Customize Desktop..." button.</p></li>
-<li><p>Click the "Clean Desktop Now" button.</p></li>
-<li><p>Click the "Next >" button.</p></li>
-<li><p>Check the "My Bluetooth Places" checkbox if it is not already checked.</p></li>
-<li><p>Click the "Next >" button.</p></li>
-<li><p>Click the "Finish" button.</p></li>
-<li><p>Click the "OK" button.</p></li>
-<li><p>Click the "OK" button.</p></li>
+  <li>
+    <p>Right click anywhere on your desktop (not on an icon), click “Properties”</p>
+  </li>
+  <li>
+    <p>Click the “Desktop” tab.</p>
+  </li>
+  <li>
+    <p>Click the “Customize Desktop…” button.</p>
+  </li>
+  <li>
+    <p>Click the “Clean Desktop Now” button.</p>
+  </li>
+  <li>
+    <p>Click the “Next &gt;” button.</p>
+  </li>
+  <li>
+    <p>Check the “My Bluetooth Places” checkbox if it is not already checked.</p>
+  </li>
+  <li>
+    <p>Click the “Next &gt;” button.</p>
+  </li>
+  <li>
+    <p>Click the “Finish” button.</p>
+  </li>
+  <li>
+    <p>Click the “OK” button.</p>
+  </li>
+  <li>
+    <p>Click the “OK” button.</p>
+  </li>
 </ol>
-
 
 <p>Voila!</p>
 
-<p><em>Update (2/9/2007)</em>: User "Oscar" has generously weighed in with these Windows Vista-specific instructions:</p>
+<p><em>Update (2/9/2007)</em>: User “Oscar” has generously weighed in with these Windows Vista-specific instructions:</p>
 
 <ol>
-<li><p>Run regedit</p></li>
-<li><p>Open HKEY_LOCAL_MACHINE\SOFTWARE
-\Microsoft\Windows\CurrentVersion\explorer\desktop\NameSpace</p></li>
-<li><p>Delete 32B4C379-4AC0-45F2-939C-D4E7ADA56DC5 or just check which one is “My Bluetooth Places” and delete it.</p></li>
+  <li>
+    <p>Run regedit</p>
+  </li>
+  <li>
+    <p>Open HKEY_LOCAL_MACHINE\SOFTWARE
+\Microsoft\Windows\CurrentVersion\explorer\desktop\NameSpace</p>
+  </li>
+  <li>
+    <p>Delete 32B4C379-4AC0-45F2-939C-D4E7ADA56DC5 or just check which one is “My Bluetooth Places” and delete it.</p>
+  </li>
 </ol>
-
 ]]></content>
   </entry>
   

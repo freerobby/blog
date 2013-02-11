@@ -1,22 +1,3 @@
 {% comment %}
   Add content to be output at the bottom of each page. (You might use this for analytics scripts, for example)
 {% endcomment %}
-
-<script type="text/javascript">
-//<![CDATA[
-  (function() {
-    var shr = document.createElement('script');
-    shr.src = '//dtym7iokkjlif.cloudfront.net/assets/pub/shareaholic.js';
-    shr.type = 'text/javascript';
-    shr.async = 'true';
-    shr.onload = shr.onreadystatechange = function() {
-      var rs = this.readyState;
-      if (rs && rs != 'complete' && rs != 'loaded') return;
-      var apikey = 'a70ecdba30862eccb66258c8a83d50b4'
-      try { Shareaholic.init(apikey); } catch (e) {}
-    };
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(shr, s);
-  })();
-//]]>
-</script>

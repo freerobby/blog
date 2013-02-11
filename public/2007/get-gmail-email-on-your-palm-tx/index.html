@@ -108,74 +108,115 @@
 
 <div class="entry-content"><p>I was disappointed when Google released <a href="http://www.google.com/mobile/mail/index.html">a mobile Gmail client for PalmOS 5</a>, but did not provide support for Palm TX devices. The TX, after all, is Wi-Fi- and Bluetooth-enabled, and thus an ideal candidate for any mobile application that takes advantage of wireless internet.</p>
 
-<p>It turns out that getting Google&#8217;s Gmail client up and running on the Palm TX is both quick and easy.<!--more--></p>
+<p>It turns out that getting Google’s Gmail client up and running on the Palm TX is both quick and easy.<!--more--></p>
 
 <p><img src="http://robby-blog.s3.amazonaws.com/2007/get-gmail-email-on-your-palm-tx/1011071600.jpg" alt="GMail PalmOS Photo" /></p>
 
-<p>Before you get started, you&#8217;ll need two things:</p>
+<p>Before you get started, you’ll need two things:</p>
 
 <ol>
-<li><p>The IBM WebSphere Everyplace Micro Environment (IWEME) [ <a href="http://www.palm.com/us/support/jvm/download.html">Available Here</a> ]</p></li>
-<li><p>The Gmail application for PalmOS 5 [ <a href="http://www.freerobby.com/wp-content/uploads/gmail.prc">Direct Download</a> ]</p></li>
+  <li>
+    <p>The IBM WebSphere Everyplace Micro Environment (IWEME) [ <a href="http://www.palm.com/us/support/jvm/download.html">Available Here</a> ]</p>
+  </li>
+  <li>
+    <p>The Gmail application for PalmOS 5 [ <a href="http://www.freerobby.com/wp-content/uploads/gmail.prc">Direct Download</a> ]</p>
+  </li>
 </ol>
-
 
 <p>Begin by installing the IWEME. Palm provides the following instructions, for Windows and Mac, respectively. <strong>This Environment MUST be installed onto the Palm in RAM and NOT on an external SD card</strong>.</p>
 
 <p>Windows Installation Instructions:</p>
 
 <ol>
-<li><p>Download <a href="http://palmone.r3h.net/downloads.palmone.com/JVM.zip">JVM.zip</a> (1.77MB ZIP File)</p></li>
-<li><p><a href="http://kb.palmone.com/SRVS/CGI-BIN/WEBCGI.EXE?New,Kb=PalmSupportKB,ts=Palm_External2001,case=obj%2826436%29">Extract the contents</a> of the zip file using a standard unzip utility.  Note the location where the folder <strong>PALMOS JVM 5.7.2</strong> is unzipped to.</p></li>
-<li><p>Launch Palm Desktop. Select <strong>Quick Install</strong> icon.</p></li>
-<li><p>Select the correct user name from the User list.</p></li>
-<li><p>Navigate to the <strong>PALMOS JVM 5.7.2</strong> folder that was unzipped in Step 2.</p></li>
-<li><p>In that folder, open the <strong>JVM</strong> folder.</p></li>
-<li><p>In that folder, open the <strong>ARM4T</strong> folder.</p></li>
-<li><p>In that folder, select <strong>J9JavaVMMidp20.prc</strong> and <strong>JavaVMCheck_enUS.prc</strong>.</p></li>
-<li><p>If you want a non-English version, you must install these files:</p>
-
-<ul>
-<li>J9JavaVMMidp20.prc file</li>
-<li>J9JavaVMMidp20_xx.prc file with your language version (&#8220;de&#8221; is German, &#8220;es&#8221; is Spanish, &#8220;fr&#8221; is French, &#8220;it&#8221; is Italian, &#8220;ja&#8221; and &#8220;jp&#8221; are Japanese, &#8220;zh&#8221; and &#8220;CN&#8221; are Chinese)</li>
-<li>JavaVMCheck_xxXX.prc file with your local version</li>
-</ul>
-</li>
-<li><p>Drag and drop the selected files to the Quick Install window.</p></li>
-<li><p>Depending on your setup and requirements, you can explore the other folders and install the other files. The ones listed above are mandatory; the others are optional. Consult the Java software developer for more information about which files you need to run the application on your device.</p></li>
-<li><p>Perform a HotSync operation.</p></li>
+  <li>
+    <p>Download <a href="http://palmone.r3h.net/downloads.palmone.com/JVM.zip">JVM.zip</a> (1.77MB ZIP File)</p>
+  </li>
+  <li>
+    <p><a href="http://kb.palmone.com/SRVS/CGI-BIN/WEBCGI.EXE?New,Kb=PalmSupportKB,ts=Palm_External2001,case=obj%2826436%29">Extract the contents</a> of the zip file using a standard unzip utility.  Note the location where the folder <strong>PALMOS JVM 5.7.2</strong> is unzipped to.</p>
+  </li>
+  <li>
+    <p>Launch Palm Desktop. Select <strong>Quick Install</strong> icon.</p>
+  </li>
+  <li>
+    <p>Select the correct user name from the User list.</p>
+  </li>
+  <li>
+    <p>Navigate to the <strong>PALMOS JVM 5.7.2</strong> folder that was unzipped in Step 2.</p>
+  </li>
+  <li>
+    <p>In that folder, open the <strong>JVM</strong> folder.</p>
+  </li>
+  <li>
+    <p>In that folder, open the <strong>ARM4T</strong> folder.</p>
+  </li>
+  <li>
+    <p>In that folder, select <strong>J9JavaVMMidp20.prc</strong> and <strong>JavaVMCheck_enUS.prc</strong>.</p>
+  </li>
+  <li>If you want a non-English version, you must install these files:
+    <ul>
+      <li>J9JavaVMMidp20.prc file</li>
+      <li>J9JavaVMMidp20_xx.prc file with your language version (“de” is German, “es” is Spanish, “fr” is French, “it” is Italian, “ja” and “jp” are Japanese, “zh” and “CN” are Chinese)</li>
+      <li>JavaVMCheck_xxXX.prc file with your local version</li>
+    </ul>
+  </li>
+  <li>
+    <p>Drag and drop the selected files to the Quick Install window.</p>
+  </li>
+  <li>
+    <p>Depending on your setup and requirements, you can explore the other folders and install the other files. The ones listed above are mandatory; the others are optional. Consult the Java software developer for more information about which files you need to run the application on your device.</p>
+  </li>
+  <li>Perform a HotSync operation.</li>
 </ol>
-
 
 <p>Macintosh Installation Instructions:</p>
 
 <ol>
-<li><p>Download <a href="http://palmone.r3h.net/downloads.palmone.com/JVM.sit">JVM.sit</a> (1.68MB SIT File)</p></li>
-<li><p>Your web browser should automatically expand the file and you will see a folder named <strong>PALMOS JVM 5.7.2</strong> on the desktop (or in your default download folder). If your web browser does not expand the file automatically, you will need to use an <a href="http://kb.palmone.com/SRVS/CGI-BIN/WEBCGI.EXE?New,Kb=PalmSupportKB,ts=Palm_External2001,case=obj%2826436%29">expanding utility</a> (such as Aladdin Stuffit Expander) in order to decode the .sit file. Note the folder location.</p></li>
-<li><p>On your Mac, launch Palm Desktop.</p></li>
-<li><p>From the HotSync Menu select Install Handheld Files.</p></li>
-<li><p>Select your user name from the drop down menu.</p></li>
-<li><p>Navigate to the <strong>PALMOS JVM 5.7.2</strong> folder that was unzipped in Step 2.</p></li>
-<li><p>In that folder, open the <strong>JVM</strong> folder.</p></li>
-<li><p>In that folder, open the <strong>ARM4T</strong> folder.</p></li>
-<li><p>In that folder, select <strong>J9JavaVMMidp20.prc</strong> and <strong>JavaVMCheck_enUS.prc</strong>.</p></li>
-<li><p>If you want a non-English version, you must install these files:</p>
-
-<ul>
-<li>J9JavaVMMidp20.prc file</li>
-<li>J9JavaVMMidp20_xx.prc file with your language version (&#8220;de&#8221; is German, &#8220;es&#8221; is Spanish, &#8220;fr&#8221; is French, &#8220;it&#8221; is Italian, &#8220;ja&#8221; and &#8220;jp&#8221; are Japanese, &#8220;zh&#8221; and &#8220;CN&#8221; are Chinese)</li>
-<li>JavaVMCheck_xxXX.prc file with your local version</li>
-</ul>
-</li>
-<li><p>Drag and drop the selected files to the Install Handheld Files window.</p></li>
-<li><p>Depending on your setup and requirements, you can explore the other folders and install the other files. The ones listed above are mandatory; the others are optional. Consult the Java software developer for more information about which files you need to run the application on your device.</p></li>
-<li><p>Perform a HotSync operation.</p></li>
+  <li>
+    <p>Download <a href="http://palmone.r3h.net/downloads.palmone.com/JVM.sit">JVM.sit</a> (1.68MB SIT File)</p>
+  </li>
+  <li>
+    <p>Your web browser should automatically expand the file and you will see a folder named <strong>PALMOS JVM 5.7.2</strong> on the desktop (or in your default download folder). If your web browser does not expand the file automatically, you will need to use an <a href="http://kb.palmone.com/SRVS/CGI-BIN/WEBCGI.EXE?New,Kb=PalmSupportKB,ts=Palm_External2001,case=obj%2826436%29">expanding utility</a> (such as Aladdin Stuffit Expander) in order to decode the .sit file. Note the folder location.</p>
+  </li>
+  <li>
+    <p>On your Mac, launch Palm Desktop.</p>
+  </li>
+  <li>
+    <p>From the HotSync Menu select Install Handheld Files.</p>
+  </li>
+  <li>
+    <p>Select your user name from the drop down menu.</p>
+  </li>
+  <li>
+    <p>Navigate to the <strong>PALMOS JVM 5.7.2</strong> folder that was unzipped in Step 2.</p>
+  </li>
+  <li>
+    <p>In that folder, open the <strong>JVM</strong> folder.</p>
+  </li>
+  <li>
+    <p>In that folder, open the <strong>ARM4T</strong> folder.</p>
+  </li>
+  <li>
+    <p>In that folder, select <strong>J9JavaVMMidp20.prc</strong> and <strong>JavaVMCheck_enUS.prc</strong>.</p>
+  </li>
+  <li>If you want a non-English version, you must install these files:
+    <ul>
+      <li>J9JavaVMMidp20.prc file</li>
+      <li>J9JavaVMMidp20_xx.prc file with your language version (“de” is German, “es” is Spanish, “fr” is French, “it” is Italian, “ja” and “jp” are Japanese, “zh” and “CN” are Chinese)</li>
+      <li>JavaVMCheck_xxXX.prc file with your local version</li>
+    </ul>
+  </li>
+  <li>
+    <p>Drag and drop the selected files to the Install Handheld Files window.</p>
+  </li>
+  <li>
+    <p>Depending on your setup and requirements, you can explore the other folders and install the other files. The ones listed above are mandatory; the others are optional. Consult the Java software developer for more information about which files you need to run the application on your device.</p>
+  </li>
+  <li>Perform a HotSync operation.</li>
 </ol>
 
+<p>Once you’ve installed the IWEME, install the Gmail app (gmail.prc) like any other PalmOS app–using Quick Install feature or other method of your choice. I recommend installing this application to RAM for speed and efficiency reasons associated with the Java VM/runtime; however it should be able to run directly from an SD card.</p>
 
-<p>Once you&#8217;ve installed the IWEME, install the Gmail app (gmail.prc) like any other PalmOS app&#8211;using Quick Install feature or other method of your choice. I recommend installing this application to RAM for speed and efficiency reasons associated with the Java VM/runtime; however it should be able to run directly from an SD card.</p>
-
-<p>Now, connect your Palm to the internet. You can do this however you normally do&#8211;via Wi-Fi or Bluetooth.</p>
+<p>Now, connect your Palm to the internet. You can do this however you normally do–via Wi-Fi or Bluetooth.</p>
 
 <p>Lastly, launch your newly-installed Gmail app, enter your login credentials, and check your email!</p>
 
@@ -243,9 +284,6 @@
 </div>
   </section>
 
-
-<div class='shareaholic-canvas' data-shareaholic-widgets='recommendations'></div>
-
 </div>
 
 <aside class="sidebar">
@@ -255,15 +293,15 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2013/how-to-negotiate-your-startup-job-offer/">How to Negotiate Your Startup Job Offer</a>
+      </li>
+    
+      <li class="post">
         <a href="/2013/remove-merged-branches-from-git/">Remove Merged Branches from Git</a>
       </li>
     
       <li class="post">
         <a href="/2012/gun-control-is-a-bandaid/">Gun Control Is a Bandaid</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/migrating-to-riak-at-shareaholic/">Migrating to Riak at Shareaholic</a>
       </li>
     
   </ul>
@@ -338,25 +376,6 @@
 
 
 
-
-<script type="text/javascript">
-//<![CDATA[
-  (function() {
-    var shr = document.createElement('script');
-    shr.src = '//dtym7iokkjlif.cloudfront.net/assets/pub/shareaholic.js';
-    shr.type = 'text/javascript';
-    shr.async = 'true';
-    shr.onload = shr.onreadystatechange = function() {
-      var rs = this.readyState;
-      if (rs && rs != 'complete' && rs != 'loaded') return;
-      var apikey = 'a70ecdba30862eccb66258c8a83d50b4'
-      try { Shareaholic.init(apikey); } catch (e) {}
-    };
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(shr, s);
-  })();
-//]]>
-</script>
 
 
 </body>

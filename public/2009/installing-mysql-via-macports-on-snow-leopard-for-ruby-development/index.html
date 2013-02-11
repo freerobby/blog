@@ -106,7 +106,7 @@
   </header>
 
 
-<div class="entry-content"><p>There are a number of tutorials floating around that explain how to install MySQL 5 on Snow Leopard. They all recommend the x86_64 universal binary supplied by MySQL. If you&#8217;d like to install MySQL via MacPorts (MySQL5 is <a href="http://trac.macports.org/wiki/snc/snowleopard">certified compatible</a>!), here are the steps:<!--more--></p>
+<div class="entry-content"><p>There are a number of tutorials floating around that explain how to install MySQL 5 on Snow Leopard. They all recommend the x86_64 universal binary supplied by MySQL. If you’d like to install MySQL via MacPorts (MySQL5 is <a href="http://trac.macports.org/wiki/snc/snowleopard">certified compatible</a>!), here are the steps:<!--more--></p>
 
 <p>First, install MySQL with developer libraries:</p>
 
@@ -118,7 +118,7 @@
 <pre><code>sudo /opt/local/lib/mysql5/bin/mysql_install_db --user=mysql
 </code></pre>
 
-<p>If you get permissions errors, run (warning: don&#8217;t do this in production!):</p>
+<p>If you get permissions errors, run (warning: don’t do this in production!):</p>
 
 <pre><code>sudo chmod -Rf 777 /opt/local/var/db/mysql5
 </code></pre>
@@ -140,7 +140,7 @@
 <pre><code>sudo gem install mysql --version 2.7 -- --with-mysql-config=/opt/local/bin/mysql_config5
 </code></pre>
 
-<p>You&#8217;re ready to roll. To start your MySQL daemon, run:</p>
+<p>You’re ready to roll. To start your MySQL daemon, run:</p>
 
 <pre><code>sudo /opt/local/lib/mysql5/bin/mysqld_safe &amp;
 </code></pre>
@@ -207,9 +207,6 @@
 </div>
   </section>
 
-
-<div class='shareaholic-canvas' data-shareaholic-widgets='recommendations'></div>
-
 </div>
 
 <aside class="sidebar">
@@ -219,15 +216,15 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2013/how-to-negotiate-your-startup-job-offer/">How to Negotiate Your Startup Job Offer</a>
+      </li>
+    
+      <li class="post">
         <a href="/2013/remove-merged-branches-from-git/">Remove Merged Branches from Git</a>
       </li>
     
       <li class="post">
         <a href="/2012/gun-control-is-a-bandaid/">Gun Control Is a Bandaid</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/migrating-to-riak-at-shareaholic/">Migrating to Riak at Shareaholic</a>
       </li>
     
   </ul>
@@ -302,25 +299,6 @@
 
 
 
-
-<script type="text/javascript">
-//<![CDATA[
-  (function() {
-    var shr = document.createElement('script');
-    shr.src = '//dtym7iokkjlif.cloudfront.net/assets/pub/shareaholic.js';
-    shr.type = 'text/javascript';
-    shr.async = 'true';
-    shr.onload = shr.onreadystatechange = function() {
-      var rs = this.readyState;
-      if (rs && rs != 'complete' && rs != 'loaded') return;
-      var apikey = 'a70ecdba30862eccb66258c8a83d50b4'
-      try { Shareaholic.init(apikey); } catch (e) {}
-    };
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(shr, s);
-  })();
-//]]>
-</script>
 
 
 </body>

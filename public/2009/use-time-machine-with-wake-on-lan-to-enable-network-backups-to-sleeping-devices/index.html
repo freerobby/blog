@@ -9,7 +9,7 @@
   <meta name="author" content="Robby Grossman">
 
   
-  <meta name="description" content="Update Sept 6, 2009: I&#8217;ve created a project at github to simplify this process. More details here. Task: You want to use Time Machine &hellip;">
+  <meta name="description" content="**Update Sept 6, 2009: **I’ve created a project at github to simplify this process. More details here. Task: You want to use Time Machine wirelessly &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -106,74 +106,120 @@
   </header>
 
 
-<div class="entry-content"><p><strong>Update Sept 6, 2009: </strong>I&#8217;ve created a project at github to simplify this process. More details <a href="https://github.com/freerobby/wakemachine">here</a>.</p>
+<div class="entry-content"><p>**Update Sept 6, 2009: **I’ve created a project at github to simplify this process. More details <a href="https://github.com/freerobby/wakemachine">here</a>.</p>
 
 <p><strong>Task</strong>: You want to use Time Machine wirelessly to backup your Mac to a drive on another Mac on your network.</p>
 
-<p><strong>Problem</strong>: If the target machine is in &#8220;sleep&#8221; mode, your backup will fail.</p>
+<p><strong>Problem</strong>: If the target machine is in “sleep” mode, your backup will fail.</p>
 
-<p><strong>Solution</strong>: Send a &#8220;magic packet&#8221; to the target machine to wake it up if it&#8217;s sleeping.<!--more--></p>
+<p><strong>Solution</strong>: Send a “magic packet” to the target machine to wake it up if it’s sleeping.<!--more--></p>
 
-<p><strong>Gotcha</strong>: New Macs <a href="http://www.tuaw.com/2009/08/29/snow-leopard-extends-wake-on-lan-feature-if-your-config-is-ri/">support WOL via Airport</a>. However if you&#8217;re using an older Mac, the target machine must be connected via ethernet (the machine you&#8217;re backing up can still be connected via wifi).</p>
+<p><strong>Gotcha</strong>: New Macs <a href="http://www.tuaw.com/2009/08/29/snow-leopard-extends-wake-on-lan-feature-if-your-config-is-ri/">support WOL via Airport</a>. However if you’re using an older Mac, the target machine must be connected via ethernet (the machine you’re backing up can still be connected via wifi).</p>
 
-<p>Let&#8217;s roll:</p>
+<p>Let’s roll:</p>
 
-<h2>Prep the Target Machine</h2>
+<h2 id="prep-the-target-machine">Prep the Target Machine</h2>
 
 <p>The target machine is the Mac that will <em>hold</em> your backups.</p>
 
 <ol>
-<li><p>On the target machine, go to System Preferences and open the &#8220;Energy Saver&#8221; panel.</p></li>
-<li><p>Configure sleep settings as desired</p></li>
-<li><p>Be sure to check the &#8220;Wake for Ethernet network access&#8221; box at the bottom.</p></li>
-<li><p>Close out of system preferences.</p></li>
-<li><p>Open System Profiler from your Utilities directory in Applications.</p></li>
-<li><p>Click  &#8220;Network&#8221; in the left panel.</p></li>
-<li><p>Click &#8220;Ethernet&#8221; in the top panel.</p></li>
-<li><p>In the bottom panel, scroll down until you see &#8220;Ethernet:&#8221; with a line under it showing something like &#8220;MAC Address 00:15:d4:a3:cf:1b&#8221;. Write down this 12-digit MAC address.</p></li>
-<li><p>Exit System Profiler</p></li>
+  <li>
+    <p>On the target machine, go to System Preferences and open the “Energy Saver” panel.</p>
+  </li>
+  <li>
+    <p>Configure sleep settings as desired</p>
+  </li>
+  <li>
+    <p>Be sure to check the “Wake for Ethernet network access” box at the bottom.</p>
+  </li>
+  <li>
+    <p>Close out of system preferences.</p>
+  </li>
+  <li>
+    <p>Open System Profiler from your Utilities directory in Applications.</p>
+  </li>
+  <li>
+    <p>Click  “Network” in the left panel.</p>
+  </li>
+  <li>
+    <p>Click “Ethernet” in the top panel.</p>
+  </li>
+  <li>
+    <p>In the bottom panel, scroll down until you see “Ethernet:” with a line under it showing something like “MAC Address 00:15:d4:a3:cf:1b”. Write down this 12-digit MAC address.</p>
+  </li>
+  <li>
+    <p>Exit System Profiler</p>
+  </li>
 </ol>
 
-
-<h2>Configure the Host Machine</h2>
+<h2 id="configure-the-host-machine">Configure the Host Machine</h2>
 
 <p>The host machine is the Mac that you will be backing up.</p>
 
 <ol>
-<li><p>On the host machine, <a href="http://www.macports.org/install.php">install MacPorts</a> if you haven&#8217;t already.</p></li>
-<li><p>Open up a Terminal from your Utilities directory in Applications.</p></li>
-<li><p>Type: &#8220;sudo port install wakeonlan&#8221; and press return.</p></li>
-<li><p>Enter your password when prompted, and wait while MacPorts installs the utility and its dependencies.</p></li>
-<li><p>Open Automator in Applications.</p></li>
-<li><p>Create a new &#8220;Application&#8221; workflow when prompted.</p></li>
-<li><p>Double-click the &#8220;Run Shell Script&#8221; library item on the left. In the box that appears, erase &#8220;cat&#8221; and instead type:</p>
+  <li>
+    <p>On the host machine, <a href="http://www.macports.org/install.php">install MacPorts</a> if you haven’t already.</p>
+  </li>
+  <li>
+    <p>Open up a Terminal from your Utilities directory in Applications.</p>
+  </li>
+  <li>
+    <p>Type: “sudo port install wakeonlan” and press return.</p>
+  </li>
+  <li>
+    <p>Enter your password when prompted, and wait while MacPorts installs the utility and its dependencies.</p>
+  </li>
+  <li>
+    <p>Open Automator in Applications.</p>
+  </li>
+  <li>
+    <p>Create a new “Application” workflow when prompted.</p>
+  </li>
+  <li>
+    <p>Double-click the “Run Shell Script” library item on the left. In the box that appears, erase “cat” and instead type:</p>
 
-<pre><code>macaddress="00:00:00:00:00:00"
+    <pre><code>macaddress="00:00:00:00:00:00"
 while true
 do
-    results=`syslog -k Sender com.apple.backupd -k Time gt -10s -k Message Seq 'Starting standard backup'`
-    if [ -n "$results" ]
-    then
-        /opt/local/bin/wakeonlan "$macaddress"
-        while [ -n "$results" ]
-        do
-            sleep 10
-            results=`syslog -k Sender com.apple.backupd -k Time gt -10s -k Message Seq 'Starting standard backup'`
-        done
-    fi
-    sleep 10
+ 	   results=`syslog -k Sender com.apple.backupd -k Time gt -10s -k Message Seq 'Starting standard backup'`
+ 	   if [ -n "$results" ]
+ 	   then
+ 		   /opt/local/bin/wakeonlan "$macaddress"
+ 		   while [ -n "$results" ]
+ 		   do
+ 			   sleep 10
+ 			   results=`syslog -k Sender com.apple.backupd -k Time gt -10s -k Message Seq 'Starting standard backup'`
+ 		   done
+ 	   fi
+ 	   sleep 10
 done
-</code></pre></li>
-<li><p>In the first line, replace the 00:00:00:00:00:00 with the MAC Address that you wrote down earlier. Be sure to keep the quotes.</p></li>
-<li><p>Choose File > Save As&#8230;, and name it &#8220;WOL Daemon&#8221; in the Applications folder when prompted.</p></li>
-<li><p>Exit Automator.</p></li>
-<li><p>Go to System Preferences and open the &#8220;Accounts&#8221; panel.</p></li>
-<li><p>Click &#8220;Login Items&#8221; at the top.</p></li>
-<li><p>Click the + icon to add a new one.</p></li>
-<li><p>Select the WOL Daemon that you just created, and check the box next to it marked &#8220;Hide&#8221;.</p></li>
-<li><p>Restart your computer, and voilà, your target machine will now be woken up if it&#8217;s asleep while Time Machine runs.</p></li>
+</code></pre>
+  </li>
+  <li>
+    <p>In the first line, replace the 00:00:00:00:00:00 with the MAC Address that you wrote down earlier. Be sure to keep the quotes.</p>
+  </li>
+  <li>
+    <p>Choose File &gt; Save As…, and name it “WOL Daemon” in the Applications folder when prompted.</p>
+  </li>
+  <li>
+    <p>Exit Automator.</p>
+  </li>
+  <li>
+    <p>Go to System Preferences and open the “Accounts” panel.</p>
+  </li>
+  <li>
+    <p>Click “Login Items” at the top.</p>
+  </li>
+  <li>
+    <p>Click the + icon to add a new one.</p>
+  </li>
+  <li>
+    <p>Select the WOL Daemon that you just created, and check the box next to it marked “Hide”.</p>
+  </li>
+  <li>
+    <p>Restart your computer, and voilà, your target machine will now be woken up if it’s asleep while Time Machine runs.</p>
+  </li>
 </ol>
-
 </div>
 
 
@@ -237,9 +283,6 @@ done
 </div>
   </section>
 
-
-<div class='shareaholic-canvas' data-shareaholic-widgets='recommendations'></div>
-
 </div>
 
 <aside class="sidebar">
@@ -249,15 +292,15 @@ done
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2013/how-to-negotiate-your-startup-job-offer/">How to Negotiate Your Startup Job Offer</a>
+      </li>
+    
+      <li class="post">
         <a href="/2013/remove-merged-branches-from-git/">Remove Merged Branches from Git</a>
       </li>
     
       <li class="post">
         <a href="/2012/gun-control-is-a-bandaid/">Gun Control Is a Bandaid</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/migrating-to-riak-at-shareaholic/">Migrating to Riak at Shareaholic</a>
       </li>
     
   </ul>
@@ -332,25 +375,6 @@ done
 
 
 
-
-<script type="text/javascript">
-//<![CDATA[
-  (function() {
-    var shr = document.createElement('script');
-    shr.src = '//dtym7iokkjlif.cloudfront.net/assets/pub/shareaholic.js';
-    shr.type = 'text/javascript';
-    shr.async = 'true';
-    shr.onload = shr.onreadystatechange = function() {
-      var rs = this.readyState;
-      if (rs && rs != 'complete' && rs != 'loaded') return;
-      var apikey = 'a70ecdba30862eccb66258c8a83d50b4'
-      try { Shareaholic.init(apikey); } catch (e) {}
-    };
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(shr, s);
-  })();
-//]]>
-</script>
 
 
 </body>

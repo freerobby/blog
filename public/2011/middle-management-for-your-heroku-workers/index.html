@@ -106,28 +106,40 @@
   </header>
 
 
-<div class="entry-content"><p>Heroku provides a highly scalable <a href="http://docs.heroku.com/background-jobs">background worker framework via delayed_job</a>, but leaves the burden of scaling it to the user. Several people have tried to solve this by either <a href="https://github.com/wxmn/delayed_job">forking the delayed_job gem</a> or hooking into the gold standard <a href="https://github.com/phaza/Heroku-Delayed-Job-Autoscale">collectiveidea gem</a>. I like the latter approach, but haven&#8217;t seen an implementation that meets my requirements.<!--more--></p>
+<div class="entry-content"><p>Heroku provides a highly scalable <a href="http://docs.heroku.com/background-jobs">background worker framework via delayed_job</a>, but leaves the burden of scaling it to the user. Several people have tried to solve this by either <a href="https://github.com/wxmn/delayed_job">forking the delayed_job gem</a> or hooking into the gold standard <a href="https://github.com/phaza/Heroku-Delayed-Job-Autoscale">collectiveidea gem</a>. I like the latter approach, but haven’t seen an implementation that meets my requirements.<!--more--></p>
 
 <p>Specifically, I want the following in my scaling library:</p>
 
 <ol>
-<li><p>Don&#8217;t require any special third party forks.</p></li>
-<li><p>Let me set minimum and maximum worker counts &#8211; and change them without redeploying.</p></li>
-<li><p>Let me set how busy I want my workers to be.</p></li>
-<li><p>Work out of the box with minimal configuration.</p></li>
+  <li>
+    <p>Don’t require any special third party forks.</p>
+  </li>
+  <li>
+    <p>Let me set minimum and maximum worker counts – and change them without redeploying.</p>
+  </li>
+  <li>
+    <p>Let me set how busy I want my workers to be.</p>
+  </li>
+  <li>
+    <p>Work out of the box with minimal configuration.</p>
+  </li>
 </ol>
-
 
 <p>To achieve these things, I built <a href="https://github.com/freerobby/middle_management">middle_management</a>.</p>
 
 <p>You can get up and running with it very quickly:</p>
 
 <ol>
-<li><p>Add &#8220;middle_management&#8221; to your Gemfile</p></li>
-<li><p>Set the required heroku environment variables (MIDDLE_MANAGEMENT_HEROKU_USERNAME, MIDDLE_MANAGEMENT_HEROKU_PASSWORD, MIDDLE_MANAGEMENT_HEROKU_APP, MIDDLE_MANAGEMENT_MIN_WORKERS, MIDDLE_MANAGEMENT_MAX_WORKERS).</p></li>
-<li><p>Deploy.</p></li>
+  <li>
+    <p>Add “middle_management” to your Gemfile</p>
+  </li>
+  <li>
+    <p>Set the required heroku environment variables (MIDDLE_MANAGEMENT_HEROKU_USERNAME, MIDDLE_MANAGEMENT_HEROKU_PASSWORD, MIDDLE_MANAGEMENT_HEROKU_APP, MIDDLE_MANAGEMENT_MIN_WORKERS, MIDDLE_MANAGEMENT_MAX_WORKERS).</p>
+  </li>
+  <li>
+    <p>Deploy.</p>
+  </li>
 </ol>
-
 
 <p>The <a href="https://github.com/freerobby/middle_management">code</a> is on github and the <a href="https://rubygems.org/gems/middle_management">gem</a> is on Rubygems. Check out the <a href="https://github.com/freerobby/middle_management/blob/master/README">readme</a> for further details.</p>
 </div>
@@ -193,9 +205,6 @@
 </div>
   </section>
 
-
-<div class='shareaholic-canvas' data-shareaholic-widgets='recommendations'></div>
-
 </div>
 
 <aside class="sidebar">
@@ -205,15 +214,15 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2013/how-to-negotiate-your-startup-job-offer/">How to Negotiate Your Startup Job Offer</a>
+      </li>
+    
+      <li class="post">
         <a href="/2013/remove-merged-branches-from-git/">Remove Merged Branches from Git</a>
       </li>
     
       <li class="post">
         <a href="/2012/gun-control-is-a-bandaid/">Gun Control Is a Bandaid</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/migrating-to-riak-at-shareaholic/">Migrating to Riak at Shareaholic</a>
       </li>
     
   </ul>
@@ -288,25 +297,6 @@
 
 
 
-
-<script type="text/javascript">
-//<![CDATA[
-  (function() {
-    var shr = document.createElement('script');
-    shr.src = '//dtym7iokkjlif.cloudfront.net/assets/pub/shareaholic.js';
-    shr.type = 'text/javascript';
-    shr.async = 'true';
-    shr.onload = shr.onreadystatechange = function() {
-      var rs = this.readyState;
-      if (rs && rs != 'complete' && rs != 'loaded') return;
-      var apikey = 'a70ecdba30862eccb66258c8a83d50b4'
-      try { Shareaholic.init(apikey); } catch (e) {}
-    };
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(shr, s);
-  })();
-//]]>
-</script>
 
 
 </body>
