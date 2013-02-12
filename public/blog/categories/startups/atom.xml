@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Startups | Robby Grossman]]></title>
   <link href="http://rob.by/blog/categories/startups/atom.xml" rel="self"/>
   <link href="http://rob.by/"/>
-  <updated>2013-02-12T11:48:57-05:00</updated>
+  <updated>2013-02-21T00:20:53-05:00</updated>
   <id>http://rob.by/</id>
   <author>
     <name><![CDATA[Robby Grossman]]></name>
@@ -14,44 +14,37 @@
 
   
   <entry>
-    <title type="html"><![CDATA[How to Negotiate Your Startup Job Offer]]></title>
-    <link href="http://rob.by/2013/how-to-negotiate-your-startup-job-offer/"/>
-    <updated>2013-02-11T08:51:00-05:00</updated>
-    <id>http://rob.by/2013/how-to-negotiate-your-startup-job-offer</id>
-    <content type="html"><![CDATA[<p>Over the last three years I’ve been on both the giving and receiving ends of job offers at startups. One thing that’s struck me repeatedly is how little most job applicants know about what to expect in a job offer/negotiation, and in many cases, what the written offer they’ve received actually means. I was extremely fortunate that the first startup job offer I received was written by a <a href="https://twitter.com/Pistachio">pair</a> of <a href="https://twitter.com/graysky">founders</a> who had the utmost integrity and explained things very clearly. Since then I’ve learned that not every employee is so lucky.</p>
+    <title type="html"><![CDATA[Negotiating Your Startup Job Offer]]></title>
+    <link href="http://rob.by/2013/negotiating-your-startup-job-offer/"/>
+    <updated>2013-02-21T10:00:00-05:00</updated>
+    <id>http://rob.by/2013/negotiating-your-startup-job-offer</id>
+    <content type="html"><![CDATA[<p>Over the last three years I’ve been on both ends of job offers at startups. One thing that’s struck me is how little most applicants know about what to expect in a job offer, and in many cases, what the written offer they’ve received actually means. I was extremely fortunate that the first startup job offer I received was written by a <a href="https://twitter.com/Pistachio">pair</a> of <a href="https://twitter.com/graysky">founders</a> who had the utmost integrity and explained things very clearly. Since then I’ve learned that not every employee is so lucky.</p>
 
-<p>This post is not a lesson on negotiation itself, but rather a lesson on the standards and vernacular of startup negotiations. It assumes you’re a startup newcomer, with the goal of helping you fully understand the things you’ll be negotiating. After reading this post, it’s my hope that you’ll know exactly what your offer letter means, and you’ll have a good sense of whether you’re getting a fair shake or being taken advantage of.<!--more--></p>
+<p>This post doesn’t aim to teach you negotiation itself, but rather to acclimate you to the standards and vernacular of startup negotiations. It assumes you’re a startup newcomer.<!--more--></p>
 
 <h2 id="salary">Salary</h2>
 
-<p>One of the biggest myths that I’d heard while tucked away in my big company cubicle was that in order to get into the startup game, you had to take a substantial paycut. This is false, especially if you’re a developer in today’s funding climate. VC funded startups pay very close to market rate salaries, certainly close enough that your asking price should be the same asking price you’d make at a company with hundreds or thousands of people.</p>
+<p>One of the biggest myths that I’d heard while tucked away in my big company cubicle was that in order to get into the startup game, you had to take a substantial paycut. This is false, especially if you’re a developer in today’s funding climate. VC funded startups pay very close to market rate salaries. Your ask should be the same number it would be at a more established company with hundreds or thousands of people.</p>
 
 <h3 id="seed-stage-companies">Seed-Stage Companies</h3>
 
-<p>An exception to the above statement exists for companies who have raised a minimal amount of funding (a “seed round,” typically of a few hundred thousand dollars) to prove out some metrics. These companies do not usually have full salaries budgeted into them. If you join a seed stage company, you should expect to work for less than a market rate salary during this period. However, you should also be compensated for this in one of two ways. Either:</p>
+<p>An exception to the above statement exists for companies who have raised very little capital and are not generating revenue. These companies do not usually have full salaries budgeted into them. If you join such a seed stage company, you should expect to work for less than a market rate salary until a larger round is raised. However, you should be compensated for this with increased equity.</p>
 
-<ol>
-  <li>You receive an above-market equity stake that accounts for this 1-2 year period of increased risk and reduced salary; or</li>
-  <li>If and when the company raises a Series A ($1M+ in funding), your compensation is retroactively adjusted immediately by way of a bonus.</li>
-</ol>
+<p>It’s also a good idea to have a discussion about what your market rate salary will be after raising a Series A. This avoids surprises later. Because you haven’t yet demonstrated your skills inside the company and because the funding timeline is indefinite, it’s difficult for either party to make specific promises. My recommendation is to have something written that states what market rate would be for you right now. This way, if it takes two years to raise a Series A and you’ve grown into a bigger role during that time, you aren’t boxed into a number that you arrived at two years earlier and whose value you’ve surpassed, but you do have a quantitative starting point for determining what your salary will be.</p>
 
-<p>Some founders prefer option 1 because investors dislike investing in companies that have financial debts. I like option 1 because early employees are extremely important, and I think them having more skin in the game is beneficial to everybody. However, some employees prefer the safer bet of a bonus, and some founders prefer to conserve equity, and that’s fine so long as it’s mutually agreed upon.</p>
+<p>Other methods of compensation and risk adjustment may also arise. For example, when I joined oneforty in 2009, I took a 30% pay cut. We expected to raise money in 6-12 months, and structured my employment offer such that I would receive a 30% bonus upon the raising of a Series A (subject to “outstanding performance” per my manager’s discretion). The offer also stated that at that time, my salary would be raised to a market rate. It did not specify what that market rate would be. Before joining, I informed the founders via email of the other offers I was prepared to pass on, and they told me that what I cited was “in a reasonable range.” The entire process from initial offer to post-Series A adjustment went very smoothly and without any surprises for anyone.</p>
 
-<p>Whatever agreement you come to, it should be formally stipulated in your offer letter.</p>
-
-<p>Before signing, you should have some discussion around what your market rate salary will be after raising the Series A. This way neither you nor the founders are surprised later, and the founders are better prepared to craft their post-A round budgets, which they’ll need to do in order to fundraise. Because you haven’t yet demonstrated your skills inside the company and because the funding timeline is indefinite, it’s difficult for either party to make specific promises. My recommendation is to have something written that states what market rate would be for you right now. This way, if it takes two years to raise a Series A and you’ve grown into a bigger role during that time, you aren’t boxed into a number that you arrived at two years earlier and whose value you’ve surpassed, but you do have a quantitative starting point for determining what your salary will be.</p>
-
-<p>As a reference point, when I joined oneforty in 2009, I took a 30% pay cut. We expected to raise money in 6-12 months, and structured my employment offer such that I would receive a 30% bonus upon sale of the company or raising of a Series A (whichever came first, and subject to “outstanding performance” per my manager’s discretion). The offer also stated that at that time, my salary would be raised to a market rate. It did not specify what that market rate would be. Before joining, I informed the founders via email of the other offers I was prepared to pass on, and they told me that what I cited was “in a reasonable range.” The entire process from initial offer to post-Series A adjustment went very smoothly and without any surprises for anyone.</p>
+<p>Whatever agreement you come to, make sure you get it in writing. This protects both parties and ensures that everybody leaves the conversation with the same impression. Every lawyer I know attests that there are more fights over what was said than what was written.</p>
 
 <h3 id="what-about-bonuses">What About Bonuses?</h3>
 
-<p>Startups do not typically offer bonuses.<sup id="fnref:sales-bonuses"><a href="#fn:sales-bonuses" rel="footnote">1</a></sup> As nonprofitable entities with limited runway, it is much better for everybody that the company provides monthly compensation without accruing variable costs of ~10% of annual payroll every year. It’s easier on the books and it prevents the company from setting expectations that it may be unable to meet. Though your cash compensation will likely be comprised only of salary; you can certainly use a bonus you’d earn elsewhere as leverage during negotiations.</p>
+<p>Startups do not typically offer cash bonuses unless they are generating substantial revenues.<sup id="fnref:sales-bonuses"><a href="#fn:sales-bonuses" rel="footnote">1</a></sup> For nonprofitable entities with limited runway, it is much better for everybody that the company provides monthly compensation without accruing variable costs of ~10% of annual payroll every year. It’s easier on the books and it prevents the company from setting expectations that it may be unable to meet. Though your cash compensation will likely be comprised only of salary; you can certainly use a bonus you’d earn elsewhere as leverage during negotiations.</p>
 
 <h2 id="equity">Equity</h2>
 
-<p>Equity procedures and vernacular are by far the least understood component of a startup job offer. Especially for employees with no background in business law or finance, the specifics pertaining to equity grants are often wildly misunderstood.</p>
+<p>Equity procedures and vernacular are by far the least understood component of startup job offers. Especially for employees with no background in business law or finance, the specifics pertaining to equity grants are often wildly misunderstood.</p>
 
-<h3 id="the-problems-with-equity-a-narrative">The Problems With Equity: A Narrative</h3>
+<h3 id="when-equity-goes-wrong-a-narrative">When Equity Goes Wrong: A Narrative</h3>
 
 <p>Four years ago, a company granted you 0.5% of it to join as a seed stage engineer. The company has now raised a Series B, and you’re ready to take your shares and move on.</p>
 
@@ -75,15 +68,33 @@
 
 <p>When the company issued new shares to Series A and Series B investors, you got diluted. Your 0.5% of the company now constitutes only 0.35% of it. 0.35% of 2M leaves you with… $7,000.</p>
 
-<p>That’s right. After four years of work and digging into your savings to preserve your stake in the company, you’ve <em>lost</em> $500. You let out a long sigh, lamenting that this “granted” equity became a $500 liability and a source of stress and crushed dreams. After hearing this news, you go home and do some research, surprised to discover that this outcome ranks in the most successful quantile of startup outcomes.</p>
+<p>That’s right. After four years of work and digging into your savings to preserve your stake in the company, you’ve <em>lost</em> $500. You let out a long sigh, lamenting that this “granted” equity became a $500 loss.</p>
 
-<p>There are many details in this story that could have gone differently. You could have never bought your shares. The company could have sold for $25M or you could have gotten a bigger discount on your shares to bring you out of the red. It’s a contrived story but it has no doubt happened to many real people. I recount it like this to emphasize how important it is for you to understand how equity distribution actually works when you’re negotiating it.</p>
+<p>This story is contrived, but it is not absurd or unrealistic. I recount it like this to emphasize how important it is for you to understand how equity distribution actually works when you’re negotiating it.</p>
 
-<h3 id="how-does-equity-work">How Does Equity Work?</h3>
+<h3 id="starting-simple-how-does-equity-work">Starting Simple: How Does Equity Work?</h3>
 
-<p>Equity is given in the form of stock options. Stock options are not gifts; rather they are “options” to buy some amount of stock at a fixed, discounted price. The nice thing about this system is that, at least in the ideal case, you don’t need to buy the options until you are ready to sell them.</p>
+<p>Equity is given in the form of stock options. Stock options are not gifts; rather they are “options” to buy some amount of stock at a fixed, usually discounted price. The nice thing about this system is that, at least in the ideal case, you don’t need to buy the options until you are ready to sell them.</p>
 
-<p>For example, you have options to buy 1000 shares at $0.80/ea, but the shares are valued at $2/ea. The shares increase in value to $16/ea when the company sells, and when you exercise them, you buy them at $0.80 and sell them at $16, netting you $15,200 before taxes.</p>
+<p>For example, you have options on 1% of a company valued at $1.6M. There are 100k shares outstanding, each worth $16. Your strike price is $0.80, so you make $15,200 before taxes upon selling them:</p>
+
+<script type="math/tex; mode=display">% &lt;![CDATA[
+
+\begin{eqnarray*}
+\mathbf{Your\ Shares} & = & \mathit{\%\ Ownership} & * & \mathit{Shares\ Outstanding} \\
+                     & = & 0.01                  & * & 100,000 \\
+                     & = & 1000
+\end{eqnarray*}
+ %]]&gt;</script>
+
+<script type="math/tex; mode=display">% &lt;![CDATA[
+
+\begin{eqnarray*}
+\mathbf{Profit} & = & \mathit{Your\ Shares} & * & \mathit{Sell\ Price} & - & \mathit{Your\ Shares} & * & \mathit{Strike\ Price} \\
+                & = & 1000            & * & $16                  & - & 1000            & * & $0.80 \\
+                & = & $15200
+\end{eqnarray*}
+ %]]&gt;</script>
 
 <h3 id="how-much-equity-should-i-get">How Much Equity Should I Get?</h3>
 
@@ -109,21 +120,35 @@
   <p>Manager or Junior Engineer  0.2 – 0.33</p>
 </blockquote>
 
-<p>You’ll notice that Nivy talks about equity in terms of percentages. As Chris Dixon <a href="http://cdixon.org/2009/08/27/the-one-number-you-should-know-about-your-equity-grant">explains</a>, this is the only number you care about in your equity offer:</p>
+<p>You’ll notice that Nivi talks about equity in terms of percentages. As Chris Dixon <a href="http://cdixon.org/2009/08/27/the-one-number-you-should-know-about-your-equity-grant">explains</a>, this is the only number you care about in your equity offer:</p>
 
 <blockquote>
   <p>The only thing that matters in terms of your equity when you join a startup is what percent of the company they are giving you. If management tells you the number of shares and not the total shares outstanding so you can’t compute the percent you own – don’t join the company! They are dishonest and are tricking you and will trick you again many times.</p>
 </blockquote>
 
-<p>It’s a dangerous game to try to anticipate what your shares will be worth, but if you want to indulge, take your percentage, divide it by two to account for dilution and a low strike price, and multiply it by whatever you think the company might sell for. That’s what a home run hit gets you.</p>
+<p>It’s a dangerous game to try to anticipate what your shares will be worth, but if you want to indulge, take your percentage, divide it by two to account for dilution and a low strike price, and multiply it by whatever you think the company might sell for. That’s the ballpark of what a home run hit gets you. Let’s look at a few examples:</p>
 
-<p>If you’re a startup employee, I caution you not to think about equity in such absolute terms, as they are difficult to predict. Look at your equity as a great bonus if things go well. For the sake of financial planning, assume it will amount to nothing. In the best case scenario it will buy you a nice car or provide a down payment on a home. It’s not a ticket to establishing independent wealth or never to work again.</p>
+<script type="math/tex; mode=display">
+  \mathbf{Equity\ Payout} = \frac{\mathit{Equity\ Percentage} * \mathit{Sale\ Price\ of\ Company}}{2}
+</script>
+
+<p>You get 0.5% of a company that sells for $25M: <script type="math/tex">\frac{\mathit{0.005} * \mathit{25000000}}{2}=$62500</script></p>
+
+<p>You get 1% of a company that sells for $15M: <script type="math/tex">\frac{\mathit{0.01} * \mathit{15000000}}{2}=$75000</script></p>
+
+<p>You get 0.25% of a company that sells for $150M: <script type="math/tex">\frac{\mathit{0.0025} * \mathit{150000000}}{2}=$375000</script></p>
+
+<p>Though it’s tempting, if you’re a startup employee, I caution you not to think about equity in such absolute terms, as they are difficult to predict. Look at your equity as a great bonus if things go well. The sad truth is that an overwhelming majority of startups fail, so for the sake of personal financial planning, assume it will amount to nothing. In the best case scenario it will buy you a nice car or provide a down payment on a home. It’s not a ticket to establishing independent wealth or never to work again.</p>
+
+<h3 id="will-i-get-more-equity-after-i-join">Will I get more equity after I join?</h3>
+
+<p>There are a few situations after joining when you may be granted additional equity: first, as new shares are issued, you may be allotted some of them to avoid dilution; second, equity is sometimes used as a performance bonus, especially when companies don’t have enough revenue to provide extra cash; third, equity is often granted as compensation for a promotion.</p>
 
 <h3 id="vesting-schedules">Vesting Schedules</h3>
 
-<p>Your equity should be allocated immediately upon your start of employment. Do not listen to any hiring manager who tells you that in order to protect the company, you need to work for a while before you’ll receive equity paperwork. There is a process called “vesting” that takes care of this and any founder who is both honest and knowledgable uses it.</p>
+<p>Your equity should begin accruing as of the start of your employment. Do not listen to any hiring manager who tells you that in order to protect the company, you need to work for a while before you’ll receive any equity.<sup id="fnref:equity-from-day-one"><a href="#fn:equity-from-day-one" rel="footnote">3</a></sup> There is a process called “vesting” that takes care of this and any founder who is both honest and knowledgable uses it.</p>
 
-<p>Vesting lets the company give you some fixed number of stock options, subject to your working at the company for some period of time. Brad Feld has <a href="http://www.feld.com/wp/archives/2005/05/term-sheet-vesting.html">covered</a> the standard 4/1 vesting schedule:</p>
+<p>Vesting lets the company give you some fixed number of stock options, subject to your working at the company for some period of time. Brad Feld <a href="http://www.feld.com/wp/archives/2005/05/term-sheet-vesting.html">explains</a> the standard 4/1 vesting schedule:</p>
 
 <blockquote>
   <p>Industry standard vesting for early stage companies is a one year cliff and monthly thereafter for a total of 4 years. This means that if you leave before the first year is up, you don’t vest any of your stock. After a year, you have vested 25% (that’s the “cliff”). Then – you begin vesting monthly (or quarterly, or annually) over the remaining period. So – if you have a monthly vest with a one year cliff and you leave the company after 18 months, you’ll have vested 37.25% of your stock.</p>
@@ -135,18 +160,19 @@
 
 <p>Some employers talk about equity and salary as dials that you can adjust, increasing one while decreasing the other. Since startups are strapped for cash, this is always presented as the employee giving up some salary in exchange for more equity.</p>
 
-<p>Sometimes these deals are fair, and sometimes they’re not. What makes them difficult and often unfair for the employee is that there are a handful of existential disadvantages that come along with taking equity as a substitute for salary, and it’s important that they be overcome:</p>
+<p>Sometimes these deals are fair, and sometimes they’re not. What makes them difficult and often unfair for the employee is that there are a handful of existential disadvantages that come along with taking equity as a substitute for salary. It’s important that they be understood so that they can be overcome:</p>
 
 <ol>
-  <li>Salary accrues over one year, while stock options vest over four years, so all things being equal, you’re only getting 25% of your salary value in options. To break even, the value of your extra stock options needs to be 4x the salary that you’re giving up. In reality it should be even more because your stock is going to be a different class than what the investors get, and that means the investors will get preference over you should the company endure a <a href="http://www.investopedia.com/terms/d/downround.asp#axzz2KbknGfYk">downround</a> or a poor exit. This is immensely unfair to you because if you’re giving up cash for equity, you are effectively investing in the company but not receiving the favorable terms that other investors get.</li>
-  <li>Even if the company is doing well, your stock options will almost certainly get diluted at some point over your four year vesting schedule when the company raises more money. This decreases the percentage of the company that you have the right to buy.</li>
+  <li>Salary accrues over one year, while stock options vest over four years, so in order to break even, the value of your extra stock options needs to be 4x the salary that you’re giving up. In reality it should be even more because your stock is going to be a different class than what the investors get, and that means the investors will get preference over you should the company endure a <a href="http://www.investopedia.com/terms/d/downround.asp#axzz2KbknGfYk">downround</a> or a poor exit. This is immensely unfair to you because if you’re giving up cash for equity, you are effectively investing in the company but not receiving the favorable terms that other investors get.</li>
+  <li>Even if the company is doing well, your stock options will likely get diluted at some point over your four year vesting schedule when the company raises more money. This decreases the percentage of the company that you have the right to buy.</li>
   <li>Stock options are a one-time grant, so you’re accepting one-time compensation in exchange for recurring compensation. The portion of your compensation that you receive in equity will not be accounted for in your future salary bumps at the company, and because salary increases are often given in terms of percentages, your losses will likely be compounded during this time.</li>
   <li>Company valuations are monopoly money until their stock becomes liquid. Having $200,000 in stock options doesn’t mean anything if you can’t sell your stock, and you can’t sell your stock unless your company goes public or you find a private buyer in a secondary market, which won’t happen unless your company is far down its path to a successful exit.</li>
+  <li>Exercising your stock options has a monetary cost to you. If you get $25,000 in options with a 60% discount, that means the company is chipping in $15,000 for your stock and you’re chipping in $10,000 it.</li>
 </ol>
 
 <p>Now that you understand the inherent disadvantages of this trade, you want to know if the specific deal on the table (to exchange some $x in equity for some $y in salary) is a good one. The best way to determine this is to look at the deal that the investors get, and compare it to the deal that you’re getting. You want a risk/reward ratio that is better than theirs.</p>
 
-<p>Let’s start with a losing scenario. Tony Wright has an <a href="http://www.tonywright.com/2008/a-newbies-guide-to-startup-compensation-or-stock-options-will-make-me-rich">illustrative but incomplete example</a> that can be used to show the equity-salary lever as a bad deal for the employee:</p>
+<p>Let’s start with a losing scenario. Tony Wright <a href="http://www.tonywright.com/2008/a-newbies-guide-to-startup-compensation-or-stock-options-will-make-me-rich">illustrates a typical example</a> where the equity-salary lever is a bad deal for the employee<sup id="fnref:my-claim-not-tonys"><a href="#fn:my-claim-not-tonys" rel="footnote">4</a></sup>:</p>
 
 <blockquote>
   <p>Let’s say we have an engineer who is getting .5% of the company vested over 4 years. He’s making $80k, but probably could make $90k at a company with limited equity opportunity. Let’s assume a target exit price of $50,000,000 (oh, happy day!).</p>
@@ -154,11 +180,14 @@
   <p>Our engineer is spending $10k per year to have a shot at a $62,500 per year. If he spends the full four years there, he’s “invested” $40k for a shot at $250k (a 6x+ return– not bad). When you run the same scenario with a billion dollar exit, it’s starting to look a lot prettier. When you run it at a Flickr-sized exit ($20m), it’s not looking like that great of a bet.</p>
 </blockquote>
 
-<p>A 6x-exit does sound rosy. But when you’re shooting for a big reward, you must also consider the big risk, and when you dig into the details here, you’ll see that:
-1. You’re taking a bigger risk than the company’s investors are; and
-1. You receive only half the reward that the company’s investors receive in the case of a success.</p>
+<p>A 6x-exit does sound rosy, but when you’re shooting for a big reward, you must also consider the big risk. If you were this employee and you dug into the details here, you’d see that:</p>
 
-<p>Let’s say you got into the company when it had a $4M valuation (A $90k engineer receiving a 0.5% equity grant implies (s)he is early). Your 0.5% entitles you to buy $20k worth of its shares at that valuation. That means that after four years, you’ve given up $40k in cash (with a 4-year future value of ~$43k at 3% interest) for $20k worth of illiquid stock. If you were an investor in the company, your money would have bought you $40k worth of the stock, it would be preferred stock rather than common stock, and it would not be subject to any vesting period. Dollar for dollar, an investor got twice as much stock as you, and got it on much better terms.</p>
+<ol>
+  <li>You’re taking a bigger risk than the company’s investors are; and</li>
+  <li>You receive only half the reward that the company’s investors receive in the case of a success.</li>
+</ol>
+
+<p>Let’s say you got into the company when it had a $4M valuation (A $90k engineer receiving a 0.5% equity grant implies (s)he is early). Your 0.5% entitles you to buy $20k worth of its shares at that valuation. That means that after four years, you’ve given up $40k in cash for $20k worth of illiquid stock. If you were an investor in the company, your money would have bought you $40k worth of the stock, it would be preferred stock rather than common stock, and it would not be subject to any vesting period. Dollar for dollar, investors got twice as much stock as you did, and they got it on much better terms.</p>
 
 <p>Now let’s change the hypothetical to show when taking equity might make sense. A Director of Engineering comes on for $110k and 1.25% (he would normally make $140k) after the company raises a Series A and is valued at $14M. He is giving up $120k over four years to pick up $175k worth of options, earning 46% more stock per dollar invested than the investors who put in money at a $14M valuation. This increased reward helps to compensate for the increased risk stemming from the aforementioned disadvantages of taking equity over stock.</p>
 
@@ -168,23 +197,23 @@
 
 <p>Your equity will be worth something or it won’t. Which side of that coin you land on matters more than anything – more than how quickly you vest or how much equity you get or what kind of discount you get or what stage you join at. A bad negotiator at a successful company will wind up with more equity value than a shrewd negotiator at an unsuccessful company.</p>
 
-<p>Betting on equity had better imply that you believe in the vision of the company and you have immense faith in the people you’re working with. At the end of the day, those things will impact how much your equity is worth more than any of the aforementioned advice.</p>
+<p>Betting on equity should imply that you believe in the vision of the company and that you have immense faith in the people you’re working with. At the end of the day, those things will impact how much your equity is worth more than any of the aforementioned advice.</p>
 
 <h2 id="benefits">Benefits</h2>
 
-<p>With the exception of health insurance, benefits are less numerous and less generous at startups than they are at established companies. Few startups offer 401k plans; even fewer provide employer matching. The startups I’ve seen or been at that offered 401k plans instituted them because there was some bloc of employees who wanted to put away more than $5k per year ($5k is the maximum you can do on your own via an IRA).</p>
+<p>With the exception of health insurance, benefits are less numerous and less generous at startups than they are at established companies. Very few startups offer 401k plans; even fewer provide employer matching. The startups I’ve seen or been at that offered 401k plans instituted them because there was some bloc of employees who wanted to put away more than $5k per year ($5k is the maximum you can do on your own via an IRA).</p>
 
-<p>Startups that have raised funding of any sort should provide your health insurance and they should pick up most if not all of the bill. If the startup doesn’t offer a healthcare plan, it should reimburse you for an individual health care plan. Some startups will provide you with dental and VSP, but you shouldn’t expect it going in.</p>
+<p>Startups that have raised funding of any sort should provide your health insurance and they should pick up most if not all of the bill. If the startup doesn’t offer a healthcare plan, it should reimburse you for an individual health care plan. The more generous of startups will provide you with dental coverage.</p>
 
 <h2 id="in-conclusion">In Conclusion</h2>
 
-<p>The difficult part of negotiating a startup job offer is learning the inside baseball. If you can get past the litany of jargon that you never saw until today, you’ll find that, like most negotiations, it boils down to math and common sense.</p>
+<p>The difficult part of negotiating a startup job offer is learning the inside baseball. If you can get past the jargon that you never saw until today, you’ll find that, like most negotiations, it boils down to math and common sense.</p>
 
 <p>There are plenty of things to adapt to when you switch to startup life – culture, work hours, individual autonomy – but unless you’re committed to joining at the seed stage or earlier, a jarring compensation reduction isn’t one of them.</p>
 
 <p>If you still have questions about something in your offer letter, or if something seems a little fishy, you can ask questions in the comments and I will answer them, or if it’s confidential, you can email me at <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#114;&#111;&#098;&#098;&#121;&#064;&#102;&#114;&#101;&#101;&#114;&#111;&#098;&#098;&#121;&#046;&#099;&#111;&#109;">&#114;&#111;&#098;&#098;&#121;&#064;&#102;&#114;&#101;&#101;&#114;&#111;&#098;&#098;&#121;&#046;&#099;&#111;&#109;</a> and I’ll respond privately.</p>
 
-<p><em>Thanks to <a href="http://hellohappy.org">Chad Mazzola</a> and <a href="http://cdixon.org">Chris Dixon</a> for reading early drafts of this post and providing valuable feedback.</em></p>
+<p><em>Thanks to <a href="http://hellohappy.org">Chad Mazzola</a> for reading an early draft of this post and providing valuable feedback.</em></p>
 
 <div class="footnotes">
   <ol>
@@ -193,6 +222,12 @@
     </li>
     <li id="fn:fair-equity">
       <p>I love Joel Spolsky’s <a href="http://answers.onstartups.com/questions/6949/forming-a-new-software-startup-how-do-i-allocate-ownership-fairly/23326#23326">approach to divvying equity</a>, but it is a minority opinion.<a href="#fnref:fair-equity" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:equity-from-day-one">
+      <p>Some companies require a board meeting to issue your equity paperwork. This is fine, but the agreement should be retroactive back to your starting date when you receive it.<a href="#fnref:equity-from-day-one" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:my-claim-not-tonys">
+      <p>Tony describes only the situation; it is my claim, not his, that the equity tradeoff is a bad one.<a href="#fnref:my-claim-not-tonys" rel="reference">&#8617;</a></p>
     </li>
   </ol>
 </div>
