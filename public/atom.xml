@@ -4,11 +4,11 @@
   <title><![CDATA[Robby Grossman]]></title>
   <link href="http://rob.by/atom.xml" rel="self"/>
   <link href="http://rob.by/"/>
-  <updated>2013-02-12T00:09:34-05:00</updated>
+  <updated>2013-02-12T11:35:58-05:00</updated>
   <id>http://rob.by/</id>
   <author>
     <name><![CDATA[Robby Grossman]]></name>
-    
+    <email><![CDATA[robby@freerobby.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
@@ -296,25 +296,6 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Looking for Partners for Red Sox 2013 Season Tickets]]></title>
-    <link href="http://rob.by/2012/looking-for-partners-for-red-sox-2013-season-tickets/"/>
-    <updated>2012-11-06T10:00:00-05:00</updated>
-    <id>http://rob.by/2012/looking-for-partners-for-red-sox-2013-season-tickets</id>
-    <content type="html"><![CDATA[<p>I’m looking for partners for my 2013 Red Sox season ticket share. If you’re interested in going to Red Sox games next year, and you don’t want to pay the box office fees, fill out the form and I’ll be in touch.<!--more--></p>
-
-<p>The seats are subject to change, but are currently infield grandstand, sec. 29, row 3 (behind third base). These seats are rain-covered, in the shade, and are not “obstructed view.” However like most of the grandstands, there is a pole in view. Luckily we have a clear shot of the entire infield:</p>
-
-<p><img src="http://robby-blog.s3.amazonaws.com/2012/looking-for-partners-for-red-sox-2013-season-tickets/smugshot2354143-M.jpg" alt="" /></p>
-
-<p><img src="http://robby-blog.s3.amazonaws.com/2012/looking-for-partners-for-red-sox-2013-season-tickets/smugshot2783330-M.jpg" alt="" /></p>
-
-<p>Each game is $95; that price includes both of the two seats.</p>
-
-<iframe src="https://docs.google.com/a/freerobby.com/spreadsheet/embeddedform?formkey=dG1oVDZNUm5GX3JidTQ4aEJGVVhXLXc6MQ" width="340" height="540"></iframe>
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[Migrating to Riak at Shareaholic]]></title>
     <link href="http://rob.by/2012/migrating-to-riak-at-shareaholic/"/>
     <updated>2012-08-31T10:30:00-04:00</updated>
@@ -383,33 +364,6 @@
 <p>Still, there’s no silver bullet. When things do go wrong, the responsibility of recovery falls on you, the AWS customer. By determining in advance what risks you’re willing to take, preparing your DNS for faster updates and automating the generation of your infrastructure, you can respond more quickly when you need to.</p>
 
 <p><em>Thanks to <a href="http://graysky.org">Mike Champion</a> and <a href="http://nirvdrum.com">Kevin Menard</a> for proofreading this post.</em></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Red Sox Tickets for Sale]]></title>
-    <link href="http://rob.by/2012/red-sox-tickets-for-sale/"/>
-    <updated>2012-05-17T00:16:52-04:00</updated>
-    <id>http://rob.by/2012/red-sox-tickets-for-sale</id>
-    <content type="html"><![CDATA[<p>Good news for me: I got the option to buy a Red Sox ticket package!</p>
-
-<p>Good news for you: I don’t need all the games, and I’d rather hook up friends, family and acquaintances than deal with Stubhub, Craigslist, etc.<!--more--></p>
-
-<p>All tickets will be sold at face value ($104/game, includes both tickets).</p>
-
-<p>For each game I have 2 seats in Infield Grandstand 29, Row 3.</p>
-
-<p>Disclaimer: part of the outfield (left or center, depending on the seat) is blocked by a pole from these seats. This is fairly typical for grandstands at Fenway, and these tickets are not considered “obstructed view” seats by the Red Sox, but if following outfield fly balls is mission critical for you, or if a pole in your peripheral will drive you nuts, these are not the seats for you. On the other hand if having a close view of the infield with full rain protection sounds good, these are tough to beat value-wise. The photos below describe better than words, but I wanted to add a written disclaimer just to be safe.</p>
-
-<p>The following photos were taken from the seat on the right:</p>
-
-<p><img src="http://robby-blog.s3.amazonaws.com/2012/red-sox-tickets-for-sale/smugshot2354143-M.jpg" alt="" /></p>
-
-<p><img src="http://robby-blog.s3.amazonaws.com/2012/red-sox-tickets-for-sale/smugshot2783330-M.jpg" alt="" /></p>
-
-<p>Please use this form to request seats to games that you’re interested in:</p>
-
-<iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dDAxTUYxbm1YMkJLZmJLLWdPWW5SX2c6MQ" width="600" height="710"></iframe>
 ]]></content>
   </entry>
   
@@ -935,6 +889,40 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
 </ol>
 
 <p>If you’re considering buying a Kinesis, feel free to ask questions in the comments of this post and I will respond to them.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Facebook, Google and the Value of Trust]]></title>
+    <link href="http://rob.by/2010/facebook-google-and-the-value-of-trust/"/>
+    <updated>2010-04-26T11:08:45-04:00</updated>
+    <id>http://rob.by/2010/facebook-google-and-the-value-of-trust</id>
+    <content type="html"><![CDATA[<p>Facebook is in many ways the hedge to Google’s bet that social machines are oiled with the trust of their users. As competition between Facebook and Google becomes increasingly visible, so too will the issues of trust that separate them.<!--more--></p>
+
+<p>When I upload a photo or post an update to Facebook, I assume that the world can see it. I make this assumption because there are too many privacy settings to remember, and because Facebook introduces new settings so often that I have no way of knowing when I have been defaulted into new ones.</p>
+
+<p>I don’t have this problem with Google. I know my GMail, Google Finance and Google Analytics data is private, and I know what I share in Google Reader or post to Blogger is public. In exchange for this trust, Google gets my email, stock portfolio, voicemail, calendar, contacts, web stats and office documents. Facebook gets none of this. I don’t contact people through Facebook messages, I don’t use Facebook events and I won’t be using its new docs.com service. Google gets much more data from me, but knows that in order to keep accruing it, it can only monetize it  in ways that I don’t find invasive. Google wants me to be comfortable.</p>
+
+<p>Facebook cares very little about my level of comfort. Its  goal is to identify the threshold of invasion at which a user will abandon the service, and keep the user marginally (but safely) above that threshold. Zuckerberg is betting that the value Facebook gets out of the lesser  data it <em>does</em> collect from me outweighs the value of the data I am  withholding. By adopting this strategy, Facebook can force or coerce its users to  expose data that lures other users, making it an excellent strategy for  growth. And Facebook is exceptionally talented at keeping users just happy enough to keep using the site. Users are constantly complaining about Facebook’s policies, but never leaving the site.</p>
+
+<p>But what data is Facebook not receiving due to this lack of trust, and at what cost? First, there is the direct cost. If it’s enough data to drive 11 million ad conversions, then Facebook is losing the revenues of 11 million ad conversions. More importantly, there is an opportunity cost. <strong>Facebook cannot launch a service based on data that users are hesitant to hand over.</strong> For instance, if users don’t trust Facebook with private messages, then Facebook has no opportunity to launch a GMail competitor or a Google Voice competitor. Its docs.com partnership with Microsoft will suffer accordingly. Unlike Google, acquiring medical records or personal finance data will be a non-starter.</p>
+
+<p>None of these things stand in Facebook’s way right now, but will they in three years? The trust that Google accrued when it was a smaller company opened doors for many unforeseen consumer products. Every time Facebook uses data in a way that makes its users uncomfortable, it closes those doors a little further.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Chirp: Goals and Expectations]]></title>
+    <link href="http://rob.by/2010/on-chirp-goals-and-expectations/"/>
+    <updated>2010-04-14T09:29:03-04:00</updated>
+    <id>http://rob.by/2010/on-chirp-goals-and-expectations</id>
+    <content type="html"><![CDATA[<p>The kerfuffle between Twitter and its third party developers has been discussed, analyzed and debated ad nauseum over the past week. But aside from jokes of awkwardness, there has been surprisingly little talk about what it means for Chirp. What do third party developers want from the conference in light of recent events? What’s a win for Twitter?<!--more--></p>
+
+<p>Outside developers must come away with an understanding of the brutal expectations Twitter faces as a company valued at over a billion dollars. Unlike most of the people building Twitter tools, Twitter is not a small business or a weekend hack project; it is an enterprise that is expected to justify the enormous investments it has received. That will require it to act like a business in ways it has chosen not to act in the past. Tweetie will not be the last acquisition, and the iPhone will not be the last internally supported platform. Twitter needs to make this absolutely clear to developers so that they understand the (arguably new) stakes and can choose their risks accordingly.</p>
+
+<p>Twitter needs to walk away with an understanding of what it must do to keep its developer community happy and thriving. I imagine that even the most cynical, closed view held within Twitter would concede that the company needs its outside developers, who add tremendous value by extending Twitter’s features and providing new ideas and innovations.</p>
+
+<p>What I <em>don’t</em> expect – or want – is to see the debate on corporate policy that we have witnessed over the last week. Love it or hate it, that is for Twitter to decide. What I want to see is a mutual recognition of self-interest and codependence between Twitter and its third party developers, and a better understanding of what both sides need to do to make the most of that relationship.</p>
 ]]></content>
   </entry>
   

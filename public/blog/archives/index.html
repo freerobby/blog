@@ -23,6 +23,7 @@ Jan 26 2013 &hellip;">
   <link rel="canonical" href="http://rob.by/blog/archives/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+   <link href="/stylesheets/data-table.css" media="screen, projection" rel="stylesheet" type="text/css" />
   <script src="/javascripts/modernizr-2.0.js"></script>
   <script src="/javascripts/ender.js"></script>
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
@@ -30,6 +31,8 @@ Jan 26 2013 &hellip;">
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
 
   
   <script type="text/javascript">
@@ -49,14 +52,10 @@ Jan 26 2013 &hellip;">
 
 <body   >
   <header role="banner"><hgroup>
-  <h1><a href="/">Robby Grossman</a></h1>
-  
-    <h2>Tech Commentary & Startup Life</h2>
-  
 </hgroup>
 
 </header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <!-- <nav role="navigation"><ul class="subscription" data-subscription="rss">
   <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
   
 </ul>
@@ -69,13 +68,11 @@ Jan 26 2013 &hellip;">
 </form>
   
 <ul class="main-navigation">
-  <li><a href="/about">About</a></li>
-  <li><a href="/artpal">Artpal</a></li>
+  <li><a href="/">Blog</a></li>
   <li><a href="/blog/archives">Archives</a></li>
-  <li><a href="/music">My Music</a></li>
 </ul>
 
-</nav>
+</nav> -->
   <div id="main">
     <div id="content">
       <div>
@@ -140,20 +137,6 @@ Jan 26 2013 &hellip;">
 
 <article>
   
-<h1><a href="/2012/looking-for-partners-for-red-sox-2013-season-tickets/">Looking for Partners for Red Sox 2013 Season Tickets</a></h1>
-<time datetime="2012-11-06T10:00:00-05:00" pubdate><span class='month'>Nov</span> <span class='day'>06</span> <span class='year'>2012</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/sports/'>Sports</a></span>
-</footer>
-
-
-</article>
-
-
-
-<article>
-  
 <h1><a href="/2012/migrating-to-riak-at-shareaholic/">Migrating to Riak at Shareaholic</a></h1>
 <time datetime="2012-08-31T10:30:00-04:00" pubdate><span class='month'>Aug</span> <span class='day'>31</span> <span class='year'>2012</span></time>
 
@@ -173,20 +156,6 @@ Jan 26 2013 &hellip;">
 
 <footer>
   <span class="categories">posted in <a class='category' href='/blog/categories/startups/'>Startups</a>, <a class='category' href='/blog/categories/technology/'>Technology</a></span>
-</footer>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/2012/red-sox-tickets-for-sale/">Red Sox Tickets for Sale</a></h1>
-<time datetime="2012-05-17T00:16:52-04:00" pubdate><span class='month'>May</span> <span class='day'>17</span> <span class='year'>2012</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/sports/'>Sports</a></span>
 </footer>
 
 
@@ -794,6 +763,16 @@ Jan 26 2013 &hellip;">
 <aside class="sidebar">
   
     <section>
+  <ul id="recent_posts">
+      <li class="post">
+      <a href="http://rob.by" alt="Home"><img src="/images/Home.png"></a>
+      <a href="http://rob.by/archives/" alt="Archives"><img src="/images/Calendar.png"></a>
+      <a href="mailto:robby@freerobby.com" alt="E-Mail"><img src="/images/Envelope.png"></a>
+      <a href="http://rob.by/atom.xml" alt="subscribe feed"><img src="/images/rss.png"></a>
+      </li>
+  </ul>
+</section>
+<section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
@@ -814,7 +793,15 @@ Jan 26 2013 &hellip;">
 
 
 <section>
-  
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("freerobby", 0, false);
+    });
+  </script>
   <script src="/javascripts/twitter.js" type="text/javascript"> </script>
   
     <a href="http://twitter.com/freerobby" class="twitter-follow-button" data-show-count="false">Follow @freerobby</a>
@@ -832,7 +819,8 @@ Jan 26 2013 &hellip;">
     </div>
   </div>
   <footer role="contentinfo"><p>
-  &copy; 2013 by Robby Grossman
+  Copyright &copy; 2013 - Robby Grossman -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 
 </footer>

@@ -1,7 +1,6 @@
 <div class="sharing">
-  <p>If you took something from this page, please consider sharing it.</p>
   {% if site.twitter_tweet_button %}
-  <a href="http://twitter.com/share" class="twitter-share-button" data-text="{{ page.title}} by @{{ site.twitter_user }}:" data-url="{{ site.url }}{{ page.url }}" data-counturl="{{ site.url }}{{ page.url }}" data-related="{{ site.twitter_user }}">Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="{{ site.url }}{{ page.url }}" data-via="{{ site.twitter_user }}" data-counturl="{{ site.url }}{{ page.url }}" >Tweet</a>
   {% endif %}
   {% if site.google_plus_one %}
   <div class="g-plusone" data-size="{{ site.google_plus_one_size }}"></div>
