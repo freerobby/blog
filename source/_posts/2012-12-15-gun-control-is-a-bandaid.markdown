@@ -4,6 +4,7 @@ title: "Gun Control Is a Bandaid"
 date: 2012-12-15 01:00
 comments: true
 categories: [Politics]
+published: false
 ---
 
 I understand the outrage over gun laws right now, but gun control is distracting us from a bigger problem: **too many of our citizens are inspired to commit acts of violence**.<!--more-->
