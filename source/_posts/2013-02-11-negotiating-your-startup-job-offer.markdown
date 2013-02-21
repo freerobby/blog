@@ -51,7 +51,7 @@ You place the wager, and two years later, the company sells for $20M after a yea
 
 Nope.
 
-Your stock was restricted, not common. Investors have "preference," which means they get reimbursed for what they put in before anybody else sees a dime. The company raised $18M in combined seed, Series A and Series B investments. First, those investors get their $18M back. Then, there's $2M to be distributed proportionally among stakeholders. You've come out a narrow 25% ahead because of your discount price ($5M * 0.3 vs 2M). You leave with a $2,500 pre-tax profit on your $7,500 investment.
+Your stock was common, not preferred. Investors have "preference," which means they get reimbursed for what they put in before anybody else sees a dime. The company raised $18M in combined seed, Series A and Series B investments. First, those investors get their $18M back. Then, there's $2M to be distributed proportionally among stakeholders. You've come out a narrow 25% ahead because of your discount price ($5M * 0.3 vs 2M). You leave with a $2,500 pre-tax profit on your $7,500 investment.
 
 Nope.
 
