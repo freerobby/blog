@@ -188,7 +188,7 @@ There are plenty of things to adapt to when you switch to startup life -- cultur
 
 If you still have questions about something in your offer letter, or if something seems a little fishy, you can ask questions in the comments and I will answer them, or if it's confidential, you can email me at [robby@freerobby.com](mailto:robby@freerobby.com) and I'll respond privately.
 
-_Thanks to [Chad Mazzola](http://hellohappy.org) for reading an early draft of this post and providing valuable feedback._
+_Thanks to [Mike Champion](http://graysky.org), [Chad Mazzola](http://hellohappy.org) and [Will Sulinski](http://pistollake.com) for reading early drafts of this post and providing valuable feedback._
 
 [^fair-equity]: I love Joel Spolsky's [approach to divvying equity](http://answers.onstartups.com/questions/6949/forming-a-new-software-startup-how-do-i-allocate-ownership-fairly/23326#23326), but it is a minority opinion.
 
