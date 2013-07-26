@@ -9,6 +9,8 @@ footer: true
 
 I have a lot of music gear that I don't use very much, and a long list of things I wish I had. My preference is to make trades, but I'm listing prices if there's anything you want to buy outright.
 
+Please get in touch with me at [robby@freerobby.com](mailto:robby@freerobby.com?subject=I'm%20interested%20in%20some%20of%20your%20music%20gear)
+
 Please click on an item to skip to its info:
 
 ### Amps
