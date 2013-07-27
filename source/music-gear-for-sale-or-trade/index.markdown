@@ -18,6 +18,7 @@ Please click on an item to skip to its info:
 * [Fishman Acoustic Performer Pro Amp/PA](#fishman)
 * [Fender Pro Junior](#projr)
 * [ZVex Nano Head](#nano)
+* [Gibson GA-5 (Vintage)](#ga5)
 
 ### Pedals and Rack Effects
 
@@ -27,6 +28,7 @@ Please click on an item to skip to its info:
 * [ZVex Box of Rock (Vexter Edition)](#boxofrock)
 * [Ibanez TS9DX](#ts9dx)
 * [ZVex Seek Wah](#seekwah)
+* [Gibson GA-4RE Reverb/Echo (Vintage)](#reverbecho)
 
 ### Instruments
 
@@ -39,6 +41,7 @@ Please click on an item to skip to its info:
 * [Complete Professional Stealth Concert Taping Rig](#stealth)
 * [Emu XBoard49 USB MIDI Controller](#xboard)
 * [Edirol Studio Monitors](#monitors)
+* [Alesis IO Dock](#iodock)
 
 ### Miscellaneous Accessories
 
@@ -83,7 +86,17 @@ Price: $600
 
 Excellent/Like New condition. Has not left home studio.
 
-![Fender Pro Jr](http://robby-blog.s3.amazonaws.com/music-gear-for-sale-or-trade/nano-head.jpg)
+![ZVex Nano Head](http://robby-blog.s3.amazonaws.com/music-gear-for-sale-or-trade/nano-head.jpg)
+
+<a id="ga5"></a>
+
+### Gibson GA-5 (Vintage)
+
+Price: $350
+
+Good condition, fully working. Vintage.
+
+![Gibson GA-5](http://robby-blog.s3.amazonaws.com/music-gear-for-sale-or-trade/ga5.jpg)
 
 ## Pedals and Rack Effects
 
@@ -115,7 +128,7 @@ Price: $300
 
 Excellent/Like New condition. Has not left home studio.
 
-![ZVex Super Duper 2-in-1](http://robby-blog.s3.amazonaws.com/music-gear-for-sale-or-trade/jamman-super-duper-box-of-rock-ts9dx.jpg)
+![ZVex Super Duper 2-in-1](http://robby-blog.s3.amazonaws.com/music-gear-for-sale-or-trade/superduper.jpg)
 
 <a id="boxofrock"></a>
 
@@ -123,9 +136,9 @@ Excellent/Like New condition. Has not left home studio.
 
 Price: $150
 
-Excellent/Like New condition. Has not left home studio.
+Excellent/Like New condition. Has not left home studio. The "wear" in the photo is just dust and a piece of doghair from sitting around.
 
-![ZVex Box of Rock (Vexter Edition)](http://robby-blog.s3.amazonaws.com/music-gear-for-sale-or-trade/jamman-super-duper-box-of-rock-ts9dx.jpg)
+![ZVex Box of Rock (Vexter Edition)](http://robby-blog.s3.amazonaws.com/music-gear-for-sale-or-trade/boxofrock.jpg)
 
 <a id="ts9dx"></a>
 
@@ -135,7 +148,7 @@ Price: $90
 
 Excellent/Like New condition. Has not left home studio.
 
-![Ibanez TS9DX](http://robby-blog.s3.amazonaws.com/music-gear-for-sale-or-trade/jamman-super-duper-box-of-rock-ts9dx.jpg)
+![Ibanez TS9DX](http://robby-blog.s3.amazonaws.com/music-gear-for-sale-or-trade/ts9dx.jpg)
 
 <a id="seekwah"></a>
 
@@ -146,6 +159,17 @@ Price: $280
 Excellent/Like New condition. Has not left home studio.
 
 ![ZVex Seek Wah](http://robby-blog.s3.amazonaws.com/music-gear-for-sale-or-trade/seekwah.jpg)
+
+<a id="reverbecho"></a>
+
+### Gibson GA-4RE Reverb/Echo (Vintage)
+
+Good condition. Vintage. Includes original footswitch.
+
+Price: $400
+
+![Gibson GA-4RE Reverb/Echo (Vintage)](http://robby-blog.s3.amazonaws.com/music-gear-for-sale-or-trade/reverbecho.jpg)
+
 
 ## Instruments
 
@@ -216,13 +240,24 @@ Excellent/Like New condition. Has not left home studio.
 
 <a id="monitors"></a>
 
-### Edirol Studio Monitors
+### Edirol MA-10D Studio Monitors
 
 Price: $80
 
 Excellent/Like New condition. Has not left home studio.
 
-![Complete Professional Stealth Concert Taping Rig](http://robby-blog.s3.amazonaws.com/music-gear-for-sale-or-trade/xboard49-edirol-monitors.jpg)
+![Edirol MA-10D Studio Monitors](http://robby-blog.s3.amazonaws.com/music-gear-for-sale-or-trade/ma10d.jpg)
+
+<a id="iodock"></a>
+
+### Alesis IO Dock
+
+Price: $200
+
+Excellent/Like New condition. Has not left home studio.
+
+
+![Alesis IO Dock](http://robby-blog.s3.amazonaws.com/music-gear-for-sale-or-trade/iodock)
 
 ## Miscellaneous Accessories
 
