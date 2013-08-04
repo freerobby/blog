@@ -33,7 +33,6 @@ Please click on an item to skip to its info:
 ### Instruments
 
 * [Fender FM-62SCE/TR Mandolin](#mandolin)
-* [Traveler Escape Travel Guitar](#escape)
 
 ### Recording Accessories
 
@@ -183,17 +182,6 @@ Excellent/Like New condition. Has not left home studio. Includes semi-hard case.
 
 ![Fender FM-62SCE/TR Mandolin](http://robby-blog.s3.amazonaws.com/music-gear-for-sale-or-trade/fender-mandolin.jpg)
 
-<a id="escape"></a>
-
-### Traveler Escape Travel Guitar
-
-Price: $200
-
-Steel string version. Good condition with some aesthetic imperfections due to travel use. Includes deluxe gig bag.
-
-
-![Traveler Escape Travel Guitar](http://robby-blog.s3.amazonaws.com/music-gear-for-sale-or-trade/traveler-escape.jpg)
-
 ## Recording Accessories
 
 <a id="tubemp"></a>
@@ -256,8 +244,7 @@ Price: $200
 
 Excellent/Like New condition. Has not left home studio.
 
-
-![Alesis IO Dock](http://robby-blog.s3.amazonaws.com/music-gear-for-sale-or-trade/iodock)
+![Alesis IO Dock](http://robby-blog.s3.amazonaws.com/music-gear-for-sale-or-trade/iodock.jpg)
 
 ## Miscellaneous Accessories
 
