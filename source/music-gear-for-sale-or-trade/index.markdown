@@ -81,7 +81,7 @@ Excellent/Like New condition. Has not left home studio. Includes optional cover.
 
 ### ZVex Nano Head
 
-Price: $600
+Price: $400
 
 Excellent/Like New condition. Has not left home studio.
 
