@@ -4,7 +4,7 @@
   <title><![CDATA[Robby Grossman]]></title>
   <link href="http://rob.by/atom.xml" rel="self"/>
   <link href="http://rob.by/"/>
-  <updated>2013-08-04T16:59:03-04:00</updated>
+  <updated>2013-09-01T12:44:32-04:00</updated>
   <id>http://rob.by/</id>
   <author>
     <name><![CDATA[Robby Grossman]]></name>
@@ -12,6 +12,33 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[The Least Bad Thing to Do in Syria is Nothing]]></title>
+    <link href="http://rob.by/2013/the-least-bad-thing-to-do-in-syria-is-nothing/"/>
+    <updated>2013-09-01T01:16:00-04:00</updated>
+    <id>http://rob.by/2013/the-least-bad-thing-to-do-in-syria-is-nothing</id>
+    <content type="html"><![CDATA[<p>As I scanned my Facebook and Twitter feeds yesterday, I found a lot of people talking about potential US involvment in Syria. The arguments of those who want the United States to respond militarily largely echo the three rationales Obama <a href="http://www.washingtonpost.com/politics/transcript-president-obamas-aug-31-statement-on-syria/2013/08/31/3019213c-125d-11e3-b4cb-fd7ce041d814_story.html">provided</a> yesterday:</p>
+
+<blockquote>
+  <p>I’m confident we can hold the Assad regime accountable for their use of chemical weapons, deter this kind of behavior, and degrade their capacity to carry it out.</p>
+</blockquote>
+
+<p>What worries me about this rationale is that it appeals to our hearts over our brains. All of the things that Obama said sound noble. But observed alongside the facts on the ground and the proposed tactics, none shows promise of saving lives nor improving the odds of a desirable outcome in Syria’s Civil War.</p>
+
+<!--more-->
+
+<p>The argument to hold Assad “accountable” is at best a misnomer. Obama is not advocating that we bring Assad to justice. He is not advocating that we overthrow him. He is advocating that we lob bombs at the Syrian military’s infrastructure to send a message that we don’t condone Assad’s behavior. Guess what: Assad already knows this, and he doesn’t care. Let us appreciate the irony, meanwhile, that the United States is debating the use of literal bombs to send a symbolic message to someone who will not be personally hurt by such an attack, and who has a <a href="http://www.huffingtonpost.com/human-rights-watch/syria-local-residents-use_b_1380609.html">history</a> of lining targets with women and children.</p>
+
+<p>“Degrading” Assad’s ability to carry out chemical weapons attacks sounds nice, but in practice it’s a completely arbitrary goal whose impact on casualties would be minimal. Chemical weapons account for <a href="http://www.washingtonpost.com/world/national-security/even-after-100000-deaths-in-syria-chemical-weapons-attack-evoked-visceral-response/2013/08/31/de6c2b3e-1277-11e3-b4cb-fd7ce041d814_story.html">1-2%</a> of those killed in the conflict. Obviously all deaths are horrible, but it’s not clear to me why these 1-2% are more substantial than the other 98-99%. That chemical weapons happen to violate the current, always evolving rules of war is but a technicality as far as Syria’s body count is concerned. If we want to prevent mass murder, we should debate that and we should acknowledge why we are doing it; it is absurd and degrading to build an international case that Assad’s crime is merely that he chose the wrong murder weapon.</p>
+
+<p>The goal of “deterring” Assad from using chemical weapons by intimidating him with military might won’t work because our committment is a bluff, and he knows it. What happens if the United States bombs Assad’s regime, and then he uses chemical weapons again? Will we ramp things up and put boots on the ground to stop him? No - Obama acknowledged this himself (“We would not put boots on the ground.”). The only way a policy of intimidation can work is if Assad has reason to believe the United States would escalate things upon his continued wrongdoing. Both sides know that the US has better things to do than play chicken with sociopathic foreign leaders. Assad is a rational actor, and is going to do whatever he can to maintain power; the bombing of a few of his military sites won’t alter that calculus.</p>
+
+<p>Finally, on top of what Obama argued explicitly, we’d be wise to acknowledge what he said implicitly by refusing to take sides or advocate for regime change: in Syria, the enemies of our enemies are… our enemies. The rebel fighters are <a href="http://www.bloomberg.com/news/2013-08-29/al-qaeda-links-cloud-syrian-war-as-u-s-seeks-clarity-on-rebels.html">organized through extremist Islam, and have deep links to Al Qaeda and other terrorist organizations</a>. We have no more incentive to see them succeed than we do Assad. Obama’s rationale should not be interpreted as a tacit tip of the cap to the rebels; it is not, and if it were, we would be all the more misguided for it.</p>
+
+<p>Wanting to do something about the atrocities in Syria is a dignified mentality, but actually going to war without an expectation of accomplishment is a fool’s errand for feel-goodery. Even Obama, who strongly advocates for an intervention, has been careful to avoid calling this a peacekeeping mission. The sad truth is that despite our military strength, we are powerless to limit the body bags. All we are capable of delivering is some symbolism, and that’s not a good enough reason to get involved in someone else’s Civil War.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Negotiating Your Startup Job Offer]]></title>
@@ -953,87 +980,6 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
 <p>This logic has ramifications greater than its stated thesis. It’s not that Apple doesn’t want “some other company” to establish a higher level language standard; it’s that Apple doesn’t want <em>any</em> company to do that – including Apple. The reasoning is the same: if Apple were to allow developers to write iPhone apps using MacRuby (i.e. Ruby 1.9), there would be nothing to stop those apps from being moved to other mobile platforms that also support Ruby.</p>
 
 <p>Update April 11, 2010: After speaking with a couple of other developers about this, I think the above syllogism may not hold. If MacRuby is tied intimately to the operating system such that it literally maps API call to API call, then porting a MacRuby app to another platform would not be trivial. Instead, it would likely require a middle (“higher level”) layer, which is already banned by the new section 3.3.1. In this case, native MacRuby apps could be written under the current agreement, and this would not allow such apps to be easily ported to other platforms.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Twitter, Facebook and Viral Traffic]]></title>
-    <link href="http://rob.by/2010/twitter-facebook-and-viral-traffic/"/>
-    <updated>2010-04-07T10:00:44-04:00</updated>
-    <id>http://rob.by/2010/twitter-facebook-and-viral-traffic</id>
-    <content type="html"><![CDATA[<p>On the evening of the House health care reform vote, I built  <a href="http://didtheypasshealthcarereform.com">didtheypasshealthcarereform.com</a>, a single serve site, to report the status of the bill. Prior to the vote it read “no.” After the bill’s passage it read “yes!,” and celebrated the occasion with randomly-placed animated unicorns (courtesy of <a href="http://cornify.com/">Cornify</a>).</p>
-
-<p>I posted links to the site on my Twitter and Facebook accounts. As soon as the bill passed, traffic skyrocketed. 48 hours later, the dust settled. <!--more--> A quick glance at visitors per day shows how quickly the site gained and lost steam:</p>
-
-<p><img src="http://robby-blog.s3.amazonaws.com/2010/twitter-facebook-and-viral-traffic/dashboard.png" alt="Dashboard" /></p>
-
-<h2 id="sources-of-traffic">Sources of Traffic</h2>
-
-<p>Google Analytics tallied the following:</p>
-
-<ul>
-  <li>
-    <p>“Direct” (non-referral) traffic lead the way, providing 39% of all traffic.</p>
-  </li>
-  <li>
-    <p>Facebook.com provided 30%, the most of any single domain.</p>
-  </li>
-  <li>
-    <p>Twitter.com placed a distant second, providing just over 6.5%.</p>
-  </li>
-</ul>
-
-<h2 id="analysis-of-traffic">Analysis of Traffic</h2>
-
-<p>According to <a href="http://siteanalytics.compete.com/facebook.com+twitter.com/">the latest compete.com numbers</a>, Facebook.com gets 6.00 times more traffic than Twitter.com does (as of February ‘10). Theoretically, then, Facebook.com should drive six times as many visitors as Twitter.com.</p>
-
-<p>In reality that multiplier was 4.6, 24% less than expected. In other words, when normalized for total traffic, Twitter.com was over 30% more effective at driving traffic than Facebook.com was. (If that math confuses you, recall that 4 is 20% less than 5, but 5 is 25% more than 4; if that doesn’t make sense, don’t worry, the math is not what’s important).</p>
-
-<p>What’s important is that a Twitter.com user looking at a tweet was 30% more likely follow its link than a Facebook.com user looking at a status update.</p>
-
-<p>But that’s just the tip of the iceberg. Most Twitter users aren’t on Twitter.com; they’re using Twitter clients like Tweetie, TweetDeck and Twhirl. Click-throughs from these users show up not as Twitter.com referrals, but as “direct” traffic. And this direct traffic made up 40% of the total traffic.</p>
-
-<p>There’s a caveat: direct traffic is also generated the traditional way, by people typing “d-i-d-t-h-e-y-p-a-s-s-h-e-a-l-t-h-c-a-r-e-r-e-f-o-r-m-.-c-o-m” into the address bar in browsers. Unfortunately there is no method to distinguish these users from Twitter client users. There are, however, a few ways to make educated guesses at the comparative numbers. Each of these methods gives Twitter-driven  traffic estimates an enormous boost.</p>
-
-<p>The first way to guess, perhaps least appealing to statisticians and most appealing to philosophers, is simply to think about what makes sense. It makes very little sense for a  brand new web site to receive 40% of its hits from people typing the URL  into the address bar. This would be plausible for Google, but not for a budding web meme that did not exist a week earlier.</p>
-
-<p><img src="http://robby-blog.s3.amazonaws.com/2010/twitter-facebook-and-viral-traffic/all_direct_traffic_from_twitter.png" alt="All traffic from Twitter" /></p>
-
-<p>Didtheypasshealthcarereform.com received 85% of its traffic in a span of less  than 48 hours. Visitors had little if any time to commit the URL to memory and check up on it. One method, therefore, is to attribute all of the direct traffic to Twitter. This  has Twitter driving 45% of didtheypasshealthcarereform.com’s  total traffic.</p>
-
-<p><img src="http://robby-blog.s3.amazonaws.com/2010/twitter-facebook-and-viral-traffic/65_of_direct_traffic_from_twitter.png" alt="65% of direct traffic from Twitter" /></p>
-
-<p>The second way to guess is to look at other sites. One web site I run that doesn’t deal with Twitter in any capacity receives 13% of its traffic “directly.” Another receives 14.1%. If these numbers are typical for non-Twitter “direct” traffic,  then over 65% of the “direct” traffic to didtheypasshealthcarereform.com came from Twitter, putting the total percentage from Twitter above 32%. I suspect the real percentage from Twitter is even greater, because sites earn more direct traffic as they age, and the other two sites are much older than didtheypasshealthcarereform.com.</p>
-
-<p><img src="http://robby-blog.s3.amazonaws.com/2010/twitter-facebook-and-viral-traffic/direct_twitter_traffic_3-5x_twitter_com_traffic.png" alt="3-5x Twitter.com traffic" /></p>
-
-<p>The final way to guess is to look at other people’s numbers. Fred Wilson, with the help of John Borthwick, <a href="http://www.avc.com/a_vc/2010/01/twittercom-vs-the-twitter-ecosystem.html">argues</a> that  direct traffic from Twitter is between three and five times that from Twitter.com. This range implies that Twitter drove between 26% and 35% of didtheypasshealthcarereform.com’s total traffic. Splitting the difference comes to 30.5%.</p>
-
-<p>Whether you believe Twitter brought 30.5%, 32% or 45% of didtheypasshealthcarereform.com’s traffic, the conclusion remains the same: not only did Twitter win the  battle of relative numbers; Twitter drove more total traffic to the site than Facebook did.</p>
-
-<h2 id="fun-facts">Fun Facts</h2>
-
-<ul>
-  <li>
-    <p>3 out of 5 visitors refreshed the site while visiting it.</p>
-  </li>
-  <li>
-    <p>1 in 8 users returned to the site after his or her initial visit.</p>
-  </li>
-  <li>
-    <p>Over 1,000,000 colored unicorns appeared on users’ monitors.</p>
-  </li>
-  <li>
-    <p>I used <a href="https://rowfeeder.com/">RowFeeder</a> to track what people  said about the site on Twitter. Over the course of 48 hours, 1200  Twitterers linked to it. That number does not include  tweets that used URL shorteners like bit.ly or awe.sm. I’ve published  the complete set of Twitter mentions of the domain name from March 21 to  March 29 <a href="http://spreadsheets.google.com/pub?key=tkgH7yyawLVdhDQjycl7kiQ&amp;single=true&amp;gid=0&amp;output=html">here</a>.</p>
-  </li>
-  <li>
-    <p><a href="http://voices.washingtonpost.com/44/2010/03/at-single-serving-health-care.html">The Washington Post</a> published an article on the site, but it brought in only 1/2 of 1% of all traffic.</p>
-  </li>
-</ul>
-
-<h2 id="discussion">Discussion</h2>
-
-<p>If you know of better ways to determine the source of “direct” traffic, please comment below or <a href="http://twitter.com/freerobby">send me a link on Twitter.</a></p>
 ]]></content>
   </entry>
   
