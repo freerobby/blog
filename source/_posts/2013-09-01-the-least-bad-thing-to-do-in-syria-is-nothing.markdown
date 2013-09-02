@@ -10,7 +10,7 @@ As I scanned my Facebook and Twitter feeds yesterday, I found a lot of people ta
 
 > I’m confident we can hold the Assad regime accountable for their use of chemical weapons, deter this kind of behavior, and degrade their capacity to carry it out.
 
-What worries me about this rationale is that it appeals to our hearts over our brains. All of the things that Obama said sound noble. But observed alongside the facts on the ground and the proposed tactics, none shows promise of saving lives nor improving the odds of a desirable outcome in Syria's Civil War.
+What worries me about this rationale is that it appeals to our hearts over our brains. All of the things that Obama said sound noble. But observed alongside the facts on the ground and the proposed tactics, none shows promise of saving lives nor improving the odds of a desirable outcome in Syria's civil war.
 
 <!--more-->
 
@@ -22,4 +22,4 @@ The goal of "deterring" Assad from using chemical weapons by intimidating him wi
 
 Finally, on top of what Obama argued explicitly, we'd be wise to acknowledge what he said implicitly by refusing to take sides or advocate for regime change: in Syria, the enemies of our enemies are… our enemies. The rebel fighters are [organized through extremist Islam, and have deep links to Al Qaeda and other terrorist organizations](http://www.bloomberg.com/news/2013-08-29/al-qaeda-links-cloud-syrian-war-as-u-s-seeks-clarity-on-rebels.html). We have no more incentive to see them succeed than we do Assad. Obama's rationale should not be interpreted as a tacit tip of the cap to the rebels; it is not, and if it were, we would be all the more misguided for it.
 
-Wanting to do something about the atrocities in Syria is a dignified mentality, but actually going to war without an expectation of accomplishment is a fool's errand for feel-goodery. Even Obama, who strongly advocates for an intervention, has been careful to avoid calling this a peacekeeping mission. The sad truth is that despite our military strength, we are powerless to limit the body bags. All we are capable of delivering is some symbolism, and that's not a good enough reason to get involved in someone else's Civil War.
+Wanting to do something about the atrocities in Syria is a dignified mentality, but actually going to war without an expectation of accomplishment is a fool's errand for feel-goodery. Even Obama, who strongly advocates for an intervention, has been careful to avoid calling this a peacekeeping mission. The sad truth is that despite our military strength, we are powerless to limit the body bags. All we are capable of delivering is some symbolism, and that's not a good enough reason to get involved in someone else's civil war.
