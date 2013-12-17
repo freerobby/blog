@@ -186,7 +186,7 @@ The difficult part of negotiating a startup job offer is learning the inside bas
 
 There are plenty of things to adapt to when you switch to startup life -- culture, work hours, individual autonomy -- but unless you're committed to joining at the seed stage or earlier, a jarring compensation reduction isn't one of them.
 
-If you still have questions about something in your offer letter, or if something seems a little fishy, you can ask questions in the comments and I will answer them, or if it's confidential, you can email me at [robby@freerobby.com](mailto:robby@freerobby.com) and I'll respond privately.
+If you still have questions about your offer letter, or if something seems a little fishy, you can ask questions in the comments and I will answer them, or if it's confidential, you can email me at [robby@freerobby.com](mailto:robby@freerobby.com) and I'll respond privately. If you email me, please ask specific questions that I can answer so that I am not left guessing what you are wondering.
 
 _Thanks to [Mike Champion](http://graysky.org), [Chad Mazzola](http://hellohappy.org) and [Will Sulinski](http://pistollake.com) for reading early drafts of this post and providing valuable feedback._
 
