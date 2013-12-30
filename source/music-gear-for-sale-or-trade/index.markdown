@@ -26,19 +26,17 @@ Please click on an item to skip to its info:
 * [Digitech Jamman Looper](#jamman)
 * [ZVex Super Duper 2 in 1](#superduper)
 * [ZVex Box of Rock (Vexter Edition)](#boxofrock)
-* [Ibanez TS9DX](#ts9dx)
 * [ZVex Seek Wah](#seekwah)
 * [Gibson GA-4RE Reverb/Echo (Vintage)](#reverbecho)
 
 ### Instruments
 
-* [Fender FM-62SCE/TR Mandolin](#mandolin)
+* [Fender Rhodes 73 Mark I](#rhodes)
 
 ### Recording Accessories
 
 * [Art TubeMP Studio Microphone Preamp](#tubemp)
 * [Complete Professional Stealth Concert Taping Rig](#stealth)
-* [Emu XBoard49 USB MIDI Controller](#xboard)
 * [Edirol Studio Monitors](#monitors)
 * [Alesis IO Dock](#iodock)
 
@@ -139,16 +137,6 @@ Excellent/Like New condition. Has not left home studio. The "wear" in the photo 
 
 ![ZVex Box of Rock (Vexter Edition)](http://robby-blog.s3.amazonaws.com/music-gear-for-sale-or-trade/boxofrock.jpg)
 
-<a id="ts9dx"></a>
-
-### Ibanez TS9DX
-
-Price: $90
-
-Excellent/Like New condition. Has not left home studio.
-
-![Ibanez TS9DX](http://robby-blog.s3.amazonaws.com/music-gear-for-sale-or-trade/ts9dx.jpg)
-
 <a id="seekwah"></a>
 
 ### ZVex Seek Wah
@@ -172,15 +160,17 @@ Price: $400
 
 ## Instruments
 
-<a id="mandolin"></a>
+<a id="rhodes"></a>
 
-### Fender FM-62SCE/TR Mandolin
+### Fender Rhodes 73 Mark I (Complete with top, legs and pedal)
 
-Price: $380
+Price: $1400
 
-Excellent/Like New condition. Has not left home studio. Includes semi-hard case.
+Cosmetic blemishes as you'd expect for its age, but sounds fantastic and in tune. Action could use a tuneup but certainly very playable on day one. Has been humidified in home studio for last five years.
 
-![Fender FM-62SCE/TR Mandolin](http://robby-blog.s3.amazonaws.com/music-gear-for-sale-or-trade/fender-mandolin.jpg)
+Photo is without top (I was inspecting when I took the photo), but rest assured it includes the original pedal, legs and top.
+
+![Fender Rhodes 73 Mark I](http://robby-blog.s3.amazonaws.com/music-gear-for-sale-or-trade/rhodes.jpg)
 
 ## Recording Accessories
 
@@ -215,16 +205,6 @@ Complete setup for high quality stealth taping of concerts. Everything is in exc
 I also have some odds and ends for the microphones like extra clips and windscreens as pictured. Some cables/AC adapters are not shown in photo, but they are all included in the price. New value of equipment tops $1,500.
 
 ![Complete Professional Stealth Concert Taping Rig](http://robby-blog.s3.amazonaws.com/music-gear-for-sale-or-trade/stealth-taping.jpg)
-
-<a id="xboard"></a>
-
-### Emu Xboard49 USB MIDI Controller
-
-Price: $60
-
-Excellent/Like New condition. Has not left home studio.
-
-![Complete Professional Stealth Concert Taping Rig](http://robby-blog.s3.amazonaws.com/music-gear-for-sale-or-trade/xboard49-edirol-monitors.jpg)
 
 <a id="monitors"></a>
 
