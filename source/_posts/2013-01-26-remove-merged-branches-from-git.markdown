@@ -8,7 +8,7 @@ categories: [Technology, Git, Bash, Shell]
 
 I wrote a bash function that prunes a git repository's ancestral branches, helping you keep your local and remote repos tidy.
 
-This function removes all branches, local and remote, that have been merged into your current branch. Simply run "rmb" from the command line. Don’t worry - prompt safeguards are in place to show you what you'll be removing before it delets anything. And it won't let you delete "master." :-)
+This function removes all branches, local and remote, that have been merged into your current branch. Simply run "rmb" from the command line. Don’t worry - prompt safeguards are in place to show you what you'll be removing before it deletes anything. And it won't let you delete "master."
 
 Add this to your ~/.profile, run "source ~/.profile" and you’re good to go.
 
