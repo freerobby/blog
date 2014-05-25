@@ -4,7 +4,7 @@
   <title><![CDATA[Robby Grossman]]></title>
   <link href="http://rob.by/atom.xml" rel="self"/>
   <link href="http://rob.by/"/>
-  <updated>2014-05-01T14:23:45-04:00</updated>
+  <updated>2014-05-25T17:00:23-04:00</updated>
   <id>http://rob.by/</id>
   <author>
     <name><![CDATA[Robby Grossman]]></name>
@@ -822,6 +822,47 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
   </entry>
   
   <entry>
+    <title type="html"><![CDATA[In Defense of Reason]]></title>
+    <link href="http://rob.by/2010/in-defense-of-reason/"/>
+    <updated>2010-05-25T10:00:00-04:00</updated>
+    <id>http://rob.by/2010/in-defense-of-reason</id>
+    <content type="html"><![CDATA[<p>Yesterday <a href="http://twitter.com/umairh">Umair Haque</a> tweeted several bits of counterintuitive advice that I’d encourage nobody other than my competition to follow. Among them:</p>
+
+<ul>
+  <li><a href="http://twitter.com/umairh/status/16935116857">The essence of mastery isn’t running the race faster. It’s being able to sit stiller.</a></li>
+  <li><a href="http://twitter.com/umairh/status/16924298322">If you’re always trying to catch up, don’t run faster. See further.</a></li>
+  <li><a href="http://twitter.com/umairh/status/16923971749">Success has more to do with how you feel – and what you can feel – than what you know. So feel.</a></li>
+</ul>
+
+<p>One of them in particular got under my skin —- a <a href="http://twitter.com/umairh/status/16935218576">recitation</a> of the the counterintuitive idea that success is the enemy:</p>
+
+<blockquote>
+  <p>Most celebrate success, and criticize failure. That’s 100% backwards. Do the opposite, and your edge will be 100x sharper.</p>
+</blockquote>
+
+<p>Quotes like these get <a href="http://search.twitter.com/search?q=&amp;ands=&amp;phrase=RT+%40umairh&amp;ors=&amp;nots=&amp;tag=&amp;lang=all&amp;from=&amp;to=&amp;ref=&amp;near=&amp;within=15&amp;units=mi&amp;since=2010-06-24&amp;until=2010-06-24&amp;rpp=10">lots of attention</a> in the startup world because they are shockingly contrarian and counterintuitive. Paul Krugman <a href="http://krugman.blogs.nytimes.com/2009/10/16/a-counterintuitive-train-wreck">explains</a> this method of distinguishing oneself:</p>
+
+<blockquote>
+  <p>For a long time, there’s been an accepted way for commentators on politics and to some extent economics to distinguish themselves: by shocking the bourgeoisie, in ways that of course aren’t really dangerous. Ann Coulter is making sense! Bush is good for the environment! You get the idea.</p>
+</blockquote>
+
+<p>The problem is that eventually, it does get dangerous. He continues:</p>
+
+<blockquote>
+  <p>Clever snark like this can get you a long way in career terms — but the trick is knowing when to stop. It’s one thing to do this on relatively inconsequential media or cultural issues. But if you’re going to get into issues that are both important and the subject of serious study, like the fate of the planet, you’d better be very careful not to stray over the line between being counterintuitive and being just plain, unforgivably wrong.</p>
+</blockquote>
+
+<p>The “celebrate failure” contrarianism may not be “fate of the planet” bad, but it’s dangerous for startups because it trivializes setbacks to their goals and ambitions, which are already overwhelmingly difficult to achieve. If you’re running a startup, you will fail plenty. You needn’t obsess over it, let alone strive for it, or – worst of all, as Umair asks us to do – “criticize” yourself when you avert it.</p>
+
+<p>Entrepreneurs far more accomplished than myself have made this point. At SXSWi 2010, Jason Fried concluded his speech with “‘Fail often’ is probably the worst advice I’ve ever heard.” (I don’t have a link to that, but here’s a <a href="http://twitter.com/jasonfried/status/1269318047">similar tweet</a>). His sentiment is highly reflective of my experience. All of my successes (and partial successes) in life have come from drive and determination. Whether it’s as big an undertaking as climbing Denali or as small an undertaking as writing this blog post, I’ve succeeded by thinking about what success looks like and aiming straight for it. I’ve never found dwelling on or romanticizing failure to be a useful compass for navigating hard problems.</p>
+
+<p>Certainly there are valuable lessons in failure. Josh Bokardo <a href="http://twitter.com/bokardo/status/16935766189">points out</a> that rather than “celebrating failure,” we should “celebrate learning.” Brad Feld has written <a href="http://www.feld.com/blog/archives/failure">several astute posts</a> on improving on failure, covering his own experiences and arguing that it’s better to fail quickly than slowly and that failure is often worthy of introspection. These are all excellent points, none of which advocate the bizarre philosophy of striving to fail repeatedly.</p>
+
+<p>Contrarian thinking, by definition, implies that conventional wisdom is wrong. If you’re going to challenge the status quo, you should use more than a pithy expression to do so. Otherwise you may as well be telling us to look west to find sunrise, or to saltwater to quench our thirst. If you’re going to talk about the virtues of failure or any other counterintuitive concept, please follow the Brad Feld strategy of thorough reason, and avoid the Umair Haque strategy of shocking contrarianism.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Review: Kinesis Advantage Keyboard]]></title>
     <link href="http://rob.by/2010/review-kinesis-advantage-keyboard/"/>
     <updated>2010-05-06T09:00:27-04:00</updated>
@@ -953,87 +994,6 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
 <p>This logic has ramifications greater than its stated thesis. It’s not that Apple doesn’t want “some other company” to establish a higher level language standard; it’s that Apple doesn’t want <em>any</em> company to do that – including Apple. The reasoning is the same: if Apple were to allow developers to write iPhone apps using MacRuby (i.e. Ruby 1.9), there would be nothing to stop those apps from being moved to other mobile platforms that also support Ruby.</p>
 
 <p>Update April 11, 2010: After speaking with a couple of other developers about this, I think the above syllogism may not hold. If MacRuby is tied intimately to the operating system such that it literally maps API call to API call, then porting a MacRuby app to another platform would not be trivial. Instead, it would likely require a middle (“higher level”) layer, which is already banned by the new section 3.3.1. In this case, native MacRuby apps could be written under the current agreement, and this would not allow such apps to be easily ported to other platforms.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Twitter, Facebook and Viral Traffic]]></title>
-    <link href="http://rob.by/2010/twitter-facebook-and-viral-traffic/"/>
-    <updated>2010-04-07T10:00:44-04:00</updated>
-    <id>http://rob.by/2010/twitter-facebook-and-viral-traffic</id>
-    <content type="html"><![CDATA[<p>On the evening of the House health care reform vote, I built  <a href="http://didtheypasshealthcarereform.com">didtheypasshealthcarereform.com</a>, a single serve site, to report the status of the bill. Prior to the vote it read “no.” After the bill’s passage it read “yes!,” and celebrated the occasion with randomly-placed animated unicorns (courtesy of <a href="http://cornify.com/">Cornify</a>).</p>
-
-<p>I posted links to the site on my Twitter and Facebook accounts. As soon as the bill passed, traffic skyrocketed. 48 hours later, the dust settled. <!--more--> A quick glance at visitors per day shows how quickly the site gained and lost steam:</p>
-
-<p><img src="http://robby-blog.s3.amazonaws.com/2010/twitter-facebook-and-viral-traffic/dashboard.png" alt="Dashboard" /></p>
-
-<h2 id="sources-of-traffic">Sources of Traffic</h2>
-
-<p>Google Analytics tallied the following:</p>
-
-<ul>
-  <li>
-    <p>“Direct” (non-referral) traffic lead the way, providing 39% of all traffic.</p>
-  </li>
-  <li>
-    <p>Facebook.com provided 30%, the most of any single domain.</p>
-  </li>
-  <li>
-    <p>Twitter.com placed a distant second, providing just over 6.5%.</p>
-  </li>
-</ul>
-
-<h2 id="analysis-of-traffic">Analysis of Traffic</h2>
-
-<p>According to <a href="http://siteanalytics.compete.com/facebook.com+twitter.com/">the latest compete.com numbers</a>, Facebook.com gets 6.00 times more traffic than Twitter.com does (as of February ‘10). Theoretically, then, Facebook.com should drive six times as many visitors as Twitter.com.</p>
-
-<p>In reality that multiplier was 4.6, 24% less than expected. In other words, when normalized for total traffic, Twitter.com was over 30% more effective at driving traffic than Facebook.com was. (If that math confuses you, recall that 4 is 20% less than 5, but 5 is 25% more than 4; if that doesn’t make sense, don’t worry, the math is not what’s important).</p>
-
-<p>What’s important is that a Twitter.com user looking at a tweet was 30% more likely follow its link than a Facebook.com user looking at a status update.</p>
-
-<p>But that’s just the tip of the iceberg. Most Twitter users aren’t on Twitter.com; they’re using Twitter clients like Tweetie, TweetDeck and Twhirl. Click-throughs from these users show up not as Twitter.com referrals, but as “direct” traffic. And this direct traffic made up 40% of the total traffic.</p>
-
-<p>There’s a caveat: direct traffic is also generated the traditional way, by people typing “d-i-d-t-h-e-y-p-a-s-s-h-e-a-l-t-h-c-a-r-e-r-e-f-o-r-m-.-c-o-m” into the address bar in browsers. Unfortunately there is no method to distinguish these users from Twitter client users. There are, however, a few ways to make educated guesses at the comparative numbers. Each of these methods gives Twitter-driven  traffic estimates an enormous boost.</p>
-
-<p>The first way to guess, perhaps least appealing to statisticians and most appealing to philosophers, is simply to think about what makes sense. It makes very little sense for a  brand new web site to receive 40% of its hits from people typing the URL  into the address bar. This would be plausible for Google, but not for a budding web meme that did not exist a week earlier.</p>
-
-<p><img src="http://robby-blog.s3.amazonaws.com/2010/twitter-facebook-and-viral-traffic/all_direct_traffic_from_twitter.png" alt="All traffic from Twitter" /></p>
-
-<p>Didtheypasshealthcarereform.com received 85% of its traffic in a span of less  than 48 hours. Visitors had little if any time to commit the URL to memory and check up on it. One method, therefore, is to attribute all of the direct traffic to Twitter. This  has Twitter driving 45% of didtheypasshealthcarereform.com’s  total traffic.</p>
-
-<p><img src="http://robby-blog.s3.amazonaws.com/2010/twitter-facebook-and-viral-traffic/65_of_direct_traffic_from_twitter.png" alt="65% of direct traffic from Twitter" /></p>
-
-<p>The second way to guess is to look at other sites. One web site I run that doesn’t deal with Twitter in any capacity receives 13% of its traffic “directly.” Another receives 14.1%. If these numbers are typical for non-Twitter “direct” traffic,  then over 65% of the “direct” traffic to didtheypasshealthcarereform.com came from Twitter, putting the total percentage from Twitter above 32%. I suspect the real percentage from Twitter is even greater, because sites earn more direct traffic as they age, and the other two sites are much older than didtheypasshealthcarereform.com.</p>
-
-<p><img src="http://robby-blog.s3.amazonaws.com/2010/twitter-facebook-and-viral-traffic/direct_twitter_traffic_3-5x_twitter_com_traffic.png" alt="3-5x Twitter.com traffic" /></p>
-
-<p>The final way to guess is to look at other people’s numbers. Fred Wilson, with the help of John Borthwick, <a href="http://www.avc.com/a_vc/2010/01/twittercom-vs-the-twitter-ecosystem.html">argues</a> that  direct traffic from Twitter is between three and five times that from Twitter.com. This range implies that Twitter drove between 26% and 35% of didtheypasshealthcarereform.com’s total traffic. Splitting the difference comes to 30.5%.</p>
-
-<p>Whether you believe Twitter brought 30.5%, 32% or 45% of didtheypasshealthcarereform.com’s traffic, the conclusion remains the same: not only did Twitter win the  battle of relative numbers; Twitter drove more total traffic to the site than Facebook did.</p>
-
-<h2 id="fun-facts">Fun Facts</h2>
-
-<ul>
-  <li>
-    <p>3 out of 5 visitors refreshed the site while visiting it.</p>
-  </li>
-  <li>
-    <p>1 in 8 users returned to the site after his or her initial visit.</p>
-  </li>
-  <li>
-    <p>Over 1,000,000 colored unicorns appeared on users’ monitors.</p>
-  </li>
-  <li>
-    <p>I used <a href="https://rowfeeder.com/">RowFeeder</a> to track what people  said about the site on Twitter. Over the course of 48 hours, 1200  Twitterers linked to it. That number does not include  tweets that used URL shorteners like bit.ly or awe.sm. I’ve published  the complete set of Twitter mentions of the domain name from March 21 to  March 29 <a href="http://spreadsheets.google.com/pub?key=tkgH7yyawLVdhDQjycl7kiQ&amp;single=true&amp;gid=0&amp;output=html">here</a>.</p>
-  </li>
-  <li>
-    <p><a href="http://voices.washingtonpost.com/44/2010/03/at-single-serving-health-care.html">The Washington Post</a> published an article on the site, but it brought in only 1/2 of 1% of all traffic.</p>
-  </li>
-</ul>
-
-<h2 id="discussion">Discussion</h2>
-
-<p>If you know of better ways to determine the source of “direct” traffic, please comment below or <a href="http://twitter.com/freerobby">send me a link on Twitter.</a></p>
 ]]></content>
   </entry>
   
