@@ -124,7 +124,7 @@
     </url>
     <url>
         <loc>http://rob.by/2010/in-defense-of-reason/</loc>
-        <lastmod>2014-05-25T17:00:15-04:00</lastmod>
+        <lastmod>2014-05-25T17:03:36-04:00</lastmod>
     </url>
     <url>
         <loc>http://rob.by/2010/writing-for-people/</loc>
@@ -163,12 +163,16 @@
         <lastmod>2014-05-25T16:03:00-04:00</lastmod>
     </url>
     <url>
+        <loc>http://rob.by/2012/remembering-joe-paterno/</loc>
+        <lastmod>2014-05-25T20:57:05-04:00</lastmod>
+    </url>
+    <url>
         <loc>http://rob.by/2012/first-impressions-of-the-new-ipad/</loc>
         <lastmod>2014-05-25T16:03:00-04:00</lastmod>
     </url>
     <url>
         <loc>http://rob.by/2012/for-two-quarters-dividends-apple-could-buy-77-of-netflix/</loc>
-        <lastmod>2014-05-25T16:03:00-04:00</lastmod>
+        <lastmod>2014-05-25T20:57:05-04:00</lastmod>
     </url>
     <url>
         <loc>http://rob.by/2012/aws-risk-mitigation-strategies/</loc>
@@ -177,6 +181,10 @@
     <url>
         <loc>http://rob.by/2012/migrating-to-riak-at-shareaholic/</loc>
         <lastmod>2014-05-25T16:03:00-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://rob.by/2012/gun-control-is-a-bandaid/</loc>
+        <lastmod>2014-05-25T20:57:05-04:00</lastmod>
     </url>
     <url>
         <loc>http://rob.by/2013/remove-merged-branches-from-git/</loc>
@@ -192,7 +200,7 @@
     </url>
     <url>
         <loc>http://rob.by/archives/</loc>
-        <lastmod>2014-05-25T17:00:15-04:00</lastmod>
+        <lastmod>2014-05-25T20:57:05-04:00</lastmod>
     </url>
     <url>
         <loc>http://rob.by/artpal/</loc>
@@ -200,11 +208,11 @@
     </url>
     <url>
         <loc>http://rob.by/blog/archives/</loc>
-        <lastmod>2014-05-25T17:00:15-04:00</lastmod>
+        <lastmod>2014-05-25T20:57:05-04:00</lastmod>
     </url>
     <url>
         <loc>http://rob.by/</loc>
-        <lastmod>2014-05-25T17:00:15-04:00</lastmod>
+        <lastmod>2014-05-25T20:57:05-04:00</lastmod>
     </url>
     <url>
         <loc>http://rob.by/music/</loc>

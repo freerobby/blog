@@ -4,7 +4,6 @@ date: '2012-01-22 14:01:04'
 layout: post
 title: Remembering Joe Paterno
 categories: [Expository]
-published: false
 ---
 
 Lots of people are upset about Joe Paterno's death right now. Lots of other people don't understand how anybody can be upset given his inactions amid the Sandusky scandal.
