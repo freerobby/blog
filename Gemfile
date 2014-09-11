@@ -1,9 +1,9 @@
 source "http://rubygems.org"
 
 group :development do
-  gem 'rake', '~> 0.9.2'
-  gem 'rack', '~> 1.4.1'
-  gem 'jekyll', '~> 0.11.2'
+  gem 'rake'
+  gem 'rack'
+  gem 'jekyll'
   # gem 'rdiscount', '>= 2.0.7'
   gem 'kramdown'
   gem 'pygments.rb', '~> 0.2.12'

@@ -4,7 +4,7 @@
   <title><![CDATA[Robby Grossman]]></title>
   <link href="http://rob.by/atom.xml" rel="self"/>
   <link href="http://rob.by/"/>
-  <updated>2014-05-25T21:02:57-04:00</updated>
+  <updated>2014-09-11T18:01:39-04:00</updated>
   <id>http://rob.by/</id>
   <author>
     <name><![CDATA[Robby Grossman]]></name>
@@ -38,7 +38,7 @@
 
 <h3 id="what-about-bonuses">What About Bonuses?</h3>
 
-<p>Startups do not typically offer cash bonuses unless they are generating substantial revenues.<sup id="fnref:sales-bonuses"><a href="#fn:sales-bonuses" rel="footnote">1</a></sup> For nonprofitable entities with limited runway, it is much better for everybody that the company provides monthly compensation without accruing variable costs of ~10% of annual payroll every year. It’s easier on the books and it prevents the company from setting expectations that it may be unable to meet. Though your cash compensation will likely be comprised only of salary; you can certainly use a bonus you’d earn elsewhere as leverage during negotiations.</p>
+<p>Startups do not typically offer cash bonuses unless they are generating substantial revenues.<sup id="fnref:sales-bonuses"><a href="#fn:sales-bonuses" class="footnote">1</a></sup> For nonprofitable entities with limited runway, it is much better for everybody that the company provides monthly compensation without accruing variable costs of ~10% of annual payroll every year. It’s easier on the books and it prevents the company from setting expectations that it may be unable to meet. Though your cash compensation will likely be comprised only of salary; you can certainly use a bonus you’d earn elsewhere as leverage during negotiations.</p>
 
 <h2 id="equity">Equity</h2>
 
@@ -98,7 +98,7 @@
 
 <h3 id="how-much-equity-should-i-get">How Much Equity Should I Get?</h3>
 
-<p>There are too many  variables (company stage, company valuation, employee experience, employee domain knowledge, employee salary requirements), let alone disagreement among industry veterans<sup id="fnref:fair-equity"><a href="#fn:fair-equity" rel="footnote">2</a></sup>, to generalize how much equity you should get and when, but Babak Nivi put together a <a href="http://venturehacks.com/articles/option-pool-shuffle#market">table of option grants</a> that rings true based on my experiences:</p>
+<p>There are too many  variables (company stage, company valuation, employee experience, employee domain knowledge, employee salary requirements), let alone disagreement among industry veterans<sup id="fnref:fair-equity"><a href="#fn:fair-equity" class="footnote">2</a></sup>, to generalize how much equity you should get and when, but Babak Nivi put together a <a href="http://venturehacks.com/articles/option-pool-shuffle#market">table of option grants</a> that rings true based on my experiences:</p>
 
 <blockquote>
   <p>Title Range (%)</p>
@@ -146,7 +146,7 @@
 
 <h3 id="vesting-schedules">Vesting Schedules</h3>
 
-<p>Your equity should begin accruing as of the start of your employment. Do not listen to any hiring manager who tells you that in order to protect the company, you need to work for a while before you’ll receive any equity.<sup id="fnref:equity-from-day-one"><a href="#fn:equity-from-day-one" rel="footnote">3</a></sup> There is a process called “vesting” that takes care of this and any founder who is both honest and knowledgable uses it.</p>
+<p>Your equity should begin accruing as of the start of your employment. Do not listen to any hiring manager who tells you that in order to protect the company, you need to work for a while before you’ll receive any equity.<sup id="fnref:equity-from-day-one"><a href="#fn:equity-from-day-one" class="footnote">3</a></sup> There is a process called “vesting” that takes care of this and any founder who is both honest and knowledgable uses it.</p>
 
 <p>Vesting lets the company give you some fixed number of stock options, subject to your working at the company for some period of time. Brad Feld <a href="http://www.feld.com/wp/archives/2005/05/term-sheet-vesting.html">explains</a> the standard 4/1 vesting schedule:</p>
 
@@ -172,7 +172,7 @@
 
 <p>Now that you understand the inherent disadvantages of this trade, you want to know if the specific deal on the table (to exchange some $x in equity for some $y in salary) is a good one. The best way to determine this is to look at the deal that the investors get, and compare it to the deal that you’re getting. You want a risk/reward ratio that is better than theirs.</p>
 
-<p>Let’s start with a losing scenario. Tony Wright <a href="http://www.tonywright.com/2008/a-newbies-guide-to-startup-compensation-or-stock-options-will-make-me-rich">illustrates a typical example</a> where the equity-salary lever is a bad deal for the employee<sup id="fnref:my-claim-not-tonys"><a href="#fn:my-claim-not-tonys" rel="footnote">4</a></sup>:</p>
+<p>Let’s start with a losing scenario. Tony Wright <a href="http://www.tonywright.com/2008/a-newbies-guide-to-startup-compensation-or-stock-options-will-make-me-rich">illustrates a typical example</a> where the equity-salary lever is a bad deal for the employee<sup id="fnref:my-claim-not-tonys"><a href="#fn:my-claim-not-tonys" class="footnote">4</a></sup>:</p>
 
 <blockquote>
   <p>Let’s say we have an engineer who is getting .5% of the company vested over 4 years. He’s making $80k, but probably could make $90k at a company with limited equity opportunity. Let’s assume a target exit price of $50,000,000 (oh, happy day!).</p>
@@ -218,16 +218,16 @@
 <div class="footnotes">
   <ol>
     <li id="fn:sales-bonuses">
-      <p>Exceptions exist for roles whose market compensation is typically paid in the form of bonuses, e.g. sales executives who are paid according to how much revenue they bring in.<a href="#fnref:sales-bonuses" rel="reference">&#8617;</a></p>
+      <p>Exceptions exist for roles whose market compensation is typically paid in the form of bonuses, e.g. sales executives who are paid according to how much revenue they bring in. <a href="#fnref:sales-bonuses" class="reversefootnote">&#8617;</a></p>
     </li>
     <li id="fn:fair-equity">
-      <p>I love Joel Spolsky’s <a href="http://answers.onstartups.com/questions/6949/forming-a-new-software-startup-how-do-i-allocate-ownership-fairly/23326#23326">approach to divvying equity</a>, but it is a minority opinion.<a href="#fnref:fair-equity" rel="reference">&#8617;</a></p>
+      <p>I love Joel Spolsky’s <a href="http://answers.onstartups.com/questions/6949/forming-a-new-software-startup-how-do-i-allocate-ownership-fairly/23326#23326">approach to divvying equity</a>, but it is a minority opinion. <a href="#fnref:fair-equity" class="reversefootnote">&#8617;</a></p>
     </li>
     <li id="fn:equity-from-day-one">
-      <p>Some companies require a board meeting to issue your equity paperwork. This is fine, but the agreement should be retroactive back to your starting date when you receive it.<a href="#fnref:equity-from-day-one" rel="reference">&#8617;</a></p>
+      <p>Some companies require a board meeting to issue your equity paperwork. This is fine, but the agreement should be retroactive back to your starting date when you receive it. <a href="#fnref:equity-from-day-one" class="reversefootnote">&#8617;</a></p>
     </li>
     <li id="fn:my-claim-not-tonys">
-      <p>Tony describes only the situation; it is my claim, not his, that the equity tradeoff is a bad one.<a href="#fnref:my-claim-not-tonys" rel="reference">&#8617;</a></p>
+      <p>Tony describes only the situation; it is my claim, not his, that the equity tradeoff is a bad one. <a href="#fnref:my-claim-not-tonys" class="reversefootnote">&#8617;</a></p>
     </li>
   </ol>
 </div>
@@ -310,23 +310,6 @@
 </span><span class="line"><span class="o">}</span>
 </span></code></pre></td></tr></table></div></figure></notextile></div>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Gun Control Is a Bandaid]]></title>
-    <link href="http://rob.by/2012/gun-control-is-a-bandaid/"/>
-    <updated>2012-12-15T01:00:00-05:00</updated>
-    <id>http://rob.by/2012/gun-control-is-a-bandaid</id>
-    <content type="html"><![CDATA[<p>I understand the outrage over gun laws right now, but gun control is distracting us from a bigger problem: <strong>too many of our citizens are inspired to commit acts of violence</strong>.<!--more--></p>
-
-<p>Gun control is a bandaid. What do you do when you get cut? You put on a bandaid. But what would you do if you got cut regularly and repeatedly? Would you single-handedly keep Johnson &amp; Johnson in business for decades? No, you’d figure out why you keep getting cut and put an end to it.</p>
-
-<p>That’s what we need to do now, in the aftermath of the Sandy Hook tragedy. We need to stop cutting ourselves and fix the underlying problem.</p>
-
-<p>The underlying problem is that people want to perform these atrocities. They want to commit mass murder against toddlers and teenagers. <a href="http://m.motherjones.com/politics/2012/11/jared-loughner-mass-shootings-mental-illness">More than half of them don’t care about the consequences because they plan to die among their victims</a>. This alone merits treatment and our full attention. We should not accept that people will want to do these things. We should not limit our protective approach to denying them the capability to carry out their attacks. It’s not sustainable. There will always be ways to hurt people.</p>
-
-<p>If we need gun control as a bandaid to mend our wounds in the short term, so be it. But if that’s the political goal we’re rallying around – if the bar is set that low for our societal progress – then we’ve already lost the larger battle, because we’re conceding that we will regularly have born-and-raised Americans who want to commit mass murder against their fellow people.</p>
 ]]></content>
   </entry>
   
@@ -984,6 +967,21 @@ Thanks to @kevinebaugh for <a href="https://twitter.com/kevinebaugh/status/18065
 <p>But what data is Facebook not receiving due to this lack of trust, and at what cost? First, there is the direct cost. If it’s enough data to drive 11 million ad conversions, then Facebook is losing the revenues of 11 million ad conversions. More importantly, there is an opportunity cost. <strong>Facebook cannot launch a service based on data that users are hesitant to hand over.</strong> For instance, if users don’t trust Facebook with private messages, then Facebook has no opportunity to launch a GMail competitor or a Google Voice competitor. Its docs.com partnership with Microsoft will suffer accordingly. Unlike Google, acquiring medical records or personal finance data will be a non-starter.</p>
 
 <p>None of these things stand in Facebook’s way right now, but will they in three years? The trust that Google accrued when it was a smaller company opened doors for many unforeseen consumer products. Every time Facebook uses data in a way that makes its users uncomfortable, it closes those doors a little further.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Chirp: Goals and Expectations]]></title>
+    <link href="http://rob.by/2010/on-chirp-goals-and-expectations/"/>
+    <updated>2010-04-14T09:29:03-04:00</updated>
+    <id>http://rob.by/2010/on-chirp-goals-and-expectations</id>
+    <content type="html"><![CDATA[<p>The kerfuffle between Twitter and its third party developers has been discussed, analyzed and debated ad nauseum over the past week. But aside from jokes of awkwardness, there has been surprisingly little talk about what it means for Chirp. What do third party developers want from the conference in light of recent events? What’s a win for Twitter?<!--more--></p>
+
+<p>Outside developers must come away with an understanding of the brutal expectations Twitter faces as a company valued at over a billion dollars. Unlike most of the people building Twitter tools, Twitter is not a small business or a weekend hack project; it is an enterprise that is expected to justify the enormous investments it has received. That will require it to act like a business in ways it has chosen not to act in the past. Tweetie will not be the last acquisition, and the iPhone will not be the last internally supported platform. Twitter needs to make this absolutely clear to developers so that they understand the (arguably new) stakes and can choose their risks accordingly.</p>
+
+<p>Twitter needs to walk away with an understanding of what it must do to keep its developer community happy and thriving. I imagine that even the most cynical, closed view held within Twitter would concede that the company needs its outside developers, who add tremendous value by extending Twitter’s features and providing new ideas and innovations.</p>
+
+<p>What I <em>don’t</em> expect – or want – is to see the debate on corporate policy that we have witnessed over the last week. Love it or hate it, that is for Twitter to decide. What I want to see is a mutual recognition of self-interest and codependence between Twitter and its third party developers, and a better understanding of what both sides need to do to make the most of that relationship.</p>
 ]]></content>
   </entry>
   

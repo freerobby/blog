@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Business | Robby Grossman]]></title>
   <link href="http://rob.by/blog/categories/business/atom.xml" rel="self"/>
   <link href="http://rob.by/"/>
-  <updated>2014-05-25T21:02:57-04:00</updated>
+  <updated>2014-09-11T18:01:39-04:00</updated>
   <id>http://rob.by/</id>
   <author>
     <name><![CDATA[Robby Grossman]]></name>
@@ -38,7 +38,7 @@
 
 <h3 id="what-about-bonuses">What About Bonuses?</h3>
 
-<p>Startups do not typically offer cash bonuses unless they are generating substantial revenues.<sup id="fnref:sales-bonuses"><a href="#fn:sales-bonuses" rel="footnote">1</a></sup> For nonprofitable entities with limited runway, it is much better for everybody that the company provides monthly compensation without accruing variable costs of ~10% of annual payroll every year. It’s easier on the books and it prevents the company from setting expectations that it may be unable to meet. Though your cash compensation will likely be comprised only of salary; you can certainly use a bonus you’d earn elsewhere as leverage during negotiations.</p>
+<p>Startups do not typically offer cash bonuses unless they are generating substantial revenues.<sup id="fnref:sales-bonuses"><a href="#fn:sales-bonuses" class="footnote">1</a></sup> For nonprofitable entities with limited runway, it is much better for everybody that the company provides monthly compensation without accruing variable costs of ~10% of annual payroll every year. It’s easier on the books and it prevents the company from setting expectations that it may be unable to meet. Though your cash compensation will likely be comprised only of salary; you can certainly use a bonus you’d earn elsewhere as leverage during negotiations.</p>
 
 <h2 id="equity">Equity</h2>
 
@@ -98,7 +98,7 @@
 
 <h3 id="how-much-equity-should-i-get">How Much Equity Should I Get?</h3>
 
-<p>There are too many  variables (company stage, company valuation, employee experience, employee domain knowledge, employee salary requirements), let alone disagreement among industry veterans<sup id="fnref:fair-equity"><a href="#fn:fair-equity" rel="footnote">2</a></sup>, to generalize how much equity you should get and when, but Babak Nivi put together a <a href="http://venturehacks.com/articles/option-pool-shuffle#market">table of option grants</a> that rings true based on my experiences:</p>
+<p>There are too many  variables (company stage, company valuation, employee experience, employee domain knowledge, employee salary requirements), let alone disagreement among industry veterans<sup id="fnref:fair-equity"><a href="#fn:fair-equity" class="footnote">2</a></sup>, to generalize how much equity you should get and when, but Babak Nivi put together a <a href="http://venturehacks.com/articles/option-pool-shuffle#market">table of option grants</a> that rings true based on my experiences:</p>
 
 <blockquote>
   <p>Title Range (%)</p>
@@ -146,7 +146,7 @@
 
 <h3 id="vesting-schedules">Vesting Schedules</h3>
 
-<p>Your equity should begin accruing as of the start of your employment. Do not listen to any hiring manager who tells you that in order to protect the company, you need to work for a while before you’ll receive any equity.<sup id="fnref:equity-from-day-one"><a href="#fn:equity-from-day-one" rel="footnote">3</a></sup> There is a process called “vesting” that takes care of this and any founder who is both honest and knowledgable uses it.</p>
+<p>Your equity should begin accruing as of the start of your employment. Do not listen to any hiring manager who tells you that in order to protect the company, you need to work for a while before you’ll receive any equity.<sup id="fnref:equity-from-day-one"><a href="#fn:equity-from-day-one" class="footnote">3</a></sup> There is a process called “vesting” that takes care of this and any founder who is both honest and knowledgable uses it.</p>
 
 <p>Vesting lets the company give you some fixed number of stock options, subject to your working at the company for some period of time. Brad Feld <a href="http://www.feld.com/wp/archives/2005/05/term-sheet-vesting.html">explains</a> the standard 4/1 vesting schedule:</p>
 
@@ -172,7 +172,7 @@
 
 <p>Now that you understand the inherent disadvantages of this trade, you want to know if the specific deal on the table (to exchange some $x in equity for some $y in salary) is a good one. The best way to determine this is to look at the deal that the investors get, and compare it to the deal that you’re getting. You want a risk/reward ratio that is better than theirs.</p>
 
-<p>Let’s start with a losing scenario. Tony Wright <a href="http://www.tonywright.com/2008/a-newbies-guide-to-startup-compensation-or-stock-options-will-make-me-rich">illustrates a typical example</a> where the equity-salary lever is a bad deal for the employee<sup id="fnref:my-claim-not-tonys"><a href="#fn:my-claim-not-tonys" rel="footnote">4</a></sup>:</p>
+<p>Let’s start with a losing scenario. Tony Wright <a href="http://www.tonywright.com/2008/a-newbies-guide-to-startup-compensation-or-stock-options-will-make-me-rich">illustrates a typical example</a> where the equity-salary lever is a bad deal for the employee<sup id="fnref:my-claim-not-tonys"><a href="#fn:my-claim-not-tonys" class="footnote">4</a></sup>:</p>
 
 <blockquote>
   <p>Let’s say we have an engineer who is getting .5% of the company vested over 4 years. He’s making $80k, but probably could make $90k at a company with limited equity opportunity. Let’s assume a target exit price of $50,000,000 (oh, happy day!).</p>
@@ -218,16 +218,16 @@
 <div class="footnotes">
   <ol>
     <li id="fn:sales-bonuses">
-      <p>Exceptions exist for roles whose market compensation is typically paid in the form of bonuses, e.g. sales executives who are paid according to how much revenue they bring in.<a href="#fnref:sales-bonuses" rel="reference">&#8617;</a></p>
+      <p>Exceptions exist for roles whose market compensation is typically paid in the form of bonuses, e.g. sales executives who are paid according to how much revenue they bring in. <a href="#fnref:sales-bonuses" class="reversefootnote">&#8617;</a></p>
     </li>
     <li id="fn:fair-equity">
-      <p>I love Joel Spolsky’s <a href="http://answers.onstartups.com/questions/6949/forming-a-new-software-startup-how-do-i-allocate-ownership-fairly/23326#23326">approach to divvying equity</a>, but it is a minority opinion.<a href="#fnref:fair-equity" rel="reference">&#8617;</a></p>
+      <p>I love Joel Spolsky’s <a href="http://answers.onstartups.com/questions/6949/forming-a-new-software-startup-how-do-i-allocate-ownership-fairly/23326#23326">approach to divvying equity</a>, but it is a minority opinion. <a href="#fnref:fair-equity" class="reversefootnote">&#8617;</a></p>
     </li>
     <li id="fn:equity-from-day-one">
-      <p>Some companies require a board meeting to issue your equity paperwork. This is fine, but the agreement should be retroactive back to your starting date when you receive it.<a href="#fnref:equity-from-day-one" rel="reference">&#8617;</a></p>
+      <p>Some companies require a board meeting to issue your equity paperwork. This is fine, but the agreement should be retroactive back to your starting date when you receive it. <a href="#fnref:equity-from-day-one" class="reversefootnote">&#8617;</a></p>
     </li>
     <li id="fn:my-claim-not-tonys">
-      <p>Tony describes only the situation; it is my claim, not his, that the equity tradeoff is a bad one.<a href="#fnref:my-claim-not-tonys" rel="reference">&#8617;</a></p>
+      <p>Tony describes only the situation; it is my claim, not his, that the equity tradeoff is a bad one. <a href="#fnref:my-claim-not-tonys" class="reversefootnote">&#8617;</a></p>
     </li>
   </ol>
 </div>
