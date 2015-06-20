@@ -95,6 +95,10 @@ Price: $200
 
 Fold out table, seats four as shown, or six with lip folded out. Additional two chairs (unseen) **are** included (6 total).
 
+Table itself is pretty worn. Looks great with a table cloth, but you'd probably want to refinish it if you want it bare.
+
+Solid maple so you may need some help loading it into a vehicle.
+
 ![Kitchen Table](http://robby-blog.s3.amazonaws.com/housecleaning/table.jpg)
 
 ## Appliances
