@@ -41,6 +41,10 @@ Click on an item to skip to its info/photos:
 
 Price: $200
 
+Note: This does NOT play modern records, only the old 78RPM ones.
+You have to buy steel replacement needles regularly so it doesn't grind them.
+It's fairly large and a bit heavy, so please understand what you're buying before you get home!
+
 Condition: Physically worn and torn, mechanically flawless
 
 ![Victrola VV-215](http://robby-blog.s3.amazonaws.com/housecleaning/victrola1.jpg)
