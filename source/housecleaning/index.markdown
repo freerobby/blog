@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Housecleaning - Items for Sale"
-date: 2013-07-26 12:39
+date: 2015-06-20 15:08
 comments: true
 sharing: true
 footer: true
@@ -30,7 +30,7 @@ Click on an item to skip to its info/photos:
 ### Miscellaneous
 
 * [Budda Statue](#budda)
-* [DVDs](#dvds)
+* [DVDs and Blu Rays](#dvds)
 * [Pitcher Set](#pitchers)
 
 ## Furniture
@@ -151,7 +151,7 @@ Condition: Like New
 
 <a id="dvds"></a>
 
-### Assorted DVDs
+### Assorted DVDs and Blu Rays
 
 Price: $1/ea
 
