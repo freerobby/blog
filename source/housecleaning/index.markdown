@@ -19,7 +19,6 @@ Click on an item to skip to its info/photos:
 * [Side Table](#sidetable)
 * [Coffee Table](#coffeetable)
 * [End Table](#endtable)
-* [Leather Sectional](#leathersectional)
 * [Kitchen Table and Chairs](#kitchentable)
 
 ### Appliances
@@ -87,20 +86,6 @@ Condition: Very worn
 ![End Table](http://robby-blog.s3.amazonaws.com/housecleaning/endtable2.jpg)
 
 ![End Table](http://robby-blog.s3.amazonaws.com/housecleaning/endtable3.jpg)
-
-<a id="leathersectional"></a>
-
-### Leather Sectional
-
-Price: $800
-
-Huge, spacious leather sectional. Comfortably seats seven. Two seats recline. Built-in storage and cup holders.
-
-Condition: Good, some wear on end piece
-
-![Leather Sectional](http://robby-blog.s3.amazonaws.com/housecleaning/sectional1.jpg)
-
-![Leather Sectional](http://robby-blog.s3.amazonaws.com/housecleaning/sectional2.jpg)
 
 <a id="kitchentable"></a>
 
