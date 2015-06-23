@@ -153,7 +153,7 @@ Excellent/Like New condition. Has not left home studio.
 
 Good condition. Vintage. Includes original footswitch.
 
-Price: $400
+Price: $500
 
 ![Gibson GA-4RE Reverb/Echo (Vintage)](http://robby-blog.s3.amazonaws.com/music-gear-for-sale-or-trade/reverbecho.jpg)
 
