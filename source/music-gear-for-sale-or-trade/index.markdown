@@ -27,10 +27,11 @@ Please click on an item to skip to its info:
 * [ZVex Super Duper 2 in 1](#superduper)
 * [ZVex Box of Rock (Vexter Edition)](#boxofrock)
 * [ZVex Seek Wah](#seekwah)
-* [Gibson GA-4RE Reverb/Echo (Vintage)](#reverbecho)
 
 ### Instruments
 
+* [Gibson Les Paul Jr Special Robot](#robot)
+* [Fender Deluxe American Stratocaster](#strat)
 * [Fender Rhodes 73 Mark I](#rhodes)
 
 ### Recording Accessories
@@ -147,18 +148,28 @@ Excellent/Like New condition. Has not left home studio.
 
 ![ZVex Seek Wah](http://robby-blog.s3.amazonaws.com/music-gear-for-sale-or-trade/seekwah.jpg)
 
-<a id="reverbecho"></a>
-
-### Gibson GA-4RE Reverb/Echo (Vintage)
-
-Good condition. Vintage. Includes original footswitch.
-
-Price: $500
-
-![Gibson GA-4RE Reverb/Echo (Vintage)](http://robby-blog.s3.amazonaws.com/music-gear-for-sale-or-trade/reverbecho.jpg)
-
-
 ## Instruments
+
+<a id="robot"></a>
+
+### Gibson Les Paul Jr Special Robot (Yellow)
+
+Price: $1200
+
+Mint condition. Still has cellphone on pickguard! Has not left home studio. Robot
+functionality is amazing, especially if you switch tunings. P90 pickups sound great!
+
+![Gibson Les Paul Jr Special Robot](http://images.gibson.com/Files/ec3ce781-a873-4b67-afd3-6e95f15e94ef.jpg)
+
+<a id="strat"></a>
+
+### Fender Deluxe American Stratocaster (Sunburst)
+
+Price: $1400 
+
+Mint condition. Has not left home studio. All original active and passive pickup wiring.
+
+![Fender Deluxe American Strat Sunburst](http://www.fmicassets.com/Damroot/LgJpg/10002/0119000700_gtr_frt_001_rr.jpg)
 
 <a id="rhodes"></a>
 
