@@ -16,7 +16,6 @@ Please click on an item to skip to its info:
 ### Amps
 
 * [Fishman Acoustic Performer Pro Amp/PA](#fishman)
-* [Fender Pro Junior](#projr)
 * [ZVex Nano Head](#nano)
 * [Gibson GA-5 (Vintage)](#ga5)
 
@@ -65,16 +64,6 @@ Price: $600
 Details can be found [here](http://www.fishman.com/products/view/acoustic-performer-pro-monitor-pro-discontinued).
 
 ![Fishman Acoustic Performer Pro Amp/PA](http://robby-blog.s3.amazonaws.com/music-gear-for-sale-or-trade/fishman.jpg)
-
-<a id="projr"></a>
-
-### Fender Pro Junior
-
-Price: $350
-
-Excellent/Like New condition. Has not left home studio. Includes optional cover.
-
-![Fender Pro Jr](http://robby-blog.s3.amazonaws.com/music-gear-for-sale-or-trade/projr.jpg)
 
 <a id="nano"></a>
 
