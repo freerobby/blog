@@ -7,7 +7,7 @@ comments: true
 categories: [Business, Startups]
 ---
 
-Over the last three years I've been on both ends of job offers at startups. One thing that's struck me is how little most applicants know about what to expect in a job offer, and in many cases, what the written offer they've received actually means. I was extremely fortunate that the first startup job offer I received was written by a [pair](https://twitter.com/Pistachio) of [founders](https://twitter.com/graysky) who had the utmost integrity and explained things very clearly. Since then I've learned that not every employee is so lucky.
+Over the last three years I've been on both ends of job offers at startups. One thing that's struck me is how little most applicants know about what to expect in a job offer, and in many cases, what the written offer they've received actually means. I was extremely fortunate that the first startup job offer I received was from a [pair](https://twitter.com/Pistachio) of [founders](https://twitter.com/graysky) who had the utmost integrity and explained things very clearly. Since then I've learned that not every employee is so lucky.
 
 This post doesn't aim to teach you negotiation itself, but rather to acclimate you to the standards and vernacular of startup negotiations. It assumes you're a startup newcomer.<!--more-->
 
@@ -17,17 +17,17 @@ One of the biggest myths that I'd heard while tucked away in my big company cubi
 
 ### Seed-Stage Companies
 
-An exception to the above statement exists for companies who have raised very little capital and are not generating revenue. These companies do not usually have full salaries budgeted into them. If you join such a seed stage company, you should expect to work for less than a market rate salary until a larger round is raised. However, you should be compensated for this with increased equity.
+An exception to the above statement exists for companies who have raised very little capital and are not generating revenue. These companies do not usually have full salaries budgeted into them. If you join a seed stage company, you should expect to work for less than a market rate salary until a larger round is raised. You should be compensated for this with increased equity.
 
-It's also a good idea to have a discussion about what your market rate salary will be after raising a Series A. This avoids surprises later. Because you haven't yet demonstrated your skills inside the company and because the funding timeline is indefinite, it's difficult for either party to make specific promises. My recommendation is to have something written that states what market rate would be for you right now. This way, if it takes two years to raise a Series A and you've grown into a bigger role during that time, you aren't boxed into a number that you arrived at two years earlier and whose value you've surpassed, but you do have a quantitative starting point for determining what your salary will be.
+When you find yourself in this position, I recommend having a discussion with your manager about what your market rate salary will be after raising a Series A. This avoids surprises later. Because you haven't yet demonstrated your skills inside the company and because the funding timeline is indefinite, it's difficult for either party to make specific promises. My recommendation is to have something written that states what market rate would be for you right now. This way, if it takes two years to raise a Series A and you've grown into a bigger role during that time, you aren't boxed into a number that you arrived at two years earlier and whose value you've surpassed, but you do have a quantitative starting point for determining what your salary will be.
 
-Other methods of compensation and risk adjustment may also arise. For example, when I joined oneforty in 2009, I took a 30% pay cut. We expected to raise money in 6-12 months, and structured my employment offer such that I would receive a 30% bonus upon the raising of a Series A (subject to "outstanding performance" per my manager's discretion). The offer also stated that at that time, my salary would be raised to a market rate. It did not specify what that market rate would be. Before joining, I informed the founders via email of the other offers I was prepared to pass on, and they told me that what I cited was "in a reasonable range." The entire process from initial offer to post-Series A adjustment went very smoothly and without any surprises for anyone.
+Alternative methods of compensation and risk adjustment may arise. For example, when I joined oneforty in 2009, I took a 30% pay cut. We expected to raise money in 6-12 months, and structured my employment offer such that I would receive a 30% bonus upon the raising of a Series A (subject to "outstanding performance" per my manager's discretion). The offer also stated that at that time, my salary would be raised to a market rate. It did not specify what that market rate would be. Before joining, I informed the founders via email of the other offers I was prepared to pass on, and they told me that what I cited was "in a reasonable range." The entire process from initial offer to post-Series A adjustment went very smoothly and without any surprises for anyone.
 
-Whatever agreement you come to, make sure you get it in writing. This protects both parties and ensures that everybody leaves the conversation with the same impression. Every lawyer I know attests that there are more fights over what was said than what was written.
+Whatever agreement you come to, make sure you get it in writing. This protects both parties and ensures that everybody leaves the conversation with the same impression. It's easy to fight over what was said but hard to fight over what was written.
 
 ### What About Bonuses?
 
-Startups do not typically offer cash bonuses unless they are generating substantial revenues.[^sales-bonuses] For nonprofitable entities with limited runway, it is much better for everybody that the company provides monthly compensation without accruing variable costs of ~10% of annual payroll every year. It's easier on the books and it prevents the company from setting expectations that it may be unable to meet. Though your cash compensation will likely be comprised only of salary; you can certainly use a bonus you'd earn elsewhere as leverage during negotiations.
+Startups do not typically offer cash bonuses unless they are generating substantial revenues.[^sales-bonuses] For unprofitable companies with limited runway, it is much better for everybody that the company provides monthly compensation without accruing variable costs of ~10% of annual payroll every year. It's easier on the books and it prevents the company from setting expectations that it may be unable to meet. Though your cash compensation will likely be comprised only of salary; you can certainly use a bonus you'd earn elsewhere as leverage during negotiations.
 
 ## Equity
 
@@ -35,11 +35,11 @@ Equity procedures and vernacular are by far the least understood component of st
 
 ### When Equity Goes Wrong: A Narrative
 
-Four years ago, a company granted you 0.5% of it to join as a seed stage engineer. The company has now raised a Series B, and you're ready to take your shares and move on.
+Four years ago, a company offered you 0.5% of it to join as a seed stage engineer. The company has now raised a Series B, and you're ready to take your shares and move on.
 
 Not so fast.
 
-First, the company didn't really grant you 0.5% of it. It granted you the option to _buy_ 0.5% of it at some discount from its seed stage valuation (when you joined). Let's say that discount was 70% and that valuation was \$5M, so you have the option to buy 0.5% (\$25k) of it at a 70% discount of \$7,500. You decide you'll just wait until it sells or goes public, then buy your shares for $7,500 and then sell them at market price.
+First, the company didn't really give you 0.5% of it. It gave you the option to _buy_ 0.5% of it at some discount from its seed stage valuation (when you joined). Let's say that discount was 70% and that valuation was \$5M, so you have the option to buy 0.5% (\$25k) of it at a 70% discount of \$7,500. You decide you'll just wait until it sells or goes public, then buy your shares for $7,500 and then sell them at market price.
 
 That won't work either.
 
@@ -121,7 +121,7 @@ You get 1% of a company that sells for $15M: $$\frac{\mathit{0.01} * \mathit{150
 
 You get 0.25% of a company that sells for $150M: $$\frac{\mathit{0.0025} * \mathit{150000000}}{2}=$375000$$
 
-Though it's tempting, if you're a startup employee, I caution you not to think about equity in such absolute terms, as they are difficult to predict. Look at your equity as a great bonus if things go well. The sad truth is that an overwhelming majority of startups fail, so for the sake of personal financial planning, assume it will amount to nothing. In the best case scenario it will buy you a nice car or provide a down payment on a home. It's not a ticket to establishing independent wealth or never to work again.
+Though it's tempting, if you're a startup employee I caution you not to think about equity in such absolute terms, as they are difficult to predict. Look at your equity as a great bonus if things go well. The sad truth is that an overwhelming majority of startups fail, so for the sake of personal financial planning, assume it will amount to nothing. In the best case scenario it will buy you a nice car or provide a down payment on a home. It's not a ticket to establishing independent wealth or never having to work again.
 
 ### Will I get more equity after I join?
 
@@ -139,7 +139,7 @@ Vesting is great because it protects everybody. Employees know exactly what they
 
 ### Trading Salary for Equity: Do the Math
 
-Some employers talk about equity and salary as dials that you can adjust, increasing one while decreasing the other. Since startups are strapped for cash, this is always presented as the employee giving up some salary in exchange for more equity.
+Some employers talk about equity and salary as dials that you can adjust, increasing one while decreasing the other. Since startups are strapped for cash, this is almost always presented as the employee giving up some salary in exchange for more equity.
 
 Sometimes these deals are fair, and sometimes they're not. What makes them difficult and often unfair for the employee is that there are a handful of existential disadvantages that come along with taking equity as a substitute for salary. It's important that they be understood so that they can be overcome:
 
@@ -176,7 +176,7 @@ Betting on equity should imply that you believe in the vision of the company and
 
 ## Benefits
 
-With the exception of health insurance, benefits are less numerous and less generous at startups than they are at established companies. Very few startups offer 401k plans; even fewer provide employer matching. The startups I've seen or been at that offered 401k plans instituted them because there was some bloc of employees who wanted to put away more than $5k per year ($5k is the maximum you can do on your own via an IRA).
+With the exception of health insurance, benefits are less numerous and less generous at startups than they are at established companies. Very few startups offer 401k plans; even fewer provide employer matching. The startups I've seen or been at that offered 401k plans instituted them because there was some bloc of employees who wanted to put away more than $5k per year ($5k is the maximum you can set aside on your own via an IRA).
 
 Startups that have raised funding of any sort should provide your health insurance and they should pick up most if not all of the bill. If the startup doesn't offer a healthcare plan, it should reimburse you for an individual health care plan. The more generous of startups will provide you with dental coverage.
 
@@ -186,7 +186,7 @@ The difficult part of negotiating a startup job offer is learning the inside bas
 
 There are plenty of things to adapt to when you switch to startup life -- culture, work hours, individual autonomy -- but unless you're committed to joining at the seed stage or earlier, a jarring compensation reduction isn't one of them.
 
-If you still have questions about your offer letter, or if something seems a little fishy, you can ask questions in the comments and I will answer them, or if it's confidential, you can email me at [robby@freerobby.com](mailto:robby@freerobby.com) and I'll respond privately. If you email me, please ask specific questions that I can answer so that I am not left guessing what you are wondering. Please note: I do not offer the service of listening to an offer and then telling you how good or bad it is. I wish I could be useful in this regard, but there are too many variables (your background, the company's history and founders, the market, the cost of living where you are, the other candidates being considered) for me to do it accurately. I am happy to answer specific questions about any part of your offer that you do not understand.
+If you still have questions about your offer letter, or if something seems a little fishy, you can ask questions in the comments and I will do my best to answer them. If it's confidential, you can email me at [robby@freerobby.com](mailto:robby@freerobby.com) and I'll respond privately. (Update 8/12/2015: if you email me, please ask specific, detailed questions about what you do not understand. I do not offer the service of listening to an offer and then telling you how good or bad it is. I wish I could be useful in this regard, but there are too many variables (your background, the company's history and founders, the market, the cost of living where you are, the other candidates being considered) for me to do it accurately.) I am happy to answer specific questions about any part of your offer that you do not understand.
 
 _Thanks to [Mike Champion](http://graysky.org), [Chad Mazzola](http://hellohappy.org) and [Will Sulinski](http://pistollake.com) for reading early drafts of this post and providing valuable feedback._
 
