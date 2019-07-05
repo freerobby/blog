@@ -7,11 +7,11 @@ comments: true
 categories: [Hardware, Projects]
 ---
 
-Last year, I backed [Onyx Motorbikes on Indiegogo](https://www.indiegogo.com/projects/onyx-motorbikes-mopeds-are-back-now-electric#/). Last week, I received my [Onyx RCR](https://onyxmotorbikes.com/#rcr). It's incredible!
+Last year I backed [Onyx Motorbikes on Indiegogo](https://www.indiegogo.com/projects/onyx-motorbikes-mopeds-are-back-now-electric#/), and last week I received my [Onyx RCR](https://onyxmotorbikes.com/#rcr). It's incredible!
 
-While it doesn't come with blinkers, it does have a switch and the requisite wiring pre-installed. However, the blinker connector on the wiring harness does not conform to Onyx's schematic, so it can be tricky to get all the wiring right if you're a novice at electrical work or just don't have much experience with a multimeter.
+It doesn't come with blinkers, but it does have a switch and the requisite wiring pre-installed. However, the blinker connector on the wiring harness does not conform to Onyx's schematic, so it can be tricky to get all the wiring right if you're a novice at electrical work or just don't have much experience with a multimeter.
 
-This post lays out instructions for what I believe to be the easiest way to get blinkers working on the Onyx RCR. It does not require any relay, soldering, or permanent modification of the bike. It does not assume the reader has any background in electronics, and it does not discuss what is happening from a technical standpoint. This guide is the electrical equivalent of paint-by-numbers. 
+This post lays out instructions for what I believe is the easiest way to get blinkers working on the Onyx RCR. It does not require any relay, soldering, or permanent modification of the bike. It does not assume the reader has any background in electronics, and it does not discuss what is happening from a technical standpoint. This guide is the electrical equivalent of paint-by-numbers. 
 
 But first, receipts:
 
@@ -72,7 +72,7 @@ Turn off your battery, physically disconnect its red connector, turn on your das
 Put the mounts on the front fork, thread the blinkers through, and bolt them on:
 ![](/assets/2019/rcr-blinkers-front.jpg)
 
-There are two holes in the side of the rear fender, near the brake light. Thread blinkeres through them, and bolt them on just as you did in the front:
+There are two holes in the side of the rear fender, near the brake light. Thread blinkers through them, and bolt them on just as you did in the front:
 ![](/assets/2019/rcr-blinkers-rear.jpg)
 
 ### Build the Harness
@@ -129,8 +129,6 @@ Using one pliers to hold the bottom hex bolt, and another to loosen the top one,
 ![](/assets/2019/rcr-blinkers-spade-tighten.jpg)
 
 Feed your ground wire to the left side of the bike above the loose cabling, but below the enclosed wires:
-
-![](/assets/2019/rcr-blinkers-ground-wire.jpg)
 
 ![](/assets/2019/rcr-blinkers-ground-wire-fed.jpg)
 
