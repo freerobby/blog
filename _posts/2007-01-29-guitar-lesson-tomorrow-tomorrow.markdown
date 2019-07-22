@@ -4,6 +4,9 @@ date: '2007-01-29 21:13:07'
 layout: post
 title: 'Guitar Lesson: Tomorrow Tomorrow'
 categories: [Music]
+redirect_from:
+  - '/2007/guitar-lesson-tomorrow-tomorrow-2'
+  - '/2007/01/29/guitar-lesson-tomorrow-tomorrow-2'
 ---
 
 Since posting my cover of Elliott Smith's _Tomorrow Tomorrow_ on YouTube a few months ago, I've received several requests for help from enthusiastic guitarists looking to learn the song themselves. Rather than address everybody in a brief reply, I thought I would make a thorough post explaining how I learned to play the more difficult parts of the song. If this post doesn't cut it, let me know! I'll be happy to field any further questions that you may have (post them as comments to this blog entry so that I see them when I go to make edits).<!--more-->
