@@ -88,9 +88,19 @@ You are building the male side of the harness. When you crimp a connector plug t
 
 ![](/assets/2019/rcr-blinkers-harness-wire-example.jpg)
 
-After crimping the four connections for the harness, insert the connectors into the connector. When you are looking at the side of the connector with the wires, and the latch is on the top, the top row will be blue-white-blank and the bottom row will be yellow-green-blank:
+After crimping the four connections for the harness, insert the connectors into the connector. When you are looking at the side of the connector with the wires, and the latch is on the top, the top row will be blue-white-blank and the bottom row will be yellow-green-blank (see warning below photo before assembling):
 
 ![](/assets/2019/rcr-blinkers-plug.jpg)
+
+_Warning: In mid-July 2019, Onyx began shipping a new wiring harness. It no longer matches the color or pinout in these instructions. If you have the new harness (yellow/pink/red/thin green/thick green wires on the signal port), you need to line up the wires on your plug so that they connect to the harness wires according to the following table:_
+
+| Old bike harness | New bike harness | Your plug |
+|------------------|------------------|--------------|
+| Blue | Thin green | Yellow |
+| Orange | Yellow | Blue |
+| Green | Thick green | Green |
+| Pink | Pink | White |
+
 
 ### Install the Harness
 
