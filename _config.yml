@@ -16,7 +16,7 @@
 title: Robby Grossman
 email: robby@freerobby.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I write about engineering, technology, and anything I find to be of great social importance.
+  I write about engineering, technology, and personal projects.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://rob.by" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: freerobby
