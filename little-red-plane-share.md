@@ -7,7 +7,7 @@ I run a very small plane share. It's like a flying club, except:
 * Membership is capped at four people.
 * There is no equity buy-in; we just split the operating costs.
 
-Little Red is a 180HP 1977 Cessna 172N. She climbs quick, looks sharp, has the best all-glass cockpit you've ever seen in a 172, and is a joy to fly!
+Little Red is a 180HP 1978 Cessna 172N. She climbs quick, looks sharp, has the best all-glass cockpit you've ever seen in a 172, and is a joy to fly!
 
 ![](/assets/2020/n934gr.jpg)
 
@@ -43,46 +43,40 @@ As a group of shared operators, we have super favorable terms compared to FBOs a
 ## The Plane
 
 * 1978 172N with Avcon 180HP conversion. Climbs like a bat out of hell!
-* Sharp red paint job.
-* Good interior. Cockpit plastic shows its age, but the seats and fabric are in great shape.
+* Sharp red paint.
+* Good interior. Plastic shows its age, but the seats and fabric are in great shape.
 * All-glass, fully redundant, IFR certified glass cockpit
   * Dynon 10" Pilot PFD, 7" Pilot MFD, 3.8" Pilot backup EFIS
   * Dynon 10" Copilot PFD
   * Dynon ADS-B in/out weather and traffic
   * Dynon engine and fuel monitor
   * Dynon autopilot
+  * Avidyne IFD-540 GPS
 * LED landing, taxi, anti-collision, beacon, tail, and position lights
 * 406 MHz ELT
 * Ground power system, so you can learn the avionics inside and out without paying for flight time.
 
-## Owner's Area
-
-### Upon Joining
-
-A few things will happen when you join:
-
-1. You'll fill out insurance paperwork.
-1. Sign up for Venmo (an online payment service) if you don't already have an account.
-1. Set up an appointment to get a KLWM North Ramp keycard (I will help you with this).
-1. I will give you a key to the hangar and keys to the plane!
+## Airplane Operation
 
 ### Using the Engine Heater
 
-We have an engine heater for easy and safe starting in winter weather. It plugs in next to the oil dipstick, and it can be turned on by phone call or text message. I will give you the phone number when you join the club.
+We have an engine heater for easy and safe starting in winter weather. The plug receptacle is next to the oil dipstick, and it can be turned on by phone call or text message. Ask me for the phone number.
 
-**Please be sure to use the heater -- it saves a lot of engine wear compared to a cold start.**
+**Please be sure to use the heater in cold weather -- it saves a lot of engine wear compared to a cold start.**
 
-When the outside air temperature is under 50 degrees F, please turn the engine heater on 4-6 hours before you fly the plane.
+When the outside air temperature is under 50 degrees F, please turn the engine heater on at least 4 hours before you fly the plane.
 
-There are a few ways to turn the heater on or off:
+There are three ways to turn the heater on or off:
 
-* Call it. This will toggle the heater between on and off.
-* Text it "10" to turn it off, or "11" to tun it on.
-* Text it "12". This will turn it on for 18 hours.
+1. Call it. This will toggle the heater between on and off.
+2. Text it "10" to turn it off, or "11" to tun it on.
+3. Text it "12". This will turn it on for 18 hours.
 
 In each case, you will receive a text message back indicating the status. In bad weather/cell reception, it can take up to an hour to hear back from the heater.
 
-When you get to the plane, you can turn the heater off by pressing the red button on the switch behind the extension cord. Then you can unplug the heater. Please be sure to turn the heater off when you are done using it or if you cancel your flight.
+When you get to the plane, you can turn the heater off by pressing the red button on the switch behind the extension cord. Then you can unplug the heater.
+
+Please be sure to turn the heater off when you are done using it or if you cancel your flight. If you use method 3 above, it will automatically turn off the heater if you decide not to fly.
 
 ## Policies
 
@@ -114,7 +108,7 @@ All payments are made via Venmo.
 
 On the last day of the month, I will send you a request for the monthly fixed operating costs for the following month.
 
-Immediately after your flight, please submit a [flight log](/n934gr). The form will tell you the operating cost of the flight. Please immediate send me that amount via Venmo, with a reference to the date of the flight.
+Immediately after your flight, please submit a [flight log](/n934gr). The form will tell you the operating cost of the flight. Please send me that amount via Venmo, with a reference to the date of the flight.
 
 ### Multiday trips
 
