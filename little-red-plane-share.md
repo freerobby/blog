@@ -7,7 +7,7 @@ I run a very small plane share. It's like a flying club, except:
 * Membership is capped at four people.
 * There is no equity buy-in; we just split the operating costs.
 
-Little Red is a 180HP 1977 Cessna 172N. She climbs quick and looks sharp!
+Little Red is a 180HP 1977 Cessna 172N. She climbs quick, looks sharp, has the best all-glass cockpit you've ever seen in a 172, and is a joy to fly!
 
 ![](/assets/2020/n934gr.jpg)
 
@@ -25,7 +25,7 @@ As a group of shared operators, we have super favorable terms compared to FBOs a
 
 * No monthly hour quotas.
 * No per-reserved-day minimums when you go on trips. Pay only for the hours you actually fly.
-* No rental insurance needed. You are named on the owner policy, and we negotiate a waiver of subrogation on your behalf.
+* No rental insurance needed. You are named insured on the main policy.
 * Fuel ups while traveling are reimbursed at full cost even if it's more than our home rate.
 * No pre-payments required. You can pay via Venmo after each flight.
 * No security deposit.
@@ -35,20 +35,25 @@ As a group of shared operators, we have super favorable terms compared to FBOs a
 
 * Hangared year round.
 * Canvas covers are provided so you can tie down on the cheap at your destination.
-* Tanis engine heater makes for easy winter starting, and you can turn it on by text message instead of an extra trip to the airport.
+* Tanis engine heater makes for easy winter starting, and you can turn it on by text message instead of making an extra trip to the airport.
 * We're capped at four members, to maximize availability.
 * Scheduling is easy -- just send a Google Calendar invite.
 * We use a full service FBO for local fuel-ups, so all you have to do to top off is send a text message or make a phone call.
 
 ## The Plane
 
-* 1977 172N with Avcon 180HP conversion. Climbs like a bat out of hell!
-* Sharp red paint job, but a bit faded.
+* 1978 172N with Avcon 180HP conversion. Climbs like a bat out of hell!
+* Sharp red paint job.
 * Good interior. Cockpit plastic shows its age, but the seats and fabric are in great shape.
-* Panel is highly functional:
-  * Nice glass Aspen Pro 1000 PFD
-  * Fully integrated Garmin 250XL VFR GPS, providing real time ground speed and wind on the Aspen. 
-  * IFR certified (but no IFR GPS)
+* All-glass, fully redundant, IFR certified glass cockpit
+  * Dynon 10" Pilot PFD, 7" Pilot MFD, 3.8" Pilot backup EFIS
+  * Dynon 10" Copilot PFD
+  * Dynon ADS-B in/out weather and traffic
+  * Dynon engine and fuel monitor
+  * Dynon autopilot
+* LED landing, taxi, anti-collision, beacon, tail, and position lights
+* 406 MHz ELT
+* Ground power system, so you can learn the avionics inside and out without paying for flight time.
 
 ## Owner's Area
 
@@ -72,7 +77,7 @@ When the outside air temperature is under 50 degrees F, please turn the engine h
 There are a few ways to turn the heater on or off:
 
 * Call it. This will toggle the heater between on and off.
-* Text it "10" to turn it off, or "11" to tun it on. 
+* Text it "10" to turn it off, or "11" to tun it on.
 * Text it "12". This will turn it on for 18 hours.
 
 In each case, you will receive a text message back indicating the status. In bad weather/cell reception, it can take up to an hour to hear back from the heater.
