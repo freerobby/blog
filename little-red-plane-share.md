@@ -83,3 +83,39 @@ There are a few ways to turn the heater on or off:
 In each case, you will receive a text message back indicating the status. In bad weather/cell reception, it can take up to an hour to hear back from the heater.
 
 When you get to the plane, you can turn the heater off by pressing the red button on the switch behind the extension cord. Then you can unplug the heater. Please be sure to turn the heater off when you are done using it or if you cancel your flight.
+
+## Policies
+
+### Safety, safety, safety.
+
+This club is low-key, easygoing, and flexible. My only rigid ask is that everybody be highly safety-minded, and speak up if you notice anything or make any mistake that could cause a safety issue. I promise I'm not one to get mad about such things. We're all human, and that's why we have insurance.
+
+### Pilot liability
+
+Pilots are liable for and agree to pay for any damage they cause that is not covered by our insurance. Normal wear and tear is excluded, as it is priced into our operating costs.
+
+### Fuel
+
+If there's less than 25g when you put the plane back in the hangar, please call in a fuel-up. We're on account with Eagle East Aviation, so you can just call them at 978-683-3314 or UNICOM 122.85 and tell them you'd like N934GR filled to tabs. If the attendant isn't familiar with the plane, just mention we are on the north ramp and they have a key.
+
+If you need to get fuel at another airport, text me a photo of your receipt and I will reimburse you immediately.
+
+### Booking
+
+We use a Google calendar to manage all airplane booking. To book a flight, create a calendar event and add "N934GR" as a guest to it. The calendar will automatically accept it if there is no conflict with prior bookings. This acceptance is your booking confirmation.
+
+You can click on the N934GR calendar to see when it's booked vs available.
+
+Please err toward overestimating how long you will have the plane so that nobody is stuck waiting.
+
+### Payment
+
+All payments are made via Venmo.
+
+On the last day of the month, I will send you a request for the monthly fixed operating costs for the following month.
+
+Immediately after your flight, please submit a [flight log](/n934gr). The form will tell you the operating cost of the flight. Please immediate send me that amount via Venmo, with a reference to the date of the flight.
+
+### Multiday trips
+
+Multiday trips are fine, just be respectful of your fellow pilots. Please use the canvas covers if tying down outside.
