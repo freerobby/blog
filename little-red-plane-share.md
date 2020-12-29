@@ -27,7 +27,7 @@ As a group of shared operators, we have super favorable terms compared to FBOs a
 
 * No monthly hour quotas.
 * No per-reserved-day minimums when you go on trips. Pay only for the hours you actually fly.
-* No rental insurance needed. You are named insured on the main policy.
+* No rental insurance needed (you are a named pilot on our policy, and our insurer does not subrogate against named pilots).
 * Fuel ups while traveling are reimbursed at full cost even if it's more than our home rate.
 * No pre-payments required. You can pay via Venmo after each flight.
 * No security deposit.
