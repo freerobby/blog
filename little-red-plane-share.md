@@ -9,7 +9,8 @@ I run a very small plane share. It's like a flying club, except:
 
 Little Red is a 180HP 1978 Cessna 172N. She climbs quick, looks sharp, has the best all-glass cockpit you've ever seen in a 172, and is a joy to fly!
 
-![](/assets/2020/n934gr.jpg)
+![](/assets/2020/n934gr-in-flight-by-sean-patrick.jpg)
+_Photo by Sean Patrick (from LWM Pilots Facebook group)_
 
 ## Price
 
