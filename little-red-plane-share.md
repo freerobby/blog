@@ -13,11 +13,13 @@ Little Red is a 180HP 1978 Cessna 172N. She climbs quick, looks sharp, has the b
 
 ## Price
 
-Membership is $275/mo. There's no initiation fee, and you can cancel anytime.
+Membership is $323/mo. There's no initiation fee, and you can cancel anytime.
 
 The flying cost is $105 per **wet tach-hour**.
 
-Compared to a rented 180HP Cessna 172 at $175 per hobbs-hour, this is 43% cheaper at full cruise and 77% cheaper while taxiing. The financial break-even point is less than five hours per month, and even lower if you go on multiday trips.
+Compared to a rented 180HP Cessna 172 at $175 per hobbs-hour, this is 43% cheaper at full cruise and 77% cheaper while taxiing.
+
+On paper, financial break-even comes at about five hours per month, or lower if you go on multiday trips. In practice, there's no comparison, because you can't find a 172 for rent that's anywhere near this nice.
 
 ## Additional Financial Benefits
 
