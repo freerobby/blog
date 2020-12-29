@@ -33,7 +33,7 @@ As a group of shared operators, we have super favorable terms compared to FBOs a
 * No security deposit.
 * No liability for unforeseen maintenance -- that is my sole responsibility.
 
-## Logistical Benefits:
+## Logistical Benefits
 
 * Hangared year round.
 * Canvas covers are provided so you can tie down on the cheap at your destination.
