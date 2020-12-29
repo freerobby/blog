@@ -58,6 +58,8 @@ As a group of shared operators, we have super favorable terms compared to FBOs a
 * 406 MHz ELT
 * Ground power system, so you can learn the avionics inside and out without paying for flight time.
 
+![](/assets/2020/n934gr-panel.jpg)
+
 ## Airplane Operation
 
 ### Using the Engine Heater
