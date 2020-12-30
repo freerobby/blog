@@ -69,19 +69,18 @@ We have an engine heater for easy and safe starting in winter weather. The plug 
 
 **Please be sure to use the heater in cold weather -- it saves a lot of engine wear compared to a cold start.**
 
-When the outside air temperature is under 50 degrees F, please turn the engine heater on at least 4 hours before you fly the plane.
+When the outside air temperature is under 50 degrees F, please turn the engine heater on at least 6 hours before you fly. This is a bare minimum and it's fine to run it for longer. If you're flying in the morning, just turn it on before you go to bed.
 
-There are three ways to turn the heater on or off:
+To turn on the heater, do one of the following:
+1. Text it "11" to turn it on indefinitely.
+1. Text it "12" to turn it on for 18 hours.
+1. In person, press the red button on the switchbox so the light comes on.
 
-1. Call it. This will toggle the heater between on and off.
-2. Text it "10" to turn it off, or "11" to tun it on.
-3. Text it "12". This will turn it on for 18 hours.
+When texting the heater, you will receive a response indicating its status. In bad weather/cell reception, it can take up to an hour to receive a response.
 
-In each case, you will receive a text message back indicating the status. In bad weather/cell reception, it can take up to an hour to hear back from the heater.
+When you get to the plane, you can turn the heater off by pressing the red button on the switchbox, and then you can unplug the heater. Alternatively, you can text it "10" to turn it off remotely.
 
-When you get to the plane, you can turn the heater off by pressing the red button on the switch behind the extension cord. Then you can unplug the heater.
-
-Please be sure to turn the heater off when you are done using it or if you cancel your flight. If you use method 3 above, it will automatically turn off the heater if you decide not to fly.
+Please be sure to turn the heater off when you are done using it or if you cancel your flight. If you use the "12" method to activate it for 18 hours, you don't need to worry about turning it off.
 
 ## Policies
 
