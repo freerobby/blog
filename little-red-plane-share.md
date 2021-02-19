@@ -65,23 +65,16 @@ As a group of shared operators, we have super favorable terms compared to FBOs a
 
 ### Using the Engine Heater
 
-We have an engine heater for easy and safe starting in winter weather. The plug receptacle is next to the oil dipstick, and it can be turned on by phone call or text message. Ask me for the phone number.
+We have an engine heater for reliable starting in winter weather. The plug receptacle is next to the oil dipstick, and it can be turned on by phone call or text message. Ask me for the phone number.
 
 **Please be sure to use the heater in cold weather -- it saves a lot of engine wear compared to a cold start.**
 
-When the outside air temperature is under 50 degrees F, please turn the engine heater on at least 6 hours before you fly. This is a bare minimum and it's fine to run it for longer. If you're flying in the morning, just turn it on before you go to bed.
+When the outside air temperature is under 50 degrees F, please turn the engine heater on 6-18 hours before you fly. If you're flying in the morning, just turn it on before you go to bed.
 
-To turn on the heater, do one of the following:
-1. Text it "11" to turn it on indefinitely.
-1. Text it "12" to turn it on for 18 hours.
-1. In person, press the red button on the switchbox so the light comes on.
+To turn on the heater, text it "12". You will receive a response indicating its status. In bad weather/cell reception, it can take up to an hour to receive a response. Once the heater turns on, it will remain on for 18 hours and then turn off. This way if you cancel your flight, you don't have to remember to text the heater again to turn it off, and nobody risks turning off somebody else's timer by accident.
 
-When texting the heater, you will receive a response indicating its status. In bad weather/cell reception, it can take up to an hour to receive a response.
-
-When you get to the plane, you can turn the heater off by pressing the red button on the switchbox, and then you can unplug the heater. Alternatively, you can text it "10" to turn it off remotely.
-
-Please be sure to turn the heater off when you are done using it or if you cancel your flight. If you use the "12" method to activate it for 18 hours, you don't need to worry about turning it off.
-
+When you get to the plane, turn the heater off by pressing the red button on the switchbox, then unplug the heater.
+            
 ## Policies
 
 ### Safety, safety, safety.
