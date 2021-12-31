@@ -4,7 +4,7 @@ title: Little Red Plane Share
 ---
 
 I run a very small plane share. It's like a flying club, except:
-* Membership is capped at four people.
+* Membership is capped at five people.
 * There is no equity buy-in; we just split the operating costs.
 
 Little Red is a 180HP 1978 Cessna 172N. She climbs quick, looks sharp, has the best all-glass cockpit you've ever seen in a 172, and is a joy to fly!
@@ -39,7 +39,7 @@ As a group of shared operators, we have super favorable terms compared to FBOs a
 * Hangared year round.
 * Canvas covers are provided so you can tie down on the cheap at your destination.
 * Tanis engine heater makes for easy winter starting, and you can turn it on by text message instead of making an extra trip to the airport.
-* We're capped at four members, to maximize availability.
+* We're capped at five members, to maximize availability.
 * Scheduling is easy -- just send a Google Calendar invite.
 * We use a full service FBO for local fuel-ups, so all you have to do to top off is send a text message or make a phone call.
 
