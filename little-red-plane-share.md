@@ -16,9 +16,9 @@ _Photo by Sean Patrick (from LWM Pilots Facebook group)_
 
 Membership is $323/mo. There's no initiation fee, and you can cancel anytime.
 
-The flying cost is $105 per **wet tach-hour**.
+The flying cost is $125 per **wet tach-hour**.
 
-Compared to a rented 180HP Cessna 172 at $175 per hobbs-hour, this is 43% cheaper at full cruise and 77% cheaper while taxiing.
+Compared to a rented 180HP Cessna 172, this is 43% cheaper at full cruise and 77% cheaper while taxiing.
 
 On paper, financial break-even comes at about five hours per month, or lower if you go on multiday trips. In practice, there's no comparison, because you can't find a 172 for rent that's anywhere near this nice.
 
