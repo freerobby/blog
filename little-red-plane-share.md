@@ -110,4 +110,4 @@ Immediately after your flight, please submit a [flight log](/n934gr). The form w
 
 ### Multiday trips
 
-Multiday trips are fine, just be respectful of your fellow pilots. Please use the canvas covers if tying down outside.
+Multiday trips are fine, just be respectful of your fellow pilots. Please use the canvas covers if tying down outside for extended periods.
