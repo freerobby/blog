@@ -39,6 +39,7 @@ As a group of shared operators, we have super favorable terms compared to FBOs a
 * Hangared year round.
 * Canvas covers are provided so you can tie down on the cheap at your destination.
 * Tanis engine heater makes for easy winter starting, and you can turn it on by text message instead of making an extra trip to the airport.
+* A portable engine heater is available to take with you, if you need to warm the engine without an outlet.
 * We're capped at five members, to maximize availability.
 * Scheduling is easy -- just send a Google Calendar invite.
 * We use a full service FBO for local fuel-ups, so all you have to do to top off is send a text message or make a phone call.
