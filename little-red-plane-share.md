@@ -14,9 +14,9 @@ _Photo by Sean Patrick (from LWM Pilots Facebook group)_
 
 ## Price
 
-Membership is $323/mo. There's no initiation fee, and you can cancel anytime.
+Membership is $381/mo. There's no initiation fee, and you can cancel anytime.
 
-The flying cost is $119.90 per **wet tach-hour**.
+The flying cost is $122.50 per **wet tach-hour**.
 
 Compared to a rented 180HP Cessna 172, this is 43% cheaper at full cruise and 77% cheaper while taxiing.
 
