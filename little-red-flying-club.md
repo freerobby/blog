@@ -1,11 +1,9 @@
 ---
 layout: page
-title: Little Red Plane Share
+title: Little Red Flying Club
+redirect_from:
+  - /little-red-plane-share
 ---
-
-I run a very small plane share. It's like a flying club, except:
-* Membership is capped at five people.
-* There is no equity buy-in; we just split the operating costs.
 
 Little Red is a 180HP 1978 Cessna 172N. She climbs quick, looks sharp, has the best all-glass cockpit you've ever seen in a 172, and is a joy to fly!
 
@@ -26,20 +24,20 @@ On paper, financial break-even comes at about five hours per month, or lower if 
 
 As a group of shared operators, we have super favorable terms compared to FBOs and most flying clubs:
 
-* No monthly hour quotas.
+* No cash buy-in or security deposit.
+* No monthly hour requirements.
 * No per-reserved-day minimums when you go on trips. Pay only for the hours you actually fly.
 * No rental insurance needed (you are a named pilot on our policy, and our insurer does not subrogate against named pilots).
 * Fuel ups while traveling are reimbursed at full cost even if it's more than our home rate.
 * No pre-payments required. You can pay via Venmo after each flight.
-* No security deposit.
-* No liability for unforeseen maintenance -- that is my sole responsibility.
+* No liability for unforeseen maintenance.
 
 ## Logistical Benefits
 
 * Hangared year round.
 * Canvas covers are provided so you can tie down on the cheap at your destination.
 * Tanis engine heater makes for easy winter starting, and you can turn it on by text message instead of making an extra trip to the airport.
-* A portable engine heater is available to take with you, if you need to warm the engine without an outlet.
+* A portable engine heater is also available to take with you, if you need to warm the engine without an outlet.
 * We're capped at five members, to maximize availability.
 * Scheduling is easy -- just send a Google Calendar invite.
 * We use a full service FBO for local fuel-ups, so all you have to do to top off is send a text message or make a phone call.
@@ -80,7 +78,7 @@ When you get to the plane, turn the heater off by pressing the red button on the
 
 ### Safety, safety, safety.
 
-This club is low-key, easygoing, and flexible. My only rigid ask is that everybody be highly safety-minded, and speak up if you notice anything or make any mistake that could cause a safety issue. I promise I'm not one to get mad about such things. We're all human, and that's why we have insurance.
+We are a low-key, easygoing, and flexible group. The only area where we are rigid is safety. Please speak up if you notice anything or make any mistake that could cause a safety issue. We're not ones to get mad about such things. We’re all human, and that’s why we have insurance.
 
 ### Pilot liability
 
@@ -88,9 +86,9 @@ Pilots are liable for and agree to pay for any damage they cause that is not cov
 
 ### Fuel
 
-If there's less than 25g when you put the plane back in the hangar, please call in a fuel-up. We're on account with Eagle East Aviation, so you can just call them at 978-683-3314 or UNICOM 122.85 and tell them you'd like N934GR filled to tabs. If the attendant isn't familiar with the plane, just mention we are on the north ramp and they have a key.
+If there's less than 30g when you put the plane back in the hangar, please call in a fuel-up. We're on account with Eagle East Aviation, so you can just call them at 978-683-3314 or UNICOM 122.85 and tell them you'd like N934GR filled to tabs. If the attendant isn't familiar with the plane, just mention we are on the north ramp and they have an access code.
 
-If you need to get fuel at another airport, text me a photo of your receipt and I will reimburse you immediately.
+If you need to get fuel at another airport, text a photo of your receipt for immediate reimbursement.
 
 ### Booking
 
@@ -104,9 +102,9 @@ Please err toward overestimating how long you will have the plane so that nobody
 
 All payments are made via Venmo.
 
-On the last day of the month, I will send you a request for the monthly fixed operating costs for the following month.
+On the last day of the month, you will receive a request for the monthly fixed operating costs for the following month.
 
-Immediately after your flight, please submit a [flight log](/n934gr). The form will tell you the operating cost of the flight. Please send me that amount via Venmo, with a reference to the date of the flight.
+Immediately after your flight, please submit a [flight log](/n934gr). The form will tell you the operating cost of the flight. Please send that amount via Venmo, with a reference to the date of the flight.
 
 ### Multiday trips
 
