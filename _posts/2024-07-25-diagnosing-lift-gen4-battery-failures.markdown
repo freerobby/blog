@@ -5,7 +5,7 @@ title: "Diagnosing Lift Gen4 Battery Failures"
 date: 2024-07-25 10:00
 comments: true
 categories: [Hardware]
-hidden: true
+hidden: false
 ---
     
 If you're reading this post, you probably have a [Lift efoil](https://liftfoils.com) with a battery problem.  Lift's battery management system (BMS) is highly protective. This is mostly a good thing, but occasionally it causes the BMS to lock you out of a working battery.
