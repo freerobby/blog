@@ -12,7 +12,7 @@ _Photo by Sean Patrick (from LWM Pilots Facebook group)_
 
 ## Price
 
-Membership is $381/mo. There's no initiation fee, and you can cancel anytime.
+Membership is $381/mo. There's no buy-in or long-term contract, just a three-month notice period if you decide to leave. 
 
 The flying cost is $122.50 per **wet tach-hour**.
 
