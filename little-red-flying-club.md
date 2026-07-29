@@ -12,17 +12,15 @@ _Photo by Sean Patrick (from LWM Pilots Facebook group)_
 
 ## Price
 
-Membership is $381/mo. There's no buy-in or long-term contract, just a three-month notice period if you decide to leave. 
+Membership dues are $381/mo. There's no buy-in or long-term contract, just a three-month notice period if you decide to leave. 
 
-The flying cost is $122.50 per **wet tach-hour**.
+The flying cost is approx $122.50 per **wet tach-hour** (floats with fuel price).
 
-Compared to a rented 180HP Cessna 172, this is 43% cheaper at full cruise and 77% cheaper while taxiing.
-
-On paper, financial break-even comes at about five hours per month, or lower if you go on multiday trips. In practice, there's no comparison, because you can't find a 172 for rent that's anywhere near this nice.
+On paper, financial break-even vs renting comes at about five hours per month, or lower if you go on multiday trips. In practice, there's no comparison, because you can't find a 172 for rent that's anywhere near this nice.
 
 ## Additional Financial Benefits
 
-As a group of shared operators, we have super favorable terms compared to FBOs and most flying clubs:
+As a small group of shared operators, we have super favorable terms compared to other flying clubs:
 
 * No cash buy-in or security deposit.
 * No monthly hour requirements.
