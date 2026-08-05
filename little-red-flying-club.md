@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Little Red Flying Club
 redirect_from:
   - /little-red-plane-share
 ---
